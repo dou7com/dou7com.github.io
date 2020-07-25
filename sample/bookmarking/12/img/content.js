@@ -39,7 +39,7 @@ function LoadPrintJsCallBack(){
   }
 }
 function LoadPrintJs(){
-  var jsFile = "httpss://i0.sinaimg.cn/dy/col/2008/0612/print.js";  //打印主js文件url
+  var jsFile = "https://i0.sinaimg.cn/dy/col/2008/0612/print.js";  //打印主js文件url
   jsFile += "?t="+ (new Date()).getTime();
   var js = document.createElement("script");
   js.setAttribute("src",jsFile); 
@@ -207,7 +207,7 @@ function unipro_UniProLogout() {
 	return true;
 }
 function getUniproUrl_stand(){
-	window.location='httpss://unipro.sina.com.cn/';
+	window.location='https://unipro.sina.com.cn/';
 	return false;
 }
 function getUniproUrl_welcome(){
@@ -267,7 +267,7 @@ function LoadFullViewJsCallBack(){
   }
 }
 function LoadFullViewJs(){
-  var jsFile = "httpss://news.sina.com.cn/iframe/confv/fullscreenview.js";  //全文浏览主js文件url
+  var jsFile = "https://news.sina.com.cn/iframe/confv/fullscreenview.js";  //全文浏览主js文件url
   jsFile += "?t="+ (new Date()).getTime();
   var js = document.createElement("script");
   js.setAttribute("src",jsFile); 

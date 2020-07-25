@@ -8,11 +8,11 @@ Copyright (c) 2010 Jacek Galanciak (razorjack.net) and agilope.com
 Big thanks for Piotr Petrus (riddle.pl) for deep code review and wonderful docs & demos.
 
 Dual licensed under the MIT and GPL version 2 licenses.
-httpsss://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt
-httpsss://github.com/jquery/jquery/blob/master/GPL-LICENSE.txt
+https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt
+https://github.com/jquery/jquery/blob/master/GPL-LICENSE.txt
 
-Project site: httpsss://razorjack.net/quicksand
-Github site: httpsss://github.com/razorjack/quicksand
+Project site: https://razorjack.net/quicksand
+Github site: https://github.com/razorjack/quicksand
 
 */
 

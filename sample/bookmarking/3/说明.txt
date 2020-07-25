@@ -12,5 +12,5 @@
 
 个性导航A2-2015.11.12之小图标版
 
-官方网址：httpss://www.600it.com
-演示地址：httpss://a2.8096.org
+官方网址：https://www.600it.com
+演示地址：https://a2.8096.org

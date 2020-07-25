@@ -11,11 +11,11 @@
 　※ 网站图片文件目录[images]
 
 
-网站本地测试程序：httpss://ycff.7958.com/down_18580846.html
+网站本地测试程序：https://ycff.7958.com/down_18580846.html
 
 
 
-下载：httpss://www.ycff.com/
+下载：https://www.ycff.com/
 
 
 

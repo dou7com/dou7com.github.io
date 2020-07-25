@@ -1,6 +1,6 @@
 ﻿/*光明源码 设计
   名称：安全购导航 版本V1.0
-  网站地址：httpss://code.100daohang.cn/
+  网站地址：https://code.100daohang.cn/
   更多精品网址导航站源码，欢迎访问，永久免费下载。*/
   
 (function(m, l) {
@@ -3831,10 +3831,10 @@
     w.isIE6 = "undefined" != typeof __IE6;
     var fa = {
         sopt: {
-            baidu: ["\u767e\u5ea6", "httpss://www.baidu.com/s", "word", "tn:125112566_4_pg;ch:11"],
-            google: ["\u8c37\u6b4c", "httpss://www.google.com.hk/search", "q", "ie:utf-8;hl:zh-CN"],
-            sougou: ["\u641c\u72d7", "httpss://www.sogou.com/sogou", "query", "pid:sogou-site-201420141030;ie:utf8"],
-            taobao: ["\u6dd8\u5b9d", "httpss://search8.taobao.com/browse/search_auction.htm", "q", "pid:mm_13902122_6928505_26714536;search_type:auction;commend:all;at_topsearch:1;user_action:initiative;unid:21876;ie:gbk"]
+            baidu: ["\u767e\u5ea6", "https://www.baidu.com/s", "word", "tn:125112566_4_pg;ch:11"],
+            google: ["\u8c37\u6b4c", "https://www.google.com.hk/search", "q", "ie:utf-8;hl:zh-CN"],
+            sougou: ["\u641c\u72d7", "https://www.sogou.com/sogou", "query", "pid:sogou-site-201420141030;ie:utf8"],
+            taobao: ["\u6dd8\u5b9d", "https://search8.taobao.com/browse/search_auction.htm", "q", "pid:mm_13902122_6928505_26714536;search_type:auction;commend:all;at_topsearch:1;user_action:initiative;unid:21876;ie:gbk"]
         },
         init: function() {
             m.each("transform transition animation perspective border-image border-radius box-shadow background-size text-shadow min-height".split(" "),

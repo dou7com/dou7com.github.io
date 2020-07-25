@@ -1,13 +1,13 @@
 /*!
  * jQuery JavaScript Library v1.5.1
- * httpss://jquery.com/
+ * https://jquery.com/
  *
  * Copyright 2011, John Resig
  * Dual licensed under the MIT or GPL Version 2 licenses.
- * httpss://jquery.org/license
+ * https://jquery.org/license
  *
  * Includes Sizzle.js
- * httpss://sizzlejs.com/
+ * https://sizzlejs.com/
  * Copyright 2011, The Dojo Foundation
  * Released under the MIT, BSD, and GPL Licenses.
  *
@@ -541,7 +541,7 @@ jQuery.extend({
 		data = jQuery.trim( data );
 
 		// Make sure the incoming data is actual JSON
-		// Logic borrowed from httpss://json.org/json2.js
+		// Logic borrowed from https://json.org/json2.js
 		if ( rvalidchars.test(data.replace(rvalidescape, "@")
 			.replace(rvalidtokens, "]")
 			.replace(rvalidbraces, "")) ) {
@@ -584,7 +584,7 @@ jQuery.extend({
 	globalEval: function( data ) {
 		if ( data && rnotwhite.test(data) ) {
 			// Inspired by code by Andrea Giammarchi
-			// httpss://webreflection.blogspot.com/2007/08/global-scope-evaluation-and-dom.html
+			// https://webreflection.blogspot.com/2007/08/global-scope-evaluation-and-dom.html
 			var head = document.head || document.getElementsByTagName( "head" )[0] || document.documentElement,
 				script = document.createElement( "script" );
 
@@ -977,7 +977,7 @@ jQuery.extend({
 	},
 
 	// Use of jQuery.browser is frowned upon.
-	// More details: httpss://docs.jquery.com/Utilities/jQuery.browser
+	// More details: https://docs.jquery.com/Utilities/jQuery.browser
 	uaMatch: function( ua ) {
 		ua = ua.toLowerCase();
 
@@ -1073,7 +1073,7 @@ function doScrollCheck() {
 
 	try {
 		// If IE is used, use the trick by Diego Perini
-		// httpss://javascript.nwbox.com/IEContentLoaded/
+		// https://javascript.nwbox.com/IEContentLoaded/
 		document.documentElement.doScroll("left");
 	} catch(e) {
 		setTimeout( doScrollCheck, 1 );
@@ -1283,7 +1283,7 @@ return jQuery;
 	});
 
 	// Technique from Juriy Zaytsev
-	// httpss://thinkweb2.com/projects/prototype/detecting-event-support-without-browser-sniffing/
+	// https://thinkweb2.com/projects/prototype/detecting-event-support-without-browser-sniffing/
 	var eventSupported = function( eventName ) {
 		var el = document.createElement("div");
 		eventName = "on" + eventName;
@@ -1291,7 +1291,7 @@ return jQuery;
 		// We only care about the case where non-standard event systems
 		// are used, namely in IE. Short-circuiting here helps us to
 		// avoid an eval call (in setAttribute) which can cause CSP
-		// to go haywire. See: httpsss://developer.mozilla.org/en/Security/CSP
+		// to go haywire. See: https://developer.mozilla.org/en/Security/CSP
 		if ( !el.attachEvent ) {
 			return true;
 		}
@@ -1714,7 +1714,7 @@ jQuery.fn.extend({
 	},
 
 	// Based off of the plugin by Clint Helfers, with permission.
-	// httpss://blindsignals.com/index.php/2009/07/jquery-delay/
+	// https://blindsignals.com/index.php/2009/07/jquery-delay/
 	delay: function( time, type ) {
 		time = jQuery.fx ? jQuery.fx.speeds[time] || time : time;
 		type = type || "fx";
@@ -2072,7 +2072,7 @@ jQuery.extend({
 				}
 
 				// elem.tabIndex doesn't always return the correct value when it hasn't been explicitly set
-				// httpss://fluidproject.org/blog/2008/01/09/getting-setting-and-removing-tabindex-values-with-javascript/
+				// https://fluidproject.org/blog/2008/01/09/getting-setting-and-removing-tabindex-values-with-javascript/
 				if ( name === "tabIndex" ) {
 					var attributeNode = elem.getAttributeNode( "tabIndex" );
 
@@ -2731,7 +2731,7 @@ function returnTrue() {
 }
 
 // jQuery.Event is based on DOM3 Events as specified by the ECMAScript Language Binding
-// httpss://www.w3.org/TR/2003/WD-DOM-Level-3-Events-20030331/ecma-script-binding.html
+// https://www.w3.org/TR/2003/WD-DOM-Level-3-Events-20030331/ecma-script-binding.html
 jQuery.Event.prototype = {
 	preventDefault: function() {
 		this.isDefaultPrevented = returnTrue;
@@ -3298,7 +3298,7 @@ jQuery.each( ("blur focus focusin focusout load resize scroll unload click dblcl
  * Sizzle CSS Selector Engine
  *  Copyright 2011, The Dojo Foundation
  *  Released under the MIT, BSD, and GPL Licenses.
- *  More information: httpss://sizzlejs.com/
+ *  More information: https://sizzlejs.com/
  */
 (function(){
 
@@ -4893,9 +4893,9 @@ jQuery.each({
 	jQuery.fn[ name ] = function( until, selector ) {
 		var ret = jQuery.map( this, fn, until ),
 			// The variable 'args' was introduced in
-			// httpsss://github.com/jquery/jquery/commit/52a0238
+			// https://github.com/jquery/jquery/commit/52a0238
 			// to work around a bug in Chrome 10 (Dev) and should be removed when the bug is fixed.
-			// httpss://code.google.com/p/v8/issues/detail?id=1050
+			// https://code.google.com/p/v8/issues/detail?id=1050
 			args = slice.call(arguments);
 
 		if ( !runtil.test( name ) ) {
@@ -5973,7 +5973,7 @@ if ( document.documentElement.currentStyle ) {
 			style = elem.style;
 
 		// From the awesome hack by Dean Edwards
-		// httpss://erik.eae.net/archives/2007/07/27/18.54.15/#comment-102291
+		// https://erik.eae.net/archives/2007/07/27/18.54.15/#comment-102291
 
 		// If we're not dealing with a regular pixel number
 		// but a number that has a weird ending, we need to convert it to pixels
@@ -7287,7 +7287,7 @@ if ( jQuery.support.ajax ) {
 
 					// Requested-With header
 					// Not set for crossDomain requests with no content
-					// (see why at httpss://trac.dojotoolkit.org/ticket/9486)
+					// (see why at https://trac.dojotoolkit.org/ticket/9486)
 					// Won't change header if already provided
 					if ( !( s.crossDomain && !s.hasContent ) && !headers["X-Requested-With"] ) {
 						headers[ "X-Requested-With" ] = "XMLhttpssRequest";
@@ -7316,7 +7316,7 @@ if ( jQuery.support.ajax ) {
 
 						// Firefox throws exceptions when accessing properties
 						// of an xhr when a network error occured
-						// httpss://helpful.knobs-dials.com/index.php/Component_returned_failure_code:_0x80040111_(NS_ERROR_NOT_AVAILABLE)
+						// https://helpful.knobs-dials.com/index.php/Component_returned_failure_code:_0x80040111_(NS_ERROR_NOT_AVAILABLE)
 						try {
 
 							// Was never called and is aborted or complete

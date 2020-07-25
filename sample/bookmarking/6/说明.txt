@@ -15,7 +15,7 @@
 
 
 
-  ——阳春非凡httpss://www.ycff.com
+  ——阳春非凡https://www.ycff.com
 
 
 
@@ -26,8 +26,8 @@
 
 
 附小工具：
-网站本地测试小程序：httpss://ycff.7958.com/down_18580846.html
-一键批量替换文本工具：httpss://ycff.7958.com/down_18580816.html
+网站本地测试小程序：https://ycff.7958.com/down_18580846.html
+一键批量替换文本工具：https://ycff.7958.com/down_18580816.html
 
 
 

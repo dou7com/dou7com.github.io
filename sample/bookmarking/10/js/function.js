@@ -1,6 +1,6 @@
 ﻿//==========================================================================================
 //软件名称：魅魔MacCMS
-//开发作者：MagicBlack    '官方网站：httpss://www.maccms.com/
+//开发作者：MagicBlack    '官方网站：https://www.maccms.com/
 //Copyright (C) 2009 - 2010 ... maccms.com  All Rights Reserved.
 //郑重声明:
 //    1、任何个人或组织不得以盈利为目的发布,修改,本软件及其他副本上一切关于版权的信息；
@@ -35,7 +35,7 @@ function copyToClipBoard(){
 	var clipBoardContent="";
 	clipBoardContent+="给您推荐一个好网址 ---淘宝购物导航---本站所有上榜网店是由数万名热心网友推荐整理而成，真实可信赖！";
 	clipBoardContent+="\n";
-	clipBoardContent+="网址：httpss://www.688dh.com";
+	clipBoardContent+="网址：https://www.688dh.com";
 	copyData(clipBoardContent);
 }
 
