@@ -250,15 +250,15 @@ $(document).ready(function() {
         }
     }
     if (searchEngine == "google") {
-        search = "http://www.google.com/search"
+        search = "https://www.google.com/search"
     } else {
         if (searchEngine == "bing") {
-            search = "http://www.bing.com/search"
+            search = "https://www.bing.com/search"
         } else {
             if (searchEngine == "sogou") {
-                search = "http://www.sogou.com/sogou"
+                search = "https://www.sogou.com/sogou"
             } else {
-                search = "http://www.google.com/search";
+                search = "https://www.google.com/search";
                 searchEngine = "google"
             }
         }
@@ -757,7 +757,7 @@ $(document).ready(function() {
         $("#wrapper1 input:text").css("background", "#fff")
     });
     $("#google1").click(function() {
-        $("#wrapper1 form").attr("action", "http://www.google.com/search");
+        $("#wrapper1 form").attr("action", "https://www.google.com/search");
         $("#engines1").fadeToggle("fast", "circEaseOut");
         $("#wrapper1 input:text").css("background", "#fff url(lib/google-back.png) center right no-repeat");
         $("#wrapper1 input:hidden").detach();
@@ -765,7 +765,7 @@ $(document).ready(function() {
         $("#wrapper1 input:text").focus()
     });
     $("#bing1").click(function() {
-        $("#wrapper1 form").attr("action", "http://www.bing.com/search");
+        $("#wrapper1 form").attr("action", "https://www.bing.com/search");
         $("#engines1").fadeToggle("fast", "circEaseOut");
         $("#wrapper1 input:text").css("background", "#fff url(lib/bing-back.png) center right no-repeat");
         $("#wrapper1 input:hidden").detach();
@@ -773,7 +773,7 @@ $(document).ready(function() {
         $("#wrapper1 input:text").focus()
     });
     $("#sogou1").click(function() {
-        $("#wrapper1 form").attr("action", "http://www.sogou.com/sogou");
+        $("#wrapper1 form").attr("action", "https://www.sogou.com/sogou");
         $("#engines1").fadeToggle("fast", "circEaseOut");
         $("#wrapper1 input:text").css("background", "#fff url(lib/sogou-back.png) center right no-repeat");
         $("#wrapper1 input:hidden").detach();
@@ -782,7 +782,7 @@ $(document).ready(function() {
         $("#wrapper1 input:text").focus()
     });
     $("#baidu1").click(function() {
-        $("#wrapper1 form").attr("action", "http://www.baidu.com/s");
+        $("#wrapper1 form").attr("action", "https://www.baidu.com/s");
         $("#wrapper1 input:first").attr("name", "wd");
         $('<input type="hidden" name="tn" value="divencheng_pg" />').appendTo("#wrapper1 form");
         $("#engines1").fadeToggle("fast", "circEaseOut");
@@ -795,7 +795,7 @@ $(document).ready(function() {
             $("#wrapper2 input:text").css("background", "#fff")
         });
         $("#google2").click(function() {
-            $("#wrapper2 form").attr("action", "http://www.google.com/search");
+            $("#wrapper2 form").attr("action", "https://www.google.com/search");
             $("#engines2").fadeToggle("fast", "circEaseOut");
             $("#wrapper2 input:text").css("background", "#fff url(lib/google-back.png) center right no-repeat");
             $("#wrapper2 input:hidden").detach();
@@ -803,7 +803,7 @@ $(document).ready(function() {
             $("#wrapper2 input:text").focus()
         });
         $("#bing2").click(function() {
-            $("#wrapper2 form").attr("action", "http://www.bing.com/search");
+            $("#wrapper2 form").attr("action", "https://www.bing.com/search");
             $("#engines2").fadeToggle("fast", "circEaseOut");
             $("#wrapper2 input:text").css("background", "#fff url(lib/bing-back.png) center right no-repeat");
             $("#wrapper2 input:hidden").detach();
@@ -811,7 +811,7 @@ $(document).ready(function() {
             $("#wrapper2 input:text").focus()
         });
         $("#sogou2").click(function() {
-            $("#wrapper2 form").attr("action", "http://www.sogou.com/sogou");
+            $("#wrapper2 form").attr("action", "https://www.sogou.com/sogou");
             $("#engines2").fadeToggle("fast", "circEaseOut");
             $("#wrapper2 input:text").css("background", "#fff url(lib/sogou-back.png) center right no-repeat");
             $("#wrapper2 input:hidden").detach();
@@ -820,7 +820,7 @@ $(document).ready(function() {
             $("#wrapper2 input:text").focus()
         });
         $("#baidu2").click(function() {
-            $("#wrapper2 form").attr("action", "http://www.baidu.com/s");
+            $("#wrapper2 form").attr("action", "https://www.baidu.com/s");
             $("#wrapper2 input:first").attr("name", "wd");
             $('<input type="hidden" name="tn" value="divencheng_pg" />').appendTo("#wrapper2 form");
             $("#engines2").fadeToggle("fast", "circEaseOut");
@@ -834,7 +834,7 @@ $(document).ready(function() {
             $("#wrapper3 input:text").css("background", "#fff")
         });
         $("#google3").click(function() {
-            $("#wrapper3 form").attr("action", "http://www.google.com/search");
+            $("#wrapper3 form").attr("action", "https://www.google.com/search");
             $("#engines3").fadeToggle("fast", "circEaseOut");
             $("#wrapper3 input:text").css("background", "#fff url(lib/google-back.png) center right no-repeat");
             $("#wrapper3 input:hidden").detach();
@@ -842,7 +842,7 @@ $(document).ready(function() {
             $("#wrapper3 input:text").focus()
         });
         $("#bing3").click(function() {
-            $("#wrapper3 form").attr("action", "http://www.bing.com/search");
+            $("#wrapper3 form").attr("action", "https://www.bing.com/search");
             $("#engines3").fadeToggle("fast", "circEaseOut");
             $("#wrapper3 input:text").css("background", "#fff url(lib/bing-back.png) center right no-repeat");
             $("#wrapper3 input:hidden").detach();
@@ -850,7 +850,7 @@ $(document).ready(function() {
             $("#wrapper3 input:text").focus()
         });
         $("#sogou3").click(function() {
-            $("#wrapper3 form").attr("action", "http://www.sogou.com/sogou");
+            $("#wrapper3 form").attr("action", "https://www.sogou.com/sogou");
             $("#engines3").fadeToggle("fast", "circEaseOut");
             $("#wrapper3 input:text").css("background", "#fff url(lib/sogou-back.png) center right no-repeat");
             $("#wrapper3 input:hidden").detach();
@@ -859,7 +859,7 @@ $(document).ready(function() {
             $("#wrapper3 input:text").focus()
         });
         $("#baidu3").click(function() {
-            $("#wrapper3 form").attr("action", "http://www.baidu.com/s");
+            $("#wrapper3 form").attr("action", "https://www.baidu.com/s");
             $("#wrapper3 input:first").attr("name", "wd");
             $('<input type="hidden" name="tn" value="divencheng_pg" />').appendTo("#wrapper3 form");
             $("#engines3").fadeToggle("fast", "circEaseOut");
@@ -873,7 +873,7 @@ $(document).ready(function() {
             $("#wrapper4 input:text").css("background", "#fff")
         });
         $("#google4").click(function() {
-            $("#wrapper4 form").attr("action", "http://www.google.com/search");
+            $("#wrapper4 form").attr("action", "https://www.google.com/search");
             $("#engines4").fadeToggle("fast", "circEaseOut");
             $("#wrapper4 input:text").css("background", "#fff url(lib/google-back.png) center right no-repeat");
             $("#wrapper4 input:hidden").detach();
@@ -881,7 +881,7 @@ $(document).ready(function() {
             $("#wrapper4 input:text").focus()
         });
         $("#bing4").click(function() {
-            $("#wrapper4 form").attr("action", "http://www.bing.com/search");
+            $("#wrapper4 form").attr("action", "https://www.bing.com/search");
             $("#engines4").fadeToggle("fast", "circEaseOut");
             $("#wrapper4 input:text").css("background", "#fff url(lib/bing-back.png) center right no-repeat");
             $("#wrapper4 input:hidden").detach();
@@ -889,7 +889,7 @@ $(document).ready(function() {
             $("#wrapper4 input:text").focus()
         });
         $("#sogou4").click(function() {
-            $("#wrapper4 form").attr("action", "http://www.sogou.com/sogou");
+            $("#wrapper4 form").attr("action", "https://www.sogou.com/sogou");
             $("#engines4").fadeToggle("fast", "circEaseOut");
             $("#wrapper4 input:text").css("background", "#fff url(lib/sogou-back.png) center right no-repeat");
             $("#wrapper4 input:hidden").detach();
@@ -898,7 +898,7 @@ $(document).ready(function() {
             $("#wrapper4 input:text").focus()
         });
         $("#baidu4").click(function() {
-            $("#wrapper4 form").attr("action", "http://www.baidu.com/s");
+            $("#wrapper4 form").attr("action", "https://www.baidu.com/s");
             $("#wrapper4 input:first").attr("name", "wd");
             $('<input type="hidden" name="tn" value="divencheng_pg" />').appendTo("#wrapper4 form");
             $("#engines4").fadeToggle("fast", "circEaseOut");
@@ -912,7 +912,7 @@ $(document).ready(function() {
             $("#wrapper5 input:text").css("background", "#fff")
         });
         $("#google5").click(function() {
-            $("#wrapper5 form").attr("action", "http://www.google.com/search");
+            $("#wrapper5 form").attr("action", "https://www.google.com/search");
             $("#engines5").fadeToggle("fast", "circEaseOut");
             $("#wrapper5 input:text").css("background", "#fff url(lib/google-back.png) center right no-repeat");
             $("#wrapper5 input:hidden").detach();
@@ -920,7 +920,7 @@ $(document).ready(function() {
             $("#wrapper5 input:text").focus()
         });
         $("#bing5").click(function() {
-            $("#wrapper5 form").attr("action", "http://www.bing.com/search");
+            $("#wrapper5 form").attr("action", "https://www.bing.com/search");
             $("#engines5").fadeToggle("fast", "circEaseOut");
             $("#wrapper5 input:text").css("background", "#fff url(lib/bing-back.png) center right no-repeat");
             $("#wrapper5 input:hidden").detach();
@@ -928,7 +928,7 @@ $(document).ready(function() {
             $("#wrapper5 input:text").focus()
         });
         $("#sogou5").click(function() {
-            $("#wrapper5 form").attr("action", "http://www.sogou.com/sogou");
+            $("#wrapper5 form").attr("action", "https://www.sogou.com/sogou");
             $("#engines5").fadeToggle("fast", "circEaseOut");
             $("#wrapper5 input:text").css("background", "#fff url(lib/sogou-back.png) center right no-repeat");
             $("#wrapper5 input:hidden").detach();
@@ -937,7 +937,7 @@ $(document).ready(function() {
             $("#wrapper5 input:text").focus()
         });
         $("#baidu5").click(function() {
-            $("#wrapper5 form").attr("action", "http://www.baidu.com/s");
+            $("#wrapper5 form").attr("action", "https://www.baidu.com/s");
             $("#wrapper5 input:first").attr("name", "wd");
             $('<input type="hidden" name="tn" value="divencheng_pg" />').appendTo("#wrapper5 form");
             $("#engines5").fadeToggle("fast", "circEaseOut");
@@ -951,7 +951,7 @@ $(document).ready(function() {
             $("#wrapper6 input:text").css("background", "#fff")
         });
         $("#google6").click(function() {
-            $("#wrapper6 form").attr("action", "http://www.google.com/search");
+            $("#wrapper6 form").attr("action", "https://www.google.com/search");
             $("#engines6").fadeToggle("fast", "circEaseOut");
             $("#wrapper6 input:text").css("background", "#fff url(lib/google-back.png) center right no-repeat");
             $("#wrapper6 input:hidden").detach();
@@ -959,7 +959,7 @@ $(document).ready(function() {
             $("#wrapper6 input:text").focus()
         });
         $("#bing6").click(function() {
-            $("#wrapper6 form").attr("action", "http://www.bing.com/search");
+            $("#wrapper6 form").attr("action", "https://www.bing.com/search");
             $("#engines6").fadeToggle("fast", "circEaseOut");
             $("#wrapper6 input:text").css("background", "#fff url(lib/bing-back.png) center right no-repeat");
             $("#wrapper6 input:hidden").detach();
@@ -967,7 +967,7 @@ $(document).ready(function() {
             $("#wrapper6 input:text").focus()
         });
         $("#sogou6").click(function() {
-            $("#wrapper6 form").attr("action", "http://www.sogou.com/sogou");
+            $("#wrapper6 form").attr("action", "https://www.sogou.com/sogou");
             $("#engines6").fadeToggle("fast", "circEaseOut");
             $("#wrapper6 input:text").css("background", "#fff url(lib/sogou-back.png) center right no-repeat");
             $("#wrapper6 input:hidden").detach();
@@ -976,7 +976,7 @@ $(document).ready(function() {
             $("#wrapper6 input:text").focus()
         });
         $("#baidu6").click(function() {
-            $("#wrapper6 form").attr("action", "http://www.baidu.com/s");
+            $("#wrapper6 form").attr("action", "https://www.baidu.com/s");
             $("#wrapper6 input:first").attr("name", "wd");
             $('<input type="hidden" name="tn" value="divencheng_pg" />').appendTo("#wrapper6 form");
             $("#engines6").fadeToggle("fast", "circEaseOut");
@@ -990,7 +990,7 @@ $(document).ready(function() {
             $("#wrapper7 input:text").css("background", "#fff")
         });
         $("#google7").click(function() {
-            $("#wrapper7 form").attr("action", "http://www.google.com/search");
+            $("#wrapper7 form").attr("action", "https://www.google.com/search");
             $("#engines7").fadeToggle("fast", "circEaseOut");
             $("#wrapper7 input:text").css("background", "#fff url(lib/google-back.png) center right no-repeat");
             $("#wrapper7 input:hidden").detach();
@@ -998,7 +998,7 @@ $(document).ready(function() {
             $("#wrapper7 input:text").focus()
         });
         $("#bing7").click(function() {
-            $("#wrapper7 form").attr("action", "http://www.bing.com/search");
+            $("#wrapper7 form").attr("action", "https://www.bing.com/search");
             $("#engines7").fadeToggle("fast", "circEaseOut");
             $("#wrapper7 input:text").css("background", "#fff url(lib/bing-back.png) center right no-repeat");
             $("#wrapper7 input:hidden").detach();
@@ -1006,7 +1006,7 @@ $(document).ready(function() {
             $("#wrapper7 input:text").focus()
         });
         $("#sogou7").click(function() {
-            $("#wrapper7 form").attr("action", "http://www.sogou.com/sogou");
+            $("#wrapper7 form").attr("action", "https://www.sogou.com/sogou");
             $("#engines7").fadeToggle("fast", "circEaseOut");
             $("#wrapper7 input:text").css("background", "#fff url(lib/sogou-back.png) center right no-repeat");
             $("#wrapper7 input:hidden").detach();
@@ -1015,7 +1015,7 @@ $(document).ready(function() {
             $("#wrapper7 input:text").focus()
         });
         $("#baidu7").click(function() {
-            $("#wrapper7 form").attr("action", "http://www.baidu.com/s");
+            $("#wrapper7 form").attr("action", "https://www.baidu.com/s");
             $("#wrapper7 input:first").attr("name", "wd");
             $('<input type="hidden" name="tn" value="divencheng_pg" />').appendTo("#wrapper7 form");
             $("#engines7").fadeToggle("fast", "circEaseOut");
@@ -1029,7 +1029,7 @@ $(document).ready(function() {
             $("#wrapper8 input:text").css("background", "#fff")
         });
         $("#google8").click(function() {
-            $("#wrapper8 form").attr("action", "http://www.google.com/search");
+            $("#wrapper8 form").attr("action", "https://www.google.com/search");
             $("#engines8").fadeToggle("fast", "circEaseOut");
             $("#wrapper8 input:text").css("background", "#fff url(lib/google-back.png) center right no-repeat");
             $("#wrapper8 input:hidden").detach();
@@ -1037,7 +1037,7 @@ $(document).ready(function() {
             $("#wrapper8 input:text").focus()
         });
         $("#bing8").click(function() {
-            $("#wrapper8 form").attr("action", "http://www.bing.com/search");
+            $("#wrapper8 form").attr("action", "https://www.bing.com/search");
             $("#engines8").fadeToggle("fast", "circEaseOut");
             $("#wrapper8 input:text").css("background", "#fff url(lib/bing-back.png) center right no-repeat");
             $("#wrapper8 input:hidden").detach();
@@ -1045,7 +1045,7 @@ $(document).ready(function() {
             $("#wrapper8 input:text").focus()
         });
         $("#sogou8").click(function() {
-            $("#wrapper8 form").attr("action", "http://www.sogou.com/sogou");
+            $("#wrapper8 form").attr("action", "https://www.sogou.com/sogou");
             $("#engines8").fadeToggle("fast", "circEaseOut");
             $("#wrapper8 input:text").css("background", "#fff url(lib/sogou-back.png) center right no-repeat");
             $("#wrapper8 input:hidden").detach();
@@ -1054,7 +1054,7 @@ $(document).ready(function() {
             $("#wrapper8 input:text").focus()
         });
         $("#baidu8").click(function() {
-            $("#wrapper8 form").attr("action", "http://www.baidu.com/s");
+            $("#wrapper8 form").attr("action", "https://www.baidu.com/s");
             $("#wrapper8 input:first").attr("name", "wd");
             $('<input type="hidden" name="tn" value="divencheng_pg" />').appendTo("#wrapper8 form");
             $("#engines8").fadeToggle("fast", "circEaseOut");
@@ -1068,7 +1068,7 @@ $(document).ready(function() {
             $("#wrapper9 input:text").css("background", "#fff")
         });
         $("#google9").click(function() {
-            $("#wrapper9 form").attr("action", "http://www.google.com/search");
+            $("#wrapper9 form").attr("action", "https://www.google.com/search");
             $("#engines9").fadeToggle("fast", "circEaseOut");
             $("#wrapper9 input:text").css("background", "#fff url(lib/google-back.png) center right no-repeat");
             $("#wrapper9 input:hidden").detach();
@@ -1076,7 +1076,7 @@ $(document).ready(function() {
             $("#wrapper9 input:text").focus()
         });
         $("#bing9").click(function() {
-            $("#wrapper9 form").attr("action", "http://www.bing.com/search");
+            $("#wrapper9 form").attr("action", "https://www.bing.com/search");
             $("#engines9").fadeToggle("fast", "circEaseOut");
             $("#wrapper9 input:text").css("background", "#fff url(lib/bing-back.png) center right no-repeat");
             $("#wrapper9 input:hidden").detach();
@@ -1084,7 +1084,7 @@ $(document).ready(function() {
             $("#wrapper9 input:text").focus()
         });
         $("#sogou9").click(function() {
-            $("#wrapper9 form").attr("action", "http://www.sogou.com/sogou");
+            $("#wrapper9 form").attr("action", "https://www.sogou.com/sogou");
             $("#engines9").fadeToggle("fast", "circEaseOut");
             $("#wrapper9 input:text").css("background", "#fff url(lib/sogou-back.png) center right no-repeat");
             $("#wrapper9 input:hidden").detach();
@@ -1093,7 +1093,7 @@ $(document).ready(function() {
             $("#wrapper9 input:text").focus()
         });
         $("#baidu9").click(function() {
-            $("#wrapper9 form").attr("action", "http://www.baidu.com/s");
+            $("#wrapper9 form").attr("action", "https://www.baidu.com/s");
             $("#wrapper9 input:first").attr("name", "wd");
             $('<input type="hidden" name="tn" value="divencheng_pg" />').appendTo("#wrapper9 form");
             $("#engines9").fadeToggle("fast", "circEaseOut");
@@ -1176,541 +1176,541 @@ bookmark[8] = new Array();
 bookmark[9] = new Array();
 bookmark[0][0] = {
     title: "网易",
-    url: "http://www.163.com",
+    url: "https://www.163.com",
     thumb: "163.png"
 };
 bookmark[0][1] = {
     title: "腾讯网",
-    url: "http://www.qq.com/",
+    url: "https://www.qq.com/",
     thumb: "qq.png"
 };
 bookmark[0][2] = {
     title: "搜狐",
-    url: "http://www.sohu.com",
+    url: "https://www.sohu.com",
     thumb: "sohu.png"
 };
 bookmark[0][3] = {
     title: "新浪网",
-    url: "http://www.sina.com.cn/",
+    url: "https://www.sina.com.cn/",
     thumb: "sina.png"
 };
 bookmark[0][4] = {
     title: "豆瓣",
-    url: "http://www.douban.com",
+    url: "https://www.douban.com",
     thumb: "douban.png"
 };
 bookmark[0][5] = {
     title: "新浪微博",
-    url: "http://weibo.com/?c=spr_web_sq_6164_weibo_t001",
+    url: "https://weibo.com/?c=spr_web_sq_6164_weibo_t001",
     thumb: "weibo.png"
 };
 bookmark[0][6] = {
     title: "人人网",
-    url: "http://www.renren.com",
+    url: "https://www.renren.com",
     thumb: "renren.png"
 };
 bookmark[0][7] = {
     title: "央视网",
-    url: "http://www.cctv.com",
+    url: "https://www.cctv.com",
     thumb: "cctv.png"
 };
 bookmark[0][8] = {
     title: "QQ空间",
-    url: "http://qzone.qq.com",
+    url: "https://qzone.qq.com",
     thumb: "qzone.png"
 };
 bookmark[0][9] = {
     title: "优酷",
-    url: "http://www.youku.com",
+    url: "https://www.youku.com",
     thumb: "youku.png"
 };
 bookmark[0][10] = {
     title: "凤凰网",
-    url: "https://www.ifeng.com",
+    url: "httpss://www.ifeng.com",
     thumb: "ifeng.png"
 };
 bookmark[0][11] = {
     title: "3399小游戏",
-    url: "http://www.3399.com/?fr=10009-1",
+    url: "https://www.3399.com/?fr=10009-1",
     thumb: "3399.png"
 };
 bookmark[1][0] = {
     title: "苏宁",
-    url: "http://p.yiqifa.com/c?s=25ffbe45&w=253302&c=4459&i=5662&l=0&e=win8-1&t=http://www.suning.com/",
+    url: "https://p.yiqifa.com/c?s=25ffbe45&w=253302&c=4459&i=5662&l=0&e=win8-1&t=https://www.suning.com/",
     thumb: "suning.png"
 };
 bookmark[1][1] = {
     title: "易迅",
-    url: "http://p.yiqifa.com/c?s=9289bf39&w=253302&c=4330&i=4984&l=0&e=win8-1&t=http://www.yixun.com",
+    url: "https://p.yiqifa.com/c?s=9289bf39&w=253302&c=4330&i=4984&l=0&e=win8-1&t=https://www.yixun.com",
     thumb: "51buy.png"
 };
 bookmark[1][2] = {
     title: "一号店",
-    url: "http://p.yiqifa.com/c?s=ea58a335&w=253302&c=139&i=802&l=0&e=win8-1&t=http://www.yhd.com/",
+    url: "https://p.yiqifa.com/c?s=ea58a335&w=253302&c=139&i=802&l=0&e=win8-1&t=https://www.yhd.com/",
     thumb: "yihaodian.png"
 };
 bookmark[1][3] = {
     title: "唯品会",
-    url: "http://p.yiqifa.com/c?s=ea3b031c&w=253302&c=4018&i=2882&l=0&e=win8-1&t=http://www.vip.com/",
+    url: "https://p.yiqifa.com/c?s=ea3b031c&w=253302&c=4018&i=2882&l=0&e=win8-1&t=https://www.vip.com/",
     thumb: "vipshop.png"
 };
 bookmark[1][4] = {
     title: "当当",
-    url: "http://p.yiqifa.com/c?s=a2a2a463&w=253302&c=247&i=159&l=0&e=win8-1&t=http://www.dangdang.com",
+    url: "https://p.yiqifa.com/c?s=a2a2a463&w=253302&c=247&i=159&l=0&e=win8-1&t=https://www.dangdang.com",
     thumb: "dangdang.png"
 };
 bookmark[1][5] = {
     title: "京东",
-    url: "http://p.yiqifa.com/c?s=5308bddc&w=253302&c=254&i=160&l=0&e=win8-1&t=http://www.jd.com",
+    url: "https://p.yiqifa.com/c?s=5308bddc&w=253302&c=254&i=160&l=0&e=win8-1&t=https://www.jd.com",
     thumb: "360buy.png"
 };
 bookmark[1][6] = {
     title: "亚马逊",
-    url: "http://www.amazon.cn?tag=eqifa180-23&ascsubtag=253302|1|win8-1",
+    url: "https://www.amazon.cn?tag=eqifa180-23&ascsubtag=253302|1|win8-1",
     thumb: "amazon.png"
 };
 bookmark[1][7] = {
     title: "凡客",
-    url: "http://www.vancl.com/?source=divencheng",
+    url: "https://www.vancl.com/?source=divencheng",
     thumb: "vancl.png"
 };
 bookmark[1][8] = {
     title: "好乐买",
-    url: "http://p.yiqifa.com/c?s=38d8631c&w=253302&c=5820&i=15862&l=0&e=win8-1&t=http://www.yougou.com/",
+    url: "https://p.yiqifa.com/c?s=38d8631c&w=253302&c=5820&i=15862&l=0&e=win8-1&t=https://www.yougou.com/",
     thumb: "okbuy.png"
 };
 bookmark[1][9] = {
     title: "爱淘宝",
-    url: "http://ai.taobao.com?pid=mm_16596268_4688103_15820839",
+    url: "https://ai.taobao.com?pid=mm_16596268_4688103_15820839",
     thumb: "taobao.png"
 };
 bookmark[1][10] = {
     title: "天猫",
-    url: "http://s.click.taobao.com/t?e=zGU34CA7K%2BPkqB05%2Bm7rfGGjlY60oHcc7bkKOQiRddrNEyGLx31dnc6%2Fz%2BaQS2UNDUWpebTcEEjBuk1W5odmLS8%3D&pid=mm_16596268_4688103_15838003",
+    url: "https://s.click.taobao.com/t?e=zGU34CA7K%2BPkqB05%2Bm7rfGGjlY60oHcc7bkKOQiRddrNEyGLx31dnc6%2Fz%2BaQS2UNDUWpebTcEEjBuk1W5odmLS8%3D&pid=mm_16596268_4688103_15838003",
     thumb: "tmall.png"
 };
 bookmark[1][11] = {
     title: "梦芭莎",
-    url: "http://p.yiqifa.com/c?s=4f5f315d&w=253302&c=298&i=323&l=0&e=win8-1&t=http://www.moonbasa.com/",
+    url: "https://p.yiqifa.com/c?s=4f5f315d&w=253302&c=298&i=323&l=0&e=win8-1&t=https://www.moonbasa.com/",
     thumb: "moonbasa.png"
 };
 bookmark[2][0] = {
     title: "花瓣网",
-    url: "http://huaban.com/",
+    url: "https://huaban.com/",
     thumb: "huaban.png"
 };
 bookmark[2][1] = {
     title: "音悦Tai",
-    url: "http://www.yinyuetai.com/",
+    url: "https://www.yinyuetai.com/",
     thumb: "yinyuetai.png"
 };
 bookmark[2][2] = {
     title: "豆瓣电台",
-    url: "http://douban.fm/",
+    url: "https://douban.fm/",
     thumb: "doubanfm.png"
 };
 bookmark[2][3] = {
     title: "悦读FM",
-    url: "http://yuedu.fm/",
+    url: "https://yuedu.fm/",
     thumb: "yuedu.png"
 };
 bookmark[2][4] = {
     title: "网易公开课",
-    url: "http://open.163.com",
+    url: "https://open.163.com",
     thumb: "open.png"
 };
 bookmark[2][5] = {
     title: "邻居的耳朵",
-    url: "http://kxt.fm/",
+    url: "https://kxt.fm/",
     thumb: "kxt.png"
 };
 bookmark[2][6] = {
     title: "瘾科技",
-    url: "http://cn.engadget.com/",
+    url: "https://cn.engadget.com/",
     thumb: "engadget.png"
 };
 bookmark[2][7] = {
     title: "时光电影",
-    url: "http://www.mtime.com/",
+    url: "https://www.mtime.com/",
     thumb: "mtime.png"
 };
 bookmark[2][8] = {
     title: "糗事百科",
-    url: "http://www.qiushibaike.com/",
+    url: "https://www.qiushibaike.com/",
     thumb: "qiushibaike.png"
 };
 bookmark[2][9] = {
     title: "book",
-    url: "http://book.6164.com/",
+    url: "https://book.6164.com/",
     thumb: "book.png"
 };
 bookmark[2][10] = {
     title: "TOPIT.ME",
-    url: "http://topit.me/",
+    url: "https://topit.me/",
     thumb: "topit.png"
 };
 bookmark[2][11] = {
     title: "V电影",
-    url: "http://v.6164.com/",
+    url: "https://v.6164.com/",
     thumb: "vmovier.png"
 };
 bookmark[3][0] = {
     title: "知乎",
-    url: "http://www.zhihu.com/",
+    url: "https://www.zhihu.com/",
     thumb: "zhihu.png"
 };
 bookmark[3][1] = {
     title: "煎蛋",
-    url: "http://jandan.net/",
+    url: "https://jandan.net/",
     thumb: "jandan.png"
 };
 bookmark[3][2] = {
     title: "爱库",
-    url: "http://www.ikeepu.com/",
+    url: "https://www.ikeepu.com/",
     thumb: "ikeepu.png"
 };
 bookmark[3][3] = {
     title: "微盘",
-    url: "http://vdisk.me/",
+    url: "https://vdisk.me/",
     thumb: "vdisk.png"
 };
 bookmark[3][4] = {
     title: "乐活户外",
-    url: "http://p.yiqifa.com/c?s=1e8194d0&w=253302&c=5588&i=14382&l=0&e=win8-1&t=http://www.m360.com.cn",
+    url: "https://p.yiqifa.com/c?s=1e8194d0&w=253302&c=5588&i=14382&l=0&e=win8-1&t=https://www.m360.com.cn",
     thumb: "m360.png"
 };
 bookmark[3][5] = {
     title: "趣玩",
-    url: "http://p.yiqifa.com/c?s=8e9d9737&w=253302&c=1800&i=1362&l=0&e=win8-1&t=http://www.quwan.com",
+    url: "https://p.yiqifa.com/c?s=8e9d9737&w=253302&c=1800&i=1362&l=0&e=win8-1&t=https://www.quwan.com",
     thumb: "quwan.png"
 };
 bookmark[3][6] = {
     title: "佑一良品",
-    url: "http://p.yiqifa.com/c?s=0f0c7283&w=253302&c=5390&i=11702&l=0&e=win8-1&t=http://www.uiyi.cn/",
+    url: "https://p.yiqifa.com/c?s=0f0c7283&w=253302&c=5390&i=11702&l=0&e=win8-1&t=https://www.uiyi.cn/",
     thumb: "uiyi.png"
 };
 bookmark[3][7] = {
     title: "百度文库",
-    url: "http://wenku.baidu.com/",
+    url: "https://wenku.baidu.com/",
     thumb: "wenku.png"
 };
 bookmark[3][8] = {
     title: "堆糖",
-    url: "http://www.duitang.com/",
+    url: "https://www.duitang.com/",
     thumb: "duitang.png"
 };
 bookmark[3][9] = {
     title: "巨有趣",
-    url: "http://www.juyouqu.com/",
+    url: "https://www.juyouqu.com/",
     thumb: "juyouqu.png"
 };
 bookmark[3][10] = {
     title: "蘑菇街",
-    url: "http://www.mogujie.com/trade/click?c=19&u=12gkkr4&t=http%3A%2F%2Fwww.mogujie.com",
+    url: "https://www.mogujie.com/trade/click?c=19&u=12gkkr4&t=https%3A%2F%2Fwww.mogujie.com",
     thumb: "mogujie.png"
 };
 bookmark[3][11] = {
     title: "美丽说",
-    url: "http://www.meilishuo.com/welcome?frm=NM_s10094",
+    url: "https://www.meilishuo.com/welcome?frm=NM_s10094",
     thumb: "meilishuo.png"
 };
 bookmark[4][0] = {
     title: "聚划算",
-    url: "http://s.click.taobao.com/t?e=zGU34CA7K%2BPkqB05%2Bm7rfGKas1PIKp0U37pZuBotzOg7OjeU9mIWS5%2B5UROBz6sq4fiHePnGhf6UrWuOtfD2G6QGcAHIXpjhEtESpuqsRo0a&pid=mm_16596268_4688103_15820839",
+    url: "https://s.click.taobao.com/t?e=zGU34CA7K%2BPkqB05%2Bm7rfGKas1PIKp0U37pZuBotzOg7OjeU9mIWS5%2B5UROBz6sq4fiHePnGhf6UrWuOtfD2G6QGcAHIXpjhEtESpuqsRo0a&pid=mm_16596268_4688103_15820839",
     thumb: "juhuasuan.png"
 };
 bookmark[4][1] = {
     title: "豆果美食",
-    url: "http://www.douguo.com/",
+    url: "https://www.douguo.com/",
     thumb: "douguo.png"
 };
 bookmark[4][2] = {
     title: "百姓网",
-    url: "http://www.baixing.com/",
+    url: "https://www.baixing.com/",
     thumb: "baixing.png"
 };
 bookmark[4][3] = {
     title: "口碑网",
-    url: "http://www.koubei.com/",
+    url: "https://www.koubei.com/",
     thumb: "koubei.png"
 };
 bookmark[4][4] = {
     title: "58同城",
-    url: "http://www.58.com/",
+    url: "https://www.58.com/",
     thumb: "58.png"
 };
 bookmark[4][5] = {
     title: "赶集网",
-    url: "http://www.ganji.com/",
+    url: "https://www.ganji.com/",
     thumb: "ganji.png"
 };
 bookmark[4][6] = {
     title: "下厨房",
-    url: "http://www.xiachufang.com",
+    url: "https://www.xiachufang.com",
     thumb: "xiachufang.png"
 };
 bookmark[4][7] = {
     title: "美团",
-    url: "http://p.yiqifa.com/c?s=3c1c7cd0&w=253302&c=5402&i=11642&l=0&e=win8-1&t=http://bj.meituan.com/",
+    url: "https://p.yiqifa.com/c?s=3c1c7cd0&w=253302&c=5402&i=11642&l=0&e=win8-1&t=https://bj.meituan.com/",
     thumb: "meituan.png"
 };
 bookmark[4][8] = {
     title: "前程无忧",
-    url: "http://my.51job.com/my/trace.php?adsnum=19423&ajp=aHR0cDovL3d3dy41MWpvYi5jb20v",
+    url: "https://my.51job.com/my/trace.php?adsnum=19423&ajp=aHR0cDovL3d3dy41MWpvYi5jb20v",
     thumb: "51job.png"
 };
 bookmark[4][9] = {
     title: "智联招聘",
-    url: "http://www.zhaopin.com/",
+    url: "https://www.zhaopin.com/",
     thumb: "zhaopin.png"
 };
 bookmark[4][10] = {
     title: "金象网",
-    url: "http://p.yiqifa.com/c?s=4bab3b89&w=253302&c=305&i=225&l=0&e=win8-1&t=http://www.jxdyf.com",
+    url: "https://p.yiqifa.com/c?s=4bab3b89&w=253302&c=305&i=225&l=0&e=win8-1&t=https://www.jxdyf.com",
     thumb: "jxdyf.png"
 };
 bookmark[4][11] = {
     title: "大众点评网",
-    url: "http://www.dianping.com/",
+    url: "https://www.dianping.com/",
     thumb: "dianping.png"
 };
 bookmark[5][0] = {
     title: "ibm developerworks",
-    url: "http://www.ibm.com/developerworks/cn/",
+    url: "https://www.ibm.com/developerworks/cn/",
     thumb: "developerworks.png"
 };
 bookmark[5][1] = {
     title: "Google Code",
-    url: "http://code.google.com/hosting/",
+    url: "https://code.google.com/hosting/",
     thumb: "google-code.png"
 };
 bookmark[5][2] = {
     title: "蓝色理想",
-    url: "http://www.blueidea.com/",
+    url: "https://www.blueidea.com/",
     thumb: "blueidea.png"
 };
 bookmark[5][3] = {
     title: "阳春非凡",
-    url: "http://www.ycff.com/",
+    url: "https://www.ycff.com/",
     thumb: ""
 };
 bookmark[5][4] = {
     title: "开源中国社区",
-    url: "http://www.oschina.net/",
+    url: "https://www.oschina.net/",
     thumb: "oschina.png"
 };
 bookmark[5][5] = {
     title: "GitHub",
-    url: "https://github.com/",
+    url: "httpss://github.com/",
     thumb: "github.png"
 };
 bookmark[5][6] = {
     title: "sourceforge",
-    url: "http://sourceforge.net/",
+    url: "https://sourceforge.net/",
     thumb: "sourceforge.png"
 };
 bookmark[5][7] = {
     title: "high scalability",
-    url: "http://highscalability.com/",
+    url: "https://highscalability.com/",
     thumb: "highscalability.png"
 };
 bookmark[5][8] = {
     title: "scriptmafia",
-    url: "http://www.scriptmafia.com/",
+    url: "https://www.scriptmafia.com/",
     thumb: "scriptmafia.png"
 };
 bookmark[5][9] = {
     title: "infoq",
-    url: "http://www.infoq.com/",
+    url: "https://www.infoq.com/",
     thumb: "infoq.png"
 };
 bookmark[5][10] = {
     title: "CSDN",
-    url: "http://www.csdn.net/",
+    url: "https://www.csdn.net/",
     thumb: "csdn.png"
 };
 bookmark[5][11] = {
     title: "BitBucket",
-    url: "https://bitbucket.org/",
+    url: "httpss://bitbucket.org/",
     thumb: "bitbucket.png"
 };
 bookmark[6][0] = {
     title: "myfonts",
-    url: "http://www.myfonts.com/WhatTheFont/",
+    url: "https://www.myfonts.com/WhatTheFont/",
     thumb: "myfonts.png"
 };
 bookmark[6][1] = {
     title: "365PSD",
-    url: "http://365psd.com/",
+    url: "https://365psd.com/",
     thumb: "365psd.png"
 };
 bookmark[6][2] = {
     title: "icon finder",
-    url: "http://www.iconfinder.com/",
+    url: "https://www.iconfinder.com/",
     thumb: "iconfinder.png"
 };
 bookmark[6][3] = {
     title: "ucdChina",
-    url: "http://www.ucdchina.com/",
+    url: "https://www.ucdchina.com/",
     thumb: "ucdchina.png"
 };
 bookmark[6][4] = {
     title: "猪八戒",
-    url: "http://un.zhubajie.com/r/?u=6763674&l=http://www.zhubajie.com/",
+    url: "https://un.zhubajie.com/r/?u=6763674&l=https://www.zhubajie.com/",
     thumb: "zhubajie.png"
 };
 bookmark[6][5] = {
     title: "dribbble",
-    url: "http://dribbble.com/",
+    url: "https://dribbble.com/",
     thumb: "dribbble.png"
 };
 bookmark[6][6] = {
     title: "500px",
-    url: "http://500px.com/",
+    url: "https://500px.com/",
     thumb: "500px.png"
 };
 bookmark[6][7] = {
     title: "设计共和国",
-    url: "http://www.rologo.com/",
+    url: "https://www.rologo.com/",
     thumb: "rologo.png"
 };
 bookmark[6][8] = {
     title: "设计日报",
-    url: "http://www.designdaily.cn/",
+    url: "https://www.designdaily.cn/",
     thumb: "designdaily.png"
 };
 bookmark[6][9] = {
     title: "deviantart",
-    url: "http://www.deviantart.com/",
+    url: "https://www.deviantart.com/",
     thumb: "deviantart.png"
 };
 bookmark[6][10] = {
     title: "全球设计精选站",
-    url: "http://designlol.net/",
+    url: "https://designlol.net/",
     thumb: "designlol.png"
 };
 bookmark[6][11] = {
     title: "where we design",
-    url: "http://wherewedesign.com/",
+    url: "https://wherewedesign.com/",
     thumb: "wherewedesign.png"
 };
 bookmark[7][0] = {
     title: "淘宝旅行",
-    url: "http://s.click.taobao.com/t?e=zGU34CA7K%2BPkqB05%2Bm7rfGKas1PIKp0U37pZuBotzOg7OjY%2F2R0Ke3HHzv2kJZUH%2FehqodvBvxouiCPW7UkqmIn4pk08catp7aU2wpqfONSeQJM%3D&pid=mm_16596268_4688103_15820839",
+    url: "https://s.click.taobao.com/t?e=zGU34CA7K%2BPkqB05%2Bm7rfGKas1PIKp0U37pZuBotzOg7OjY%2F2R0Ke3HHzv2kJZUH%2FehqodvBvxouiCPW7UkqmIn4pk08catp7aU2wpqfONSeQJM%3D&pid=mm_16596268_4688103_15820839",
     thumb: "taobaotrip.png"
 };
 bookmark[7][1] = {
     title: "7天连锁酒店",
-    url: "http://p.yiqifa.com/c?s=5e3a2b70&w=253302&c=7112&i=37909&l=0&e=win8-1&t=http://e.7daysinn.cn/market/track.php",
+    url: "https://p.yiqifa.com/c?s=5e3a2b70&w=253302&c=7112&i=37909&l=0&e=win8-1&t=https://e.7daysinn.cn/market/track.php",
     thumb: "7daysinn.png"
 };
 bookmark[7][2] = {
     title: "悠哉旅游网",
-    url: "http://p.yiqifa.com/c?s=6d9eafeb&w=253302&c=5528&i=13362&l=0&e=win8-1&t=http://www.uzai.com",
+    url: "https://p.yiqifa.com/c?s=6d9eafeb&w=253302&c=5528&i=13362&l=0&e=win8-1&t=https://www.uzai.com",
     thumb: "uzai.png"
 };
 bookmark[7][3] = {
     title: "酷讯机票",
-    url: "http://p.yiqifa.com/n?k=2mLErn2O6l2SrI6H2mLErI6H6ljlWmLmWE3m1N6HWlzL6EzlrtsZR7oCpQqerI6H3EXwWEyy6JgH2L--&e=win8-1&spm=1.1.1.1&t=http://www.kuxun.cn",
+    url: "https://p.yiqifa.com/n?k=2mLErn2O6l2SrI6H2mLErI6H6ljlWmLmWE3m1N6HWlzL6EzlrtsZR7oCpQqerI6H3EXwWEyy6JgH2L--&e=win8-1&spm=1.1.1.1&t=https://www.kuxun.cn",
     thumb: "kuxun.png"
 };
 bookmark[7][4] = {
     title: "携程",
-    url: "http://p.yiqifa.com/c?s=72ab52bc&w=253302&c=297&i=19323&l=0&d=2756&e=win8-1&t=http://u.ctrip.com/union/redirect.aspx",
+    url: "https://p.yiqifa.com/c?s=72ab52bc&w=253302&c=297&i=19323&l=0&d=2756&e=win8-1&t=https://u.ctrip.com/union/redirect.aspx",
     thumb: "ctrip.png"
 };
 bookmark[7][5] = {
     title: "驴妈妈",
-    url: "http://p.yiqifa.com/c?s=a57c7b5a&w=253302&c=5740&i=16722&l=0&e=win8-1&t=http://www.lvmama.com",
+    url: "https://p.yiqifa.com/c?s=a57c7b5a&w=253302&c=5740&i=16722&l=0&e=win8-1&t=https://www.lvmama.com",
     thumb: "lvmama.png"
 };
 bookmark[7][6] = {
     title: "艺龙",
-    url: "http://p.yiqifa.com/c?s=f3b2afae&w=253302&c=276&i=25842&l=0&e=win8-1&t=http://travel.elong.com/hotel/",
+    url: "https://p.yiqifa.com/c?s=f3b2afae&w=253302&c=276&i=25842&l=0&e=win8-1&t=https://travel.elong.com/hotel/",
     thumb: "elong.png"
 };
 bookmark[7][7] = {
     title: "布丁酒店连锁",
-    url: "http://p.yiqifa.com/c?s=3f420231&w=253302&c=6370&i=18562&l=0&e=win8-1&t=http://www.podinns.com/",
+    url: "https://p.yiqifa.com/c?s=3f420231&w=253302&c=6370&i=18562&l=0&e=win8-1&t=https://www.podinns.com/",
     thumb: "podinns.png"
 };
 bookmark[7][8] = {
     title: "住哪网",
-    url: "http://p.yiqifa.com/c?s=f4ee47e1&w=253302&c=5491&i=12582&l=0&e=win8-1&t=http://www.zhuna.cn/",
+    url: "https://p.yiqifa.com/c?s=f4ee47e1&w=253302&c=5491&i=12582&l=0&e=win8-1&t=https://www.zhuna.cn/",
     thumb: "zhuna.png"
 };
 bookmark[7][9] = {
     title: "同程网",
-    url: "http://p.yiqifa.com/c?s=15f50b00&w=253302&c=7036&i=27402&l=0&e=win8-1&t=http://www.17u.cn",
+    url: "https://p.yiqifa.com/c?s=15f50b00&w=253302&c=7036&i=27402&l=0&e=win8-1&t=https://www.17u.cn",
     thumb: "17u.png"
 };
 bookmark[7][10] = {
     title: "铁友网",
-    url: "http://p.yiqifa.com/c?s=26390d3a&w=253302&c=6451&i=19382&l=0&e=win8-1&t=http://tj.tieyou.com/gw.php",
+    url: "https://p.yiqifa.com/c?s=26390d3a&w=253302&c=6451&i=19382&l=0&e=win8-1&t=https://tj.tieyou.com/gw.php",
     thumb: "tieyou.png"
 };
 bookmark[7][11] = {
     title: "芒果网",
-    url: "http://p.yiqifa.com/c?s=ff90ab53&w=253302&c=5112&i=9542&l=0&e=win8-1&t=http://www.mangocity.com/",
+    url: "https://p.yiqifa.com/c?s=ff90ab53&w=253302&c=5112&i=9542&l=0&e=win8-1&t=https://www.mangocity.com/",
     thumb: "mangocity.png"
 };
 bookmark[8][0] = {
     title: "资源海",
-    url: "http://www.ziyuanhai.com/",
+    url: "https://www.ziyuanhai.com/",
     thumb: "ziyuanhai.png"
 };
 bookmark[8][1] = {
     title: "小众软件",
-    url: "http://www.appinn.com/",
+    url: "https://www.appinn.com/",
     thumb: "appinn.png"
 };
 bookmark[8][2] = {
     title: "杂碎后院",
-    url: "http://www.zasv.com/",
+    url: "https://www.zasv.com/",
     thumb: "zasv.png"
 };
 bookmark[8][3] = {
     title: "儿歌下载",
-    url: "http://www.81baobao.com/",
+    url: "https://www.81baobao.com/",
     thumb: ""
 };
 bookmark[8][4] = {
     title: "完美者论坛",
-    url: "http://www.wmzhe.com/",
+    url: "https://www.wmzhe.com/",
     thumb: "wmzhe.png"
 };
 bookmark[8][5] = {
     title: "verycd",
-    url: "http://www.verycd.com/",
+    url: "https://www.verycd.com/",
     thumb: "verycd.png"
 };
 bookmark[8][6] = {
     title: "狗狗搜索",
-    url: "http://www.gougou.com/",
+    url: "https://www.gougou.com/",
     thumb: "gougou.png"
 };
 bookmark[8][7] = {
     title: "人人影视",
-    url: "http://yyets.com/",
+    url: "https://yyets.com/",
     thumb: "yyets.png"
 };
 bookmark[8][8] = {
     title: "异次元软件世界",
-    url: "http://www.iplaysoft.com/",
+    url: "https://www.iplaysoft.com/",
     thumb: "iplaysoft.png"
 };
 bookmark[8][9] = {
     title: "射手网",
-    url: "http://www.shooter.cn/",
+    url: "https://www.shooter.cn/",
     thumb: "shooter.png"
 };
 bookmark[8][10] = {
     title: "远景论坛",
-    url: "http://www.pcbeta.com/",
+    url: "https://www.pcbeta.com/",
     thumb: "pcbeta.png"
 };
 bookmark[8][11] = {
     title: "3DM游戏网",
-    url: "http://bbs.3dmgame.com/",
+    url: "https://bbs.3dmgame.com/",
     thumb: "3dmgame.png"
 };

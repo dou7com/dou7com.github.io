@@ -1,6 +1,6 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta https-equiv="Content-Type" content="text/html; charset=gb2312">
 <style type=text/css>
 <!--
  td,body {  font-size: 15px; font-family:arial,sans-serif,宋体;}body{margin-top:0px;margin-left:0px;margin-right:0px;background-color: #fcfff7} a:link{ color:#000000; text-decoration:none;padding-left:4px; }     a:visited{COLOR: #000000; TEXT-DECORATION: none;padding-left:4px;} a:active{color:green;text-decoration:none;padding-left:4px;}a:hover{color:red;text-decoration:underline;padding-left:4px;}
@@ -137,37 +137,37 @@ function haoSubSearch(sc){
 	if(sc != "baidu"){
 		if(sc == "post")
 		{
-		    f.action = "http://tieba.baidu.com/f";
+		    f.action = "https://tieba.baidu.com/f";
 
 		}
 		else if(sc == "zhidao")
 		{
-			f.action = "http://zhidao.baidu.com/q";
+			f.action = "https://zhidao.baidu.com/q";
 
 		}
 		else if(sc == "mp3")
 		{
-			f.action = "http://mp3.baidu.com/m";
+			f.action = "https://mp3.baidu.com/m";
 
 		}
 		else if(sc == "img")
 		{
-			f.action = "http://image.baidu.com/i";
+			f.action = "https://image.baidu.com/i";
 
 		}
 		else if(sc == "news")
 		{
-			f.action = "http://news.baidu.com/ns";
+			f.action = "https://news.baidu.com/ns";
 
 		}
 		else if(sc == "video")
 		{
-			f.action = "http://video.baidu.com/v";
+			f.action = "https://video.baidu.com/v";
 
 		}
 		else
 		{
-			f.action = "http://www.baidu.com/s";
+			f.action = "https://www.baidu.com/s";
 
 		}
 		f.sc.value = sc;
@@ -180,7 +180,7 @@ function haoSubSearch(sc){
 
 function haoGoSoba(){
 
-	f.action = "http://www.baidu.com/s";
+	f.action = "https://www.baidu.com/s";
 	f.kw.value = f.word.value;
 }
 function G(id)
@@ -224,7 +224,7 @@ function goSearch(){
      <td height="51" align="center">
 <p class="WB">
 <table width=100% border=0 cellspacing=0 cellpadding=0 style="margin-bottom:-6px "><tr><td width=2 height=18> </td><td  valign=bottom class=searchfod1 id=haoweb onClick="haoSubSearch('web');goSearch()" onmousedown="ClickMonkey.log('haoweb');" >网 页</td><td width="4"></td><td valign=bottom class=searchfod2 id=haomp3 onClick="haoSubSearch('mp3');goSearch()" onmousedown="ClickMonkey.log('haomp3');" >MP3</td> <td width="4"></td><td valign=bottom   class=searchfod2 id=haoimg onClick="haoSubSearch('img');goSearch()" onmousedown="ClickMonkey.log('haoimg');" >图 片</td><td width="4"></td><td valign=bottom class=searchfod2 id=haopost onClick="haoSubSearch('post');goSearch()" onmousedown="ClickMonkey.log('haopost');" >贴 吧</td><td width="4"></td><td  valign=bottom class=searchfod2 id=haozhidao onClick="haoSubSearch('zhidao');goSearch()" onmousedown="ClickMonkey.log('haozhidao');" >知 道</td><td width="4"></td><td  valign=bottom class=searchfod2 id=haonews onClick="haoSubSearch('news');goSearch()" onmousedown="ClickMonkey.log('haonews');" >新 闻</td><td width="4"></td><td valign=bottom class=searchfod2 id=haovideo onClick="haoSubSearch('video');goSearch()" onmousedown="ClickMonkey.log('haovideo');">视 频</td><td width="4"></td><td  width=240 valign=bottom> </td></tr></table>
-<table border="0" cellspacing="0" cellpadding="0" id=FrP><tr><form onSubmit="return haoValidate();" action=http://www.baidu.com/s name=f><td align="left"><INPUT type=hidden name=kw><INPUT type=hidden name=sc><input type=hidden name=cl value=3><input type=hidden name=tn value=hao123><input type=hidden name=ct><input type=hidden name=rn><input type=hidden name=lm><input type=hidden name=ie><input type=hidden name=rs2><input type=hidden name=myselectvalue><input type=hidden name=f><input type=hidden name=pv><input type=hidden name=z><input type=hidden name=from>
+<table border="0" cellspacing="0" cellpadding="0" id=FrP><tr><form onSubmit="return haoValidate();" action=https://www.baidu.com/s name=f><td align="left"><INPUT type=hidden name=kw><INPUT type=hidden name=sc><input type=hidden name=cl value=3><input type=hidden name=tn value=hao123><input type=hidden name=ct><input type=hidden name=rn><input type=hidden name=lm><input type=hidden name=ie><input type=hidden name=rs2><input type=hidden name=myselectvalue><input type=hidden name=f><input type=hidden name=pv><input type=hidden name=z><input type=hidden name=from>
 <input type="text" name="word" size=38 maxlength="100" class="kw" id="kww"  style="margin-bottom:-5px; font-size:16px;height:1.78em;font-family:arial,sans-serif,宋体;padding-top:2px; padding-left:1px"> <input type=submit value=百度一下 style="height:1.82em;width:6.4em;font-size:16px; margin-bottom:-5px; padding-top:2px"  class=sb monkey="submit">
 </span>
 </td>
@@ -245,7 +245,7 @@ window.onload = function(){
 <div align="center"><center>
  <table border=0 cellPadding=0 cellSpacing=0 width=778 height=1><tr align=center><td height="1" bgcolor="C1D0D7"></td></tr></table>
 <table width=778 height=25 bgcolor=#EEF7FF border=0 cellspacing=0 cellspadding=2><tr>
-<td width="50%" class="f9pt" style="color:#424242 "> <a href="http://www.hao123.com" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.hao123.com/');return(false);" style="behavior: url(#default#homepage); color:#D35E04"><img src="../../images/home.gif" width="15" height="15" border="0" align="absmiddle"> 把hao123设为主页</a>　　<a href="../../book/"><img src="../../images/notebook.gif" width="15" height="15" border="0" align="absmiddle"> 网友留言</a></td><td align="right" class="f9pt" style="color:#424242; padding-right:10px"><a href="/" target=_self style="color:#424242 ">首页</a> > 免费杀毒软件</td></tr></table>
+<td width="50%" class="f9pt" style="color:#424242 "> <a href="https://www.hao123.com" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('https://www.hao123.com/');return(false);" style="behavior: url(#default#homepage); color:#D35E04"><img src="../../images/home.gif" width="15" height="15" border="0" align="absmiddle"> 把hao123设为主页</a>　　<a href="../../book/"><img src="../../images/notebook.gif" width="15" height="15" border="0" align="absmiddle"> 网友留言</a></td><td align="right" class="f9pt" style="color:#424242; padding-right:10px"><a href="/" target=_self style="color:#424242 ">首页</a> > 免费杀毒软件</td></tr></table>
 </center></div>
 <div align="center" onmousedown="bdRecord.scope(event)"><center>
 <div class="t1 bgg">
@@ -253,14 +253,14 @@ window.onload = function(){
   <tr align="center" bgcolor="C5D5C5">
     <td bgcolor="C5D5C5" class="f9pt"><table width="100%"  border="0" cellspacing="1" cellpadding="0">
       <tr>        
-        <td width="50%" bgcolor="#EFF7F0" class="td1"><a href="http://j.union.ijinshan.com/jump.php?u_key=552"><img src="../images/kingsoft_free.jpg" width="60" height="64"  border="0" align="absmiddle">　金山毒霸</a>　<font color="#666666" size="2">永久免费</font></td>
-      <td width="50%" bgcolor="#EFF7F0" class="td1"><a href="http://www.antiyfx.com/"><img src="../images/at7_free.jpg" width="60" height="64"  border="0" align="absmiddle">　安天防线</a>　<font color="#666666" size="2">终身免费</font></td>
+        <td width="50%" bgcolor="#EFF7F0" class="td1"><a href="https://j.union.ijinshan.com/jump.php?u_key=552"><img src="../images/kingsoft_free.jpg" width="60" height="64"  border="0" align="absmiddle">　金山毒霸</a>　<font color="#666666" size="2">永久免费</font></td>
+      <td width="50%" bgcolor="#EFF7F0" class="td1"><a href="https://www.antiyfx.com/"><img src="../images/at7_free.jpg" width="60" height="64"  border="0" align="absmiddle">　安天防线</a>　<font color="#666666" size="2">终身免费</font></td>
       </tr>
       <tr>
         <td bgcolor="#EFF7F0" class="td1"><font color="#346F0E">下载提示：</font><br>
-            <a href="http://j.union.ijinshan.com/jump.php?u_key=552">点这里到 –> 官方网站下载</a>　</td>
+            <a href="https://j.union.ijinshan.com/jump.php?u_key=552">点这里到 –> 官方网站下载</a>　</td>
       <td bgcolor="#EFF7F0" class="td1"><font color="#346F0E">下载提示：</font><br>
-          <a href="http://www.antiyfx.com/">点这里到 –> 官方网站下载</a>　</td>
+          <a href="https://www.antiyfx.com/">点这里到 –> 官方网站下载</a>　</td>
       </tr>
     </table></td>
   </tr>
@@ -272,14 +272,14 @@ window.onload = function(){
   <tr align="center" bgcolor="C5D5C5">
     <td bgcolor="C5D5C5" class="f9pt"><table width="100%"  border="0" cellspacing="1" cellpadding="0">
       <tr>
-        <td width="50%" bgcolor="#EFF7F0" class="td1"><a href="http://www.microsoft.com/Security_Essentials/Default_zh_cn.aspx"><img src="../images/mse_free.jpg" width="60" height="64"  border="0" align="absmiddle">　mse</a>　<font color="#666666" size="2">需通过微软正版认证 </font></td>
-        <td width="50%" bgcolor="#EFF7F0" class="td1"><a href="http://www.rising.com.cn/"><img src="../images/rav_free.jpg" width="60" height="64"  border="0" align="absmiddle">　瑞星杀毒</a>　<font color="#666666" size="2">永久免费</font></td>
+        <td width="50%" bgcolor="#EFF7F0" class="td1"><a href="https://www.microsoft.com/Security_Essentials/Default_zh_cn.aspx"><img src="../images/mse_free.jpg" width="60" height="64"  border="0" align="absmiddle">　mse</a>　<font color="#666666" size="2">需通过微软正版认证 </font></td>
+        <td width="50%" bgcolor="#EFF7F0" class="td1"><a href="https://www.rising.com.cn/"><img src="../images/rav_free.jpg" width="60" height="64"  border="0" align="absmiddle">　瑞星杀毒</a>　<font color="#666666" size="2">永久免费</font></td>
       </tr>
       <tr>
         <td bgcolor="#EFF7F0" class="td1"><font color="#346F0E">下载提示：</font><br>
-            <a href="http://www.microsoft.com/Security_Essentials/Default_zh_cn.aspx">点这里到 –> 官方网站下载</a>　</td>
+            <a href="https://www.microsoft.com/Security_Essentials/Default_zh_cn.aspx">点这里到 –> 官方网站下载</a>　</td>
         <td bgcolor="#EFF7F0" class="td1"><font color="#346F0E">下载提示：</font><br>
-            <a href="http://www.rising.com.cn/">点这里到 –> 官方网站下载</a>　</td>
+            <a href="https://www.rising.com.cn/">点这里到 –> 官方网站下载</a>　</td>
       </tr>
     </table></td>
   </tr>
@@ -289,16 +289,16 @@ window.onload = function(){
 	<tr align="center" bgcolor="C5D5C5">
     <td bgcolor="C5D5C5" class="f9pt"><table width="100%"  border="0" cellspacing="1" cellpadding="0">
       <tr>
-        <td width="50%" bgcolor="#EFF7F0" class="td1"><a href="http://www.free-av.com/"><img src="../images/av_free.jpg" width="60" height="64"  border="0" align="absmiddle">　Avira AntiVir
+        <td width="50%" bgcolor="#EFF7F0" class="td1"><a href="https://www.free-av.com/"><img src="../images/av_free.jpg" width="60" height="64"  border="0" align="absmiddle">　Avira AntiVir
 </a>　</td>
-        <td width="50%" bgcolor="#EFF7F0" class="td1"><a href="http://www.avg.com/"><img src="../images/avg_free.jpg" width="60" height="64"  border="0" align="absmiddle">　AVG免费杀毒
+        <td width="50%" bgcolor="#EFF7F0" class="td1"><a href="https://www.avg.com/"><img src="../images/avg_free.jpg" width="60" height="64"  border="0" align="absmiddle">　AVG免费杀毒
 </a>　</td>
       </tr>
       <tr>
         <td bgcolor="#EFF7F0" class="td1"><font color="#346F0E">下载提示：</font><br>
-            <a href="http://www.free-av.com/">点这里到 –> 官方网站下载</a>　</td>
+            <a href="https://www.free-av.com/">点这里到 –> 官方网站下载</a>　</td>
         <td bgcolor="#EFF7F0" class="td1"><font color="#346F0E">下载提示：</font><br>
-            <a href="http://www.avg.com/">点这里到 –> 官方网站下载</a>　</td>
+            <a href="https://www.avg.com/">点这里到 –> 官方网站下载</a>　</td>
       </tr>
     </table></td>
   </tr>

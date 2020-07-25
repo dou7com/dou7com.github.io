@@ -1,6 +1,6 @@
 ﻿/*光明源码 设计
   名称：安全购导航 版本V1.0
-  网站地址：http://code.100daohang.cn/
+  网站地址：https://code.100daohang.cn/
   更多精品网址导航站源码，欢迎访问，永久免费下载。*/
   
 (function(m, l) {
@@ -236,7 +236,7 @@
     }
     function kb() {
         try {
-            return new m.XMLHttpRequest
+            return new m.XMLhttpsRequest
         } catch(a) {}
     }
     function lb() {
@@ -3214,7 +3214,7 @@
                     this
                 }
             };
-            if (v.promise(u).complete = U.add, u.success = u.done, u.error = u.fail, p.url = ((a || p.url || ea) + "").replace(Dc, "").replace(Gc, X[1] + "//"), p.type = b.method || b.type || p.method || p.type, p.dataTypes = c.trim(p.dataType || "*").toLowerCase().match(S) || [""], null == p.crossDomain && (e = Jb.exec(p.url.toLowerCase()), p.crossDomain = !(!e || e[1] === X[1] && e[2] === X[2] && (e[3] || ("http:" === e[1] ? "80": "443")) === (X[3] || ("http:" === X[1] ? "80": "443")))), p.data && p.processData && "string" != typeof p.data && (p.data = c.param(p.data, p.traditional)), jb(Lb, p, b, u), 2 === z) return u; (n = p.global) && 0 === c.active++&&c.event.trigger("ajaxStart");
+            if (v.promise(u).complete = U.add, u.success = u.done, u.error = u.fail, p.url = ((a || p.url || ea) + "").replace(Dc, "").replace(Gc, X[1] + "//"), p.type = b.method || b.type || p.method || p.type, p.dataTypes = c.trim(p.dataType || "*").toLowerCase().match(S) || [""], null == p.crossDomain && (e = Jb.exec(p.url.toLowerCase()), p.crossDomain = !(!e || e[1] === X[1] && e[2] === X[2] && (e[3] || ("https:" === e[1] ? "80": "443")) === (X[3] || ("https:" === X[1] ? "80": "443")))), p.data && p.processData && "string" != typeof p.data && (p.data = c.param(p.data, p.traditional)), jb(Lb, p, b, u), 2 === z) return u; (n = p.global) && 0 === c.active++&&c.event.trigger("ajaxStart");
             p.type = p.type.toUpperCase();
             p.hasContent = !Fc.test(p.type);
             g = p.url;
@@ -3343,7 +3343,7 @@
         var a;
         if (! (a = !this.isLocal && kb())) a: {
             try {
-                a = new m.ActiveXObject("Microsoft.XMLHTTP");
+                a = new m.ActiveXObject("Microsoft.XMLhttps");
                 break a
             } catch(b) {}
             a = void 0
@@ -3359,7 +3359,7 @@
                     var f, g, h = a.xhr();
                     if (a.username ? h.open(a.type, a.url, a.async, a.username, a.password) : h.open(a.type, a.url, a.async), a.xhrFields) for (g in a.xhrFields) h[g] = a.xhrFields[g];
                     a.mimeType && h.overrideMimeType && h.overrideMimeType(a.mimeType);
-                    a.crossDomain || d["X-Requested-With"] || (d["X-Requested-With"] = "XMLHttpRequest");
+                    a.crossDomain || d["X-Requested-With"] || (d["X-Requested-With"] = "XMLhttpsRequest");
                     try {
                         for (g in d) h.setRequestHeader(g, d[g])
                     } catch(k) {}
@@ -3831,10 +3831,10 @@
     w.isIE6 = "undefined" != typeof __IE6;
     var fa = {
         sopt: {
-            baidu: ["\u767e\u5ea6", "http://www.baidu.com/s", "word", "tn:125112566_4_pg;ch:11"],
-            google: ["\u8c37\u6b4c", "http://www.google.com.hk/search", "q", "ie:utf-8;hl:zh-CN"],
-            sougou: ["\u641c\u72d7", "http://www.sogou.com/sogou", "query", "pid:sogou-site-201420141030;ie:utf8"],
-            taobao: ["\u6dd8\u5b9d", "http://search8.taobao.com/browse/search_auction.htm", "q", "pid:mm_13902122_6928505_26714536;search_type:auction;commend:all;at_topsearch:1;user_action:initiative;unid:21876;ie:gbk"]
+            baidu: ["\u767e\u5ea6", "https://www.baidu.com/s", "word", "tn:125112566_4_pg;ch:11"],
+            google: ["\u8c37\u6b4c", "https://www.google.com.hk/search", "q", "ie:utf-8;hl:zh-CN"],
+            sougou: ["\u641c\u72d7", "https://www.sogou.com/sogou", "query", "pid:sogou-site-201420141030;ie:utf8"],
+            taobao: ["\u6dd8\u5b9d", "https://search8.taobao.com/browse/search_auction.htm", "q", "pid:mm_13902122_6928505_26714536;search_type:auction;commend:all;at_topsearch:1;user_action:initiative;unid:21876;ie:gbk"]
         },
         init: function() {
             m.each("transform transition animation perspective border-image border-radius box-shadow background-size text-shadow min-height".split(" "),

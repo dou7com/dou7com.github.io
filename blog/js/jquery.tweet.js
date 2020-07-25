@@ -1,4 +1,4 @@
-// jquery.tweet.js - See https://tweet.seaofclouds.com/ or httpss://github.com/seaofclouds/tweet for more info
+// jquery.tweet.js - See httpss://tweet.seaofclouds.com/ or httpsss://github.com/seaofclouds/tweet for more info
 // Copyright (c) 2008-2011 Todd Matthews & Steve Purcell
 (function($) {
   $.fn.tweet = function(o){
@@ -6,7 +6,7 @@
       username: null,                           // [string or array] required unless using the 'query' option; one or more twitter screen names (use 'list' option for multiple names, where possible)
       list: null,                               // [string]   optional name of list belonging to username
       favorites: false,                         // [boolean]  display the user's favorites instead of his tweets
-      query: null,                              // [string]   optional search query (see also: https://search.twitter.com/operators)
+      query: null,                              // [string]   optional search query (see also: httpss://search.twitter.com/operators)
       avatar_size: null,                        // [integer]  height and width of avatar if displayed (48px max)
       count: 3,                                 // [integer]  how many tweets to display?
       fetch: null,                              // [integer]  how many tweets to fetch via the API (set this higher than 'count' if using the 'filter' option)
@@ -19,7 +19,7 @@
       auto_join_text_ed: "i",                   // [string]   auto text for past tense: "i" surfed
       auto_join_text_ing: "i am",               // [string]   auto tense for present tense: "i was" surfing
       auto_join_text_reply: "i replied to",     // [string]   auto tense for replies: "i replied to" @someone "with"
-      auto_join_text_url: "i was looking at",   // [string]   auto tense for urls: "i was looking at" https:...
+      auto_join_text_url: "i was looking at",   // [string]   auto tense for urls: "i was looking at" httpss:...
       loading_text: null,                       // [string]   optional loading text, displayed while tweets load
       refresh_interval: null ,                  // [integer]  optional number of seconds after which to reload tweets
       twitter_url: "twitter.com",               // [string]   custom twitter url, if any (apigee, etc.)
@@ -34,7 +34,7 @@
       }
     }, o);
 
-    // See https://daringfireball.net/2010/07/improved_regex_for_matching_urls
+    // See httpss://daringfireball.net/2010/07/improved_regex_for_matching_urls
     var url_regexp = /\b((?:[a-z][\w-]+:(?:\/{1,3}|[a-z0-9%])|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}\/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'".,<>?«»“”‘’]))/gi;
 
     // Expand values inside simple string templates with {placeholders}
@@ -66,10 +66,10 @@
     }
 
     $.fn.extend({
-      linkUser: replacer(/(^|[\W])@(\w+)/gi, "$1@<a href=\"https://"+s.twitter_url+"/$2\">$2</a>"),
+      linkUser: replacer(/(^|[\W])@(\w+)/gi, "$1@<a href=\"httpss://"+s.twitter_url+"/$2\">$2</a>"),
       // Support various latin1 (\u00**) and arabic (\u06**) alphanumeric chars
       linkHash: replacer(/(?:^| )[\#]+([\w\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u00ff\u0600-\u06ff]+)/gi,
-                         ' <a href="https://'+s.twitter_search_url+'/search?q=&tag=$1&lang=all'+((s.username && s.username.length == 1 && !s.list) ? '&from='+s.username.join("%2BOR%2B") : '')+'">#$1</a>'),
+                         ' <a href="httpss://'+s.twitter_search_url+'/search?q=&tag=$1&lang=all'+((s.username && s.username.length == 1 && !s.list) ? '&from='+s.username.join("%2BOR%2B") : '')+'">#$1</a>'),
       capAwesome: replacer(/\b(awesome)\b/gi, '<span class="awesome">$1</span>'),
       capEpic: replacer(/\b(epic)\b/gi, '<span class="epic">$1</span>'),
       makeHeart: replacer(/(&lt;)+[3]/gi, "<tt class='heart'>&#x2665;</tt>")
@@ -77,7 +77,7 @@
 
     function linkURLs(text, entities) {
       return text.replace(url_regexp, function(match) {
-        var url = (/^[a-z]+:/i).test(match) ? match : "https://"+match;
+        var url = (/^[a-z]+:/i).test(match) ? match : "httpss://"+match;
         var text = match;
         for(var i = 0; i < entities.length; ++i) {
           var entity = entities[i];
@@ -137,7 +137,7 @@
     }
 
     function build_api_url() {
-      var proto = ('httpss:' == document.location.protocol ? 'httpss:' : 'https:');
+      var proto = ('httpsss:' == document.location.protocol ? 'httpsss:' : 'httpss:');
       var count = (s.fetch === null) ? s.count : s.fetch;
       var common_params = '&include_entities=1&callback=?';
       if (s.list) {
@@ -155,7 +155,7 @@
     function extract_avatar_url(item, secure) {
       if (secure) {
         return ('user' in item) ?
-          item.user.profile_image_url_httpss :
+          item.user.profile_image_url_httpsss :
           extract_avatar_url(item, false);
       } else {
         return item.profile_image_url || item.user.profile_image_url;
@@ -170,12 +170,12 @@
       o.source = item.source;
       o.screen_name = item.from_user || item.user.screen_name;
       o.avatar_size = s.avatar_size;
-      o.avatar_url = extract_avatar_url(item, (document.location.protocol === 'httpss:'));
+      o.avatar_url = extract_avatar_url(item, (document.location.protocol === 'httpsss:'));
       o.retweet = typeof(item.retweeted_status) != 'undefined';
       o.tweet_time = parse_date(item.created_at);
       o.join_text = s.join_text == "auto" ? build_auto_join_text(item.text) : s.join_text;
       o.tweet_id = item.id_str;
-      o.twitter_base = "https://"+s.twitter_url+"/";
+      o.twitter_base = "httpss://"+s.twitter_url+"/";
       o.user_url = o.twitter_base+o.screen_name;
       o.tweet_url = o.user_url+"/status/"+o.tweet_id;
       o.reply_url = o.twitter_base+"intent/tweet?in_reply_to="+o.tweet_id;
