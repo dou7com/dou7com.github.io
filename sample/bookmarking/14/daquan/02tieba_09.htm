@@ -1,0 +1,85 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta HTTP-EQUIV="REFRESH" 
+CONTENT="1;URL=http://www.hao123.com/daquan/02tieba.htm">
+<link rel="stylesheet" href="../38jie/images/font.css" type="text/css">
+<base target=_blank>
+<title>hao123网址之家----百度热门贴吧列表</title>
+<style type="text/css">
+<!--
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.f20{font-size:15pt; color:green; line-height:38px}
+.f30{font-size:9pt; line-height:14px}
+-->
+</style>
+<script>
+function gowhere(formname)
+{
+ var url;
+ if (formname.myselectvalue.value == "1")
+ {
+  url = "http://post.baidu.com/f";
+  if(formname.word.value=="" || formname.word.value==null){
+    formname.tn.value = "sitehao123";
+    formname.ct.value = "318767104";
+    formname.kw.value = "";
+    formname.rn.value = "50";
+    formname.lm.value = "0";
+    formname.pn.value = "0";
+  }
+  else {
+  formname.tn.value = "sitehao123";
+  formname.ct.value = "";
+
+  formname.rn.value = "";
+  formname.lm.value = "";
+  formname.pn.value = "";
+
+  formname.kw.value=formname.word.value
+  }
+
+ }
+ if (formname.myselectvalue.value == "0")
+ {
+  url = "http://post.baidu.com/f";
+  formname.tn.value = "baiduPostSearch";
+  formname.ct.value = "352321536";
+  formname.lm.value = "65536";
+  formname.rn.value = "10";
+
+  formname.kw.value="";
+
+ }
+  if (formname.myselectvalue.value == "2")
+ {
+  url = "http://post.baidu.com/f";
+  formname.tn.value = "baiduPostSearch";
+  formname.ct.value = "352321536";
+  formname.lm.value = "65541";
+  formname.rn.value = "10";
+
+  formname.kw.value="";
+
+ }
+
+formname.action = url;
+return true;
+}
+</script>  		
+</head>
+
+<body>
+<p>正在调入，请稍后…………………</p>
+<p>　</p>
+<p>　</p>
+<p>　</p>
+<p>　</p>
+<p>　</p>
+<p align="center"><font color="#FF0000">www.hao123.com</font></p>
+</body>
+</html>

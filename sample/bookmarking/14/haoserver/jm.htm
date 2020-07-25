@@ -1,0 +1,165 @@
+<html>
+
+
+
+<head>
+
+<title>解密源文件</title>
+
+<meta content="text/html; charset=gb2312" http-equiv="Content-Type">
+
+<meta content="MSHTML 5.00.2920.0" name="GENERATOR">
+
+</head>
+
+
+
+<body bgColor="#ffffff" text="#000000">
+
+
+<script language="JavaScript">
+
+<!--
+
+var i=0;
+
+var ie=(document.all)?1:0;
+
+var ns=(document.layers)?1:0;
+
+function generate()
+
+	{
+
+		code = document.pad.text.value;
+
+		if (code)
+
+			{
+
+				document.pad.text.value='加密中...';
+
+				setTimeout("compile()",1000);
+
+			}
+
+		else alert('请先把需待加密的代码copy到此框中')
+
+	}
+
+function compile()
+
+	{
+
+		document.pad.text.value='';
+
+		compilation=escape(code);
+
+		document.pad.text.value="<script>\n<!--\ndocument.write(unescape(\""+compilation+"\"));\n//-->\n<\/script>";
+
+		i++;
+
+		if (i=1) alert("代码已编译1次!");
+
+		else alert("代码已编译"+i+"次!");
+
+	}
+
+function selectCode()
+
+	{
+
+		if(document.pad.text.value.length>0)
+
+			{
+
+				document.pad.text.focus();
+
+				document.pad.text.select();
+
+			}
+
+		else alert('无任何内容被选中!')
+
+	}
+
+function preview()
+
+	{
+
+		if(document.pad.text.value.length>0)
+
+			{
+
+				pr=window.open("","Preview","scrollbars=1,menubar=1,status=1,width=700,height=320,left=50,top=110");
+
+				pr.document.write(document.pad.text.value);
+
+			}
+
+		else alert('无任何内容可供预览!')
+
+	}
+
+function uncompile()
+
+	{
+
+		if (document.pad.text.value.length>0)
+
+			{
+
+				source=unescape(document.pad.text.value);
+
+				document.pad.text.value=""+source+"";
+
+			}
+
+		else alert('请把需待还原的代码copy到此框中!')
+
+	}
+
+// -->
+
+</script>
+
+
+
+
+
+<table border="0" cellPadding="0" cellSpacing="0" width="100%">
+
+<TBODY>
+
+  <tr>
+
+    <td width="100%"><form method="post" name="pad" align="center">
+
+      <dd align="center"><div align="center"><center><p><textarea cols="58" name="text" rows="20"
+
+        style="BACKGROUND-COLOR: #ebebeb; WIDTH: 95%"></textarea> <br>
+
+        <input name="select" onclick="selectCode()" type="button" value="选中"> <input
+
+        name="view" onclick="preview()" type="button" value="预览"> <input name="retur"
+
+        onclick="uncompile()" type="button" value="还原"> <input name="clear" type="reset"
+
+        value="清除"> </p>
+
+        </center></div></dd>
+
+    </form>
+
+    </td>
+
+  </tr>
+
+</TBODY>
+
+</table>
+
+</body>
+
+</html>
+

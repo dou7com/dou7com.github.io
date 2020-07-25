@@ -1,0 +1,213 @@
+BODY {
+	FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif", "宋体"; FONT-SIZE: 9pt
+}
+TD {
+	FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif", "宋体"; FONT-SIZE: 9pt
+}
+INPUT {
+	FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif", "宋体"; FONT-SIZE: 9pt
+}
+TEXTAREA {
+	FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif", "宋体"; FONT-SIZE: 9pt
+}
+SELECT {
+	FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif", "宋体"; FONT-SIZE: 9pt
+}
+A {
+	FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif", "宋体"; FONT-SIZE: 9pt
+}
+.tr1 {
+	LINE-HEIGHT: 25px
+}
+HR {
+	COLOR: #bcbdcd
+}
+.isnone {
+	DISPLAY: none
+}
+BODY {
+	SCROLLBAR-ARROW-COLOR: #006699; SCROLLBAR-FACE-COLOR: #eeeeee; SCROLLBAR-DARKSHADOW-COLOR: #98aab1; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #dee3e7; SCROLLBAR-TRACK-COLOR: #ededed; SCROLLBAR-3DLIGHT-COLOR: #d1d7dc
+}
+.text {
+	BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #f7f7f7; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; COLOR: #000000; FONT-SIZE: 9pt; BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid; PADDING-TOP: 1px
+}
+INPUT.text {
+	BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #f7f7f7; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; COLOR: #000000; FONT-SIZE: 9pt; BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid; PADDING-TOP: 1px
+}
+TEXTAREA {
+	BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #f7f7f7; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; COLOR: #000000; FONT-SIZE: 9pt; BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid; PADDING-TOP: 1px
+}
+SELECT {
+	BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #f7f7f7; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; COLOR: #000000; FONT-SIZE: 9pt; BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid; PADDING-TOP: 1px
+}
+INPUT.button {
+	BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #f7f7f7; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; COLOR: #000000; FONT-SIZE: 9pt; BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid; PADDING-TOP: 1px
+}
+A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #cc6600; TEXT-DECORATION: underline
+}
+.border-all {
+	BORDER-BOTTOM: #636563 1px solid; BORDER-LEFT: #636563 1px solid; WIDTH: 758px; BORDER-TOP: #636563 1px solid; BORDER-RIGHT: #636563 1px solid
+}
+.border-l-r {
+	BORDER-BOTTOM-STYLE: none; BORDER-LEFT: #636563 1px solid; WIDTH: 758px; BORDER-TOP-STYLE: none; BORDER-RIGHT: #636563 1px solid
+}
+.smallfont {
+	FONT-FAMILY: arial; COLOR: #cccccc; FONT-SIZE: 10px
+}
+A.nav:link {
+	COLOR: #000000; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.nav:visited {
+	COLOR: #000000; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.nav:hover {
+	COLOR: #999999; FONT-WEIGHT: bold
+}
+A.menulink:link {
+	TEXT-DECORATION: none
+}
+A.menulink:visited {
+	TEXT-DECORATION: none
+}
+A.menulink:hover {
+	TEXT-DECORATION: none
+}
+.content {
+	LINE-HEIGHT: 140%; MARGIN: 5px 20px; FONT-SIZE: 14px
+}
+.newslist_date {
+	WIDTH: 140px; COLOR: #666666
+}
+.newsdetail_toolbarbg {
+	BACKGROUND-COLOR: #eeeeee
+}
+.Newslist_Title_L {
+	BACKGROUND-IMAGE: url(title2_l.gif); WIDTH: 14px; BACKGROUND-REPEAT: repeat-y; BACKGROUND-POSITION: left 50%
+}
+.Newslist_Title_R {
+	BACKGROUND-IMAGE: url(title2_2.gif); WIDTH: 16px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left 50%
+}
+.Newslist_Title_T {
+	BACKGROUND-IMAGE: url(title2_1.gif); FONT-FAMILY: "宋体", "Times New Roman"; HEIGHT: 24px; COLOR: #333333; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.bigfont {
+	FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.line-bg-t {
+	BACKGROUND-IMAGE: url(bg_dian.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION-Y: top
+}
+.line-bg-b {
+	BACKGROUND-IMAGE: url(bg_dian.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION-Y: bottom
+}
+.line-search-t {
+	BACKGROUND-IMAGE: url(bg_dian.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION-Y: top
+}
+.line-search-b {
+	BACKGROUND-IMAGE: url(bg_dian.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION-Y: bottom
+}
+.productlist_unit_topl {
+	BACKGROUND-IMAGE: url(pd_top_l.jpg); WIDTH: 4px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left bottom; HEIGHT: 21px
+}
+.productlist_unit_topc {
+	BACKGROUND-IMAGE: url(pd_top_back.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: center bottom; HEIGHT: 21px
+}
+.productlist_unit_topr {
+	BACKGROUND-IMAGE: url(pd_top_r.jpg); WIDTH: 5px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right bottom; HEIGHT: 21px
+}
+.productlist_unit_more {
+	BACKGROUND-IMAGE: url(more.gif); WIDTH: 36px; HEIGHT: 13px
+}
+.productlist_unit_middlel {
+	BACKGROUND-IMAGE: url(pd_middle_l.jpg); WIDTH: 4px; BACKGROUND-REPEAT: repeat-y; BACKGROUND-POSITION: right 50%
+}
+.productlist_unit_middler {
+	BACKGROUND-IMAGE: url(pd_middle_r.jpg); WIDTH: 5px; BACKGROUND-REPEAT: repeat-y; BACKGROUND-POSITION: left 50%
+}
+.productlist_unit_bottoml {
+	BACKGROUND-IMAGE: url(pd_bottom_l.jpg); WIDTH: 4px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right 50%; HEIGHT: 4px
+}
+.productlist_unit_bottomc {
+	BACKGROUND-IMAGE: url(pd_bottom_back.jpg); BACKGROUND-REPEAT: repeat-x; HEIGHT: 4px
+}
+.productlist_unit_bottomr {
+	BACKGROUND-IMAGE: url(pd_bottom_r.jpg); WIDTH: 5px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left 50%; HEIGHT: 4px
+}
+.productlist_line {
+	BACKGROUND-IMAGE: url(bg_dian.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION-Y: bottom
+}
+.productlist_text_order_split {
+	BACKGROUND-COLOR: #88889e; HEIGHT: 1px
+}
+.productlist_order_img {
+	BACKGROUND-IMAGE: url(buy.gif); WIDTH: 81px; HEIGHT: 20px
+}
+.cart_title_pic {
+	BACKGROUND-IMAGE: url(car2.gif); WIDTH: 142px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left 50%; HEIGHT: 26px
+}
+.Messageboard_bgLineH {
+	BACKGROUND-COLOR: #66667e
+}
+.Messageboard_bgLineV {
+	
+}
+.Messageboard_TextBox {
+	BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BORDER-COLLAPSE: collapse; BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid
+}
+.Messageboard_TextBox_1 {
+	BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BACKGROUND-COLOR: #f3f3f3; BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid
+}
+.Messageboard_TextBox_2 {
+	BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BACKGROUND-COLOR: #fdfdfd; BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid
+}
+.Messageboard_insist {
+	COLOR: #ff0000
+}
+.Messageboard_locktext {
+	BORDER-BOTTOM: #f3f3f3 1px solid; BORDER-LEFT: #f3f3f3 1px solid; BACKGROUND-COLOR: #f3f3f3; BORDER-TOP: #f3f3f3 1px solid; BORDER-RIGHT: #f3f3f3 1px solid
+}
+.Messageboard_TitleBar {
+	BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BACKGROUND-COLOR: #e8e8e8; BORDER-COLLAPSE: collapse; HEIGHT: 34px; BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid
+}
+.Messageboard_TitleBar_R {
+	WIDTH: 5px
+}
+.Messageboard_TitleBar_L {
+	WIDTH: 5px
+}
+.Messageboard_TitleBar_T {
+	FONT-FAMILY: "宋体", "Times New Roman"; COLOR: #333333; FONT-SIZE: 12px
+}
+.Messageboard_Border_L {
+	WIDTH: 4px
+}
+.Messageboard_Border_R {
+	WIDTH: 4px
+}
+.Messageboard_Hemline {
+	HEIGHT: 6px
+}
+.Messageboard_Hemline_L {
+	WIDTH: 6px
+}
+.Messageboard_Hemline_R {
+	WIDTH: 6px
+}
+.Messageboard_info_1 {
+	BACKGROUND-IMAGE: url(MsgInfo.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right 50%
+}
+.Messageboard_info_2 {
+	BACKGROUND-IMAGE: url(MsgWarn.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right 50%
+}
+.Messageboard_info_3 {
+	BACKGROUND-IMAGE: url(MsgError.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right 50%
+}
+.Messageboard_Hemline_T {
+	
+}
+.Messageboard_rewrite {
+	COLOR: #000000
+}

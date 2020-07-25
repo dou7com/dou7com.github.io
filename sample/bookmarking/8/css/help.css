@@ -1,0 +1,31 @@
+@charset "utf-8";
+*{ margin:0; padding:0; }
+body { font-size: 15px; }
+ul{ list-style: none; }
+img{ border-width: 0px; }
+A { COLOR: #000000; TEXT-DECORATION: none }
+A:hover { COLOR: #FF0000; TEXT-DECORATION: underline }
+.clear{ clear:both; height:0px; width:0px; font-size:0px; line-height:0px; }
+
+#so { width: 876px; margin: 0px auto; }
+
+#hb{ margin: 0px auto; width: 876px; }
+#hb .la{ line-height: 24px; color: #929292; font-size: 12px; float: left; }
+#hb .lb{ float: right; font-size: 12px; line-height: 28px; }
+
+#hp{ margin: 0px auto; width: 876px; height: 502px; }
+#hp .hl{ float: left; width: 140px; height: 488px; padding: 12px 15px 0px; background: #F2FCFF; border-top: 2px solid #CDE0F3; border-right: 1px solid #CDE0F3; border-bottom: 1px solid #CDE0F3; border-left: 1px solid #CDE0F3; }
+#hp .hr{ float: left; width: 653px; height: 475px; border-top: 2px solid #CDE0F3; border-right: 1px solid #CDE0F3; border-bottom: 1px solid #CDE0F3; padding: 15px 25px 10px; color: #333333; font-size: 13px; }
+#hp .hb{ text-align: center; font-weight: bold; }
+#hp .bb{ color: #6A6AFF; }
+#hp p{ line-height: 25px; }
+.hl a{ display: block; text-align: center; height: 45px; line-height: 45px; border-bottom: 1px solid #CDE0F3; font-weight: bold; color: #666666; }
+
+
+
+#floot{ margin: 0px auto; font-size: 13px; width: 750px; line-height: 40px; }
+#floot a{ float: left; display: block; }
+#floot .f1{ float: left; text-align: center; width: 20px; color: #CCCCCC; }
+#floot .f2{ color: #666666; float: left; font-family: "宋体"; margin-left: 15px; }
+
+a.bj{ color: #999999; line-height: 24px; }

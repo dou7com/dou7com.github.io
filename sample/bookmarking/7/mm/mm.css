@@ -1,0 +1,119 @@
+
+*{margin:0;padding:0;text-decoration:none;font-family:Verdana,Arial;}
+body{}
+a{ color:#000000;}
+a:hover{text-decoration:underline;color:#f00;}
+img{border:none;}
+ul li{text-align:center;list-style:none}
+.line{clear:both;display:block;margin:6px 0;height:1px;overflow:hidden;}
+p a:hover,span a:hover{color:#F00}
+.kill{ height:0px; overflow:hidden; display:block; clear:both;}
+.sp5{ height:5px;}
+.sp10{ height:10px;}
+.sp20{ height:20px;}
+#navs{ position:absolute; z-index:99; left:160px; _left:150px; top:33px!important; top:35px; width:740px; height:56px; padding:16px 28px 12px; white-space:nowrap; border:1px solid #abc; background:#F1F4F8; display:none;
+-moz-box-shadow:1px 1px 5px #ddd;               /* ff */
+-webkit-box-shadow:1px 1px 5px #ddd;            /* chrome,safari */
+box-shadow:1px 1px 5px #ddd;                    /* Op */
+}
+#navs ul li{ float:left; height:24px; line-height:24px;}
+#navs ul li a{ color:#1D63A3; padding:6px 8px; font:bold 14px/24px "Î¢ÈíÑÅºÚ","ËÎÌå";}
+#navs ul li a:hover{ color:#f00;}
+.bbla-title, .bbla-title h1{font-size:12px;line-height:25px;text-indent:30px;margin:0 0 5px 0;font-weight:bold;}
+.bbla-banner{ font-size:12px;zoom: 1;background:rgba(255, 255, 255, 0.5) none repeat scroll 0 0 !important;filter:Alpha(opacity=50);background:#ffffff;}
+.bbla-banner div{ width:980px; margin:0 auto; padding:3px 0 0 0; height:34px; line-height:31px; overflow:hidden; position:relative;}
+.bbla-banner-shadow{ height:8px; width:100%; padding:0;}
+.banleft{ float:left; width:500px; font-family:simsun;}
+.banleft a{ color:#f00;}
+.banright{float:right;}
+.banright a{ padding:0 5px 0 4px; color:#222222;}
+.banright a:hover{ color:#FF0000;}
+.banright a#cgpifu{ padding:0 0 0 20px; background:url("../images/style.gif") no-repeat; background-position:2px center!important; background-position:2px 0;}
+.banright a#sethome{ padding:0 2px 0 20px; background:url("../images/home.gif") no-repeat 2px center;}
+#style{ background:#fff; display:none; border-bottom:1px solid #eee;}
+.bbla-instyle{ width:938px; margin:-12px auto 0; height:auto; overflow:hidden; padding:24px 0 19px; font-size:12px;}
+.bbla-instyle div{ height:20px; line-height:20px; padding:0 0 10px 0;}
+.bbla-instyle div b{ font-weight:normal;}
+.bbla-instyle div a{ cursor:pointer; padding:0 0 0 5px!important; padding:0 0 0 7px;}
+.bbla-instyle div.stycolor{ height:20px;}
+.bbla-instyle div.stybg{ height:40px;}
+.bbla-instyle input{ padding:2px 8px 0; font-size:12px;}
+.bbla-top{height:117px;width:1000px;margin:3px auto 0;}
+.bbla-logo{float:left;height:103px;width:284px;}
+.bbla-logo a{ padding:33px 0 0 62px;display:block;height:47px;}
+.bbla-logo a:hover{ background:url("../images/back.gif") no-repeat 130px 12px;}
+a.red{ color:#ee0000;}
+
+.banright a#sethome{ padding:0 4px 0 20px; background:url("../images/bblabg.gif") no-repeat 1px 2px;}
+.banright a#bblacn{  padding:0 4px 0 24px; background:url("../images/bblabg.gif") no-repeat -197px 2px;}
+
+#ly{margin:0 auto 10px;width:1000px;}
+.mallnav{ font:bold 14px/38px Verdana; height:38px; border:0px solid #BF0D11; background:#54A733 url("images/malltop2.gif") repeat-x; position:relative;
+-moz-box-shadow:1px 1px 5px #ddd;
+-webkit-box-shadow:1px 1px 5px #ddd;
+box-shadow:1px 1px 5px #ddd; display:none;
+}
+
+
+
+
+.bbla-title, #right p, #right p#tab a.thea{ color:#EB5B4B;}
+#search #sbmain #sbse, #search #sbmclass ul li a.cur{ background:#F27753; border:1px solid #D43700;}
+#search #sbmclass ul li a.cur{ border-bottom:none;}
+#search .sbsetext{ border:1px solid #D43700;}
+.oneborder{border:1px solid #FB5100;}
+.twoborder{border:1px solid #D43700;}
+.bbla-banner{ border-bottom:1px solid #E8C0B3;}
+body{background:#fff url("../images/mallcbg.gif") repeat-x left 0px;}
+#ly #tab,
+#ly #tab b{ border-color:#D43700;}
+#ly #tab b a{ background:#FB5100; color:#854C29;}
+
+.mallfoot{ background:#f6f6f6 url("../images/mall/mallfoot.gif") repeat-x left top; height:120px;}
+.mallinfoot{ width:974px; margin:0 auto;}
+.mfgood{ height:71px; background:url("../images/mall/mfgood.gif") no-repeat center top;}
+.mallfoot p{ font:normal 12px/30px verdana; color:#888; text-align:center; padding:20px 0 0 0;}
+.mallfoot p a{ color:#96694E;}
+.mallfoot p b,
+.mallfoot p b a{ color:#F31473;}
+
+#bottom{height:38px;margin:10px auto 0;width:938px; padding:20px 0 0 0; display:none;}
+#bottom p{text-align:center;font-size:12px;height:24px;line-height:24px;}
+#bottom p a{ padding:0 5px 0 4px; color:#000000;}
+
+
+.msite{ border:1px solid #ccc; background:#fff; box-shadow:0px 1px 3px #eee;}
+.msite h1{ font:bold 12px/30px verdana; height:30px; color:#666; text-indent:3px; border-bottom:1px solid #e2e2e2; background:#f3f4f5;}
+.msite h1 a{ color:#666; cursor:pointer; padding:0 10px;}
+.msite h1 a.curmsite{ color:#F31473; font-size:12px; font-weight:bold;}
+.msite ul{ padding:15px 0 15px 49px;}
+.msite ul li{ float:left; width:150px; text-align:left; font:normal 14px/27px verdana; height:27px; overflow:hidden;}
+.msite ul.hotgirl li{ width:83px;}
+.msite ul li a{ color:#369;}
+.msite ul li a:hover{ color:#f00;}
+
+.mpic{ border:1px solid #ccc; background:#fff; border-bottom:0; box-shadow:0px 1px 3px #eee;}
+.mpic h3{ font:bold 12px/34px verdana; color:#666; text-indent:15px; border-bottom:1px solid #ddd;}
+.mpic h3 span{ font:normal 12px/34px verdana; color:#ddd;}
+.mpic h3 a{ color:#369;}
+.mpic ul{ padding:0 0 0 49px;}
+.mpic ul li{ float:left; text-align:center; margin:0 13px 13px 0; position:relative;}
+.mpic ul li a img{ border:none; width:136px; height:180px; display:block; background:#aaa;}
+.mpic ul li p{ font:normal 12px/24px verdana; color:#666; position:absolute; bottom:0; background:#333; color:#fff; width:136px; text-align:center; display:none;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+filter:alpha(opacity=80);
+opacity: 0.8;
+}
+
+.announce{ padding:20px 20px 60px; border:1px solid #dde; background:#fff; margin:120px 0 0;}
+.announce h1{ font:bold 15px/40px 'Microsoft YaHei', Î¢ÈíÑÅºÚ, arial, Lucida Grande, Tahoma, sans-serif; color:#f00;}
+.announce p{ font:normal 14px/24px verdana; text-indent:2em; padding:10px 0; color:#666;}
+
+.asearch{ padding:30px 0 0 180px;}
+.asearch div{ float:left; padding:0 5px;}
+.asearch div.seimg{}
+.asearch div.setxt input{ height:32px; line-height:32px; background:none; border:1px solid #aaa; outline:none; font-size:12px; padding:0 10px; color:#666; width:360px;}
+.asearch div.sebtn input{ height:34px; line-height:34px; cursor:pointer; border:none; background:#e2e2e2 url("../images/bblabg.gif") no-repeat 0 -20px; width:96px;}
+
+
+

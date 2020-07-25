@@ -1,0 +1,392 @@
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+
+<style type="text/css">
+<!--
+
+td,body {  font-size: 9pt}
+
+a:link{ color:#000000; text-decoration:none}     
+
+a:visited{COLOR: #000000; TEXT-DECORATION: none} 
+
+a:active{color:green;text-decoration:none}
+
+a:hover{color:red;text-decoration:underline} .style1 {color: #008000}
+.style3 {color: #FF0000}
+.style4 {color: #008c39}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+--> 
+
+</style>
+<script language="javascript">
+var myform;
+window.onload=function(){
+ myform=document.myform;
+}
+function openVote(url)
+{
+	window.open(url,'newWin','width=500,height=200,top=200,left=200,resize=no');
+}
+function prev(){
+	myform.direction.value="prev";
+	myform.submit();
+}
+function next(){
+	myform.direction.value="next";
+	if(checkItem()) {
+		myform.submit();
+	}
+}
+function submitit(){
+	myform.direction.value="submit";
+	if(checkItem()) {
+		myform.submit();
+	}
+}
+
+function disableIt(obj){
+	obj.disabled = true;
+}
+function ableIt(obj){
+	obj.disabled = false;
+}
+function checkIt(mutiflag,obj,str){
+	var checkFlag = false;
+	var startPos,endPos;
+	if(mutiflag==0){
+		//处理单选的情况
+		obj.value=str;
+	}else if(mutiflag==1){
+		//处理多选的情况
+		eval("checkFlag=myform.checkoptn"+str+".checked;");
+		if(obj.value.indexOf(str+",")==-1 && checkFlag){
+			//将该编号加入到选择字符串
+			if(obj.value==0) obj.value="";
+			obj.value = "" + obj.value;
+			obj.value = obj.value + str +",";
+		}else if(obj.value.indexOf(str+",")!=-1 && !checkFlag){
+			//将该编号从选择字符串中剔除
+			if(obj.value.length==(str.length+1)) {
+				obj.value=0;
+				return;
+			}
+			startPos = obj.value.indexOf(str+",");
+			endPos = startPos + str.length + 1;
+			obj.value = obj.value.substring(0,startPos) + obj.value.substring(endPos,obj.value.length);
+		}
+	}
+}
+//Trim,参数String
+function trim(myStr)
+{
+  var pos1=-1;
+  var pos2=-1;
+  for(var i=0;i<myStr.length;i++){
+     if(myStr.charAt(i)!=' ' && pos1<0) pos1=i;
+     if(myStr.charAt(myStr.length-i-1)!=' ' && pos2<0) pos2=myStr.length-i;
+  }
+  if(pos1<0 || pos2 <0) return("");
+  return(myStr.substring(pos1,pos2));
+}
+function checkItem(){
+	var checkValue=0;
+	var checkType=0;
+	for(var i=0;i<myform.itemlength.value;i++){
+		eval("checkValue=myform.checkitem"+i+".value;");
+		eval("checkType=myform.checkitemtype"+i+".value;");
+		if(checkType==2 && checkValue=="other"){
+			eval("checkValue=myform.comment"+i+".value;");
+			if(checkValue==null || trim(checkValue)==""){
+				alert("请您将调查问卷填写完全！\n谢谢！");
+				return (false);
+			}
+		}else if(checkType==2 && checkValue=="input"){
+			eval("checkValue=myform.comment"+i+".value;");
+			if(checkValue==null || trim(checkValue)==""){
+				alert("请您将调查问卷填写完全！\n谢谢！");
+				return (false);
+			}
+		}else if(checkType==3&& checkValue==0){
+			eval("checkValue=myform.comment"+i+".value;");
+			if(checkValue==null || trim(checkValue)==""){
+				alert("请您将调查问卷填写完全！\n谢谢！");
+				return (false);
+			}
+		}else if(checkValue==0){ 
+			alert("请您将调查问卷填写完全！\n谢谢！");
+			return (false);
+		}
+	}
+	openVote('');
+	return (true); 
+} 
+</script>
+<base target="_blank">
+
+</head>
+
+<body >
+ <form name="myform" method="post" target="newWin" action="http://vote.baidu.com/vote/home/show1.jsp" onsubmit="return checkItem();" style="margin:0">
+ <input type=hidden name="direction" id="direction" value=""><input type='hidden' value=0 id='checkitem0' name='checkitem0'><input type='hidden' value=1 id='checkitemtype0'>
+ <table border="1" bordercolorlight="#008000" bordercolordark="#FFFFFF" width="778"
+
+height="1" cellspacing="0" cellpadding="3" bgcolor="#E6F2E7">
+   <tr>
+     <td height="6" valign="middle" align="left" colspan="4" bgcolor="#CCE6CD"><p
+
+    align="center"><font color="#FF0000">软件下载</font></td>
+   </tr>
+   <tr>
+     <td width="25%" height="5" valign="middle" align="left">
+      <input type=checkbox name=optn[5855]  value=5855 id="checkoptn5855" onclick="checkIt(1,myform.checkitem0,'5855')">     <a
+
+    href="http://www.onlinedown.net/" target="_blank"><font target="_blank">华军软件园</font></a></td>
+     <td width="25%" height="5" valign="middle" align="left">
+       <input type=checkbox name=optn[5856]  value=5856 id="checkoptn5856" onclick="checkIt(1,myform.checkitem0,'5856')">
+     <a href="http://www.skycn.com">天空软件站</a></td>
+     <td width="25%" height="5" valign="middle" align="left">
+       <input type=checkbox name=optn[5857]  value=5857 id="checkoptn5857" onclick="checkIt(1,myform.checkitem0,'5857')">
+     <a
+
+    href="http://download.21cn.com/">21cn软件下载</a></td>
+     <td width="25%" height="5" valign="middle" align="left">
+       <input type=checkbox name=optn[5858]  value=5858 id="checkoptn5858" onclick="checkIt(1,myform.checkitem0,'5858')">
+     <a href="http://dl.163.com"
+
+    onmouseover="window.status='';return true">网易软件下载</a></td>
+   </tr>
+   <tr>
+     <td width="175" height="-2" valign="middle" align="left">
+       <input type=checkbox name=optn[5859]  value=5859 id="checkoptn5859" onclick="checkIt(1,myform.checkitem0,'5859')">
+     <a
+
+    href="http://www.pconline.com.cn/download/">太平洋软件下载</a></td>
+     <td width="175" height="-2" valign="middle" align="left">
+       <input type=checkbox name=optn[5860]  value=5860 id="checkoptn5860" onclick="checkIt(1,myform.checkitem0,'5860')">
+     <a href="http://download.it.com.cn/">IT世界-下载</a></td>
+     <td width="176" height="-2" valign="middle" align="left">
+       <input type=checkbox name=optn[5861]  value=5861 id="checkoptn5861" onclick="checkIt(1,myform.checkitem0,'5861')">
+     <a
+
+    href="http://download.yesky.com/">天极网-红辣椒软件下载</a></td>
+     <td width="172" height="-2" valign="middle" align="left">
+       <input type=checkbox name=optn[5862]  value=5862 id="checkoptn5862" onclick="checkIt(1,myform.checkitem0,'5862')">
+     <a
+
+    href="http://www.mydrivers.com/" onmouseover="window.status='';return true">驱动之家</a></td>
+   </tr>
+   <tr>
+     <td width="175" height="7" valign="middle" align="left">
+       <input type=checkbox name=optn[5863]  value=5863 id="checkoptn5863" onclick="checkIt(1,myform.checkitem0,'5863')">
+     <a href="http://software.tech.tom.com/">TOM下载</a></td>
+     <td width="175" height="7" valign="middle" align="left">
+       <input type=checkbox name=optn[5864]  value=5864 id="checkoptn5864" onclick="checkIt(1,myform.checkitem0,'5864')">
+     <a
+
+    href="http://download.myrice.com/" onmouseover="window.status='';return true">海阔天空</a></td>
+     <td width="176" height="21" valign="middle" align="left">
+       <input type=checkbox name=optn[5865]  value=5865 id="checkoptn5865" onclick="checkIt(1,myform.checkitem0,'5865')">
+     <a
+
+    href="http://tech.sina.com.cn/down/">新浪软件下载</a></td>
+     <td width="172" height="7" valign="middle" align="left">
+       <input type=checkbox name=optn[5866]  value=5866 id="checkoptn5866" onclick="checkIt(1,myform.checkitem0,'5866')">
+     <a
+
+    href="http://download.pchome.net/" target="_blank">电脑之家软件下载</a></td>
+   </tr>
+   <tr>
+     <td width="175" height="2" valign="middle" align="left">
+       <input type=checkbox name=optn[5867]  value=5867 id="checkoptn5867" onclick="checkIt(1,myform.checkitem0,'5867')">
+     <a
+
+    href="http://www.zdnet.com.cn/downloads/" onmouseover="window.status='';return true">ZDNet 中国软件下载</a></td>
+     <td width="175" height="6" valign="middle" align="left">
+       <input type=checkbox name=optn[5868]  value=5868 id="checkoptn5868" onclick="checkIt(1,myform.checkitem0,'5868')">
+     <a href="http://www.shareware.cn/">中国共享软件下载中心</a></td>
+     <td width="176" height="2" valign="middle" align="left">
+       <input type=checkbox name=optn[5869]  value=5869 id="checkoptn5869" onclick="checkIt(1,myform.checkitem0,'5869')">
+     <a href="http://down.tyfo.com/">天虎网-软件下载</a></td>
+     <td width="172" height="21" valign="middle" align="left">
+       <input type=checkbox name=optn[5870]  value=5870 id="checkoptn5870" onclick="checkIt(1,myform.checkitem0,'5870')">
+     <a href="http://soft.fjii.com/">福建热线软件下载</a></td>
+   </tr>
+   <tr>
+     <td width="175" height="2" valign="middle" align="left">
+       <input type=checkbox name=optn[5871]  value=5871 id="checkoptn5871" onclick="checkIt(1,myform.checkitem0,'5871')">
+     <a
+
+    href="http://download.online.sh.cn/" target="_blank">上海热线-下载中心</a></td>
+     <td width="175" height="2" valign="middle" align="left">
+       <input type=checkbox name=optn[5872]  value=5872 id="checkoptn5872" onclick="checkIt(1,myform.checkitem0,'5872')">
+     <a href="http://down.tyfo.com/">天虎网-软件下载</a></td>
+     <td width="176" height="2" valign="middle" align="left">
+       <input type=checkbox name=optn[5873]  value=5873 id="checkoptn5873" onclick="checkIt(1,myform.checkitem0,'5873')">
+    <a
+
+    href="http://download.cnool.net/" target="_blank">东方热线软件园地</a></td>
+     <td width="172" height="21" valign="middle" align="left">
+       <input type=checkbox name=optn[5874]  value=5874 id="checkoptn5874" onclick="checkIt(1,myform.checkitem0,'5874')">
+     <a href="http://dl.tencent.com/"
+
+    target="_blank">腾讯-Download</a> </td>
+   </tr>
+   <tr>
+     <td width="175" height="1" valign="middle" align="left">
+       <input type=checkbox name=optn[5875]  value=5875 id="checkoptn5875" onclick="checkIt(1,myform.checkitem0,'5875')">
+     <a
+
+    href="http://download.enet.com.cn/">硅谷下载</a></td>
+     <td width="175" height="22" valign="middle" align="left">
+       <input type=checkbox name=optn[5876]  value=5876 id="checkoptn5876" onclick="checkIt(1,myform.checkitem0,'5876')">
+     <a href="http://soft.xaonline.com/">古城热线软件频道</a></td>
+     <td width="176" height="2" valign="middle" align="left">
+       <input type=checkbox name=optn[5877]  value=5877 id="checkoptn5877" onclick="checkIt(1,myform.checkitem0,'5877')">
+     <a href="http://soft.2118.com.cn/">湖南信息港软件库</a></td>
+     <td width="172" height="6" valign="middle" align="left">
+       <input type=checkbox name=optn[5878]  value=5878 id="checkoptn5878" onclick="checkIt(1,myform.checkitem0,'5878')">
+     <a href="http://soft.fjzz.com">漳州软件园</a></td>
+   </tr>
+   <tr>
+     <td width="175" height="2" valign="middle" align="left">
+       <input type=checkbox name=optn[5879]  value=5879 id="checkoptn5879" onclick="checkIt(1,myform.checkitem0,'5879')">
+     <a
+
+    href="http://down.chinaz.com/">中国站长站资源下载中心</a></td>
+     <td width="175" height="22" valign="middle" align="left">
+       <input type=checkbox name=optn[5880]  value=5880 id="checkoptn5880" onclick="checkIt(1,myform.checkitem0,'5880')">
+     <a
+
+    href="http://it.sohu.com/download/">sohu软件下载</a></td>
+     <td width="176" height="2" valign="middle" align="left">
+       <input type=checkbox name=optn[5881]  value=5881 id="checkoptn5881" onclick="checkIt(1,myform.checkitem0,'5881')">
+     <a href="http://www.yzdown.com/">宇宙软件园</a></td>
+     <td width="172" height="2" valign="middle" align="left">
+       <input type=checkbox name=optn[5882]  value=5882 id="checkoptn5882" onclick="checkIt(1,myform.checkitem0,'5882')">
+     <a href="http://download.zol.com.cn/">软件下载-中关村在线</a></td>
+   </tr>
+   <tr>
+     <td align="left" height="2" vAlign="center">
+       <input type=checkbox name=optn[5883]  value=5883 id="checkoptn5883" onclick="checkIt(1,myform.checkitem0,'5883')">
+     <a href="http://www.kingsoft.com/">金山下载</a></td>
+     <td align="left" height="2" vAlign="center">
+       <input type=checkbox name=optn[5884]  value=5884 id="checkoptn5884" onclick="checkIt(1,myform.checkitem0,'5884')">
+     <a href="http://down.91.com/">91下载</a></td>
+     <td align="left" vAlign="center">
+       <input type=checkbox name=optn[5885]  value=5885 id="checkoptn5885" onclick="checkIt(1,myform.checkitem0,'5885')">
+     <a href="http://www.onlinedown.net/hits/1.htm">软件下载排行-华军软件</a></td>
+     <td align="left" vAlign="center">
+       <input type=checkbox name=optn[5886]  value=5886 id="checkoptn5886" onclick="checkIt(1,myform.checkitem0,'5886')">
+     <a href="http://www.5down.com/">武当下载</a></td>
+   </tr>
+ </table>
+ <table border="1" width="778" bordercolorlight="#008000" bordercolordark="#FFFFFF"
+
+height="59" cellpadding="3" cellspacing="0" bgcolor="#E6F2E7">
+   <tr>
+     <td height="4" colspan="4" bgcolor="#CCE6CD">
+       <p align="center"><font color="#FF0000">软件注册</font></td>
+   </tr>
+   <tr>
+     <td width="25%" height="12">
+       <input type=checkbox name=optn[5887]  value=5887 id="checkoptn5887" onclick="checkIt(1,myform.checkitem0,'5887')">
+     <a href="http://www.softreg.com.cn/">中国共享软件注册中心</a></td>
+     <td width="25%" height="3">
+       <input type=checkbox name=optn[5888]  value=5888 id="checkoptn5888" onclick="checkIt(1,myform.checkitem0,'5888')">
+     <a href="http://www.crsky.com/">霏凡软件</a></td>
+     <td width="25%" height="3">
+       <input type=checkbox name=optn[5889]  value=5889 id="checkoptn5889" onclick="checkIt(1,myform.checkitem0,'5889')">
+     <a href="http://down.vv66.com/" target="_blank">k666软件园</a></td>
+     <td width="25%" height="3">
+       <input type=checkbox name=optn[5890]  value=5890 id="checkoptn5890" onclick="checkIt(1,myform.checkitem0,'5890')">
+     <a href="http://www.pcdog.com">缤份软件园</a></td>
+   </tr>
+   <tr>
+     <td width="168" height="4">
+       <input type=checkbox name=optn[5891]  value=5891 id="checkoptn5891" onclick="checkIt(1,myform.checkitem0,'5891')">
+     <a href="http://download.winzheng.com/">赢征天下</a></td>
+     <td width="169" height="0">
+       <input type=checkbox name=optn[5892]  value=5892 id="checkoptn5892" onclick="checkIt(1,myform.checkitem0,'5892')">
+     <a href="http://www.6rs.com/">站长之家</a></td>
+     <td width="168" height="4">
+       <input type=checkbox name=optn[5893]  value=5893 id="checkoptn5893" onclick="checkIt(1,myform.checkitem0,'5893')">
+     <a href="http://www.a5d.com/">A5D软件园</a></td>
+     <td height="7">
+       <input type=checkbox name=optn[5894]  value=5894 id="checkoptn5894" onclick="checkIt(1,myform.checkitem0,'5894')">
+     <a href="http://www.caiqing.net/">软件新干线</a></td>
+   </tr>
+   <tr>
+     <td width="168" height="1">
+       <input type=checkbox name=optn[5895]  value=5895 id="checkoptn5895" onclick="checkIt(1,myform.checkitem0,'5895')">
+     <a href="http://www.arongsoft.com/">阿榕软件园</a></td>
+     <td width="169" height="-1">
+       <input type=checkbox name=optn[5896]  value=5896 id="checkoptn5896" onclick="checkIt(1,myform.checkitem0,'5896')">
+     <a href="http://www.hanzify.org">汉化新世纪</a></td>
+     <td width="168" height="5">
+       <input type=checkbox name=optn[5897]  value=5897 id="checkoptn5897" onclick="checkIt(1,myform.checkitem0,'5897')">
+     <a href="http://www.soft168.com/">侠盗阿凡提</a></td>
+     <td height="5">
+       <input type=checkbox name=optn[5898]  value=5898 id="checkoptn5898" onclick="checkIt(1,myform.checkitem0,'5898')">
+     <a href="http://www.downonline.com">下载在线</a></td>
+   </tr>
+   <tr>
+     <td width="168" height="2">
+      <input type=checkbox name=optn[5899]  value=5899 id="checkoptn5899" onclick="checkIt(1,myform.checkitem0,'5899')">     <a href="http://www.softreadme.com/">软件说明书</a></td>
+     <td width="169" height="5">
+      <input type=checkbox name=optn[5900]  value=5900 id="checkoptn5900" onclick="checkIt(1,myform.checkitem0,'5900')">     <a href="http://www.tiansha.net/">天煞网软件精品站</a></td>
+     <td width="168" height="4">&nbsp;
+    </td>
+     <td height="-1">
+      <input type=checkbox name=optn[5902]  value=5902 id="checkoptn5902" onclick="checkIt(1,myform.checkitem0,'5902')">     <a href="http://www.66169.com/">天下软件</a></td>
+   </tr>
+   <tr>
+     <td width="168" height="0">
+       <input type=checkbox name=optn[5903]  value=5903 id="checkoptn5903" onclick="checkIt(1,myform.checkitem0,'5903')">
+     <a href="http://software.ty.sx.cn/">龙城软件下载</a></td>
+     <td width="169" height="4">&nbsp;</td>
+     <td width="168" height="-2">
+       <input type=checkbox name=optn[5904]  value=5904 id="checkoptn5904" onclick="checkIt(1,myform.checkitem0,'5904')">
+     <a href="http://www.cnd8.com/">中国下载吧</a></td>
+     <td height="4">&nbsp;</td>
+   </tr>
+   <tr>
+     <td height="3">&nbsp;</td>
+     <td height="0">
+       <input type=checkbox name=optn[5905]  value=5905 id="checkoptn5905" onclick="checkIt(1,myform.checkitem0,'5905')">
+     <a href="http://www.okget.com/">OkGet软件园</a></td>
+     <td height="4">
+       <input type=checkbox name=optn[5906]  value=5906 id="checkoptn5906" onclick="checkIt(1,myform.checkitem0,'5906')">
+     <a href="http://www.down110.net/">下载110</a></td>
+     <td height="5">
+       <input type=checkbox name=optn[5907]  value=5907 id="checkoptn5907" onclick="checkIt(1,myform.checkitem0,'5907')">
+     <a href="http://666w.com/down/">精品软件下载</a></td>
+   </tr>
+   <tr>
+     <td width="168" height="3">
+       <input type=checkbox name=optn[5908]  value=5908 id="checkoptn5908" onclick="checkIt(1,myform.checkitem0,'5908')">
+     <a href="http://www.hdskin.com/">红豆SKIN</a></td>
+     <td width="169" height="0">&nbsp;</td>
+     <td width="168" height="4">&nbsp;</td>
+     <td height="5">&nbsp;</td>
+   </tr>
+ </table>
+ <input type="hidden" name="pbid" value=0><input type="hidden" name="id" value=196><table width="778" border="0" cellpadding="0" cellspacing="1">
+  <tr align="center"><td  class="Submit">
+ <input type="button" name="submit2" value="提  交" onclick="submitit()"><!-- <input type="button" name="view" value="返 回" onclick="window.location='../admin/index.jsp'">-->
+<input type="hidden" name="itemlength" id="itemlength" value=1></td></tr>
+</table>
+ </form>
+ 
+</body>
+
+</html>

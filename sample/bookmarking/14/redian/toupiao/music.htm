@@ -1,0 +1,527 @@
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+
+<style type="text/css">
+<!--
+
+td,body {  font-size: 9pt}
+
+a:link{ color:#000000; text-decoration:none}     
+
+a:visited{COLOR: #000000; TEXT-DECORATION: none} 
+
+a:active{color:green;text-decoration:none}
+
+a:hover{color:red;text-decoration:underline} .style1 {color: #008000}
+.style3 {color: #FF0000}
+.style4 {color: #008c39}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+--> 
+
+</style>
+<script language="javascript">
+function prev(){
+	myform.direction.value="prev";
+	myform.submit();
+}
+function next(){
+	myform.direction.value="next";
+	if(checkItem()) {
+		myform.submit();
+	}
+}
+function submitit(){
+	myform.direction.value="submit";
+	if(checkItem()) {
+		myform.submit();
+	}
+}
+
+function disableIt(obj){
+	obj.disabled = true;
+}
+function ableIt(obj){
+	obj.disabled = false;
+}
+function checkIt(mutiflag,obj,str){
+	var checkFlag = false;
+	var startPos,endPos;
+	if(mutiflag==0){
+		//处理单选的情况
+		obj.value=str;
+	}else if(mutiflag==1){
+		//处理多选的情况
+		eval("checkFlag=myform.checkoptn"+str+".checked;");
+		if(obj.value.indexOf(str+",")==-1 && checkFlag){
+			//将该编号加入到选择字符串
+			if(obj.value==0) obj.value="";
+			obj.value = "" + obj.value;
+			obj.value = obj.value + str +",";
+		}else if(obj.value.indexOf(str+",")!=-1 && !checkFlag){
+			//将该编号从选择字符串中剔除
+			if(obj.value.length==(str.length+1)) {
+				obj.value=0;
+				return;
+			}
+			startPos = obj.value.indexOf(str+",");
+			endPos = startPos + str.length + 1;
+			obj.value = obj.value.substring(0,startPos) + obj.value.substring(endPos,obj.value.length);
+		}
+	}
+}
+//Trim,参数String
+function trim(myStr)
+{
+  var pos1=-1;
+  var pos2=-1;
+  for(var i=0;i<myStr.length;i++){
+     if(myStr.charAt(i)!=' ' && pos1<0) pos1=i;
+     if(myStr.charAt(myStr.length-i-1)!=' ' && pos2<0) pos2=myStr.length-i;
+  }
+  if(pos1<0 || pos2 <0) return("");
+  return(myStr.substring(pos1,pos2));
+}
+function checkItem(){
+	var checkValue=0;
+	var checkType=0;
+	for(var i=0;i<myform.itemlength.value;i++){
+		eval("checkValue=myform.checkitem"+i+".value;");
+		eval("checkType=myform.checkitemtype"+i+".value;");
+		if(checkType==2 && checkValue=="other"){
+			eval("checkValue=myform.comment"+i+".value;");
+			if(checkValue==null || trim(checkValue)==""){
+				alert("请您将调查问卷填写完全！\n谢谢！");
+				return (false);
+			}
+		}else if(checkType==2 && checkValue=="input"){
+			eval("checkValue=myform.comment"+i+".value;");
+			if(checkValue==null || trim(checkValue)==""){
+				alert("请您将调查问卷填写完全！\n谢谢！");
+				return (false);
+			}
+		}else if(checkType==3&& checkValue==0){
+			eval("checkValue=myform.comment"+i+".value;");
+			if(checkValue==null || trim(checkValue)==""){
+				alert("请您将调查问卷填写完全！\n谢谢！");
+				return (false);
+			}
+		}else if(checkValue==0){ 
+			alert("请您将调查问卷填写完全！\n谢谢！");
+			return (false);
+		}
+	}
+	
+	return (true); 
+} 
+</script>
+<base target="_blank">
+
+</head>
+
+<body >
+ <form name="myform" method="post" action="http://vote.baidu.com/vote/home/show1.jsp" onsubmit="return checkItem();">
+ <input type=hidden name="direction" id="direction" value=""><input type='hidden' value=0 id='checkitem0' name='checkitem0'><input type='hidden' value=1 id='checkitemtype0'>
+<table bgColor="#E6F2E7" border="1" borderColorDark="#FFFFFF" borderColorLight="#008000"
+
+cellPadding="3" cellSpacing="0" height="99" width="778">
+
+  <tr>
+
+    <td align="left" height="3" vAlign="center" width="100%" colspan="4" bgcolor="#CCE6CD"><p
+
+    align="center"><font color="#FF0000">综合音乐网</font></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left" height="1" vAlign="center" width="25%" bgcolor="#CCE6CD"><p
+
+    align="left"><input type=checkbox name=optn[5204]  value=5204 id="checkoptn5204" onclick="checkIt(1,myform.checkitem0,'5204')"><a href="http://www.qq163.net"><strong><font color="#ff0000">QQ163音乐网-最流行</font></strong></a></td>
+
+    <td align="left" height="1" vAlign="center" width="25%" bgcolor="#CCE6CD"><input type=checkbox name=optn[5205]  value=5205 id="checkoptn5205" onclick="checkIt(1,myform.checkitem0,'5205')"><a
+
+    href="http://list.mp3.baidu.com/list/cjns.html"><font color="#FF0000">2005超级女声专题</font></a><font color="#008000"><strong>&nbsp;&nbsp; 
+
+    </strong></font></td>
+
+    <td align="left" height="1" vAlign="center" width="25%" bgcolor="#CCE6CD"><input type=checkbox name=optn[5206]  value=5206 id="checkoptn5206" onclick="checkIt(1,myform.checkitem0,'5206')"><a
+
+    href="http://www.tt67.com"><font color="#ff0000">动漫FLASH欣赏</font></a></td>
+
+    <td align="left" height="1" vAlign="center" width="25%" bgcolor="#CCE6CD"><input type=checkbox name=optn[5207]  value=5207 id="checkoptn5207" onclick="checkIt(1,myform.checkitem0,'5207')"><a
+
+    href="http://list.mp3.baidu.com/list/topmp3.html?id=1"><strong><font color="#FF0000">MP3排行榜</font></strong></a></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left" height="1" vAlign="center" width="25%"><input type=checkbox name=optn[5208]  value=5208 id="checkoptn5208" onclick="checkIt(1,myform.checkitem0,'5208')"><a href="http://mp3.baidu.com/">百度MP3搜索</a></td>
+
+    <td align="left" height="1" vAlign="center" width="25%"><input type=checkbox name=optn[5209]  value=5209 id="checkoptn5209" onclick="checkIt(1,myform.checkitem0,'5209')"><a href="http://www.qq163.net">qq163流行音乐</a></td>
+
+    <td align="left" height="1" vAlign="center" width="25%"><input type=checkbox name=optn[5210]  value=5210 id="checkoptn5210" onclick="checkIt(1,myform.checkitem0,'5210')"><strong><a
+
+    href="http://www.dj99.net">DJ99在线音乐网</a></strong></td>
+
+    <td align="left" height="1" vAlign="center" width="25%"><input type=checkbox name=optn[5211]  value=5211 id="checkoptn5211" onclick="checkIt(1,myform.checkitem0,'5211')"><a href="http://music.yisou.com/">一搜音乐</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left" height="-1" vAlign="center" width="25%"><input type=checkbox name=optn[5287]  value=5287 id="checkoptn5287" onclick="checkIt(1,myform.checkitem0,'5287')"><a href="fra/music/soguacom.htm"
+
+    target="_blank">MP3搜刮网</a></td>
+
+    <td align="left" height="-1" vAlign="center" width="25%"><input type=checkbox name=optn[5288]  value=5288 id="checkoptn5288" onclick="checkIt(1,myform.checkitem0,'5288')"><a href="http://music.sdo.com/av/index.shtm">盛大视听狂潮</a></td>
+
+    <td align="left" height="-1" vAlign="center" width="25%"><input type=checkbox name=optn[5289]  value=5289 id="checkoptn5289" onclick="checkIt(1,myform.checkitem0,'5289')"><a href="http://www.haoting.com/">好听音乐网</a></td>
+    <td align="left" height="-1" vAlign="center" width="25%">&nbsp; </td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left" height="24" vAlign="center" width="25%"><input type=checkbox name=optn[5291]  value=5291 id="checkoptn5291" onclick="checkIt(1,myform.checkitem0,'5291')"><a href="http://game.baidu.com/traf/click.php?id=579&url=http://www.9sky.com/">九天音乐</a></td>
+
+    <td align="left" height="24" vAlign="center" width="25%"><input type=checkbox name=optn[5292]  value=5292 id="checkoptn5292" onclick="checkIt(1,myform.checkitem0,'5292')"><a
+
+    href="http://fm974.ent.tom.com/"><font color="#FF0000">TOM音乐</font></a></td>
+
+    <td align="left" height="24" vAlign="center" width="25%"><input type=checkbox name=optn[5293]  value=5293 id="checkoptn5293" onclick="checkIt(1,myform.checkitem0,'5293')"><a href="http://l.tom.com/c/a8/hao123/t03/a8/?http://a8.tom.com">TOM网络歌曲排行榜</a> </td>
+
+    <td align="left" height="24" vAlign="center" width="25%"><input type=checkbox name=optn[5294]  value=5294 id="checkoptn5294" onclick="checkIt(1,myform.checkitem0,'5294')"><a href="http://www.nowok.net">音乐试听</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left" height="24" vAlign="center" width="25%"><input type=checkbox name=optn[5295]  value=5295 id="checkoptn5295" onclick="checkIt(1,myform.checkitem0,'5295')"><a href="http://music.feifa.com/">星星音乐谷</a></td>
+
+    <td align="left" height="24" vAlign="center" width="25%"><input type=checkbox name=optn[5296]  value=5296 id="checkoptn5296" onclick="checkIt(1,myform.checkitem0,'5296')"><a href="http://www.520music.com/">我爱音乐网</a></td>
+
+    <td align="left" height="24" vAlign="center" width="25%"><input type=checkbox name=optn[5297]  value=5297 id="checkoptn5297" onclick="checkIt(1,myform.checkitem0,'5297')"><a href="fra/music/tyfocom.htm"
+
+    onmouseover="window.status='';return true">天虎音乐网</a></td>
+
+    <td align="left" height="24" vAlign="center" width="25%"><input type=checkbox name=optn[5298]  value=5298 id="checkoptn5298" onclick="checkIt(1,myform.checkitem0,'5298')"><a href="http://www.wanwa.com/">网蛙音乐</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left" height="1" vAlign="center" width="25%"><input type=checkbox name=optn[5299]  value=5299 id="checkoptn5299" onclick="checkIt(1,myform.checkitem0,'5299')"><a href="http://www.kugoo.com/">酷狗音乐软件</a></td>
+
+    <td align="left" height="1" vAlign="center" width="25%"><input type=checkbox name=optn[5300]  value=5300 id="checkoptn5300" onclick="checkIt(1,myform.checkitem0,'5300')"><a href="http://www.9xun.com/">九寻音乐mp3</a></td>
+
+    <td align="left" height="1" vAlign="center" width="25%"><input type=checkbox name=optn[5301]  value=5301 id="checkoptn5301" onclick="checkIt(1,myform.checkitem0,'5301')"><a href="fra/music/chinamp3.htm">音乐极限</a></td>
+
+    <td align="left" height="1" vAlign="center" width="25%"><input type=checkbox name=optn[5302]  value=5302 id="checkoptn5302" onclick="checkIt(1,myform.checkitem0,'5302')"><a href="music/mtvchina.htm"
+
+    target="_blank">MTV-China</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left" height="2" vAlign="center" width="25%"><input type=checkbox name=optn[5303]  value=5303 id="checkoptn5303" onclick="checkIt(1,myform.checkitem0,'5303')"><a href="http://www.1155.com/"><font color="#FF0000">音乐窝 MP3</font></a></td>
+
+    <td align="left" height="2" vAlign="center" width="25%"><input type=checkbox name=optn[5304]  value=5304 id="checkoptn5304" onclick="checkIt(1,myform.checkitem0,'5304')"><a href="http://www.yuleyu.com/">娱乐鱼音乐网</a></td>
+
+        <td align="left" height="2" vAlign="center" width="25%"><input type=checkbox name=optn[5305]  value=5305 id="checkoptn5305" onclick="checkIt(1,myform.checkitem0,'5305')"><a href="http://www.1ting.com/"><font color="#FF0000">要听音乐网</font></a></td>
+
+        <td align="left" height="2" vAlign="center" width="25%"><input type=checkbox name=optn[5306]  value=5306 id="checkoptn5306" onclick="checkIt(1,myform.checkitem0,'5306')"><a href="http://music.sohu.com/">搜狐网站音乐频道</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left" height="2" vAlign="center" width="25%"><input type=checkbox name=optn[5307]  value=5307 id="checkoptn5307" onclick="checkIt(1,myform.checkitem0,'5307')"><a href="http://www.163888.net/">163888网络音乐门户</a></td>
+
+    <td align="left" height="3" vAlign="center" width="25%"><input type=checkbox name=optn[5308]  value=5308 id="checkoptn5308" onclick="checkIt(1,myform.checkitem0,'5308')"><strong><a
+
+    href="http://www.yymp3.com">音乐MP3</a></strong></td>
+
+    <td align="left" height="2" vAlign="center" width="25%"><input type=checkbox name=optn[5309]  value=5309 id="checkoptn5309" onclick="checkIt(1,myform.checkitem0,'5309')"><a
+
+    href="http://www.kuro.cn/standard/index.asp?site=hao123&channel=music&key=kuro1">Kuro酷乐</a></td>
+
+    <td align="left" height="2" vAlign="center" width="25%"><input type=checkbox name=optn[5310]  value=5310 id="checkoptn5310" onclick="checkIt(1,myform.checkitem0,'5310')"><a
+
+    href="music/2music/channelv.htm" target="_blank">Channel [V]</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left" height="3" vAlign="center" width="25%"><input type=checkbox name=optn[5311]  value=5311 id="checkoptn5311" onclick="checkIt(1,myform.checkitem0,'5311')"><a href="http://www.lightmusic.cn/">中国轻音乐网</a></td>
+
+    <td align="left" height="25" vAlign="center" width="25%"><input type=checkbox name=optn[5312]  value=5312 id="checkoptn5312" onclick="checkIt(1,myform.checkitem0,'5312')"><a href="http://5music.org/music/">音乐视听</a></td>
+
+    <td align="left" height="25" vAlign="center" width="25%"><input type=checkbox name=optn[5313]  value=5313 id="checkoptn5313" onclick="checkIt(1,myform.checkitem0,'5313')"><a href="http://www.13139.com/">天籁之音</a></td>
+
+    <td align="left" height="3" vAlign="center" width="25%"><input type=checkbox name=optn[5314]  value=5314 id="checkoptn5314" onclick="checkIt(1,myform.checkitem0,'5314')"><a href="music/xlue.htm"
+
+    target="_blank">MP3嘘嘘乐</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left" height="3" vAlign="center" width="25%"><input type=checkbox name=optn[5315]  value=5315 id="checkoptn5315" onclick="checkIt(1,myform.checkitem0,'5315')"><a href="http://www.6bb.com/">音乐公园</a></td>
+
+    <td align="left" height="25" vAlign="center" width="25%"><input type=checkbox name=optn[5316]  value=5316 id="checkoptn5316" onclick="checkIt(1,myform.checkitem0,'5316')"><a
+
+    href="http://www.99music.net/new.htm">久久音乐</a></td>
+
+    <td align="left" height="25" vAlign="center" width="25%"><input type=checkbox name=optn[5317]  value=5317 id="checkoptn5317" onclick="checkIt(1,myform.checkitem0,'5317')"><a href="http://www.sogua.com/">SoGua 
+
+    音乐</a></td>
+
+    <td align="left" height="2" vAlign="center" width="25%"><input type=checkbox name=optn[5318]  value=5318 id="checkoptn5318" onclick="checkIt(1,myform.checkitem0,'5318')"><a
+
+    href="http://mp3.sina.com.cn/">新浪MP3搜索</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5374]  value=5374 id="checkoptn5374" onclick="checkIt(1,myform.checkitem0,'5374')"><a
+
+    href="http://avl.com.cn/music/mtv.html">世纪前线—音乐mtv</a></td>
+
+        <td align="left" height="3" vAlign="center" width="25%"><input type=checkbox name=optn[5375]  value=5375 id="checkoptn5375" onclick="checkIt(1,myform.checkitem0,'5375')"><a href="http://www.mtvtop.com/">中国音乐在线</a></td>
+
+    <td align="left" height="3" vAlign="center" width="25%"><input type=checkbox name=optn[5376]  value=5376 id="checkoptn5376" onclick="checkIt(1,myform.checkitem0,'5376')"><a href="http://music.jnnc.com/">音乐听吧</a></td>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5377]  value=5377 id="checkoptn5377" onclick="checkIt(1,myform.checkitem0,'5377')"><a href="http://www.7xi.net/">七禧音乐网</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5378]  value=5378 id="checkoptn5378" onclick="checkIt(1,myform.checkitem0,'5378')"><a href="http://www.musicsky.net">天空音乐网</a></td>
+
+    <td align="left" height="2" vAlign="center" width="25%"><input type=checkbox name=optn[5379]  value=5379 id="checkoptn5379" onclick="checkIt(1,myform.checkitem0,'5379')"><a href="http://www.vv66.com">百酷音乐厅</a></td>
+
+    <td align="left" height="2" vAlign="center" width="25%"><input type=checkbox name=optn[5380]  value=5380 id="checkoptn5380" onclick="checkIt(1,myform.checkitem0,'5380')"><a href="http://www.ting88.com/">九天音乐吧</a></td>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5381]  value=5381 id="checkoptn5381" onclick="checkIt(1,myform.checkitem0,'5381')"><a href="http://www.dd81.com/"
+
+    target="_blank">碟碟不休</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left" height="6" vAlign="center" width="25%"><input type=checkbox name=optn[5382]  value=5382 id="checkoptn5382" onclick="checkIt(1,myform.checkitem0,'5382')"><a href="http://www.funmtv.com/">凡人音乐网</a></td>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5383]  value=5383 id="checkoptn5383" onclick="checkIt(1,myform.checkitem0,'5383')"><a href="http://www.imagecn.com/2005/music/">印象中国-天下音乐</a></td>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5384]  value=5384 id="checkoptn5384" onclick="checkIt(1,myform.checkitem0,'5384')"><a href="http://www.movonet.com/">模糊音乐网</a></td>
+
+    <td align="left" height="6" vAlign="center" width="25%"><input type=checkbox name=optn[5385]  value=5385 id="checkoptn5385" onclick="checkIt(1,myform.checkitem0,'5385')"><a href="http://www.kkmp3.com">KKMP3</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left" height="2" vAlign="center" width="25%"><input type=checkbox name=optn[5386]  value=5386 id="checkoptn5386" onclick="checkIt(1,myform.checkitem0,'5386')"><a
+
+    href="http://music.skyhits.com/">Skyhits音乐空间</a></td>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5387]  value=5387 id="checkoptn5387" onclick="checkIt(1,myform.checkitem0,'5387')"><a href="http://mtv.runsky.com/"
+
+    target="_blank">大连音乐台</a> </td>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5388]  value=5388 id="checkoptn5388" onclick="checkIt(1,myform.checkitem0,'5388')"><a href="http://list.mp3.baidu.com/minge/mp3topsong.html">百度民歌精选</a></td>
+
+    <td align="left" height="2" vAlign="center" width="25%"><input type=checkbox name=optn[5389]  value=5389 id="checkoptn5389" onclick="checkIt(1,myform.checkitem0,'5389')"><a href="http://list.mp3.baidu.com/list/topmp3.html">百度MP3排行榜</a></td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td align="left" height="8" vAlign="center" width="25%"><input type=checkbox name=optn[5390]  value=5390 id="checkoptn5390" onclick="checkIt(1,myform.checkitem0,'5390')"><a
+
+    href="http://music.china5959.com/" target="_blank">5959音乐网</a></td>
+
+    <td align="left" height="5" vAlign="center" width="25%"><input type=checkbox name=optn[5391]  value=5391 id="checkoptn5391" onclick="checkIt(1,myform.checkitem0,'5391')"><a
+
+    href="http://cha.sina.com.cn/tools/mp3/list" target="_blank">SINA全球歌星搜索</a></td>
+
+    <td align="left" height="5" vAlign="center" width="25%"><input type=checkbox name=optn[5392]  value=5392 id="checkoptn5392" onclick="checkIt(1,myform.checkitem0,'5392')"><a
+
+    href="http://search.tom.com/mp3/">TOM-MP3搜索</a></td>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5393]  value=5393 id="checkoptn5393" onclick="checkIt(1,myform.checkitem0,'5393')"><a href="http://www.6621.com/">天籁村</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5394]  value=5394 id="checkoptn5394" onclick="checkIt(1,myform.checkitem0,'5394')"><a
+
+    href="http://www.xinhuanet.com/audio/" target="_blank">新华网音频音乐 </a></td>
+
+    <td align="left" height="8" vAlign="center" width="25%"><input type=checkbox name=optn[5395]  value=5395 id="checkoptn5395" onclick="checkIt(1,myform.checkitem0,'5395')"><a href="http://www.real2000.org/"
+
+    target="_blank">音乐视听2000</a></td>
+
+    <td align="left" height="8" vAlign="center" width="25%"><input type=checkbox name=optn[5396]  value=5396 id="checkoptn5396" onclick="checkIt(1,myform.checkitem0,'5396')"><a href="http://www.9flash.com/"
+
+    target="_blank">9flash</a></td>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5397]  value=5397 id="checkoptn5397" onclick="checkIt(1,myform.checkitem0,'5397')"><a
+
+    href="http://www.cmusic.com.cn/">中国乐坛</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5398]  value=5398 id="checkoptn5398" onclick="checkIt(1,myform.checkitem0,'5398')"><a href="http://www.ting98.com/">听酒吧音乐网</a></td>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5399]  value=5399 id="checkoptn5399" onclick="checkIt(1,myform.checkitem0,'5399')"><a href="http://www.666ccc.com/">今生音乐网</a></td>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5400]  value=5400 id="checkoptn5400" onclick="checkIt(1,myform.checkitem0,'5400')"><a href="http://www.f130.net">flash音乐网</a></td>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5401]  value=5401 id="checkoptn5401" onclick="checkIt(1,myform.checkitem0,'5401')"><a
+
+    href="http://mp3.5755.com/per/zh.htm">张学友歌曲大全</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5402]  value=5402 id="checkoptn5402" onclick="checkIt(1,myform.checkitem0,'5402')"><a href="http://list.mp3.baidu.com/list/cjns.html">2005超级女声专题</a> </td>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5403]  value=5403 id="checkoptn5403" onclick="checkIt(1,myform.checkitem0,'5403')"><a href="http://list.mp3.baidu.com/list/hot0508.html">淡淡幽情邓丽君</a></td>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5404]  value=5404 id="checkoptn5404" onclick="checkIt(1,myform.checkitem0,'5404')"><a href="http://www.99tg.com/">久久听歌</a></td>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5405]  value=5405 id="checkoptn5405" onclick="checkIt(1,myform.checkitem0,'5405')"><a href="http://mp3.music.sohu.com/">MP3 宝库-sohu音乐</a> </td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5406]  value=5406 id="checkoptn5406" onclick="checkIt(1,myform.checkitem0,'5406')"><a
+
+    href="http://mp3.5755.com/rm4.htm">音乐精彩第4集</a></td>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5407]  value=5407 id="checkoptn5407" onclick="checkIt(1,myform.checkitem0,'5407')">
+    <a
+
+    href="http://mp3.5755.com/per/beyong.htm">怀旧BEYOND-黄家驹-陈百强</a></td>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5408]  value=5408 id="checkoptn5408" onclick="checkIt(1,myform.checkitem0,'5408')"><a href="http://listen.163.com/">网易精彩音乐</a></td>
+
+    <td align="left" height="0" vAlign="center" width="25%"><input type=checkbox name=optn[5409]  value=5409 id="checkoptn5409" onclick="checkIt(1,myform.checkitem0,'5409')"><a
+
+    href="http://ent.163.com/ent/level1/music.html">网易音乐频道</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left" height="0" vAlign="center" width="25%"><input type=checkbox name=optn[5410]  value=5410 id="checkoptn5410" onclick="checkIt(1,myform.checkitem0,'5410')"><a
+
+    href="http://mp3.5755.com/per/liu.htm">刘德华歌曲大全</a></td>
+
+    <td align="left" height="0" vAlign="center" width="25%"><input type=checkbox name=optn[5411]  value=5411 id="checkoptn5411" onclick="checkIt(1,myform.checkitem0,'5411')"><a
+
+    href="http://mp3.5755.com/per/to2004.htm">1980-2004经典好歌100首</a></td>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5412]  value=5412 id="checkoptn5412" onclick="checkIt(1,myform.checkitem0,'5412')"><a
+
+    href="http://mp3.5755.com/per/twins.htm">TWINS组合--S.H.E组合</a></td>
+
+    <td align="left" height="0" vAlign="center" width="25%"><input type=checkbox name=optn[5413]  value=5413 id="checkoptn5413" onclick="checkIt(1,myform.checkitem0,'5413')"><a
+
+    href="http://mp3.5755.com/rmtop/nu70/1.htm">女歌星-流行70首有歌词</a></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left" height="0" vAlign="center" width="25%"><input type=checkbox name=optn[5414]  value=5414 id="checkoptn5414" onclick="checkIt(1,myform.checkitem0,'5414')"><a href="http://www.yyflash.com/">音乐FLASH</a></td>
+
+    <td align="left" height="0" vAlign="center" width="25%"><input type=checkbox name=optn[5415]  value=5415 id="checkoptn5415" onclick="checkIt(1,myform.checkitem0,'5415')"><a href="http://www.guqu.net/">中国古曲网</a></td>
+
+    <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5416]  value=5416 id="checkoptn5416" onclick="checkIt(1,myform.checkitem0,'5416')"><a href="http://www.51y.com/">无忧音乐网</a></td>
+
+        <td align="left" height="4" vAlign="center" width="25%"><input type=checkbox name=optn[5417]  value=5417 id="checkoptn5417" onclick="checkIt(1,myform.checkitem0,'5417')"><a href="http://www.souting.com/">搜听</a></td>
+
+  </tr>
+
+  
+  <tr>
+    <td align="left" height="1" vAlign="center"><input type=checkbox name=optn[5418]  value=5418 id="checkoptn5418" onclick="checkIt(1,myform.checkitem0,'5418')"><a
+
+    href="http://cn.ent.yahoo.com/music/">Yahoo!中国--音乐</a></td>
+    <td align="left" height="1" vAlign="center"><input type=checkbox name=optn[5419]  value=5419 id="checkoptn5419" onclick="checkIt(1,myform.checkitem0,'5419')"><a
+
+    href="http://www.netandtv.com/music/">E视,音乐风云榜</a></td>
+    <td align="left" height="1" vAlign="center"><input type=checkbox name=optn[5420]  value=5420 id="checkoptn5420" onclick="checkIt(1,myform.checkitem0,'5420')"><a href="http://www.ting163.com/">163音乐网</a></td>
+    <td align="left" height="1" vAlign="center"><input type=checkbox name=optn[5421]  value=5421 id="checkoptn5421" onclick="checkIt(1,myform.checkitem0,'5421')"><a href="http://www.552211.com/hao123.asp">动感音乐网</a></td>
+  </tr>
+  <tr>
+    <td align="left" height="1" vAlign="center"><input type=checkbox name=optn[5422]  value=5422 id="checkoptn5422" onclick="checkIt(1,myform.checkitem0,'5422')"><a
+
+    href="http://www.tvb.com.cn/music/">新鲜音乐</a></td>
+    <td align="left" height="1" vAlign="center"><input type=checkbox name=optn[5423]  value=5423 id="checkoptn5423" onclick="checkIt(1,myform.checkitem0,'5423')"><a href="http://www.tt78.com">忆星音乐</a></td>
+    <td align="left" height="1" vAlign="center"><input type=checkbox name=optn[5424]  value=5424 id="checkoptn5424" onclick="checkIt(1,myform.checkitem0,'5424')"><a href="http://www.mtv110.com/">MTV音乐网</a></td>
+    <td align="left" height="1" vAlign="center"><input type=checkbox name=optn[5425]  value=5425 id="checkoptn5425" onclick="checkIt(1,myform.checkitem0,'5425')"><a href="http://www.7t7t.com/">去听去听音乐网</a></td>
+  </tr>
+  <tr>
+    <td align="left" height="1" vAlign="center"><input type=checkbox name=optn[5426]  value=5426 id="checkoptn5426" onclick="checkIt(1,myform.checkitem0,'5426')"><a href="http://www.cococ.com/">可可西音乐网</a></td>
+    <td align="left" height="1" vAlign="center"><input type=checkbox name=optn[5427]  value=5427 id="checkoptn5427" onclick="checkIt(1,myform.checkitem0,'5427')"><a href="http://www.commus.com/">爵士音乐彩虹</a></td>
+    <td align="left" height="1" vAlign="center"><input type=checkbox name=optn[5428]  value=5428 id="checkoptn5428" onclick="checkIt(1,myform.checkitem0,'5428')"><a
+
+    href="http://www.haoge-china.com/">中华好歌网</a></td>
+    <td align="left" height="1" vAlign="center"><input type=checkbox name=optn[5429]  value=5429 id="checkoptn5429" onclick="checkIt(1,myform.checkitem0,'5429')"><a href="cainiao/02.htm">如何下载mp3</a></td>
+  </tr>
+  <tr>
+
+    <td align="left" height="1" vAlign="center" width="25%"><input type=checkbox name=optn[5430]  value=5430 id="checkoptn5430" onclick="checkIt(1,myform.checkitem0,'5430')"><a
+
+    href="http://mp3.5755.com/rmm.htm"><strong>QQ163-三千首经典老歌精选</strong></a>&nbsp;&nbsp;</td>
+
+    <td align="left" height="1" vAlign="center" width="25%"><input type=checkbox name=optn[5431]  value=5431 id="checkoptn5431" onclick="checkIt(1,myform.checkitem0,'5431')"><a
+
+    href="http://www.qq163.net/rm333.htm"><strong><font color="#000000">精选歌曲试听第三集</font></strong></a></td>
+    <td align="left" height="1" vAlign="center" width="25%"><input type=checkbox name=optn[5432]  value=5432 id="checkoptn5432" onclick="checkIt(1,myform.checkitem0,'5432')"><a
+
+    href="http://dj99.net/index9.htm"><strong>QQ163在线音乐排行榜</strong></a></td>
+
+    <td align="left" height="1" vAlign="center" width="25%"><input type=checkbox name=optn[5433]  value=5433 id="checkoptn5433" onclick="checkIt(1,myform.checkitem0,'5433')"><strong><a
+
+    href="http://www.qq163.com/rm9.htm">2千首正在流行及老歌经典</a></strong></td>
+
+  </tr>
+</table>
+
+<input type="hidden" name="pbid" value=0><input type="hidden" name="id" value=188><table width="778" border="0" cellpadding="0" cellspacing="1">
+  <tr align="center"><td  class="Submit">
+ <input type="button" name="submit2" value="提  交" onclick="submitit()"><!-- <input type="button" name="view" value="返 回" onclick="window.location='../admin/index.jsp'">-->
+<input type="hidden" name="itemlength" id="itemlength" value=1></td></tr>
+</table>
+ </form>
+ 
+</body>
+
+</html>

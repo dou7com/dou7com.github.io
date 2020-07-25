@@ -1,0 +1,198 @@
+<html>
+<style type="text/css"><!--
+
+td,body {  font-size: 9pt}
+
+a:link{ color:#000000; text-decoration:none}     
+
+a:visited{COLOR: #000000; TEXT-DECORATION: none} 
+
+a:active{color:green;text-decoration:none}
+
+a:hover{color:red;text-decoration:underline} body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+--> 
+
+</style>
+
+<head><script Language="JavaScript"><!--
+function FrontPage_Form1_Validator(theForm)
+{
+  var checkOK = "0123456789";
+  var checkStr = theForm.money.value;
+  var allValid = true;
+  var decPoints = 0;
+  var allNum = "";
+  for (i = 0;  i < checkStr.length;  i++)
+  {
+    ch = checkStr.charAt(i);
+    for (j = 0;  j < checkOK.length;  j++)
+      if (ch == checkOK.charAt(j))
+        break;
+    if (j == checkOK.length)
+    {
+      allValid = false;
+      break;
+    }
+    if (ch != ",")
+      allNum += ch;
+  }
+  if (!allValid)
+  {
+    alert("月收入中只能输入数字。");
+    return (false);
+  }
+
+  var checkOK = "0123456789";
+  var checkStr = theForm.KCmoney.value;
+  var allValid = true;
+  var decPoints = 0;
+  var allNum = "";
+  for (i = 0;  i < checkStr.length;  i++)
+  {
+    ch = checkStr.charAt(i);
+    for (j = 0;  j < checkOK.length;  j++)
+      if (ch == checkOK.charAt(j))
+        break;
+    if (j == checkOK.length)
+    {
+      allValid = false;
+      break;
+    }
+    if (ch != ",")
+      allNum += ch;
+  }
+  if (!allValid)
+  {
+    alert("起征额中只能输入数字。");
+    return (false);
+  }
+
+var basicm,totalmoney,cha,output;
+totalmoney=document.form1.money.value;
+basicm=document.form1.KCmoney.value;
+cha=(totalmoney-basicm);
+if (cha<=0) {output=0;}
+if (cha>0&&cha<=500) {output=cha*0.05;}
+if (cha>500&&cha<=2000) {output=cha*0.1-25;}
+if (cha>2000&&cha<=5000) {output=cha*0.15-125;}
+if (cha>5000&&cha<=20000) {output=cha*0.2-375;}
+if (cha>20000&&cha<=40000) {output=cha*0.25-1375;}
+if (cha>40000&&cha<=60000) {output=cha*0.30-3375;}
+if (cha>60000&&cha<=80000) {output=cha*0.35-6375;}
+if (cha>80000&&cha<=100000) {output=cha*0.4-10375;}
+if (cha>100000&&cha>100000) {output=cha*0.45-15375;}
+alert("应缴个人所得税额="+output+"元"+"\n"+"\n"+"依法纳税是每个公民应尽的义务！！");
+return (false);
+}
+//--></script>
+
+<title>好123网址之家www.hao123.com--个人所得税计算器</title>
+</head>
+
+<body>
+
+<div align="center"><center>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="778" height="51">
+
+  <tr>
+
+    <td width="196" height="51"><a href="http://www.hao123.com"><img src=../logo.gif
+alt=网址之家www.hao123.com width=168 height=63 border="0"></a></td>
+
+    <td width="496" height="51"><a
+
+    href="../gjhao123/gjhao123.htm"
+
+    target="_blank"><img
+
+    src="../gjhao123/images/gjhao123_02.gif"
+
+    alt="还有更多的精彩等着你..." width="468" height="60" border="0"></a></td>
+
+  </tr>
+
+</table>
+
+</center></div><div align="center"><center>
+
+
+
+<table bgColor="#3DB836" border="0" cellPadding="0" cellSpacing="0" width="778" height="1">
+
+  <tr>
+
+    <td align="left" rowSpan="2" vAlign="top" width="16" height="1"></td>
+
+    <td rowSpan="2" width="505" height="1" align="center"></td>
+
+    <td rowSpan="2" width="93" height="1" align="center"></td>
+
+    <td rowSpan="2" width="81" height="1" align="center"><a
+
+    href="javascript:window.external.AddFavorite('http://www.hao123.com/', '“网址之家”&quot;/www.hao123.com')"
+
+    target="_self"><font color="#FFFFFF">添加收藏</font></a></td>
+
+    <td align="right" height="12" vAlign="top" width="10"></td>
+
+  </tr>
+
+</table>
+
+</center></div><div align="center"><center>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="778" height="25"
+
+bgcolor="#EEF7FF">
+
+  <tr>
+
+    <td width="327" height="25"><strong><font color="#424242">你目前的位置&gt;&gt;<a
+
+    href="index.htm" target="_self">首页</a>&gt;</font>实用查询</strong></td>
+
+        <td width="369" height="25"><strong></strong></td>
+
+  </tr>
+
+</table>
+
+</center></div>
+
+<form name="form1" onsubmit="return FrontPage_Form1_Validator(this)">
+  <div align="center"><center><table border="1" width="350" cellpadding="4" cellspacing="0"
+  bordercolor="#7BD676" style="font-family: 宋体; font-size: 9pt">
+    <tr>
+      <td><div align="center"><center><p><span style="font-family: 宋体; font-size: 11pt"><font
+      color="#FF0000">个人所得税计算器</font></span></center></div></td>
+    </tr>
+    <tr align="center">
+      <td><span style="font-family: 宋体; font-size: 11pt">请输入您的月收入：</span>&nbsp;&nbsp;&nbsp;&nbsp;<input
+      name="money" type="text" size="18"><span style="font-family: 宋体; font-size: 11pt">元</span></td>
+    </tr>
+    <tr align="center">
+      <td><span style="font-family: 宋体; font-size: 11pt">当地个人所得税起征额：</span><input
+      name="KCmoney" type="text" size="18"><span style="font-family: 宋体; font-size: 11pt">元</span><br>
+      （例如800、1000）</td>
+    </tr>
+    <tr align="center">
+      <td bgcolor="#7BD676"><input type="submit" name="sub" value="计算"
+      &nbsp;&nbsp;&nbsp;&nbsp;><input type="reset" value="重新输入"></td>
+    </tr>
+  </table>
+  </center></div>
+</form>
+
+<p align="center">好123网址之家www.hao123.com 版权所有</p>
+
+</body>
+</html>

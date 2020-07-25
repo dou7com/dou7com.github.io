@@ -1,0 +1,75 @@
+
+*{margin:0;padding:0;text-decoration:none;font-family:Verdana,Arial;}
+a{ color:#000000;}
+a:hover{text-decoration:underline;color:#f00;}
+img{border:none;}
+ul li{text-align:center;list-style:none}
+.line{clear:both;display:block;margin:6px 0;height:1px;overflow:hidden;}
+p a:hover,span a:hover{color:#F00}
+.kill{ height:0px; overflow:hidden; display:block; clear:both;}
+#weather{width:500px;height:32px; line-height:32px; overflow:hidden;background:none;}
+#ly{margin:0 auto 10px;width:1000px;}
+#ly h1{ font:normal 12px/20px simsun; padding:0 12px 10px; position:relative;}
+#ly h1 b{ font-size:20px; font-weight:bold; font-family:"Î¢ÈíÑÅºÚ","ËÎÌå"; color:#157CC8;}
+#ly h1 span, #ly h1 span a{ color:#aaa; cursor:pointer;}
+#ly h1 span a:hover{ color:#e00;}
+#navs{ position:absolute; z-index:99; left:160px; _left:150px; top:33px!important; top:35px; width:740px; height:88px; padding:16px 28px 12px; white-space:nowrap; border:1px solid #abc; background:#F1F4F8; display:none;
+-moz-box-shadow:1px 1px 5px #ddd;               /* ff */
+-webkit-box-shadow:1px 1px 5px #ddd;            /* chrome,safari */
+box-shadow:1px 1px 5px #ddd;                    /* Op */
+}
+#navs ul li{ float:left; height:24px; line-height:24px;}
+#navs ul li a{ color:#1D63A3; padding:6px 8px; font:bold 14px/24px "Î¢ÈíÑÅºÚ","ËÎÌå";}
+#navs ul li a:hover{ color:#f00;}
+.bbla-title, .bbla-title h1{font-size:12px;line-height:25px;text-indent:30px;margin:0 0 5px 0;font-weight:bold;}
+.bbla-banner{ font-size:12px;zoom: 1;background:rgba(255, 255, 255, 0.5) none repeat scroll 0 0 !important;filter:Alpha(opacity=50);background:#ffffff;}
+.bbla-banner div{ width:956px; margin:0 auto; padding:3px 0 0 0; height:34px; line-height:34px; overflow:hidden; position:relative;}
+.bbla-banner-shadow{ background:url("../images/bannershadow.png") no-repeat center -6px; height:11px; width:100%; padding:0;}
+.banleft{ float:left; width:500px;}
+.banright{float:right;}
+.banright a{ padding:0 5px 0 4px; color:#222222;}
+.banright a:hover{ color:#FF0000;}
+.banright a#wallpaper{ color:#dd0000;}
+.banright a#cgpifu{ padding:0 0 0 20px; background:url("../images/style.gif") no-repeat; background-position:2px center!important; background-position:2px 0;}
+.banright a#sethome{ padding:0 2px 0 20px; background:url("../images/home.gif") no-repeat 2px center;}
+#style{ background:#fff; display:none; border-bottom:1px solid #eee;}
+.bbla-instyle{ width:938px; margin:-12px auto 0; height:auto; overflow:hidden; padding:24px 0 19px; font-size:12px;}
+.bbla-instyle div{ height:20px; line-height:20px; padding:0 0 10px 0;}
+.bbla-instyle div b{ font-weight:normal;}
+.bbla-instyle div a{ cursor:pointer; padding:0 0 0 5px!important; padding:0 0 0 7px;}
+.bbla-instyle div.stycolor{ height:20px;}
+.bbla-instyle div.stybg{ height:40px;}
+.bbla-instyle input{ padding:2px 8px 0; font-size:12px;}
+.bbla-top{height:117px;width:1000px;margin:0 auto 0;}
+.bbla-logo{float:left;height:103px;width:284px;}
+.bbla-logo a{ padding:33px 0 0 62px;display:block;height:47px;}
+.bbla-logo a:hover{ background:url("../images/back.gif") no-repeat 130px 12px;}
+a.red{ color:#ee0000;}
+.pmain{ width:1000px; margin:0 auto;}
+.pleft{ float:left; width:150px;}
+.pleft .govs{ padding:6px 0 24px 0; border:1px solid #C9BAAD; background:#ffffdd;
+-moz-box-shadow:1px 1px 5px #ddd;               /* ff */
+-webkit-box-shadow:1px 1px 5px #ddd;            /* chrome,safari */
+box-shadow:1px 1px 5px #ddd;                    /* Op */
+}
+.pleft .govs h2{ font:bold 14px/36px "Î¢ÈíÑÅºÚ","ËÎÌå"; text-indent:12px; color:#D26D09;}
+.pleft .govs ul li{ height:24px; line-height:24px; border-bottom:1px dotted #EBD2B1; font-size:12px; margin:0 12px; text-align:left; padding:0 0 0 20px;}
+.pleft .govs ul li em{ float:left; font-style:normal; color:#aaa;}
+.pleft .govs ul li a{ color:#382B27; float:left; display:block; margin:0 20px 0 0; padding:0 20px 0 0;}
+.pleft .govs ul li a:hover{ color:#e00;}
+.pright{ float:left; width:838px; overflow:hidden; margin:0 0 0 10px;border-top:1px solid #C9D5E7;
+-moz-box-shadow:1px 1px 5px #ddd;               
+-webkit-box-shadow:1px 1px 5px #ddd;            
+box-shadow:1px 1px 5px #ddd;                   
+}
+.fenlei{ border:1px solid #C9D5E7; border-top:none; background:#F1F3F6; font-size:12px; clear:both;}
+.fenlei h2{ float:left; width:84px; _width:79px; font:bold 16px/42px "Î¢ÈíÑÅºÚ","ËÎÌå"; margin:5px; text-indent:36px; _text-indent:30px; color:#157CC8; overflow:hidden;}
+.fenlei:hover h2{ color:#d00;}
+.fenlei ul{color:#054DA1;float:left;width:740px; padding:10px 0 10px 1px; background:#fff; min-height:40px; height:100%; _height:40px; border-left:1px solid #E7E9EB;}
+.fenlei ul li{width:147px;overflow:hidden;height:30px;float:left;line-height:29px; text-indent:10px; text-align:left;}
+.fenlei ul li a{color:#055896;outline:none; padding:3px 24px 4px 6px!important; padding:7px 32px 0 6px; font-size:14px; border-radius:3px;}
+.fenlei ul li a:hover{ color:#fff; background:#0D9EEC; font-size:12px; font-weight:bold; text-decoration:none;}
+
+#bottom{height:38px;margin:10px auto 0;width:938px; padding:20px 0 0 0;}
+#bottom p{text-align:center;font-size:12px;height:24px;line-height:24px; color:#fff}
+#bottom p a{ padding:0 5px 0 4px; color:#000000;}

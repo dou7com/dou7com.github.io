@@ -1,0 +1,82 @@
+@charset "utf-8";
+*{ margin:0; padding:0; }
+body { font: normal 14px Arial, Tahoma, Helvetica, sans-serif; }
+ul{ list-style: none; }
+img{ border-width: 0px; }
+A { COLOR: #025291; TEXT-DECORATION: none }
+A:hover { COLOR: #FF0000; TEXT-DECORATION: underline }
+B.w1 { DISPLAY: block; Z-INDEX: 9; BACKGROUND: #ffffff; OVERFLOW: hidden; WIDTH: 2px; POSITION: absolute; HEIGHT: 2px; LEFT: -1px; TOP: -1px; }
+B.w2 { DISPLAY: block; Z-INDEX: 9; BACKGROUND: #ffffff; OVERFLOW: hidden; WIDTH: 2px; POSITION: absolute; HEIGHT: 2px; RIGHT: -1px; TOP: -1px; }
+/*------------------------主框架--------------------------------*/
+.clear{ clear:both; height:0px; width:0px; font-size:0px; line-height:0px; }
+#top{ width: 980px; margin: 0px auto; border-bottom: 2px solid #C4E4FF; height: 70px; }
+#soso{ margin: 3px auto 0px; width: 980px; }
+#con { margin: 5px auto 0px; width: 980px; }
+#left { float: left; width: 228px; }
+#right{ width: 746px; float: left; margin-left: 5px; }
+/*---------------------------banner---------------------------*/
+#banner{ MARGIN: 0px auto; border-bottom: 1px solid #D2D2D2; background: #FCFCFC; text-align: right; }
+#banner .ba{ margin: 0px auto; width: 980px; HEIGHT: 20px; padding: 2px 0px; }
+#banner a{ display: inline; float: right; width: 50px; padding: 0px; font: 12px/20px tahoma, arial, "宋体"; }
+#banner .b3{ }
+#banner .b2{ margin: 0px 0px 0px 12px; }
+#skin{ list-style:none; height: 20px; }
+#skin li{ float:left; width:15px; height:20px; overflow:hidden; display:inline; cursor:pointer; margin-left: 5px; }
+#skin_0{ background: url(../img/vs.gif) -131px -34px; }
+#skin_1{ background: url(../img/vs.gif) -107px -34px; }
+#skin_2{ background: url(../img/vs.gif) -83px -34px; }
+#skin_0.see{ background: url(../img/vs.gif) -131px -54px; }
+#skin_1.see{ background: url(../img/vs.gif) -107px -54px; }
+#skin_2.see{ background: url(../img/vs.gif) -83px -54px; }
+/*---------------------------topbanner---------------------------*/
+#top .logo{ height: 60px; width: 179px; float: left; margin-top: 3px; margin-left: 1px; display: inline; background: url(../img/vs.gif) no-repeat -96px -87px; }
+#top .tq{ float: left; margin-top: 6px; display: inline; }
+#top .tu{ float: left; margin-left: 8px; margin-top: 5px; }
+/*---------------------------soso---------------------------*/
+#soso .tab { height:26px; line-height:28px; border-bottom: 1px solid #AACCEE; }
+#soso .tab ul { list-style: none; height: 26px; position: relative; top: 2px; float: left; }
+#soso .tab li { float:left; display:block; cursor:pointer; margin-right:3px; line-height:22px; text-align: center; position: relative; padding-top: 2px; }
+#soso .hover { background:#ECF7FF url(../img/vs.gif) -84px 0px; color:#07519A; height:24px; font-weight: bold; width: 56px; }
+#soso .nohover { color:#07519A; background:#F5F5F5; width: 56px; }
+#soso .dis { border-right: 1px solid #AACCEE; border-bottom: 1px solid #AACCEE; border-left: 1px solid #AACCEE; padding: 8px 0px; width: 978px; background: #ECF7FF; }
+#soso .no { width: 72px; height: 13px; font-size: 13px; }
+#soso .google { background: url(../img/vs.gif) no-repeat 34px 3px; width: 112px; float: left; height: 30px; }
+#soso .baidu { background: url(../img/vs.gif) no-repeat 34px -35px; width: 112px; float: left; height: 30px; }
+#soso .taobao { background: url(../img/vs.gif) no-repeat 34px -120px; width: 112px; float: left; height: 30px; }
+#soso .gougou { background: url(../img/vs.gif) no-repeat 34px -80px; width: 112px; float: left; height: 30px; }
+#soso .put { float: left; margin-left: 18px; display: inline; }
+#soso .st { height: 19px; width: 408px; border-top: 1px solid #77ADE3; border-bottom: 1px solid #77ADE3; border-left: 1px solid #77ADE3; border-right-width: 0px; border-right-style: solid; display: inline; font-size: 16px; padding: 5px 0px 5px 8px; }
+#soso .sx{ line-height: 27px; padding-left: 10px; float: left; display: block; padding-top: 4px; font-size: 13px; color: #3C3CFF; cursor: pointer; }
+#soso .sb { background:url(../img/vs.gif) 98px -1px; height:31px; cursor:pointer; color:#FFFFFF; width: 97px; border-top: 0px solid; border-right: 0px solid; border-bottom: 0px solid; border-left: 0px solid; font: bold 15px "宋体"; margin: 0px; padding: 0px; }
+#soso .jy{ float: right; font-size: 13px; display: inline; line-height: 24px; }
+#soso .no a:visited{ color: #CCCCCC; }
+/*---------------------------left---------------------------*/
+#left .lm{ border: 2px solid #AACCEE; width: 224px; background: #F7FCFF; }
+#left .la{ font-weight: bold; color: #3F8BD8; padding: 5px 0px 0px 12px; line-height: 24px; }
+#left .lb a{ display: inline; float: left; width: 56px; line-height: 29px; text-align: center; }
+#left .las{ font-weight: bold; color: #3F8BD8; border-top: 1px solid #E3EEFB; margin: 8px 12px 0px; padding: 14px 0px 1px; }
+#left .lac{ padding-top: 3px; }
+/*---------------------------right---------------------------*/
+#right .rt { border: 2px solid #AACCEE; padding: 1px 5px 0px; width: 733px; background: #FEFEFB; }
+#right .ra a { float: left; display: block; width: 122px; text-align: center; line-height: 28px; }
+#right .rm{ border: 2px solid #AACCEE; width: 719px; padding: 3px 11px 3px 13px; margin: 5px 0px 0px; background: #FEFEFB; }
+#right .rm a{ display: block; float: left; width: 102px; line-height: 25px; font-size: 13px; }
+#right a.r1{ width: 57px; font-weight: bold; word-spacing: 2px; }
+#right a.r2{ text-align: right; width: 50px; font-size: 13px; }
+#right .rline{ border-bottom: 1px solid #DEEBFA; margin-bottom: 6px; padding-bottom: 6px; }
+/*---------------------------last---------------------------*/
+#tool{ margin: 5px auto 0px; width: 954px; border: 2px solid #AACCEE; padding: 1px 11px; background: #F7FCFF; font-size: 13px; }
+#tool a{ float: left; width: 75px; display: block; line-height: 27px; }
+#tool .t1{ font-weight: bold; }
+#tool .t2{ width: 54px; font-size: 13px; text-align: right; }
+/*---------------------------floot---------------------------*/
+#floot{ margin: 0px auto; width: 720px; font-size: 13px; padding: 18px 0px; }
+#floot a{ float: left; display: block; }
+#floot .f1{ float: left; text-align: center; width: 20px; color: #CCCCCC; }
+#floot .f2{ color: #666666; float: left; display: inline; font-family: "宋体"; margin-left: 15px; }
+
+a.reds { color: #FF0000; }
+a.green { color: #178517; }
+a.blue{ color: #B84D32; }
+a.topjy{ color: #999999; }
+a.zy{ color: #2776C5; }

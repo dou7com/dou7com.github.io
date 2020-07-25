@@ -1,0 +1,561 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type=text/css>
+<!--
+ td,body {  font-size: 16px; font-family:arial,sans-serif,宋体;}body{margin-top:0px;margin-left:0px;margin-right:0px;background-color: #fcfff7} a:link{ color:#000000; text-decoration:none;padding-left:4px; }     a:visited{COLOR: #000000; TEXT-DECORATION: none;padding-left:4px;} a:active{color:green;text-decoration:none;padding-left:4px;}a:hover{color:red;text-decoration:underline;padding-left:4px;}
+a.m:link{ color:#000000; text-decoration:none;padding-left:0px;}
+a.m:visited{COLOR: #000000; TEXT-DECORATION: none;padding-left:0px;}
+a.m:active{color:green;text-decoration:none;padding-left:0px;}
+a.m:hover{color:red;text-decoration:underline;padding-left:0px;}
+.t1{border-width:1px 1px 1px 1px;border-style:solid;font-size:12px;text-align: center}
+.bgg{border-color:#8AB78A; width:898px}
+.f9pt{font-size: 12px;}
+#sfont a,#sfont b{font-size:13px;}
+.highlight_1 a:link,.highlight_1 a:visited{color:red}
+.wr{text-align:right}
+.WB {width:530;text-align:left;clear:both;height:60px; padding-top:0px!important; padding-top:5px}
+@media screen and (min-width:0px){.WB {margin-top:3px!important;padding-top:0px!important}}
+#FrP{font-size:13px;border:0px solid #C5D5C5; height:48px; padding-top:1px; padding-bottom:2px;width:530;}<!-- 修改高度44-48>
+#FrP a{color:#205001}
+#FrP a:hover{color:red}
+.searchfod1 {FONT-WEIGHT: bold; COLOR: #000; text-align:center; width:55px; font-size:14px}
+.searchfod2 {CURSOR: pointer; text-align:center; width:55px; font-size:14px}
+--> </style>
+<base target="_blank">
+<title>hao123网址之家－－软件</title>
+</head>
+<body>
+<SCRIPT  language=javascript>
+var haoCurrHighLight = document.getElementById("haoweb");
+function trim(str){
+	return str.replace(/(^\s*)|(\s*$)/g, "");
+}
+function setStyle(a,b){
+	var c=document.styleSheets[0];
+	if(c.addRule){
+	c.addRule(a,b);
+	}else if(c.insertRule){
+	c.insertRule(a+" { "+b+" }",c.cssRules.length);
+	}}
+function haoValidate(source){
+	wval = trim(f.word.value);
+	if (f.sc.value=="post")
+	{
+	    f.kw.value=f.word.value
+		f.ct.value=""
+		f.tn.value=""
+		f.rn.value=""
+		f.lm.value=""
+		f.rs2.value=0
+		f.myselectvalue.value=1
+		f.ie.value=""
+		f.cl.value=""
+		f.z.value=""
+		f.from.value=""
+	  }
+	if (f.sc.value=="img")
+	{
+		f.ct.value=201326592
+		f.lm.value=-1
+		f.cl.value=2
+		f.tn.value="baiduimage"
+		f.pv.value=""
+		f.rs2.value=""
+		f.myselectvalue.value=""
+		f.ie.value=""
+		f.z.value=0
+		f.rn.value=""
+		f.from.value=""
+		f.f.value=""
+		}
+	if (f.sc.value=="zhidao")
+	{
+		f.ct.value=17
+		f.tn.value="ikaslist"
+		f.rn.value=10
+		f.lm.value=""
+		f.cl.value=""
+		f.ie.value=""
+		f.rs2.value=""
+		f.f.value=""
+		f.myselectvalue.value=""
+		f.z.value=""
+		f.from.value=""
+		}
+	if (f.sc.value=="web")
+	{
+	    f.cl.value=3
+		f.tn.value="hao123"
+		f.ct.value=0
+		f.ie.value="gb2312"
+		f.myselectvalue.value=""
+		f.rn.value=""
+		f.rs2.value=""
+		f.z.value=""
+		f.from.value=""
+		f.lm.value=""
+		}
+	if (f.sc.value=="mp3")
+	{
+	    f.ct.value=134217728
+		f.lm.value=-1
+		f.rn.value=""
+		f.cl.value=""
+		f.tn.value="baidump3"
+		f.f.value="ms"
+		f.myselectvalue.value=""
+		f.ie.value="gb2312"
+		f.z.value=""
+		f.from.value=""
+		}
+	if (f.sc.value=="news")
+	{
+	    f.tn.value="news"
+		f.cl.value=2
+		f.rn.value=20
+		f.ct.value=0
+	    f.z.value=""
+		f.from.value="news"
+		f.ie.value=""
+		f.myselectvalue.value=""
+		f.lm.value=""
+		f.rs2.value=""
+	    }
+		return true;
+}
+function haoSubSearch(sc){
+	changePage(sc);
+	if(sc != "baidu"){
+		if(sc == "post")
+		{
+		    f.action = "http://tieba.baidu.com/f";
+
+		}
+		else if(sc == "zhidao")
+		{
+			f.action = "http://zhidao.baidu.com/q";
+
+		}
+		else if(sc == "mp3")
+		{
+			f.action = "http://mp3.baidu.com/m";
+
+		}
+		else if(sc == "img")
+		{
+			f.action = "http://image.baidu.com/i";
+
+		}
+		else if(sc == "news")
+		{
+			f.action = "http://news.baidu.com/ns";
+
+		}
+		else if(sc == "video")
+		{
+			f.action = "http://video.baidu.com/v";
+
+		}
+		else
+		{
+			f.action = "http://www.baidu.com/s";
+
+		}
+		f.sc.value = sc;
+	}
+	else{
+		f.sc.value = "post";
+		haoGoSoba();
+	}
+}
+
+function haoGoSoba(){
+
+	f.action = "http://www.baidu.com/s";
+	f.kw.value = f.word.value;
+}
+function G(id)
+{
+ return document.getElementById(id);
+}
+function changePage(sc){
+	if(haoCurrHighLight == null){
+		haoCurrHighLight = document.getElementById("haoweb");
+	}
+	haoCurrHighLight.className = "searchfod2";
+	haoCurrHighLight = document.getElementById("hao"+sc);
+	haoCurrHighLight.className = "searchfod1";
+	document.f.word.focus()
+	 f.word.value="";
+}
+function isSoba(){
+	if(haoCurrHighLight == document.getElementById("haosoba")){
+		haoGoSoba();
+		return true;
+	}
+	else{
+		return true;
+	}
+}
+function goSearch(){
+	if(!haoValidate(1))
+	{
+			return false;
+			}
+	else{
+	 return false;
+	 }
+}
+
+</SCRIPT>
+<div align="center"><center>
+<table border="0" cellpadding="0" cellspacing="0" width="900" height="51">
+    <tr>
+      <td width="290" height="51"><a href="/" target="_self" class="m"><img src="images/logo_new.gif" alt="hao123网址之家www.hao123.com"    width="168" height="63" border="0"></a></td>
+     <td height="51" align="center">
+<p class="WB">
+<table width=100% border=0 cellspacing=0 cellpadding=0 style="margin-bottom:-6px "><tr><td width=2 height=18> </td><td  valign=bottom class=searchfod1 id=haoweb onClick="haoSubSearch('web');goSearch()" onmousedown="ClickMonkey.log('haoweb');" >网 页</td><td width="4"></td><td valign=bottom class=searchfod2 id=haomp3 onClick="haoSubSearch('mp3');goSearch()" onmousedown="ClickMonkey.log('haomp3');" >MP3</td> <td width="4"></td><td valign=bottom   class=searchfod2 id=haoimg onClick="haoSubSearch('img');goSearch()" onmousedown="ClickMonkey.log('haoimg');" >图 片</td><td width="4"></td><td valign=bottom class=searchfod2 id=haopost onClick="haoSubSearch('post');goSearch()" onmousedown="ClickMonkey.log('haopost');" >贴 吧</td><td width="4"></td><td  valign=bottom class=searchfod2 id=haozhidao onClick="haoSubSearch('zhidao');goSearch()" onmousedown="ClickMonkey.log('haozhidao');" >知 道</td><td width="4"></td><td  valign=bottom class=searchfod2 id=haonews onClick="haoSubSearch('news');goSearch()" onmousedown="ClickMonkey.log('haonews');" >新 闻</td><td width="4"></td><td valign=bottom class=searchfod2 id=haovideo onClick="haoSubSearch('video');goSearch()" onmousedown="ClickMonkey.log('haovideo');">视 频</td><td width="4"></td><td  width=240 valign=bottom> </td></tr></table>
+<table border="0" cellspacing="0" cellpadding="0" id=FrP><tr><form onSubmit="return haoValidate();" action=http://www.baidu.com/s name=f><td align="left"><INPUT type=hidden name=kw><INPUT type=hidden name=sc><input type=hidden name=cl value=3><input type=hidden name=tn value=hao123><input type=hidden name=ct><input type=hidden name=rn><input type=hidden name=lm><input type=hidden name=ie><input type=hidden name=rs2><input type=hidden name=myselectvalue><input type=hidden name=f><input type=hidden name=pv><input type=hidden name=z><input type=hidden name=from>
+<input type="text" name="word" size=38 maxlength="100" class="kw" id="kww"  style="margin-bottom:-5px; font-size:16px;height:1.78em;font-family:arial,sans-serif,宋体;padding-top:2px; padding-left:1px"> <input type=submit value=百度一下 style="height:1.82em;width:6.4em;font-size:16px; margin-bottom:-5px; padding-top:2px"  class=sb monkey="submit">
+</span>
+</td>
+</form></tr></table></p>
+</td>
+	</tr>
+  </table>
+</center></div>
+<script language=javascript>
+<!--
+document.f.word.focus()
+window.onload = function(){
+	haoSubSearch("web");
+	goSearch();
+}
+//-->
+</script>
+<div align="center"><center>
+ <table border=0 cellPadding=0 cellSpacing=0 width=900 height=1><tr align=center><td height="1" bgcolor="C1D0D7"></td></tr></table>
+<table width=900 height=25 bgcolor=#EEF7FF border=0 cellspacing=0 cellspadding=2><tr>
+<td width="50%" class="f9pt" style="color:#424242 "> <a href="http://www.hao123.com" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.hao123.com/');return(false);" style="behavior: url(#default#homepage); color:#D35E04"><img src="images/home.gif" width="15" height="15" border="0" align="absmiddle"> 把hao123设为主页</a>　　<a href="book/"><img src="images/notebook.gif" width="15" height="15" border="0" align="absmiddle"> 网友留言</a> </td><td align="right" class="f9pt" style="color:#424242; padding-right:10px"><a href="/" target=_self style="color:#424242 ">首页</a> > 软件</td></tr></table>
+</center></div>
+<div align="center" onmousedown="bdRecord.scope(event)"><center>
+<div class="t1 bgg">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<!--无内容-->
+<!--无内容-->
+<!--无内容-->
+<!--无内容-->
+<!--无内容-->
+<!--无内容-->
+<!--无内容-->
+<tr bgcolor="#D9EDDA">
+	<td height="20" class="f9pt" align="center"><font color="#346F0E">软件下载</font></td>
+</tr>
+
+<tr bgcolor="C5D5C5">
+	<td >
+		<table width="100%"  border="0" cellspacing="1" cellpadding="7">
+						<tr bgcolor="#EFF7F0">					<td  width="20%"><a href="http://www.skycn.com/">天空软件站</a></td>
+		
+											<td  width="20%"><a href="http://www.onlinedown.net/">华军软件园</a></td>
+		
+											<td  width="20%"><a href="http://dl.pconline.com.cn/">太平洋下载</a></td>
+		
+											<td  width="20%"><a href="http://tech.sina.com.cn/down/">新浪下载</a></td>
+		
+											<td  width="20%"><a href="http://xiazai.zol.com.cn/">中关村下载</a></td>
+		
+				</tr>						<tr bgcolor="#EFF7F0">					<td  width="20%"><a href="http://soft.gougou.com/">狗狗软件搜索</a></td>
+		
+											<td  width="20%"><a href="http://www.mydrivers.com/">驱动之家</a></td>
+		
+											<td  width="20%"><a href="http://www.crsky.com/">非凡软件</a></td>
+		
+											<td  width="20%"><a href="http://download.pchome.net/">PChome下载</a></td>
+		
+											<td  width="20%"><a href="http://download.it168.com/">IT168 下载</a></td>
+		
+				</tr>						<tr bgcolor="#EFF7F0">					<td  width="20%"><a href="http://www.2838.net/soft/default.htm">常用软件下载</a></td>
+		
+											<td  width="20%"><a href="http://www.2838.net/soft/shouji/default.htm">手机常用软件</a></td>
+		
+											<td  width="20%"><a href="http://www.xdowns.com/">绿色软件联盟</a></td>
+		
+											<td  width="20%"><a href="http://www.win7china.com/">Win7之家</a></td>
+		
+											<td  width="20%"><a href="http://www.microsoft.com/china">微软中国官方网站</a></td>
+		
+				</tr>						<tr bgcolor="#EFF7F0">					<td  width="20%"><a href="http://www.2838.net/soft/harcksafe/default.htm">免费杀毒软件</a></td>
+		
+											<td  width="20%"><a href="http://www.adobe.com/cn/">Adobe</a></td>
+		
+											<td  width="20%"><a href="http://www.wps.cn/">WPS</a></td>
+		
+											<td  width="20%"><a href="http://www.skycn.com/soft/64892.html">新网民上网教程</a></td>
+		
+											<td  width="20%">&nbsp;</td>
+		
+				</tr>				</table>
+	</td>
+</tr>
+
+<tr bgcolor="C5D5C5">
+	<td >
+<table width="100%"  border="0" cellpadding="0" cellspacing="1" bgcolor="C5D5C5">
+    <tr align="center" bgcolor="#D9EDDA">
+      <td width="20%" height="20" class="f9pt clo"><font color="#346F0E">即时聊天</font></td>
+      <td width="20%" class="f9pt clo"><font color="#346F0E">病毒查杀</font></td>
+      <td width="20%" class="f9pt clo"><font color="#346F0E">网络电视</font></td>
+      <td width="20%" class="f9pt clo"><font color="#346F0E">输入法</font></td>
+      <td width="20%" class="f9pt clo"><font color="#346F0E">证券股票</font></td>
+    </tr>
+    <tr bgcolor="#EFF7F0">
+      <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
+        <tr>
+          <td><a href="http://im.qq.com/" target="_blank"><img src="soft/images/qq.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;腾讯QQ</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.windowslive.cn/Messenger/" target="_blank"><img src="soft/images/dmsnmessenger.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;MSN</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://im.baidu.com/"><img src="soft/images/baiduhi.gif" width="18" height="19" border="0" align="absmiddle">&nbsp;&nbsp;百度HI</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://feixin.10086.cn/download/"><img src="soft/shouji/images/fetion.gif" width="18" height="15" border="0" align="absmiddle">&nbsp;&nbsp;飞信</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.taobao.com/wangwang/"><img src="soft/images/wangwang18.gif" width="18" height="15" border="0" align="absmiddle">&nbsp;&nbsp;阿里旺旺</a></td>
+        </tr>
+      </table></td>
+      <td valign="top" bgcolor="#EFF7F0"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
+        <tr>
+          <td><a href="http://j.union.ijinshan.com/jump.php?u_key=552" target="_blank"><img src="soft/images/kingsoft18.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;金山毒霸</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.rising.com.cn/" target="_blank"><img src="soft/images/rising.gif" width="18" border="0"  align="absmiddle">&nbsp;&nbsp;瑞星杀毒</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://sd.360.cn/" target="_blank"><img src="soft/images/360.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;360杀毒</a></td>
+        </tr>
+
+      </table></td>
+      <td valign="top" bgcolor="#EFF7F0"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
+
+        <tr>
+          <td> <a href="http://www.pps.tv/"><img src="soft/images/ppstream.jpg" width="18" height="18" border="0" align="absmiddle">&nbsp;&nbsp;PPS</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://click.t3nlink.com/link/131483/"><img src="soft/images/funshion.gif" width="18" height="18" border="0" align="absmiddle">&nbsp;&nbsp;风行</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://click.t3nlink.com/link/134095/"><img src="soft/images/uusee18.gif" width="18" height="18" border="0" align="absmiddle">&nbsp;&nbsp;UUSee</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://click.t3nlink.com/link/131482/"><img src="soft/images/pplive.gif" width="18" height="18" border="0" align="absmiddle">&nbsp;&nbsp;PPTV</a></td>
+        </tr>
+
+      </table></td>
+      <td valign="top" bgcolor="#EFF7F0"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
+	  <tr>
+          <td><a href="http://pinyin.sogou.com/"><img src="soft/images/sogopy.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;搜狗输入法</a></td>
+        </tr>
+
+        <tr>
+          <td><a href="http://www.onlinedown.net/soft/7677.htm" target="_blank"><img src="soft/images/jipin6.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;极品五笔</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://py.qq.com/" target="_blank"><img src="soft/images/qqpy.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;QQ拼音</a></td>
+        </tr>
+		<tr>
+          <td><a href="http://typeeasy.kingsoft.com/" target="_blank"><img src="soft/images/typeeasy.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;金山打字通</a></td>
+        </tr>
+      </table></td>
+      <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
+	  
+     <tr>
+            <td><a href="http://www.gw.com.cn/download/level1/index.htm" target="_blank"><img src="soft/images/dzh.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;大智慧</a></td>
+          </tr>
+          <tr>
+            <td><a href="http://www.10jqka.com.cn/download/" target="_blank"><img src="soft/images/ths.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;同花顺</a></td>
+          </tr>
+          
+      </table></td>
+    </tr>
+    <tr align="center" bgcolor="#D9EDDA">
+      <td height="20" class="f9pt clo"><font color="#346F0E">下载工具</font></td>
+      <td class="f9pt clo"><font color="#346F0E">视频播放</font></td>
+      <td class="f9pt clo"><font color="#346F0E">MP3工具</font></td>
+      <td class="f9pt clo"><font color="#346F0E">游戏平台</font></td>
+      <td class="f9pt clo"><font color="#346F0E">游戏辅助</font></td>
+    </tr>
+    <tr bgcolor="#EFF7F0">
+      <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
+        <tr>
+          <td><a href="http://dl.xunlei.com/" target="_blank"><img src="soft/images/Thunder.gif" width="18" height="18" border="0" align="absmiddle">&nbsp;&nbsp;迅雷</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.emule.org.cn/download/" target="_blank"><img src="soft/images/emule.gif" width="18"   border="0" align="absmiddle">&nbsp;&nbsp;eMule(电驴)</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://xf.qq.com/" target="_blank"><img src="soft/images/xf.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;QQ旋风</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.flashget.com/" target="_blank"><img src="soft/images/flashget.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;快车</a></td>
+        </tr>
+      </table></td>
+      <td valign="top" bgcolor="#EFF7F0"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
+        <tr>
+          <td><a href="http://www.baofeng.com/" target="_blank"><img src="soft/images/bfyy.gif" width="18" border="0"  align="absmiddle">&nbsp;&nbsp;暴风影音</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.qvod.com/" target="_blank"><img src="soft/images/qvod.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;快播qvod</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://get.adobe.com/flashplayer/" target="_blank"><img src="soft/images/flashplayer.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;Flash Player</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://realplayer.cn.real.com/" target="_blank"><img src="soft/images/realplay.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;RealPlayer</a></td>
+        </tr>
+
+      </table></td>
+      <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
+        <tr>
+          <td><a href="http://www.koowo.com/mbox.down2?src=kwun0271" target="_blank"><img src="soft/images/kuwo.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;酷我音乐盒</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.kugou.com/" target="_blank"><img src="soft/images/kugoo.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;酷狗</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://ttplayer.qianqian.com/" target="_blank"><img src="soft/images/ttplayer.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;千千静听</a></td>
+        </tr>	
+
+      </table></td>
+      <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
+        <tr>
+          <td><a href="http://qqgame.qq.com/download.shtml" target="_blank"><img src="soft/images/qqgame.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;QQ游戏中心</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.ourgame.com/download/" target="_blank"><img src="soft/images/lianzhong.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;联众游戏大厅</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.cga.com.cn/download.shtml" target="_blank"><img src="soft/images/haofang.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;浩方电竞平台</a></td>
+        </tr>
+         <tr>
+          <td><a href="http://game1.vsa.com.cn/vsmain/jsp/down/down.html" target="_blank"><img src="soft/images/vs_15.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;VS竞技游戏平台</a></td>
+        </tr>
+      </table></td>
+      <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
+         <tr>
+          <td><a href="http://www.yy.com/" target="_blank"><img src="soft/images/duowan_15.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;多玩YY</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.ispeak.cn/" target="_blank"><img src="soft/images/is_15.gif" width="18" border="0"   align="absmiddle">&nbsp;&nbsp;iS语音</a></td>
+        </tr>
+		<tr>
+          <td><a href="http://www.alicall.com/down.asp?linkid=8930492" target="_blank"><img src="soft/images/ut_15.gif" width="18" border="0"   align="absmiddle">&nbsp;&nbsp;阿里通</a></td>
+        </tr>
+		<tr>
+          <td><a href="http://www.keepc.com/voip/?t=1&id=33263" target="_blank"><img src="soft/images/Daemon.gif" width="18" border="0"   align="absmiddle">&nbsp;&nbsp;UUcall网络电话</a></td>
+        </tr>
+        
+      </table></td>
+    </tr>
+    <tr align="center" bgcolor="#D9EDDA">
+      <td height="20" class="f9pt clo"><font color="#346F0E">插件清理</font></td>
+      <td class="f9pt clo"><font color="#346F0E">系统工具</font></td>
+      <td class="f9pt clo"><font color="#346F0E">浏览器</font></td>
+      <td class="f9pt clo"><font color="#346F0E">阅读/图像</font></td>
+      <td class="f9pt clo"><font color="#346F0E">手机软件</font></td>
+    </tr>
+    <tr bgcolor="#EFF7F0">
+      <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
+        
+       
+        <tr>
+          <td><a href="http://www.ijinshan.com/ws/" target="_blank"><img src="soft/images/ijinshan.gif" width="18" border="0"   align="absmiddle">&nbsp;&nbsp;金山卫士</a></td>
+        </tr>
+		<tr>
+          <td><a href="http://www.360.cn/"><img src="soft/images/360.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;360安全卫士</a></td>
+        </tr>
+		<tr>
+          <td><a href="http://tool.ikaka.com/" target="_blank"><img src="soft/images/kaka_s.gif" width="18" border="0"   align="absmiddle">&nbsp;&nbsp;卡卡安全助手</a></td>
+        </tr>
+		
+
+      </table></td>
+      <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
+        <tr>
+          <td><a href="http://www.ludashi.com/" target="_blank"><img src="soft/images/z.jpg" width="18" border="0"   align="absmiddle">&nbsp;&nbsp;鲁大师</a></td>
+        </tr>
+		  <tr>
+          <td><a href="http://www.downg.com/soft/302.html" target="_blank"><img src="soft/images/WinRAR.gif" width="18"  border="0" align="absmiddle">&nbsp;&nbsp;WinRAR</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.drivergenius.com/" target="_blank"><img src="soft/images/drivergenius.gif" width="18" border="0"    align="absmiddle">&nbsp;&nbsp;驱动精灵</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.updrv.com/" target="_blank"><img src="soft/images/updrv.gif" width="18" border="0"    align="absmiddle"> 驱动人生</a></td>
+        </tr>
+
+      </table></td>
+      <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
+	  <tr>
+          <td><a href="http://www.skycn.com/soft/30276.html" target="_blank"><img src="soft/images/msie5ico.gif" width="18"  border="0" align="absmiddle">&nbsp;&nbsp;IE</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://download.2345.com/down/2345Explorer_239391.exe" target="_blank"><img src="soft/images/myie2.gif" width="18"  border="0" align="absmiddle">&nbsp;&nbsp;2345浏览器</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.mozillaonline.com/"><img src="soft/images/firefox.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;火狐</a></td>
+        </tr>
+		 <tr>
+          <td><a href="http://www.google.com/chrome"><img src="soft/images/chrome_18.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;谷歌浏览器</a></td>
+        </tr>
+		  
+      </table></td>
+      <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
+        <tr>
+          <td><a href="http://www.skycn.com/soft/3076.html" target="_blank"><img src="soft/images/adobereader.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;Adobe Reader</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://cn.acdsee.com/zh-cn/download/" target="_blank"><img src="soft/images/ACDSee.gif" width="18" border="0"   align="absmiddle">&nbsp;&nbsp;ACDSee</a></td>
+        </tr>   
+        <tr>
+          <td><a href="http://xiuxiu.meitu.com/" target="_blank"><img src="soft/images/xiuxiu.gif" width="18" border="0"   align="absmiddle">&nbsp;&nbsp;美图秀秀</a></td>
+        </tr>
+		<tr>
+          <td><a href="http://www.neoimaging.cn/" target="_blank"><img src="soft/images/neoimaging.jpg" width="18" border="0"   align="absmiddle">&nbsp;&nbsp;光影魔术手</a></td>
+        </tr>
+		<tr>
+          <td><a href="http://codown.youdao.com/note/youdaonote_v_heima046.exe" target="_blank"><img src="soft/images/keniu.gif" width="18" border="0"   align="absmiddle">&nbsp;&nbsp;有道云笔记</a></td>
+        </tr>
+
+      </table></td>
+      <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
+        <tr>
+          <td colspan="2"><a href="http://mobile.qq.com/" target="_blank"><img src="soft/shouji/images/qq.gif" width="18"   border="0" align="absmiddle">&nbsp;&nbsp;手机版QQ</a></td>
+        </tr>
+        <tr>
+          <td colspan="2"><a href="http://www.uc.cn/ " target="_blank"><img src="soft/shouji/images/ucweb.gif" width="18"   border="0" align="absmiddle">&nbsp;&nbsp;UCWEB</a></td>
+        </tr>
+        <tr>
+          <td colspan="2"><a href="http://www.blovestorm.com/" target="_blank"><img src="soft/shouji/images/blovestorm.gif" width="20" border="0" align="absmiddle">&nbsp;&nbsp;来电通</a></td>
+        </tr>
+        <tr>
+          <td width="50%"></td>
+          <td width="50%">&nbsp;<a href="http://www.2838.net/soft/shouji/default.htm"  class="f14">更多>></a></td>
+        </tr>
+      </table></td>
+    </tr>
+</table>
+	</td>
+</tr>
+</table>
+</div>
+</center></div>
+<DIV align=center><br><a href="/" target="_self"><img src="images/return.gif" width="60" height="30" alt="返回本站首页" border="0"></a></DIV>
+
+<span style="display:none"><script src="js/tj.js"></script></span>
+</body>
+</html>

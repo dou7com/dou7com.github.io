@@ -1,0 +1,66 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>用户登录_在线收藏夹_我在线上网站大全</title>
+<style type="text/css">
+*{ margin:0; padding:0; font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif;}
+body{ background:none;}
+div{ height:34px; padding:4px 0 0 0; width:400px; clear:both;}
+div a{ color:#1A78D7; text-decoration:none;}
+div span{ border:1px solid #acadae; display:block; float:left; height:25px; line-height:22px;}
+div span.name{ width:80px; border:none;}
+div.hd{ padding:12px 0 10px; height:auto;}
+div.hd span.name{ width:89px;}
+input{ height:25px; font:normal 12px/24px verdana; width:63px; padding:0 5px;}
+input.inputMiddle{ width:180px; border:1px solid #f2f2f2; color:#333;}
+p{ font-weight:bold; line-height:14px; height:28px; margin:0; padding:4px 0 0 0; width:625px; overflow:hidden; color:#338CE6;}
+.btns{ height:26px; border:none; font:normal 12px/26px verdana; display:block; float:left; width:61px; margin:0 10px 0 0; text-align:center;}
+.btns.submit{ background:url("../../images/userbtn.gif") no-repeat 0 0;}
+.btns.register{ background:url("../../images/userbtn.gif") no-repeat 0 -32px; color:#063;}
+.btns.qqlogin{ background:url("../../images/qqlogin.png") no-repeat 0 1px; width:63px;}
+h2{ border-top:1px solid #eee; font:bold 12px/50px verdana; width:620px; margin:14px 0 0 1px; padding:10px 0 0 0; color:#338CE6;}
+ul li{ list-style:none; font:normal 12px/24px verdana; padding:0 0 0 1px; color:#333;}
+#forpassword{ display:none; line-height:20px; color:#666;}
+</style>
+<script type="text/javascript" src="../common/common.js" ></script>
+</head>
+
+<body>
+
+<p>用户登陆</p>
+
+<form name="formLogin" method="post" action="http://www.wozaixianshang.comuser/passport/login_do.php" onSubmit="return notEmpty(userName, '请输入用户名。')&&notEmpty(userPwd, '请输入登录密码。')">
+<div><span class="name">用户名：</span><span><input name="userName" type="text" class="inputMiddle" id="userName" size="15" maxlength="20"/></span></div>
+<div><span class="name">密 &nbsp;码：</span><span><input name="userPwd" type="password" class="inputMiddle" id="userPwd" size="15" maxlength="20" onFocus="this.style.background='#ffc'" onBlur="this.style.background='#fff'"/></span></div>
+<div style="height:6px;"></div>
+<div><span class="name"></span>
+<input name="submit" type="submit" class="submit btns" value=" 登录 " tabindex="4" />
+<a href="register.php.htm"  class="register btns">注册</a>
+</div></form>
+<div class="hd"><span class="name"></span><a onClick="document.getElementById('forpassword').style.display='block'">忘记密码？</a>&nbsp;&nbsp;<a href="../../about/bbla-submit-suggest.html"  target="_blank">使用反馈</a>
+<div id="forpassword">请通过上面的 “使用反馈” 将您注册的用户名，以及有效的联系方式<br>留言给我们，待核实以后将密码以邮件形式通知您！</div>
+</div>
+
+
+<h2>在这里，您可以：</h2>
+<ul>
+<li>1、安全放心地存放个人网址收藏，不怕被别人看到或破坏。</li>
+<li>2、随时随地登录使用网址收藏夹：公司、家里、出差、网吧。</li>
+<li>3、收藏网址到网上，即使电脑重装也不会丢失。</li>
+</ul>
+
+<span id="ad">
+</span>
+
+<script type="text/javascript" language="javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-21501997-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www/') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</body>
+</html>

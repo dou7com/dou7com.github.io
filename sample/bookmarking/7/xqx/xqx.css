@@ -1,0 +1,137 @@
+
+*{margin:0;padding:0;text-decoration:none;font-family:Verdana,Arial;}
+a{ color:#000000;}
+a:hover{text-decoration:underline;color:#f00;}
+img{border:none;}
+ul li{text-align:center;list-style:none}
+.line{clear:both;display:block;margin:6px 0;height:1px;overflow:hidden;}
+p a:hover,span a:hover{color:#F00}
+.kill{ height:0px; overflow:hidden; display:block; clear:both;}
+.sp10{ height:10px;}
+.sp20{ height:20px;}
+#navs{ position:absolute; z-index:99; left:160px; _left:150px; top:33px!important; top:35px; width:740px; height:56px; padding:16px 28px 12px; white-space:nowrap; border:1px solid #abc; background:#F1F4F8; display:none; -moz-box-shadow:1px 1px 5px #ddd; -webkit-box-shadow:1px 1px 5px #ddd; box-shadow:1px 1px 5px #ddd;}
+#navs ul li{ float:left; height:24px; line-height:24px;}
+#navs ul li a{ color:#1D63A3; padding:6px 8px; font:bold 14px/24px "Î¢ÈíÑÅºÚ","ËÎÌå";}
+#navs ul li a:hover{ color:#f00;}
+.bbla-title, .bbla-title h1{font-size:12px;line-height:25px;text-indent:30px;margin:0 0 5px 0;font-weight:bold;}
+.bbla-banner{ font-size:12px;zoom: 1;background:rgba(255, 255, 255, 0.5) none repeat scroll 0 0 !important;filter:Alpha(opacity=50);background:#ffffff;}
+.bbla-banner div{ width:960px; margin:0 auto; padding:3px 0 0 0; height:34px; line-height:34px; overflow:hidden; position:relative;}
+.bbla-banner-shadow{ height:11px; width:100%; padding:0;}
+.banleft{ float:left; width:500px; font-family:simsun;}
+.banleft a{ color:#f00;}
+.banright{float:right;}
+.banright a{ padding:0 5px 0 4px; color:#222222;}
+.banright a:hover{ color:#FF0000;}
+.banright a#cgpifu{ padding:0 0 0 25px; background:url("../images/bblabg.gif") no-repeat -113px 2px;}
+.banright a#sethome{ padding:0 4px 0 20px; background:url("../images/bblabg.gif") no-repeat 1px 2px;}
+.banright a#bblacn{  padding:0 4px 0 24px; background:url("../images/bblabg.gif") no-repeat -197px 2px;}
+#style{ background:#fff; display:none; border-bottom:1px solid #eee;}
+.bbla-instyle{ width:938px; margin:-12px auto 0; height:auto; overflow:hidden; padding:24px 0 19px; font-size:12px;}
+.bbla-instyle div{ height:20px; line-height:20px; padding:0 0 10px 0;}
+.bbla-instyle div b{ font-weight:normal;}
+.bbla-instyle div a{ cursor:pointer; padding:0 0 0 5px!important; padding:0 0 0 7px;}
+.bbla-instyle div.stycolor{ height:20px;}
+.bbla-instyle div.stybg{ height:40px;}
+.bbla-instyle input{ padding:2px 8px 0; font-size:12px;}
+.bbla-top{height:117px;width:1000px;margin:0 auto;}
+.bbla-logo{float:left;height:103px;width:284px;}
+.bbla-logo a{ padding:33px 0 0 62px;display:block;height:47px;}
+a.red{ color:#ee0000;}
+
+#ly{margin:0 auto 10px;width:1000px;}
+.mallnav{ font:bold 14px/38px Verdana; height:38px; border:0px solid #BF0D11; background:#54A733 url("images/malltop2.gif") repeat-x; position:relative;
+-moz-box-shadow:1px 1px 5px #ddd; -webkit-box-shadow:1px 1px 5px #ddd; box-shadow:1px 1px 5px #ddd; display:none;}
+.bbla-title, #right p, #right p#tab a.thea{ color:#EB5B4B;}
+#search #sbmain #sbse, #search #sbmclass ul li a.cur{ background:#9DDB86; border:1px solid #6DBA2B;}
+#search #sbmclass ul li a.cur{ border-bottom:none;}
+#search .sbsetext{ border:1px solid #6DBA2B;}
+.oneborder{border:1px solid #9DDB86;}
+.twoborder{border:1px solid #6DBA2B;}
+.bbla-banner{ border-bottom:1px solid #AED6A3;}
+body{ background:#fff url("images/xqx.jpg") no-repeat left top;}
+#ly #tab,
+#ly #tab b{ border-color:#6DBA2B;}
+#ly #tab b a{ background:#9DDB86; color:#854C29;}
+
+
+
+
+.mallleft{ float:left; width:729px;}
+.mallright{ float:right; width:245px;}
+
+/*  ²à±ßÀ¸  */
+.malladd{}
+.malladd ul{ border:1px solid #ADDD9B; background:#fff;}
+.malladd ul h6{ padding:0 0 0 20px; font-size:14px; font-weight:normal; line-height:36px; height:36px; overflow:hidden; color:#1D8C0D; background:#ECFDE1; border-bottom:1px solid #ADDD9B;}
+.malladd ul h6 a{ color:#888; font-weight:normal;}
+.malladd ul p{ margin:16px 0 0 12px;}
+.malladd ul li{ padding:0 0 0 20px; line-height:36px; font-size:12px; color:#ddd; text-align:left;}
+.malladd ul li a{ color:#454545; padding:3px 0; font-size:14px;}
+.malladd ul li a:hover{ color:#e00;}
+.malladd .taobaoad{ width:160px; height:625px; overflow:hidden; margin:0 auto;}
+.malladd ul span{ display:block; line-height:36px;}
+
+
+
+/*  Í¼Æ¬Õ¹Ê¾ */
+.mallleft h1{ border:1px solid #ADDD9B; border-bottom:none; font:normal 14px/36px verdana; background:#ECFDE1; color:#1D8C0D; padding:0 20px}
+.mallleft h1 a{ font-size:12px; float:right; color:#666;}
+
+.lunch{ padding:20px 0 0 0; width:117px; height:219px; float:left; font-size:12px; border:1px solid #ADDD9B; border-right:none; background:#fff;}
+.lunch p{ height:38px; line-height:32px; padding:0 0 0 30px; color:#1D8C0D; background:#fff url("images/malllunch1.gif") no-repeat 12px top; margin-right:-1px; position:relative;}
+.lunch ul li{ height:26px; line-height:26px; overflow:hidden; text-align:left; padding:0 0 0 20px; color:#aaa;}
+.lunch ul li a{ padding:0 0 0 10px; color:#1D8C0D;}
+
+
+.package{ float:left; width:611px; background:#fff;}
+.package ul{ border:1px solid #ADDD9B; padding:10px; width:589px;}
+.package ul li{ float:left; height:54px; width:117px; overflow:hidden; border-left:1px solid #E6F0E1; border-top:1px solid #E6F0E1; cursor:pointer;}
+.package ul li.nobl{ border-left:none;}
+.package ul li.nobt{ border-top:none;}
+.package ul li a{ display:block; height:50px; border:2px solid #fff; text-align:center; text-decoration:none;}
+.package ul li a p{ background:#fff; height:43px; padding:6px 0 1px;}
+.package ul li a b{ display:block; font:normal 12px/21px arial; padding:2px; height:21px; color:#888; display:none;}
+.package ul li a:hover{ border:2px solid #79C660; background:#F47D64;}
+.package ul li a:hover b{ color:#fff;}
+.package h6{ font:12px/36px verdana; height:36px; background:#f6f6f6; border:1px solid #ccc; border-top:none; padding:0 0 0 34px;}
+.package h6 a{ padding:0 8px 0 4px; color:#666;}
+.package h6 a:hover{ color:#f00;}
+.package h6 a:visited{ color:#3D6D67;}
+
+
+.mallsite{ border:1px solid #ADDD9B; border-bottom:none;}
+.mallsite div{ background:#fff; padding:13px 1px 9px; overflow:hidden; width:725px; border-bottom:1px solid #ADDD9B; border-top:2px solid #f3f3f3; position:relative;}
+.mallsite div.onone{ border:2px solid #93D971; background:#fff; padding:10px 0 13px;}
+.mallsite h2.mallclass{ float:left; width:116px; text-indent:28px; font-size:14px; line-height:36px; color:#666;}
+.mallsite h2.mallclass em{ font:normal 27px/30px arial; display:block; line-height:24px; color:#D1FAB6; display:none;}
+.mallsite ul.mallname{ float:left; width:600px;}
+.mallsite ul.mallname li{ float:left; width:120px; height:32px; line-height:31px; font-size:14px; text-align:left; background:url("images/mallsiteline.gif") no-repeat 0 39px;}
+.mallsite ul.mallname li.sitenobg{ background:none;}
+.mallsite ul.mallname li a{ text-decoration:none; color:#1063AD;}
+.mallsite ul.mallname li a:hover{ color:#f00;}
+.mallsite div a.mao{ background:#ADDD9B; width:70px; height:20px; text-align:center; position:absolute; right:-59px; bottom:0; font:normal 12px/20px verdana; display:block; color:#fff;}
+.mallsite div a.mao:hover{ right:0; text-decoration:none;}
+
+.mallapp{ border:1px solid #ADDD9B; padding:15px 22px; background:#fff;}
+.mallapp ul li{ border-bottom:1px dashed #ddd;}
+.mallapp ul li dl dt{ float:left; padding:10px 20px 10px 0;}
+.mallapp ul li dl dt img{ width:48px; height:48px; background:#aaa;}
+.mallapp ul li dl dd{ float:left; padding:10px 0; width:603px;}
+.mallapp ul li dl dd h3{ font:normal 12px/20px verdana; height:24px; text-align:left;}
+.mallapp ul li dl dd h3 a{ color:#1D8C0D; font-size:14px;}
+.mallapp ul li dl dd h3 span{ padding:0 12px 0 0;}
+.mallapp ul li dl dd p{ font:normal 12px/20px verdana; color:#888; text-align:left;}
+
+
+.mallfoot{ background:#f3f3f3; border-top:1px solid #ddd; height:120px;}
+.mallinfoot{ width:974px; margin:0 auto;}
+.mfgood{ height:71px; background:url("../images/mall/mfgood.gif") no-repeat center top;}
+.mallfoot p{ font:normal 12px/30px verdana; color:#888; text-align:center; padding:20px 0 0 0;}
+.mallfoot p a{ color:#96694E;}
+.mallfoot p b,
+.mallfoot p b a{ color:#1D8C0D;}
+
+#bottom{height:38px;margin:10px auto 0;width:938px; padding:20px 0 0 0; display:none;}
+#bottom p{text-align:center;font-size:12px;height:24px;line-height:24px;}
+#bottom p a{ padding:0 5px 0 4px; color:#000000;}
+

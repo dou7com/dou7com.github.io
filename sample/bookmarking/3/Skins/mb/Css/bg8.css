@@ -1,0 +1,11 @@
+.bg{
+	width: 100%;
+	background: #f1f1f1 url(../images/bg8.jpg) no-repeat center top;
+	overflow: hidden;
+}
+.my_skin .bg8{
+	background-color: #0C9;
+	background-image: url(../images/dangqian.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}

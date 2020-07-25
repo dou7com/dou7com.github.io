@@ -1,0 +1,120 @@
+* {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: "宋体"
+}
+H2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #333333
+}
+A:link {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #bc2931
+}
+.float_right {
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-left: auto;
+}
+DIV {
+	FONT-SIZE: 12px
+}
+BODY {
+	FONT-SIZE: 12px; BACKGROUND: #ffffff; COLOR: #101010
+}
+#content {
+	MARGIN: auto; WIDTH: 960px
+}
+.w_1 {
+	WIDTH: 340px
+}
+.box_in {
+	DISPLAY: block; FONT-SIZE: 13px; BACKGROUND: url(../images/box_in.gif) no-repeat; WIDTH: 86px; CURSOR: hand; COLOR: #434343; LINE-HEIGHT: 27px; HEIGHT: 29px; TEXT-ALIGN: center
+}
+.box_out {
+	DISPLAY: block; FONT-WEIGHT: bold; FONT-SIZE: 13px; BACKGROUND: url(../images/box_out.gif) no-repeat; WIDTH: 86px; COLOR: #ffffff; LINE-HEIGHT: 27px; HEIGHT: 29px; TEXT-ALIGN: center
+}
+.box_out A:link {
+	COLOR: #ffffff
+}
+.box_out A:visited {
+	COLOR: #ffffff
+}
+.box_out A:hover {
+	COLOR: #ffffff
+}
+.box_bbs {
+	BORDER-RIGHT: #bfd6eb 1px solid; BORDER-TOP: #bfd6eb 1px solid; MARGIN-BOTTOM: 6px; BORDER-LEFT: #bfd6eb 1px solid; BORDER-BOTTOM: #bfd6eb 1px solid
+}
+.bbs_title {
+	BORDER-RIGHT: #ffffff 1px solid;
+	BORDER-TOP: #ffffff 1px solid;
+	PADDING-LEFT: 12px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	BACKGROUND: url(../images/jy_icon.gif) #cae5ff no-repeat 10px 7px;
+	FLOAT: none;
+	BORDER-LEFT: #ffffff 1px solid;
+	COLOR: #000000;
+	LINE-HEIGHT: 26px;
+	BORDER-BOTTOM: #ffffff 1px solid
+}
+.bbs_content {
+	MARGIN-BOTTOM: 6px
+}
+.bbs_content UL {
+	LIST-STYLE-TYPE: none
+}
+.bbs_menu {
+	BACKGROUND: url(../img/bbs_menubg.gif) repeat-y 77px 0px;
+	FLOAT: left;
+	OVERFLOW: hidden;
+	WIDTH: 78px;
+	HEIGHT: 233px
+}
+.bbs_menu UL LI {
+	PADDING-LEFT: 15px;
+	BACKGROUND: url(../img/bbs_menu.gif) no-repeat;
+	MARGIN-BOTTOM: 7px;
+	CURSOR: pointer;
+	COLOR: #004a9c;
+	LINE-HEIGHT: 23px;
+	HEIGHT: 23px
+}
+.bbs_menu UL LI.li_d {
+	FONT-WEIGHT: bold; BACKGROUND-COLOR: #fff
+}
+.bbs_right {
+	BORDER-RIGHT: #b5cfe8 1px solid;
+	BORDER-TOP: #b5cfe8 1px solid;
+	FLOAT: left;
+	OVERFLOW: hidden;
+	BORDER-LEFT: #b5cfe8 0px solid;
+	WIDTH: 261px;
+	BORDER-BOTTOM: #b5cfe8 1px solid;
+	HEIGHT: 231px
+}
+.bbs_right UL LI {
+	PADDING-LEFT: 15px; BACKGROUND: url(../images/arrow_02.gif) no-repeat 8px 11px; LINE-HEIGHT: 21px
+}
+#info2 {
+	DISPLAY: none
+}
+#info3 {
+	DISPLAY: none
+}
+#info4 {
+	DISPLAY: none
+}
+#info5 {
+	DISPLAY: none
+}
+#info6 {
+	DISPLAY: none
+}
+#info8 {
+	DISPLAY: none
+}

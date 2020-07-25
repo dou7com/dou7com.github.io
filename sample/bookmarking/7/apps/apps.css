@@ -1,0 +1,126 @@
+
+
+*{margin:0;padding:0;text-decoration:none;font-family:Verdana,Arial;}
+a{ color:#000000;}
+a:hover{text-decoration:underline;color:#f00;}
+img{border:none;}
+ul li{text-align:center;list-style:none}
+.line{clear:both;display:block;margin:6px 0;height:1px;overflow:hidden;}
+p a:hover,span a:hover{color:#F00}
+.kill{ height:0px; overflow:hidden; display:block; clear:both;}
+.sp10{ height:10px;}
+.sp20{ height:20px;}
+#navs{ position:absolute; z-index:99; left:160px; _left:150px; top:33px!important; top:35px; width:740px; height:56px; padding:16px 28px 12px; white-space:nowrap; border:1px solid #abc; background:#F1F4F8; display:none; -moz-box-shadow:1px 1px 5px #ddd; -webkit-box-shadow:1px 1px 5px #ddd; box-shadow:1px 1px 5px #ddd;}
+#navs ul li{ float:left; height:24px; line-height:24px;}
+#navs ul li a{ color:#1D63A3; padding:6px 8px; font:bold 14px/24px "微软雅黑","宋体";}
+#navs ul li a:hover{ color:#f00;}
+.bbla-title, .bbla-title h1{font-size:12px;line-height:25px;text-indent:30px;margin:0 0 5px 0;font-weight:bold;}
+.bbla-banner{ font-size:12px;zoom: 1;background:#f8f8f8;}
+.bbla-banner div{ width:990px; margin:0 auto; padding:3px 0 0 0; height:34px; line-height:34px; overflow:hidden; position:relative;}
+.bbla-banner-shadow{ height:8px; width:100%; padding:0;}
+.banleft{ float:left; width:500px; font-family:simsun;}
+.banleft a{ color:#f00;}
+.banright{float:right;}
+.banright a{ padding:0 5px 0 4px; color:#222222;}
+.banright a:hover{ color:#FF0000;}
+.banright a#sethome{ padding:0 4px 0 20px; background:url("../images/bblabg.gif") no-repeat 1px 2px;}
+.banright a#bblacn{  padding:0 4px 0 24px; background:url("../images/bblabg.gif") no-repeat -197px 2px;}
+#style{ background:#fff; display:none; border-bottom:1px solid #eee;}
+.bbla-instyle{ width:938px; margin:-12px auto 0; height:auto; overflow:hidden; padding:24px 0 19px; font-size:12px;}
+.bbla-instyle div{ height:20px; line-height:20px; padding:0 0 10px 0;}
+.bbla-instyle div b{ font-weight:normal;}
+.bbla-instyle div a{ cursor:pointer; padding:0 0 0 5px!important; padding:0 0 0 7px;}
+.bbla-instyle div.stycolor{ height:20px;}
+.bbla-instyle div.stybg{ height:40px;}
+.bbla-instyle input{ padding:2px 8px 0; font-size:12px;}
+.bbla-top{height:106px;width:956px;margin:3px auto 0;}
+.bbla-logo{float:left;height:103px;width:262px;}
+.bbla-logo a{ padding:33px 0 0 40px;display:block;height:47px;}
+.bbla-logo a:hover{ background:url("../images/back.gif") no-repeat 130px 12px;}
+a.red{ color:#ee0000;}
+
+#ly{margin:0 auto 10px;width:990px;}
+#ly .where{ font:normal 12px/30px simsun,verdana; padding:0 0 6px;}
+
+.mallnav{ font:bold 14px/38px Verdana; height:38px; border:0px solid #BF0D11; background:#54A733 url("images/malltop2.gif") repeat-x; position:relative;
+-moz-box-shadow:1px 1px 5px #ddd; -webkit-box-shadow:1px 1px 5px #ddd; box-shadow:1px 1px 5px #ddd; display:none;}
+.bbla-title, #right p, #right p#tab a.thea{ color:#EB5B4B;}
+
+#search #sbmain #sbse, #search #sbmclass ul li a.cur{ background:#9DDB86; border:1px solid #6DBA2B;}
+#search #sbmclass ul li a.cur{ border-bottom:none;}
+#search .sbsetext{ border:1px solid #6DBA2B;}
+.oneborder{border:1px solid #9DDB86;}
+.twoborder{border:1px solid #6DBA2B;}
+.bbla-banner{ border-bottom:1px solid #AED6A3;}
+body{ background:#fff url("images/xqx.jpg") no-repeat left top;}
+#ly #tab,
+#ly #tab b{ border-color:#6DBA2B;}
+#ly #tab b a{ background:#9DDB86; color:#854C29;}
+
+.mallfoot{ background:#eee; border-top:1px solid #ddd; height:120px;}
+.mallinfoot{ width:974px; margin:0 auto;}
+.mfgood{ height:71px; background:url("../images/mall/mfgood.gif") no-repeat center top;}
+.mallfoot p{ font:normal 12px/30px verdana; color:#888; text-align:center; padding:20px 0 0 0;}
+.mallfoot p a{ color:#96694E;}
+.mallfoot p b,
+.mallfoot p b a{ color:#38b;}
+#bottom{height:38px;margin:10px auto 0;width:938px; padding:20px 0 0 0; display:none;}
+#bottom p{text-align:center;font-size:12px;height:24px;line-height:24px;}
+#bottom p a{ padding:0 5px 0 4px; color:#000000;}
+
+
+/* 交通违章 */
+
+.jtwz{}
+.jtwz .cnav{ font:normal 12px/39px verdana; background:#E0E9F1; border:1px solid #BED1E2; color:#89b; padding:0 12px; margin:0 0 5px; position:relative; text-indent:36px;}
+.jtwz .cnav a{ font-size:14px; color:#89b;}
+.jtwz .cnav b{ font-size:14px; padding:0 0 0 7px; color:#222;}
+.jtwz .cnav img{ position:absolute; top:2px; left:12px;}
+
+.jtwz .clist{}
+.jtwz .clist dl{ font:normal 12px/27px verdana; background:#f2f2f2; border:1px solid #e2e2e2; margin:0 0 5px; padding:5px 0}
+.jtwz .clist dl dt{ float:left; width:45px; font-size:14px; text-indent:20px; color:#38b;}
+.jtwz .clist dl dd{ float:left;}
+.jtwz .clist dl dd h5{ float:left; width:70px; text-indent:10px; font-size:12px; color:#454545}
+.jtwz .clist dl dd p{ float:left;}
+.jtwz .clist dl dd a{ padding:0 7px; color:#369;}
+.jtwz .clist dl dd a:hover{ color:#f00; text-decoration:underline;}
+
+/* 常用电话 */
+
+.number h2{ font:normal 14px/36px verdana; background:#E0E9F1; border:1px solid #BED1E2; color:#38b; padding:0 12px; position:relative; text-indent:36px;}
+.number h2 img{ position:absolute; top:0px; left:12px;}
+.number ul li{ float:left; width:246px; font:normal 14px/32px lucida sans,verdana; border-left:1px solid #BED1E2; border-bottom:1px solid #BED1E2; text-align:left; text-indent:16px; background:#fff;}
+.number ul li.lastr{ border-right:1px solid #BED1E2; padding:0 1px 0 0;}
+.number ul li.last{ border-right:1px solid #BED1E2;}
+.number ul li span{ padding:0 0 0 10px; color:#CD2E05;}
+
+/* 万年历 */
+
+.wnl{ padding:25px 0 20px; border-radius:5px; text-align:center; background:#fff url("../../blog.wozaixianshang.com/images/20130312/benbenla-07c.jpg") no-repeat center center;}
+
+/* 台风 */
+
+.taifeng{ padding:20px 60px; background:#fff; border:1px solid #ddd;}
+.tfleft{ float:left; width:649px; overflow:hidden;}
+.tfleft iframe{ margin:-1px 0 0 0;}
+.tfright{ float:left; padding:0 0 0 40px; width:170px;}
+.tfright ul li{ font:normal 14px/30px verdana; text-align:left; border-bottom:1px dashed #eee;}
+.tfright ul li a{}
+/* 网上营业厅 */
+
+.yyt h2{ font:bold 12px/36px verdana; background:#E0E9F1; border:1px solid #BED1E2; color:#454545; padding:0 12px; position:relative; text-indent:40px;}
+.yyt h2 img{ position:absolute; top:0px; left:12px;}
+.yyt div a{ float:left; width:81px; font:normal 14px/35px lucida sans,verdana; border-left:1px solid #BED1E2; border-bottom:1px solid #BED1E2; text-align:left; text-indent:16px; background:#fff; color:#4a4a4a; display:block;}
+.yyt div a:hover{ color:#f00; background:#EFF3F8;}
+.yyt div a.lastr{ border-right:1px solid #BED1E2; padding:0 5px 0 0;}
+.yyt div a.last{ border-right:1px solid #BED1E2;}
+.yyt div a span{ padding:0 0 0 10px; color:#CD2E05;}
+
+/* 周公解梦 */
+
+.zgjm{ padding:25px 0 20px; text-align:center; background:#fff; border:1px solid #eee;}
+
+
+
+

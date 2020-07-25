@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<head>
+<meta charset="gb2312">
+<title>简·导航</title>
+<meta name="keywords" content="简·导航">
+<meta name="description" content="简·导航，一个简约导航。">
+<base target="_blank">
+<style>
+body{padding:0;margin:0;background:#F5F4F2;font-size:14px;color:#992222;font-family:"微软雅黑",sans-serif;}
+ul,dl,dt,dd,p{list-style-type:none;padding:0;margin:0;}
+a{text-decoration:none;}
+.fl{float:left;}
+.fr{float:right;}
+
+.head{width:960px;height:65px;margin:0 auto;}
+.logo{width:160px;height:35px;margin-top:15px;}
+.logo .logoimg{display:inline-block;width:160px;height:35px;background: url(images/logo.png) no-repeat;text-indent:-999px;}
+
+.search{width:352px;height:35px;margin-top:15px;}
+.search .text{width:268px;height:33px;padding:0 10px;border:1px solid #EBE9E7;background:#FFFFFF;line-height:33px;font-size:15px;color:#999999;}
+.search .button{border:0;width:62px;height:35px;background:#B24422;line-height:35px;font-size:15px;color:#FFF;text-align:center;}
+.search .button:hover{background:#992222;}
+
+.menu{width:250px;height:35px;margin:15px 0 0 15px;}
+.menu a{float:left;color:#992222;font-size:15px;margin:8px 0 0 21px;}
+.menu a:hover{background:#992222;color:#FFF;}
+
+.favorite{width:160px;height:50px;background:#E8E6E3;text-align:center;}
+.favorite a{color:#992222;font-size:14px;display:inline-block;margin-top:12px;}
+.favorite a:hover{background:#992222;color:#FFF;}
+
+.mingzhan{width:100%;height:280px;margin-top:50px;}
+.mingzhan ul{width:960px;height:270px;margin:0 auto;background:#FFF;}
+.mingzhan ul li{width:127px;height:35px;float:left;margin:0 5px 10px 5px;text-align:center;}
+.mingzhan ul li a{color:#992222;font-size:16px;text-overflow:clip;display:inline-block;margin-top:8px;}
+.mingzhan ul li a:hover{background:#992222;color:#FFF;}
+
+.line{border-top:1px solid #E8E6E3;margin:20px auto;line-height:0;width:960px;height:0;}
+
+.kuzhan{width:960px;height:auto;margin:0 auto;}
+.kuzhan dl{width:960px;height:30px;margin:10px 0;}
+.kuzhan dl dt{float:left;width:50px;height:30px;}
+.kuzhan dl dt a{display:inline-block;width:100%;height:100%;background:#E8E6E3;color:#992222;text-align:center;line-height:30px;}
+.kuzhan dl dt a:hover{background:#992222;color:#FFF;}
+.kuzhan dl dd{float:left;width:130px;height:25px;text-align:center;padding-top:5px;}
+.kuzhan dl dd a{color:#992222;display:inline-block;}
+.kuzhan dl dd a:hover{background:#992222;color:#FFF;}
+
+.tools{width:100%;height:auto;margin:20px 0;background:#E8E6E3;}
+.tools .nei{width:960px;margin:0 auto;padding:5px 0;}
+.tools dl{width:960px;height:30px;margin:10px 0;overflow:hidden;}
+.tools dl dt{float:left;width:80px;height:30px;}
+.tools dl dt a{display:inline-block;width:100%;height:100%;background:#992222;color:#FFF;text-align:center;line-height:30px;}
+.tools dl dt a:hover{text-decoration:underline;}
+.tools dl dd{float:left;width:auto;height:25px;text-align:center;padding-top:5px;margin-left:17px;}
+.tools dl dd a{color:#992222;display:inline-block;}
+.tools dl dd a:hover{background:#992222;color:#FFF;}
+
+.footer{width:960px;height:60px;margin:0 auto;}
+.footer .fleft{width:500px;height:60px;}
+.footer .fleft p{line-height:25px;color:#909090;font-size:12px;}
+.footer .fleft .p1 a{color:#992222;margin-right:10px;}
+.footer .fleft .p2 a{color:#909090;}
+.footer .fright{width:450px;height:60px;}
+.footer .fright p{line-height:50px;color:#909090;text-align:center;}
+</style>
+</head>
+
+<body>
+<div class="head">
+    <div class="logo fl">
+      <a href="/" class="logoimg" target="_self">网站LOGO</a>
+    </div>
+
+        <div class="search fl">
+          <form class="form fl" action="http://www.sogou.com/sogou">
+              <input type="text" name="query" class="text fl" value="" placeholder="搜索一下" baiduSug="1">
+              <input type="submit" value="搜索" class="button fl">
+              <input type="hidden" name="pid" value="sogou-netb-51be2fed6c55f5aa-7224">
+          </form>
+        </div>
+
+    <div class="menu fl">
+        <a href="http://v.2838.net/">电影</a><a href="http://v.2838.net/tv/">电视剧</a><a href="gouwu.html">购物</a><a href="youxi.html">游戏</a>
+    </div>
+
+    <div class="favorite fr">
+        <a href="javascript://" target="_self" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.2838.net');">设为主页</a>&nbsp;&nbsp;
+        <a href="javascript://" target="_self" onclick="window.external.AddFavorite(location.href,document.title);">加入收藏</a>
+    </div>
+</div>
+
+
+<div class="mingzhan">
+    <ul>
+        <li><a href="http://www.baidu.com/">百度</a></li>
+        <li><a href="http://www.sina.com.cn/">新浪</a></li>
+        <li><a href="http://www.qq.com/">腾讯</a></li>
+        <li><a href="http://www.sohu.com/">搜狐</a></li>
+        <li><a href="http://www.163.com/">网易</a></li>
+        <li><a href="http://www.sogou.com/index.php?pid=sogou-netb-51be2fed6c55f5aa-7224">搜狗</a></li>
+        <li><a href="http://www.ifeng.com/">凤凰网</a></li>
+        <li><a href="http://www.eastmoney.com/">东方财富</a></li>
+        <li><a href="http://ai.taobao.com/?pid=mm_16596268_2697821_9976224">淘宝特卖</a></li>
+        <li><a href="http://www.xinhuanet.com/">新华网</a></li>
+        <li><a href="http://www.people.com.cn/">人民网</a></li>
+        <li><a href="http://10086.cn/">中国移动</a></li>
+        <li><a href="http://www.cntv.cn/">央视网</a></li>
+        <li><a href="http://www.fang.com/">搜房网</a></li>
+        <li><a href="http://www.meilishuo.com/welcome?nmref=NM_s10094_0_jian&channel=40106">美丽说</a></li>
+        <li><a href="http://www.mogujie.com/trade/click?c=19&u=12gkkr4&t=http%3A%2F%2Fwww.mogujie.com">蘑菇街</a></li>
+        <li><a href="http://www.taobao.com/">淘宝网</a></li>
+        <li><a href="http://www.autohome.com.cn/">汽车之家</a></li>
+        <li><a href="http://www.zol.com.cn/">中关村在线</a></li>
+        <li><a href="http://www.pconline.com.cn/">太平洋电脑</a></li>
+        <li><a href="http://www.renren.com/">人人网</a></li>
+        <li><a href="http://c.duomai.com/track.php?site_id=59877&aid=205&euid=jian&t=http%3A%2F%2Fwww.handu.com">韩都衣舍</a></li>
+        <li><a href="http://www.youku.com/">优酷网</a></li>
+        <li><a href="http://u.ctrip.com/union/CtripRedirect.aspx?TypeID=2&Allianceid=1210&sid=1393&OUID=&jumpUrl=http://www.ctrip.com">携程旅行网</a></li>
+        <li><a href="http://c.duomai.com/track.php?site_id=59877&aid=337&euid=jian&t=http%3A%2F%2Fwww.yixun.com">易迅网</a></li>
+        <li><a href="http://www.58.com/">58同城</a></li>
+        <li><a href="http://www.tmall.com/">天猫</a></li>
+        <li><a href="http://c.duomai.com/track.php?site_id=59877&aid=450&euid=jian&t=http%3A%2F%2Fwww.mi.com">小米手机</a></li>
+        <li><a href="http://www.icbc.com.cn/">工商银行</a></li>
+        <li><a href="http://c.duomai.com/track.php?site_id=59877&aid=366&euid=jian&t=http%3A%2F%2Fwww.yougou.com">优购网</a></li>
+        <li><a href="http://p.yiqifa.com/c?s=3c1c7cd0&w=253302&c=5402&i=11642&l=0&e=jian&t=http://bj.meituan.com/">美团网</a></li>
+        <li><a href="http://c.duomai.com/track.php?site_id=59877&aid=84&euid=jian&t=http%3A%2F%2Fwww.suning.com">苏宁易购</a></li>
+        <li><a href="http://c.duomai.com/track.php?site_id=59877&aid=236&euid=jian&t=http%3A%2F%2Fwww.gome.com.cn">国美在线</a></li>
+        <li><a href="http://c.duomai.com/track.php?site_id=59877&aid=543&euid=jian&t=http%3A%2F%2Fwww.sfbest.com">顺丰优选</a></li>
+        <li><a href="http://c.duomai.com/track.php?site_id=59877&aid=70&euid=jian&t=http%3A%2F%2Fwww.yintai.com">银泰网</a></li>
+        <li><a href="http://count.chanet.com.cn/click.cgi?a=212181&d=22338&u=&e=&url=http%3A%2F%2Fwww.jd.com">京东商城</a></li>
+        <li><a href="http://click.union.vip.com/redirect.php?url=eyJjaGFuIjoiamlhbiIsImFkY29kZSI6Ijl2emcwcHFiIiwic2NoZW1lY29kZSI6ImY1YTA1ZDY2IiwidWNvZGUiOiJpMm1oZW5ybyJ9">唯品会</a></li>
+        <li><a href="http://c.duomai.com/track.php?site_id=59877&aid=304&euid=jian&t=http%3A%2F%2Fwww.lefeng.com">乐蜂网</a></li>
+        <li><a href="http://c.duomai.com/track.php?site_id=59877&aid=58&euid=jian&t=http%3A%2F%2Fwww.yhd.com">1号店超市</a></li>
+        <li><a href="http://c.duomai.com/track.php?site_id=59877&aid=399&euid=jian&t=http%3A%2F%2Fwww.nuomi.com">百度糯米</a></li>
+        <li><a href="http://c.duomai.com/track.php?site_id=59877&aid=64&euid=jian&t=http%3A%2F%2Fwww.dangdang.com">当当网</a></li>
+        <li><a href="http://count.chanet.com.cn/click.cgi?a=212181&d=206104&u=&e=&url=http%3A%2F%2Fwww.jumei.com">聚美优品</a></li>
+    </ul>
+</div>
+
+
+<div class="kuzhan">
+
+    <dl> 
+        <dt><a href="shipin.html">视频</a></dt>
+        <dd><a href="http://v.2838.net/">电影</a></dd>
+        <dd><a href="http://v.2838.net/tv/">电视剧</a></dd>
+        <dd><a href="http://www.youku.com/">优酷网</a></dd>
+        <dd><a href="http://www.letv.com/">乐视网</a></dd>
+        <dd><a href="http://www.iqiyi.com/">爱奇艺</a></dd>
+        <dd><a href="http://v.qq.com/">腾讯视频</a></dd>
+        <dd><a href="http://tv.sohu.com/">搜狐视频</a></dd>
+    </dl>
+
+    <dl> 
+        <dt><a href="youxi.html">游戏</a></dt>
+        <dd><a href="http://hd.51wan.com/33288p14003q959j0.html">无上神兵</a></dd>
+        <dd><a href="http://hd.51wan.com/33288p14003q919j0.html">西游伏魔</a></dd>
+        <dd><a href="http://www.17173.com/">17173</a></dd>
+        <dd><a href="http://games.qq.com/">腾讯游戏</a></dd>
+        <dd><a href="http://www.pcgames.com.cn/">太平洋游戏</a></dd>
+        <dd><a href="http://www.4399.com/">4399</a></dd>
+        <dd><a href="http://games.sina.com.cn/">新浪游戏</a></dd>
+    </dl>
+
+    <dl> 
+        <dt><a href="gouwu.html">购物</a></dt>
+        <dd><a href="http://count.chanet.com.cn/click.cgi?a=212181&d=22338&u=&e=&url=http%3A%2F%2Fwww.jd.com">京东商城</a></dd>
+        <dd><a href="http://click.union.vip.com/redirect.php?url=eyJjaGFuIjoiamlhbiIsImFkY29kZSI6Ijl2emcwcHFiIiwic2NoZW1lY29kZSI6ImY1YTA1ZDY2IiwidWNvZGUiOiJpMm1oZW5ybyJ9">唯品会</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=64&euid=jian&t=http%3A%2F%2Fwww.dangdang.com">当当网</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=58&euid=jian&t=http%3A%2F%2Fwww.yhd.com">1号店</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=84&euid=jian&t=http%3A%2F%2Fwww.suning.com">苏宁易购</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=236&euid=jian&t=http%3A%2F%2Fwww.gome.com.cn">国美在线</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=337&euid=jian&t=http%3A%2F%2Fwww.yixun.com">易迅网</a></dd>
+    </dl>
+
+    <dl> 
+        <dt><a href="http://tuan.2838.net/">团购</a></dt>
+        <dd><a href="http://p.yiqifa.com/c?s=3c1c7cd0&w=253302&c=5402&i=11642&l=0&e=jian&t=http://bj.meituan.com/">美团网</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=399&euid=jian&t=http%3A%2F%2Fwww.nuomi.com">百度糯米</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=195&euid=jian&t=http%3A%2F%2Fwww.lashou.com">拉手网</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=206&euid=jian&t=http%3A%2F%2Fwww.55tuan.com">窝窝团</a></dd>
+        <dd><a href="http://count.chanet.com.cn/click.cgi?a=212181&d=206104&u=&e=&url=http%3A%2F%2Fwww.jumei.com">聚美优品</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=972&euid=jian&t=http%3A%2F%2Fwww.daoxila.com">到喜啦</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=993&euid=jian&t=http%3A%2F%2Fwww.aituan.com">爱团网</a></dd>
+    </dl>
+
+    <dl> 
+        <dt><a href="xiaoshuo.html">小说</a></dt>
+        <dd><a href="http://www.qidian.com/">起点中文网</a></dd>
+        <dd><a href="http://www.17k.com/">17k小说</a></dd>
+        <dd><a href="http://www.hongxiu.com/">红袖添香</a></dd>
+        <dd><a href="http://www.zongheng.com/">纵横中文</a></dd>
+        <dd><a href="http://www.xs8.cn/">言情小说吧</a></dd>
+        <dd><a href="http://www.xxsy.net/">潇湘书院</a></dd>
+        <dd><a href="http://www.readnovel.com/">小说阅读网</a></dd>
+    </dl>
+
+    <dl> 
+        <dt><a href="yinyue.html">音乐</a></dt>
+        <dd><a href="http://www.1ting.com/">一听音乐</a></dd>
+        <dd><a href="http://www.kugou.com/">酷狗音乐</a></dd>
+        <dd><a href="http://music.baidu.com/">百度音乐</a></dd>
+        <dd><a href="http://www.9ku.com/">九酷音乐</a></dd>
+        <dd><a href="http://y.qq.com/">QQ音乐</a></dd>
+        <dd><a href="http://www.xiami.com/">虾米音乐</a></dd>
+        <dd><a href="http://douban.fm/">豆瓣FM</a></dd>
+    </dl>
+
+    <dl> 
+        <dt><a href="tiyu.html">体育</a></dt>
+        <dd><a href="http://sports.sohu.com/">搜狐体育</a></dd>
+        <dd><a href="http://sports.sina.com.cn/">新浪体育</a></dd>
+        <dd><a href="http://sports.cntv.cn/">CCTV体育</a></dd>
+        <dd><a href="http://sports.qq.com/">腾讯体育</a></dd>
+        <dd><a href="http://www.hupu.com/">虎扑体育</a></dd>
+        <dd><a href="http://www.zhibo8.cc/">直播吧</a></dd>
+        <dd><a href="http://sports.sina.com.cn/nba/">NBA直播</a></dd>
+    </dl>
+
+    <dl> 
+        <dt><a href="caijin.html">财经</a></dt>
+        <dd><a href="http://www.eastmoney.com/">东方财富</a></dd>
+        <dd><a href="http://business.sohu.com/">搜狐财经</a></dd>
+        <dd><a href="http://www.hexun.com/">和讯财经</a></dd>
+        <dd><a href="http://finance.sina.com.cn/">新浪财经</a></dd>
+        <dd><a href="http://finance.qq.com/">腾讯财经</a></dd>
+        <dd><a href="http://www.jrj.com/">金融界</a></dd>
+        <dd><a href="http://money.163.com/">网易财经</a></dd>
+    </dl>
+
+    <dl> 
+        <dt><a href="caipiao.html">彩票</a></dt>
+        <dd><a href="http://union.500.com/pages/interfacehezuo.php?coopid=1605&adid=97">500彩票网</a></dd>
+        <dd><a href="http://www.9188.com/user/from.go?comeFrom=765h">9188彩票网</a></dd>
+        <dd><a href="http://www.9188.com/user/from.go?comeFrom=765h&backurl=http://www.9188.com/ssq/">双色球</a></dd>
+        <dd><a href="http://caipiao.163.com/invite.html?p=20140609509972">网易彩票</a></dd>
+        <dd><a href="http://p.yiqifa.com/n?k=2mLErn2sWNDSrI6H2mLErI6H6EwL1ZLmWE3m1N6HWlts6N2Ort4S3Oe!CZqerI6HWO6wWOW7MnbH2L--&e=jian&spm=1.1.1.1&t=http://www.cpdyj.com/">彩票大赢家</a></dd>
+        <dd><a href="http://www.lottery.gov.cn/">中国体彩网</a></dd>
+        <dd><a href="http://www.zhcw.com/">中彩网</a></dd>
+    </dl>
+
+    <dl> 
+        <dt><a href="lvyou.html">旅游</a></dt>
+        <dd><a href="http://u.ctrip.com/union/CtripRedirect.aspx?TypeID=2&Allianceid=1210&sid=1393&OUID=&jumpUrl=http://www.ctrip.com">携程旅行网</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=178&euid=jian&t=http%3A%2F%2Fwww.elong.com">艺龙酒店</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=352&euid=jian&t=http%3A%2F%2Fwww.lvmama.com">驴妈妈</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=143&euid=jian&t=http%3A%2F%2Fwww.mangocity.com">芒果网</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=699&euid=jian&t=http%3A%2F%2Ftuan.qunar.com">去哪儿</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=1138&euid=jian&t=http%3A%2F%2Fwww.tujia.com">途家网</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=298&euid=jian&t=http%3A%2F%2Fwww.jinjianginns.com">锦江之星</a></dd>
+    </dl>
+
+    <dl> 
+        <dt><a href="qiche.html">汽车</a></dt>
+        <dd><a href="http://www.autohome.com.cn/">汽车之家</a></dd>
+        <dd><a href="http://www.bitauto.com/">易车网</a></dd>
+        <dd><a href="http://www.xcar.com.cn/">爱卡汽车</a></dd>
+        <dd><a href="http://www.cheshi.com/">网上车市</a></dd>
+        <dd><a href="http://www.pcauto.com.cn/">太平洋汽车</a></dd>
+        <dd><a href="http://auto.sina.com.cn/">新浪汽车</a></dd>
+        <dd><a href="http://www.xgo.com.cn/">汽车点评网</a></dd>
+    </dl>
+
+    <dl> 
+        <dt><a href="jiaoyou.html">交友</a></dt>
+        <dd><a href="http://www.jiayuan.com/">世纪佳缘</a></dd>
+        <dd><a href="http://www.zhenai.com/">珍爱网</a></dd>
+        <dd><a href="http://www.baihe.com/">百合网</a></dd>
+        <dd><a href="http://www.youyuan.com/">有缘网</a></dd>
+        <dd><a href="http://www.zhiji.com/">知己交友网</a></dd>
+        <dd><a href="http://jiaoyou.58.com/">58交友</a></dd>
+        <dd><a href="http://p.yiqifa.com/n?k=2mLErn2m6nDSrI6H2mLErI6H6ltLWZLmWE3m1N6H6n2OWEzSrI6HkQLErJDLM9P83NKSrt4VW5HmUmL-&e=jian&spm=1.1.1.1&t=http://www.6.cn/?src=yiqifat">六间房秀场</a></dd>
+    </dl>
+
+    <dl> 
+        <dt><a href="shouji.html">手机</a></dt>
+        <dd><a href="http://mobile.zol.com.cn/">中关村手机</a></dd>
+        <dd><a href="http://mobile.pconline.com.cn/">太平洋手机</a></dd>
+        <dd><a href="http://www.91.com/">91手机</a></dd>
+        <dd><a href="http://www.feng.com/">威锋网</a></dd>
+        <dd><a href="http://www.hiapk.com/">安卓网</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=450&euid=jian&t=http%3A%2F%2Fwww.mi.com">小米网</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=387&euid=jian&t=http%3A%2F%2Fwww.vmall.com">华为商城</a></dd>
+    </dl>
+
+    <dl> 
+        <dt><a href="kuzhan.html">酷站</a></dt>
+        <dd><a href="http://www.douban.com/">豆瓣网</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=762&euid=jian&t=http%3A%2F%2Fwww.inman.com.cn">茵曼</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=307&euid=jian&t=http%3A%2F%2Fwww.liebo.com">裂帛</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=163&euid=jian&t=http%3A%2F%2Fwww.jiuxian.com">酒仙网</a></dd>
+        <dd><a href="http://www.tom71.com/">Tom71儿歌</a></dd>
+        <dd><a href="http://www.mycodes.net/">源码之家</a></dd>
+        <dd><a href="http://c.duomai.com/track.php?site_id=59877&aid=239&euid=jian&t=http%3A%2F%2Fwww.xituan.com">喜团网</a></dd>
+    </dl>
+
+</div>
+
+
+<div class="tools">
+  <div class="nei">
+    <dl> 
+        <dt><a href="tools.html">实用工具：</a></dt>
+        <dd><a href="http://www.123ems.com/">快递查询</a></dd>
+        <dd><a href="http://weather.news.sina.com.cn/">天气预报</a></dd>
+        <dd><a href="http://www.sogou.com/sogou?query=%ce%a5%d5%c2%b2%e9%d1%af&pid=sogou-netb-51be2fed6c55f5aa-7224">违章查询</a></dd>
+        <dd><a href="http://u.ctrip.com/union/CtripRedirect.aspx?TypeID=2&Allianceid=1210&sid=1393&OUID=&jumpUrl=http://www.ctrip.com">机票酒店</a></dd>
+        <dd><a href="http://www.tieyou.com/#utm_source=divencheng">列车时刻</a></dd>
+        <dd><a href="http://www.ip138.com/sj/">手机归属地</a></dd>
+        <dd><a href="http://fanyi.baidu.com/">在线翻译</a></dd>
+        <dd><a href="http://qq.ip138.com/day/">万年历</a></dd>
+        <dd><a href="http://www.9188.com/user/from.go?comeFrom=765h&backurl=http://www.9188.com/kaijiang/">彩票开奖</a></dd>
+        <dd><a href="http://www.51jiemeng.com/">周公解梦</a></dd>
+        <dd><a href="http://www.ip138.com/">IP地址</a></dd>
+        <dd><a href="http://app.baidu.com/ip138_id/index.asp">身份证</a></dd>
+    </dl>
+
+    <dl> 
+        <dt><a href="soft.html">常用软件：</a></dt>
+        <dd><a href="http://im.qq.com/">QQ</a></dd>
+        <dd><a href="http://dl.xunlei.com/">迅雷</a></dd>
+        <dd><a href="http://www.baofeng.com/">暴风影音</a></dd>
+        <dd><a href="http://www.wps.cn/">WPS</a></dd>
+        <dd><a href="http://pinyin.sogou.com/">搜狗拼音</a></dd>
+        <dd><a href="http://weixin.qq.com/">微信</a></dd>
+        <dd><a href="http://click.t3nlink.com/link/131482/">PPTV</a></dd>
+        <dd><a href="http://j.union.ijinshan.com/jump.php?u_key=552">金山毒霸</a></dd>
+        <dd><a href="http://guanjia.qq.com/">电脑管家</a></dd>
+        <dd><a href="http://rj.baidu.com/soft/detail/14744.html">谷歌浏览器</a></dd>
+        <dd><a href="http://www.koowo.com/mbox.down2?src=kwun0271">酷我音乐盒</a></dd>
+        <dd><a href="http://www.xiazaiba.com/html/65.html">WinRAR</a></dd>
+        <dd><a href="http://www.360.cn/">360卫士</a></dd>
+    </dl>
+
+    <dl> 
+        <dt><a href="youxi.html">热门游戏：</a></dt>
+        <dd><a href="http://lol.qq.com/">英雄联盟</a></dd>
+        <dd><a href="http://dnf.qq.com/">地下城与勇士</a></dd>
+        <dd><a href="http://hd.51wan.com/33288p14003q959j0.html">无上神兵</a></dd>
+        <dd><a href="http://hd.51wan.com/33288p14003q926j0.html">乔峰传</a></dd>
+        <dd><a href="http://hd.51wan.com/33288p14003q924j0.html">龙破九天</a></dd>
+        <dd><a href="http://hd.51wan.com/33288p14003q919j0.html">西游伏魔</a></dd>
+        <dd><a href="http://hd.51wan.com/33288p14003q918j0.html">盛世三国2</a></dd>
+        <dd><a href="http://hd.51wan.com/33288p14003q849j0.html">深渊</a></dd>
+        <dd><a href="http://hd.51wan.com/33288p14003q898j0.html">大天使之剑</a></dd>
+        <dd><a href="http://hd.51wan.com/33288p14003q803j0.html">独步天下</a></dd>
+        <dd><a href="http://hd.51wan.com/33288p14003q869j0.html">斩魔</a></dd>
+        <dd><a href="http://hd.51wan.com/33288p14003q480j0.html">南帝北丐2</a></dd>
+    </dl>
+  </div>
+</div>
+
+
+<div class="footer">
+    <div class="fleft fl">
+        <p class="p1"><a href="#">帮助中心</a><a href="#">联系我们</a><a href="feedback/">意见反馈</a><a href="http://www.ycff.com/">源码下载</a></p>
+        <p class="p2">Copyright &copy; Ycff.com &nbsp;粤ICP备000000号-1 &nbsp;<script src="js/tj.js" language="JavaScript"></script></p>
+    </div>
+
+    <div class="fright fr">
+        <p>简约就是简单！</p>
+    </div>
+</div>
+
+
+</body>
+<script charset="gbk" src="http://www.baidu.com/js/opensug.js"></script>
+</html>

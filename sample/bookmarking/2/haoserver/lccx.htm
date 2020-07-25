@@ -1,0 +1,198 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type=text/css>
+<!--
+td,body {  font-size: 15px; font-family:arial,sans-serif,宋体;}body{margin-top:0px; margin-left:0px; margin-right:0px;background:#fcfff7} a:link{ color:#000000; text-decoration:none;padding-left:4px; }     a:visited{COLOR: #000000; TEXT-DECORATION: none;padding-left:4px;} a:active{color:green;text-decoration:none;padding-left:4px;}a:hover{color:red;text-decoration:underline;padding-left:4px;} .bgg{background-color:#80B080; width:778px;}
+a.m:link{ color:#000000; text-decoration:none;padding-left:0px;}
+a.m:visited{COLOR: #000000; TEXT-DECORATION: none;padding-left:0px;}
+a.m:active{color:green;text-decoration:none;padding-left:0px;}
+a.m:hover{color:red;text-decoration:underline;padding-left:0px;}
+.t1{border-width:1px 1px 1px 1px;border-style:solid;font-size:12px;text-align: center}
+.bgg{border-color:#8AB78A; width:898px;}
+.f9pt{font-size: 12px;}
+.f13{font-size: 13px;}
+.s{width:2%;}
+#sfont a,#sfont b{font-size:13px;}
+.highlight_1 a:link {color:#ff0000}
+.highlight_1 a:link,.highlight_1 a:visited{color:red}
+
+.WB {width:530;text-align:left;clear:both;height:60px; padding-top:0px!important; padding-top:5px}
+@media screen and (min-width:0px){.WB {margin-top:3px!important;padding-top:0px!important}}
+#FrP{font-size:13px;border:0px solid #C5D5C5; height:48px; padding-top:1px; padding-bottom:2px;width:530;}<!-- 修改高度44-48>
+#FrP a{color:#205001}
+#FrP a:hover{color:red}
+.searchfod1 {FONT-WEIGHT: bold; COLOR: #000; text-align:center; width:55px; font-size:14px}
+.searchfod2 {CURSOR: pointer; text-align:center; width:55px; font-size:14px}
+.lineS{color:#D2D0D0}
+--> </style>
+<base target="_blank">
+<title>hao123网址之家－－列车时刻</title>
+</head>
+<body>
+
+<div align="center"><center>
+<table border="0" cellpadding="0" cellspacing="0" width="898" height="51">
+    <tr>
+      <td width="230" height="51"><a href="/" target="_self" class="m"><img src="../images/logo_new.gif" alt="hao123网址之家www.hao123.com"    width="168" height="63" border="0"></a></td>
+     <td height="51" align="center">
+</td>
+	</tr>
+  </table>
+</center></div>
+
+<div align="center"><center>
+ <table border=0 cellPadding=0 cellSpacing=0 width=898 height=1><tr align=center><td height="1" bgcolor="C1D0D7"></td></tr></table>
+<table width=898 height=25 bgcolor=#EEF7FF border=0 cellspacing=0 cellspadding=2><tr>
+<td width="50%" class="f9pt" style="color:#424242 "> <a href="http://www.hao123.com" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.hao123.com/');return(false);" style="behavior: url(#default#homepage); color:#D35E04"><img src="../images/home.gif" width="15" height="15" border="0" align="absmiddle"> 把hao123设为主页</a>　　<a href="../book/"><img src="../images/notebook.gif" width="15" height="15" border="0" align="absmiddle"> 网友留言</a></td><td align="right" class="f9pt" style="color:#424242; padding-right:10px">
+<a href="/" target=_self style="color:#424242 ">首页</a> > 列车时刻查询</td>
+  </tr></table>
+</center></div>
+<div align="center"><center>
+<div class="t1 bgg">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr bgcolor="C5D5C5">
+		<td>
+			<table width="100%"  border="0" cellspacing="1" cellpadding="7">  
+	        	<tr bgcolor="#EFF7F0">
+	        		<td align="center" >
+	        			<table width="98%"  border="0" align="center" cellpadding="0" cellspacing="1">
+	        				<tr>
+	        				  <td align="center">
+
+
+<link rel="stylesheet" type="text/css" href="http://img.union.tieyou.com/code/css/style.css" />
+<link rel="stylesheet" type="text/css" href="http://img.union.tieyou.com/code/css/calendar.css" />
+<!-- 时刻查询-1 450*170 star -->
+<div class="b_450_170">
+	<div class="box_con">
+		<ul>
+			<li>
+				<label class="radio"><input name="radio" type="radio" value="1" checked="checked"/>站站查询</label>
+				<form name="shikeForm" id="cityForm" method="post" >
+				<div class="input_box2"><input name="from" type="text" value="出发城市" id="begin" onfocus="showCity('begin');focusIt(this.id)" onblur="hideCity()"/><div class="hotcity_ico" onclick="$('#begin').focus();"></div></div>
+            	<div class="input_box2"><input name="to"   type="text" value="到达城市" id="end"   onfocus="showCity('end')  ;focusIt(this.id)" onblur="hideCity()"/><div class="hotcity_ico" onclick="$('#end'  ).focus();"></div></div>
+            	<input type="hidden" value="divencheng" name="c"/>
+				<input type="hidden" value="1003" name="s"/>
+				<input type="hidden" value="280" name="p"/>
+				<input type="hidden" value="shikebiao" name="type" />
+            	</form>
+			</li>
+			<li>
+				<label class="radio"><input name="radio" type="radio" value="2" />车次查询</label>
+				<form name="checiForm" id="checiForm" method="post">
+				<div class="input_box2"><input onfocus="focusIt(this.id)" type="text" id="checi" name="checi" value="" /></div>
+				</form>
+			</li>
+			<li>
+				<label class="radio"><input name="radio" type="radio" value="3" />车站查询</label>
+				<form name="zhanForm" id="zhanForm" method="post" >
+				<div class="input_box2"><input name="from" type="text" value="" id="zhan" onfocus="showCity('zhan');focusIt(this.id)" onblur="hideCity()"/><div class="hotcity_ico" onclick="$('#zhan').focus();"></div></div>
+            	<input type="hidden" value="divencheng" name="c"/>
+				<input type="hidden" value="1003" name="s"/>
+				<input type="hidden" value="280" name="p"/>
+				<input type="hidden" value="shikebiao" name="to"/>
+				<input type="hidden" value="shikebiao" name="type" />
+            	</form>
+			</li>
+			<li>
+				<label class="radio">&nbsp;</label>
+				<input type="button" value="查 询" class="btn2" id="w_submit"/>
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- 时刻查询-1 450*170 end -->
+<br class="clear" />
+<script type="text/javascript" charset="UTF-8" src="http://img.union.tieyou.com/code/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" charset="UTF-8" src="http://img.union.tieyou.com/code/js/listCity.js"></script>
+<script type="text/javascript" charset="UTF-8" src="http://img.union.tieyou.com/code/js/yuding.js"></script>
+<script type="text/javascript"> 
+$(function(){
+	$('#w_submit').click(function(){
+		var radio = $('input[name=radio]');
+		if(radio.eq(0).attr('checked')){
+			$('#cityForm').submit();
+		}else if(radio.eq(1).attr('checked')){
+			$('#checiForm').submit();
+		}else if(radio.eq(2).attr('checked')){
+			$('#zhanForm').submit();
+		}
+	});
+})
+
+</script>
+<script type="text/javascript" charset="UTF-8" src="http://img.union.tieyou.com/code/js/calendar.js"></script>
+<script type="text/javascript">
+    var startCalendar = new datepicker({eachW:144,ttMonth : 2, addDay:30});
+    startCalendar.start();
+</script>
+
+
+
+</td>
+	        				</tr>
+    </table>
+	  </td>                                                       </tr>
+              </table></td>
+      </tr>
+<tr bgcolor="#D9EDDA">
+      <td width="100%" height="20"  class="f9pt"  align="center"><font color="#346F0E">其他列车时刻查询</font></td>
+    </tr>
+    <tr bgcolor="C5D5C5">
+      <td ><table width="100%"  border="0" cellspacing="1" cellpadding="7">
+                      <tr bgcolor="#EFF7F0">
+                        <td width="20%" height="33"><a href="http://huochepiao.tieyou.com/#utm_source=divencheng&fr=hao6">火车票预订</a></td>
+                        <td width="20%" height="33"><a href="http://huochepiao.tieyou.com/#utm_source=divencheng&fr=hao6">铁友列车时刻表</a></td>
+                        <td width="20%" height="33"><a href="http://huochepiao.tieyou.com/#utm_source=divencheng&fr=hao6">动车时刻表</a></td>
+                        <td height="33"><a href="http://huochepiao.tieyou.com/#utm_source=divencheng&fr=hao6">久久票务网</a></td>
+                        <td height="33"><a href="http://p.yiqifa.com/c?s=72ab52bc&w=253302&c=297&i=19323&l=0&d=2756&e=hao6&t=http://u.ctrip.com/union/redirect.aspx">机票酒店</a></td>
+                      </tr>      
+                      <tr bgcolor="#EFF7F0">
+                        <td height="33"><a href="http://huochepiao.tieyou.com/#utm_source=divencheng&fr=hao6">火车票余票查询</a></td>
+                        <td height="33"><a href="http://www.huochepiao.com/">火车票网</a></td>
+                        <td height="33"><a href="http://www.shike.org.cn/">中国铁路时刻网</a></td>
+                        <td width="20%" height="33"><a href="http://www.huoche.com.cn/">火车网</a></td>
+                        <td height="33"><a href="http://huochepiao.tieyou.com/#utm_source=divencheng&fr=hao6" style="color:#ff0000">高铁动车票</a></td>
+                      </tr>
+                      <tr bgcolor="#EFF7F0">
+                        <td height="33"><a href="http://shike.peoplerail.com/daishoudian.html">火车票代售点</a></td>
+                        <td height="33"><a href="http://p.yiqifa.com/c?s=72ab52bc&w=253302&c=297&i=19323&l=0&d=2756&e=hao6&t=http://u.ctrip.com/union/redirect.aspx">携程高铁动车</a></td>
+                        <td width="20%" height="33"><a href="http://www.12306.cn/">12306铁路客服中心</a></td>
+                        <td height="33">&nbsp;</td>
+                        <td height="33"> </td>
+                      </tr>    
+
+     
+              </table></td>
+      </tr>
+	  <tr bgcolor="#D9EDDA">
+      <td width="100%" height="20"  class="f9pt"  align="center"><font color="#346F0E">各地火车站</font></td>
+    </tr>
+    <tr bgcolor="C5D5C5">
+      <td ><table width="100%"  border="0" cellspacing="1" cellpadding="7">
+                      <tr bgcolor="#EFF7F0">
+                        <td width="20%" height="33"><A href="http://www.shrail.com/">上海铁路局</A></td>
+                        <td width="20%" height="33"><A href="http://www.zzhcz.com/">郑州火车站</A></td>
+                        <td width="20%" height="33"><A href="http://www.whrailway.cn/">武汉铁路局</A></td>
+                        <td width="20%" height="33"><a href="http://www.fzhcz.com/">福州火车站</a></td>
+                        <td width="20%" height="33"><a href="http://www.jtkyw.com/">济南铁路局</a></td>
+                      </tr>
+                      <tr bgcolor="#EFF7F0">
+                        <td height="33"><A href="http://www.china-mor.gov.cn/">铁道部官网</A></td>
+                        <td height="33">&nbsp;</td>
+                        <td height="33">&nbsp;</td>
+                        <td height="33">&nbsp;</td>
+                        <td height="33">&nbsp;</td>
+                      </tr>      
+      
+              </table></td>
+      </tr>
+</table>
+  </div>
+</center></div>
+<br>
+<DIV align=center><br><a href="/" target="_self"><img src="../images/return.gif" width="60" height="30" alt="返回本站首页" border="0"></a></DIV>
+<div style="display:none"><script type="text/javascript" src="../js/tj.js"></script></div>
+</body>
+</html>

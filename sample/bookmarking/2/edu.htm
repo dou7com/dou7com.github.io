@@ -1,0 +1,690 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="gb2312">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<title>大学-经典导航</title>
+<link rel="shortcut icon" href="favicon.ico" />
+<link href="css/reset-common927.css" rel="stylesheet" />
+<link href="css/common-baidu_search0927.css?v=1109" rel="stylesheet" />
+<link href="css/sug.css" rel="stylesheet" />
+<link href="css/text_common-content_mouseoverout0927.css" rel="stylesheet" /><link href="css/extra.css" rel="stylesheet" />
+</head>
+<body >
+	<div  id="doc">
+		<div id="hd">
+			
+        
+             <div id="topbar">
+                <div class="crumb-con">
+                    
+                        	<div class="crumb-nav">
+		<span class="cur-pos">
+			当前位置：
+		</span>
+		        					<a href="/">主页</a>
+            							&gt;
+					        	            	大学
+            						</div>
+                    
+                    
+                    	<div class="web-tool">
+	<ul>
+		<li class="set-index">
+			<a class='set_home' id='setHome' href="http://www.2838.net" onClick="return false">设为主页</a>&nbsp;|
+		</li>
+		<li class="feedback">
+			<a href="book/" target="_blank">意见反馈</a>&nbsp;|
+		</li>
+		<li>
+			&nbsp;<a href="http://www.2838.net/" target="_blank">返回首页</a>
+		</li>
+	</ul>
+</div>
+                           	    				
+                        
+                </div>
+	       	</div>
+          
+    
+        <div id="masthead">
+            <div class="masthead-con">
+                
+                    	<div class="logo-container">
+		<h1>
+			<a class="index-logo" href="/" title="首页">首页</a>
+			<a class="erji-logo" href="/?edu" title="大学" style="background:url(images/erji/logo/edu.png) no-repeat;">大学</a>
+		</h1>
+	</div>
+                
+                <form method="get" class="baidu-search-con" role="search" action="http://www.sogou.com/sogou" target="_blank" id="baidu-search-sub">
+		<fieldset>
+			<legend  class="hide-offscreen">百度搜索</legend>
+			   <ul class="search-text clearfix" id="search-text-con">
+				 	<li class="first selected"><a search-des="web" href="http://www.baidu.com/s?tn=divencheng_pg&word=" target="_blank">网页</a></li>
+					<li><a search-des="video" href="http://video.baidu.com/v?sc=baidu&word=" target="_blank">视频</a></li>
+					<li class="mp3"><a search-des="mp3" href="http://mp3.baidu.com/m?tn=baidump3&ct=134217728&sc=baidu&word=" target="_blank">MP3</a></li>
+					<li><a search-des="img" href="http://image.baidu.com/i?tn=baiduimage&ct=201326592&cl=2&lm=-1&fm=baidu&word=" target="_blank">图片</a></li>
+					<li><a search-des="tieba" href="http://tieba.baidu.com/f?kw=aaa&sc=baidu&word=" target="_blank">贴吧</a></li>
+					<li><a search-des="zhidao" href="http://zhidao.baidu.com/q?tn=ikaslist&ct=17&sc=baidu&rn=20&word=" target="_blank">知道</a></li>
+					<li><a search-des="news" href="http://news.baidu.com/ns?tn=news&sc=baidu&word=" target="_blank">新闻</a></li>
+			  </ul>
+				<div id="search-args" style="display:none">
+					<input type="hidden" name="pid" value="sogou-netb-3be0214185d6177a-5154" />
+				</div>
+				<div class="search-wraper">
+					<span class="search-shadow"></span>
+					<input type="text" autocomplete="off" value="" class="search-input" name="query" id="search-input-word"/>
+					<span class="search-button-wraper">
+						<button type="submit" value="搜索一下" class="searchsubmit">搜索一下</button>
+					</span>
+			   </div>
+		</fieldset>
+</form>
+            </div>
+        </div>
+    
+    <div id="nav">
+    </div>
+
+		</div>
+		<div  id="bd"style="border:0;">
+			
+<div class="tab-content clearfix">
+    <div class="tab-header" id="tab-menu">
+        <div class="tab-header-con tab-con-selected"><div class="con-left"></div><div class="con-mid">分数线查询</div><div class="con-right"></div><div class="clear"></div></div>
+        <div class="tab-header-con"><div class="con-left"></div><div class="con-mid">地区批次线</div><div class="con-right"></div><div class="clear"></div></div>
+        <div class="tab-header-lest"></div>
+        <div class="clear"></div>
+    </div>
+    <div id="tab-body" class="tab-body">
+        <div class="tab-body-con edu-search">
+            <div id='hint' class='hint'>正在加载，请稍候……</div>
+            <div id='score' class='content'>
+                <select class='prov' id='score-prov'></select>
+                <select  id='score-wl'></select>
+                <select id='score-local'></select>
+                <select id='score-college' class='college'></select>
+                <button id='score-submit' class='submit'>查询</button>
+            </div>
+        </div>
+        <div class="tab-body-con edu-search" style="display:none;">
+            <div id='area' class='content'>
+                <select class='prov' id='area-prov'></select>
+                <select id='area-wl' style="width:65px"></select>
+                <select id='area-year' style='width:70px';></select>
+                <button id='area-submit' class='submit'>查询</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="edu-content clearfix">
+    <h2 class="edu-title">2011年具有高等学历教育招生资格的高等学校名单</h2>
+    <div class="edu-container">
+        <table>
+            
+                                        <tr>
+                <th width="80">地区</th> <th width="210">普通本科院校(820所) </th> <th width="210">高职院校(1228所) </th> <th width="210">独立学院(311所)</th><th width="210">分校办学点（70所）</th>
+            </tr>
+                                                        <tr>
+                <td class="first">北京</td>
+                <td>58所<a href="eduhtm/edubj.htm" target="_blank">[点击查看]</a></td>
+                <td>25所<a href="eduhtm/edubj02.htm" target="_blank">[点击查看]</a></td>
+                <td>5所<a href="eduhtm/edubj03.htm" target="_blank">[点击查看]</a></td>
+                <td>1所<a href="eduhtm/edubj04.htm" target="_blank">[点击查看]</a></td>
+            </tr>
+                                                        <tr>
+                <td class="first">天津</td>
+                <td>19所<a href="eduhtm/edutj.htm" target="_blank">[点击查看]</a></td>
+                <td>26所<a href="eduhtm/edutj02.htm" target="_blank">[点击查看]</a></td>
+                <td>10所<a href="eduhtm/tj03.htm" target="_blank">[点击查看]</a></td>
+                <td></td>
+            </tr>
+                                                        <tr>
+                <td class="first">河北</td>
+                <td>36所<a href="eduhtm/hb.htm" target="_blank">[点击查看]</a></td>
+                <td>57所<a href="eduhtm/hb02.htm" target="_blank">[点击查看]</a></td>
+                <td>18所<a href="eduhtm/hb03.htm" target="_blank">[点击查看]</a></td>
+                <td>6所<a href="eduhtm/hb04.htm" target="_blank">[点击查看]</a></td>
+            </tr>
+                                                        <tr>
+                <td class="first">吉林</td>
+                <td>28所<a href="eduhtm/jilin.htm" target="_blank">[点击查看]</a></td>
+                <td>19所<a href="eduhtm/jilin02.htm" target="_blank">[点击查看]</a></td>
+                <td>9所<a href="eduhtm/jilin03.htm" target="_blank">[点击查看]</a></td>
+                <td>2所<a href="eduhtm/jilin04.htm" target="_blank">[点击查看]</a></td>
+            </tr>
+                                                        <tr>
+                <td class="first">内蒙古</td>
+                <td>12所<a href="eduhtm/numeg.htm" target="_blank">[点击查看]</a></td>
+                <td>30所<a href="eduhtm/nmg02.htm" target="_blank">[点击查看]</a></td>
+                <td>2所<a href="eduhtm/nmg03.htm" target="_blank">[点击查看]</a></td>
+                <td></td>
+            </tr>
+                                                        <tr>
+                <td class="first">山西</td>
+                <td>19所<a href="eduhtm/shnagxi.htm" target="_blank">[点击查看]</a></td>
+                <td>46所<a href="eduhtm/sx02.htm" target="_blank">[点击查看]</a></td>
+                <td>8所<a href="eduhtm/sx03.htm" target="_blank">[点击查看]</a></td>
+                <td>5所<a href="eduhtm/sx04.htm" target="_blank">[点击查看]</a></td>
+            </tr>
+                                                        <tr>
+                <td class="first">辽宁</td>
+                <td>44所<a href="eduhtm/edusy.htm" target="_blank">[点击查看]</a></td>
+                <td>48所<a href="eduhtm/ln02.htm" target="_blank">[点击查看]</a></td>
+                <td>19所<a href="eduhtm/ln03.htm" target="_blank">[点击查看]</a></td>
+                <td>2所<a href="eduhtm/ln04.htm" target="_blank">[点击查看]</a></td>
+            </tr>
+                                                        <tr>
+                <td class="first">甘肃</td>
+                <td>14所<a href="eduhtm/guansu.htm" target="_blank">[点击查看]</a></td>
+                <td>21所<a href="eduhtm/gs02.htm" target="_blank">[点击查看]</a></td>
+                <td>5所<a href="eduhtm/gs03.htm" target="_blank">[点击查看]</a></td>
+                <td>4所<a href="eduhtm/gs04.htm" target="_blank">[点击查看]</a></td>
+            </tr>
+                                                        <tr>
+                <td class="first">上海</td>
+                <td>31所<a href="eduhtm/edush.htm" target="_blank">[点击查看]</a></td>
+                <td>31所<a href="eduhtm/sh02.htm" target="_blank">[点击查看]</a></td>
+                <td>4所<a href="eduhtm/sh03.htm" target="_blank">[点击查看]</a></td>
+                <td></td>
+            </tr>
+                                                        <tr>
+                <td class="first">广西</td>
+                <td>21所<a href="eduhtm/guangxi.htm" target="_blank">[点击查看]</a></td>
+                <td>40所<a href="eduhtm/gx02.htm" target="_blank">[点击查看]</a></td>
+                <td>9所<a href="eduhtm/gx03.htm" target="_blank">[点击查看]</a></td>
+                <td></td>
+            </tr>
+                                                        <tr>
+                <td class="first">浙江</td>
+                <td>33所<a href="eduhtm/eduhz.htm" target="_blank">[点击查看]</a></td>
+                <td>46所<a href="eduhtm/zj02.htm" target="_blank">[点击查看]</a></td>
+                <td>22所<a href="eduhtm/zj03.htm" target="_blank">[点击查看]</a></td>
+                <td>1所<a href="eduhtm/zj04.htm" target="_blank">[点击查看]</a></td>
+            </tr>
+                                                        <tr>
+                <td class="first">安徽</td>
+                <td>33所<a href="eduhtm/anfei.htm" target="_blank">[点击查看]</a></td>
+                <td>68所<a href="eduhtm/ah02.htm" target="_blank">[点击查看]</a></td>
+                <td>11所<a href="eduhtm/ah03.htm" target="_blank">[点击查看]</a></td>
+                <td>1所<a href="eduhtm/ah04.htm" target="_blank">[点击查看]</a></td>
+            </tr>
+                                                        <tr>
+                <td class="first">福建</td>
+                <td>23所<a href="eduhtm/fujian.htm" target="_blank">[点击查看]</a></td>
+                <td>53所<a href="eduhtm/fj02.htm" target="_blank">[点击查看]</a></td>
+                <td>9所<a href="eduhtm/fj03.htm" target="_blank">[点击查看]</a></td>
+                <td>2所<a href="eduhtm/fj04.htm" target="_blank">[点击查看]</a></td>
+            </tr>
+                                                        <tr>
+                <td class="first">江西</td>
+                <td>24所<a href="eduhtm/jianxi.htm" target="_blank">[点击查看]</a></td>
+                <td>48所<a href="eduhtm/jx02.htm" target="_blank">[点击查看]</a></td>
+                <td>13所<a href="eduhtm/jx03.htm" target="_blank">[点击查看]</a></td>
+                <td>5所<a href="eduhtm/jx04.htm" target="_blank">[点击查看]</a></td>
+            </tr>
+                                                        <tr>
+                <td class="first">西藏</td>
+                <td>3所<a href="eduhtm/xizang.htm" target="_blank">[点击查看]</a></td>
+                <td>3所<a href="eduhtm/xz02.htm" target="_blank">[点击查看]</a></td>
+                <td></td>
+                <td></td>
+            </tr>
+                                                        <tr>
+                <td class="first">河南</td>
+                <td>38所<a href="eduhtm/henan.htm" target="_blank">[点击查看]</a></td>
+                <td>61所<a href="eduhtm/hn02.htm" target="_blank">[点击查看]</a></td>
+                <td>9所<a href="eduhtm/hn03.htm" target="_blank">[点击查看]</a></td>
+                <td>5所<a href="eduhtm/hn04.htm" target="_blank">[点击查看]</a></td>
+            </tr>
+                                                        <tr>
+                <td class="first">湖北</td>
+                <td>38所<a href="eduhtm/eduwh.htm" target="_blank">[点击查看]</a></td>
+                <td>54所<a href="eduhtm/hubei02.htm" target="_blank">[点击查看]</a></td>
+                <td>28所<a href="eduhtm/hubei03.htm" target="_blank">[点击查看]</a></td>
+                <td>2所<a href="eduhtm/hubei04.htm" target="_blank">[点击查看]</a></td>
+            </tr>
+                                                        <tr>
+                <td class="first">湖南</td>
+                <td>31所<a href="eduhtm/hunan.htm" target="_blank">[点击查看]</a></td>
+                <td>67所<a href="eduhtm/hunan02.htm" target="_blank">[点击查看]</a></td>
+                <td>15所<a href="eduhtm/hunan03.htm" target="_blank">[点击查看]</a></td>
+                <td>10所<a href="eduhtm/hunan04.htm" target="_blank">[点击查看]</a></td>
+            </tr>
+                                                        <tr>
+                <td class="first">广东</td>
+                <td>39所<a href="eduhtm/edugz.htm" target="_blank">[点击查看]</a></td>
+                <td>75所<a href="eduhtm/guangdong02.htm" target="_blank">[点击查看]</a></td>
+                <td>17所<a href="eduhtm/guangdong03.htm" target="_blank">[点击查看]</a></td>
+                <td></td>
+            </tr>
+                                                        <tr>
+                <td class="first">新疆</td>
+                <td>11所<a href="eduhtm/xinjang.htm" target="_blank">[点击查看]</a></td>
+                <td>21所<a href="eduhtm/xinjiang02.htm" target="_blank">[点击查看]</a></td>
+                <td>5所<a href="eduhtm/xinjiang03.htm" target="_blank">[点击查看]</a></td>
+                <td>1所<a href="eduhtm/xinjiang04.htm" target="_blank">[点击查看]</a></td>
+            </tr>
+                                                        <tr>
+                <td class="first">重庆</td>
+                <td>15所<a href="eduhtm/educq.htm" target="_blank">[点击查看]</a></td>
+                <td>31所<a href="eduhtm/chongqing02.htm" target="_blank">[点击查看]</a></td>
+                <td>7所<a href="eduhtm/chongqing03.htm" target="_blank">[点击查看]</a></td>
+                <td>1所<a href="eduhtm/chongqing04.htm" target="_blank">[点击查看]</a></td>
+            </tr>
+                                                        <tr>
+                <td class="first">四川</td>
+                <td>32所<a href="eduhtm/educd.htm" target="_blank">[点击查看]</a></td>
+                <td>47所<a href="eduhtm/sichuan02.htm" target="_blank">[点击查看]</a></td>
+                <td>13所<a href="eduhtm/sichuan03.htm" target="_blank">[点击查看]</a></td>
+                <td>2所<a href="eduhtm/sichuan04.htm" target="_blank">[点击查看]</a></td>
+            </tr>
+                                                        <tr>
+                <td class="first">山东</td>
+                <td>51所<a href="eduhtm/shangdong.htm" target="_blank">[点击查看]</a></td>
+                <td>71所<a href="eduhtm/shandong02.htm" target="_blank">[点击查看]</a></td>
+                <td>12所<a href="eduhtm/shandong03.htm" target="_blank">[点击查看]</a></td>
+                <td>5所<a href="eduhtm/shandong04.htm" target="_blank">[点击查看]</a></td>
+            </tr>
+                                                        <tr>
+                <td class="first">云南</td>
+                <td>20所<a href="eduhtm/yunnan.htm" target="_blank">[点击查看]</a></td>
+                <td>34所<a href="eduhtm/yunnan02.htm" target="_blank">[点击查看]</a></td>
+                <td>7所<a href="eduhtm/yunnan03.htm" target="_blank">[点击查看]</a></td>
+                <td></td>
+            </tr>
+                                                        <tr>
+                <td class="first">黑龙江</td>
+                <td>31所<a href="eduhtm/eduhab.htm" target="_blank">[点击查看]</a></td>
+                <td>42所<a href="eduhtm/heilongjiang02.htm" target="_blank">[点击查看]</a></td>
+                <td>5所<a href="eduhtm/heilongjiang03.htm" target="_blank">[点击查看]</a></td>
+                <td>4所<a href="eduhtm/heilongjiang04.htm" target="_blank">[点击查看]</a></td>
+            </tr>
+                                                        <tr>
+                <td class="first">江苏</td>
+                <td>46所<a href="eduhtm/edunanjin.htm" target="_blank">[点击查看]</a></td>
+                <td>80所<a href="eduhtm/jiangsu02.htm" target="_blank">[点击查看]</a></td>
+                <td>25所<a href="eduhtm/jiangsu03.htm" target="_blank">[点击查看]</a></td>
+                <td>4所<a href="eduhtm/jiangsu04.htm" target="_blank">[点击查看]</a></td>
+            </tr>
+                                                        <tr>
+                <td class="first">陕西</td>
+                <td>40所<a href="eduhtm/eduxia.htm" target="_blank">[点击查看]</a></td>
+                <td>38所<a href="eduhtm/shanxi02.htm" target="_blank">[点击查看]</a></td>
+                <td>12所<a href="eduhtm/shanxi03.htm" target="_blank">[点击查看]</a></td>
+                <td>8所<a href="eduhtm/shanxi04.htm" target="_blank">[点击查看]</a></td>
+            </tr>
+                                                        <tr>
+                <td class="first">贵州</td>
+                <td>17所<a href="eduhtm/gz.htm" target="_blank">[点击查看]</a></td>
+                <td>22所<a href="eduhtm/guizhou02.htm" target="_blank">[点击查看]</a></td>
+                <td>8所<a href="eduhtm/guizhou03.htm" target="_blank">[点击查看]</a></td>
+                <td></td>
+            </tr>
+                                                        <tr>
+                <td class="first">青海</td>
+                <td>3所<a href="eduhtm/qingdao.htm" target="_blank">[点击查看]</a></td>
+                <td>5所<a href="eduhtm/qinghai02.htm" target="_blank">[点击查看]</a></td>
+                <td>1所<a href="eduhtm/qinghai03.htm" target="_blank">[点击查看]</a></td>
+                <td></td>
+            </tr>
+                                                        <tr>
+                <td class="first">宁夏</td>
+                <td>5所<a href="eduhtm/nixai.htm" target="_blank">[点击查看]</a></td>
+                <td>8所<a href="eduhtm/ningxia02.htm" target="_blank">[点击查看]</a></td>
+                <td>2所<a href="eduhtm/ningxia03.htm" target="_blank">[点击查看]</a></td>
+                <td></td>
+            </tr>
+                                                        <tr>
+                <td class="first">海南</td>
+                <td>5所<a href="eduhtm/hainan.htm" target="_blank">[点击查看]</a></td>
+                <td>11所<a href="eduhtm/hainan02.htm" target="_blank">[点击查看]</a></td>
+                <td>1所<a href="eduhtm/hainan03.htm" target="_blank">[点击查看]</a></td>
+                <td></td>
+            </tr>
+                                    </table>
+    </div>
+</div>
+<div class="topborder clearfix"></div>
+<div class="mod-content clearfix">
+    <div class="content-con ">
+        <h2 class="content-title">其他<span class="content-title-des">(13)</span></h2>
+        <ul class="content-link">
+                            <li>
+                	<h3><div><a href="http://edu.sina.com.cn/gaokao/2011-03-31/1515290772.shtml" target="_blank" class="text-con">211高校名单</a></div></h3>
+          		</li>
+                            <li>
+                	<h3><div><a href="http://edu.sina.com.cn/gaokao/2011-03-31/1549290785.shtml" target="_blank" class="text-con">985高校名单</a></div></h3>
+          		</li>
+                            <li>
+                	<h3><div><a href="http://www.hao123.com/college_bbs.htm" target="_blank" class="text-con">校园社区</a></div></h3>
+          		</li>
+                            <li>
+                	<h3><div><a href="http://edu.sina.com.cn/gaokao/2011zgdxphb/index.shtml" target="_blank" class="text-con">大学排名（仅供参考）</a></div></h3>
+          		</li>
+                            <li>
+                	<h3><div><a href="http://gaokao.chsi.com.cn/" target="_blank" class="text-con">阳光高考</a></div></h3>
+          		</li>
+                            <li>
+                	<h3><div><a href="http://zhuanye.eol.cn/" target="_blank" class="text-con">大学专业介绍</a></div></h3>
+          		</li>
+                            <li>
+                	<h3><div><a href="http://gaokao.chsi.com.cn/sch/" target="_blank" class="text-con">高等院校信息库</a></div></h3>
+          		</li>
+                            <li>
+                	<h3><div><a href="http://gaokao.eol.cn/html/g/zhiyuan/index.shtml" target="_blank" class="text-con">高考志愿填报指南</a></div></h3>
+          		</li>
+                            <li>
+                	<h3><div><a href="http://edu.sina.com.cn/gaokao/" target="_blank" class="text-con">新浪高考站</a></div></h3>
+          		</li>
+                            <li>
+                	<h3><div><a href="http://edu.qq.com/gaokao/" target="_blank" class="text-con">腾讯高考频道</a></div></h3>
+          		</li>
+                            <li>
+                	<h3 class="last-row"><div><a href="http://edu.people.com.cn/GB/gaokao/" target="_blank" class="text-con">人民网高考频道</a></div></h3>
+          		</li>
+                            <li>
+                	<h3 class="last-row"><div><a href="http://edu.zhidao.baidu.com/gaokao/index.html" target="_blank" class="text-con">百度知道-高考频道</a></div></h3>
+          		</li>
+                            <li>
+                	<h3 class="last-row"><div><a href="eduhtm/eduhkam.htm" target="_blank" class="text-con">港澳台高校</a></div></h3>
+          		</li>
+                    </ul>
+    </div>
+</div>
+<span class="rc-tl round"></span>
+<span class="rc-tr round"></span>
+<span class="rc-bl round"></span>
+<span class="rc-br round"></span>
+		</div>
+		<div id="ft">
+				<p class="ft_link">
+    	<a href="#">关于本站</a>
+        &nbsp;|&nbsp;
+        <a href="book/">留言反馈</a>
+        &nbsp;|&nbsp;
+        <a href="#">手机版</a>
+        &nbsp;|&nbsp;
+        <a href="#">网站统计</a>
+        &nbsp;|&nbsp;
+        <a href="#" class="last">欢迎光临</a>
+    </p>
+	<p class="copyright">经典导航<a class="feedback" target="_blank" href="http://www.miibeian.gov.cn/">蜀ICP备000000号</a></p>
+<div style="display:none">
+<script type="text/javascript" src="js/tj.js">
+
+
+
+</script>
+</div>
+		</div>
+	</div>
+<script type="text/javascript" src="js/tangram-1.3.9.source0927.js"></script><script type="text/javascript" src="js/sug.js"></script>
+
+	<script src="js/baidu_search-sethome-usertrack.js" type="text/javascript"></script>
+    <script type='text/javascript'>
+	
+		var pageId = "jingdian-erji-edu";
+		var pageTitle = "大学";
+		if ( pageId && pageTitle) {
+			UserTrack.send( { level:2, title:pageTitle, page:pageId } );
+		}
+	
+     indexSetHome.bind("setHome");
+    </script>
+    	
+
+
+<script type="text/javascript">
+(function(){
+    var tabSwitch = function(i){
+        for(var j = tab_cons.length;j--;){
+            tab_cons[j].style.display = "none";
+            tabs[j].className = "tab-header-con";
+        }
+        tab_cons[i].style.display = "block";
+        tabs[i].className = "tab-header-con tab-con-selected";
+    }
+    var isCLassExist = function(str,classname){
+        var classes = str.split(" ");
+        for(var i = classes.length;i--;){
+            if(classes[i] == classname) return true;
+        }
+        return false;
+    }
+    var tabs_ = document.getElementById("tab-menu").children;
+    var tab_cons_ = document.getElementById("tab-body").children;
+    var tabs = [],tab_cons=[];
+    for(var i = 0,len = tabs_.length;i<len;i++){
+        if(isCLassExist(tabs_[i].className,"tab-header-con")){
+            tabs.push(tabs_[i]); 
+        }
+    }
+    for(var i = 0,len = tab_cons_.length;i<len;i++){
+        if(isCLassExist(tab_cons_[i].className,"tab-body-con")){
+            tab_cons.push(tab_cons_[i]);
+        }
+    }
+    if(!+[1,]){
+        for(var i = tabs.length;i--;){
+            tabs[i].attachEvent("onclick",function(i){
+                return function(){tabSwitch(i)};
+            }(i));
+        }
+    }else{
+        for(var i = tabs.length;i--;){;
+            tabs[i].addEventListener("click",function(i){
+                return function(){tabSwitch(i)};
+            }(i),false);
+        }
+    }
+})()
+if (window.Hao === undefined) {
+    window.Hao = {}
+}
+Hao.DataLoader = function() {
+    function b() {
+        if (typeof XMLHttpRequest != "undefined") {
+            b = function() {
+                return new XMLHttpRequest()
+            }
+        } else {
+            b = function() {
+                return new ActiveXObject("Msxml2.XMLHTTP")
+            }
+        }
+        return b()
+    }
+    function a(e) {
+        if (!e) {
+            return null
+        }
+        var c = [],
+        d;
+        for (d in e) {
+            if (e.hasOwnProperty(d)) {
+                c.push(encodeURIComponent(d) + "=" + encodeURIComponent(e[d]))
+            }
+        }
+        return c.join("&")
+    }
+    return {
+        load: function(m) {
+            var l = b(),
+            d = m.requestURL,
+            f = m.callBack,
+            j = m.errorCallBack,
+            c = m.isGet === undefined ? true: m.isGet,
+            k = m.parameter,
+            h = m.isText === undefined ? true: m.isText,
+            g = m.isAsyn === undefined ? true: m.isAsyn,
+            e;
+            if (c) {
+                l.open("get", d, g);
+                l.send(null)
+            } else {
+                l.open("post", d, g);
+                l.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                l.send(a(k))
+            }
+            if (!g) {
+                if (l.status >= 200 && l.status < 300 || l.status == 304) {
+                    e = new Date(l.getResponseHeader("Date"));
+                    if (h) {
+                        return {
+                            data: l.responseText,
+                            time: e
+                        }
+                    } else {
+                        return {
+                            data: l.responseXML,
+                            time: e
+                        }
+                    }
+                } else {
+                    return {
+                        data: null,
+                        status: l.status
+                    }
+                }
+            }
+            l.onreadystatechange = function() {
+                if (l.readyState == 4) {
+                    e = new Date(l.getResponseHeader("Date"));
+                    if (l.status >= 200 && l.status < 300 || l.status == 304) {
+                        if (h) {
+                            f({
+                                data: l.responseText,
+                                time: e
+                            })
+                        } else {
+                            f({
+                                data: l.responseXML,
+                                time: e
+                            })
+                        }
+                    } else {
+                        if (j) {
+                            j(l.status)
+                        }
+                    }
+                }
+            }
+        }
+    }
+};
+/*-----------展现大学数据-------------*/
+window.Hao.EduModal = function (data) {
+    var provs = [], locals = [], colleges = [], wl = [], years = [], collegeProv, tempt, i = 0;
+    tempt = data.getElementsByTagName('prov');
+
+    for (i = 0; i < tempt.length; i++) {
+        provs.push([tempt[i].getAttribute('name'), tempt[i].getAttribute('val')]);
+    }
+    tempt = data.getElementsByTagName('local');
+    /*---从1 开始，去掉默认值----*/
+    for (i = 1; i < tempt.length; i++) {
+        locals.push([tempt[i].getAttribute('name'), tempt[i].getAttribute('val')]);
+    }
+    tempt = data.getElementsByTagName('wl');
+    for (i = 0; i < tempt.length; i++) {
+        wl.push([tempt[i].getAttribute('name'), tempt[i].getAttribute('val')]);
+    }
+    tempt = data.getElementsByTagName('college');
+    for (i = 0; i < tempt.length; i++) {
+        collegeProv = tempt[i].getAttribute('prov');
+        if (colleges[collegeProv] === undefined) {
+            colleges[collegeProv] = [];
+        }
+        colleges[collegeProv].push([tempt[i].getAttribute('name'), tempt[i].getAttribute('val')]);
+    }
+    tempt = data.getElementsByTagName('year');
+    for (i = 0; i < tempt.length; i++) {
+        years.push([tempt[i].getAttribute('name'), tempt[i].getAttribute('val')]);
+    }
+    return {
+        provs: provs,
+        locals: locals,
+        colleges: colleges,
+        wl: wl,
+        years: years
+    }
+};
+window.Hao.EduView = function (data) {
+    var doc = document, score = doc.getElementById('score'), scoreProv = doc.getElementById('score-prov'), scoreWl = doc.getElementById('score-wl'),
+  scoreLocal = doc.getElementById('score-local'), scoreCollege = doc.getElementById('score-college'), scoreSubmit = doc.getElementById('score-submit'),
+  area = doc.getElementById('area'), areaProv = doc.getElementById('area-prov'), areaWl = doc.getElementById('area-wl'), areaYear = doc.getElementById('area-year'),
+  areaSubmit = doc.getElementById('area-submit'), hint = doc.getElementById('hint'), i = 0, tempt;
+
+    init();
+    addEvent();
+    /*-----inner functions--------------*/
+    function addEvent() {
+        scoreLocal.onchange = function () {
+            setCollege();
+        };
+        scoreSubmit.onclick = function () {
+            UserTrack.send({ level: "2", page: pageId, type: "click", position: 0 });
+            window.open('http://kaoshi.edu.sina.com.cn/collegedb/index.php?_action=more&show=more_score&provid=' + scoreProv.value + '&collegeid=' + scoreCollege.value + '&wl=' + scoreWl.value);
+        };
+        areaSubmit.onclick = function () {
+            UserTrack.send({ level: "2", page: pageId, type: "click", position: 1 });
+            window.open('http://kaoshi.edu.sina.com.cn/collegedb/pici.php?provid=' + areaProv.value + '&wl=' + areaWl.value + '&year=' + areaYear.value);
+        };
+    }
+    function init() {
+        hint.style.display = 'none';
+        tempt = data.provs;
+        for (i = 0; i < tempt.length; i++) {
+            scoreProv.add(new Option(tempt[i][0], tempt[i][1]), undefined);
+            areaProv.add(new Option(tempt[i][0], tempt[i][1]), undefined);
+        }
+        tempt = data.locals;
+        for (i = 0; i < tempt.length; i++) {
+            scoreLocal.add(new Option(tempt[i][0], tempt[i][1]), undefined);
+        }
+        tempt = data.wl;
+        for (i = 0; i < tempt.length; i++) {
+            scoreWl.add(new Option(tempt[i][0], tempt[i][1]), undefined);
+            areaWl.add(new Option(tempt[i][0], tempt[i][1]), undefined);
+        }
+
+        setCollege();
+        tempt = data.years;
+        for (i = 0; i < tempt.length; i++) {
+            areaYear.add(new Option(tempt[i][0], tempt[i][1]), undefined);
+        }
+        setSoreSubmitHref();
+        setAreaSubmitHref();
+        score.style.display = 'block';
+    }
+    function setCollege() {
+        tempt = data.colleges[scoreLocal.value];
+        scoreCollege.options.length = 0;
+        for (i = 0; i < tempt.length; i++) {
+            scoreCollege.add(new Option(tempt[i][0], tempt[i][1]), undefined);
+        }
+    }
+    function setSoreSubmitHref() {
+        scoreSubmit.href = 'http://kaoshi.edu.sina.com.cn/collegedb/index.php?_action=more&show=more_score&provid=' + scoreProv.value + '&collegeid=' + scoreCollege.value + '&wl=' + scoreWl.value;
+    }
+
+    function setAreaSubmitHref() {
+        areaSubmit.href = 'http://kaoshi.edu.sina.com.cn/collegedb/pici.php?provid=' + areaProv.value + '&wl=' + areaWl.value + '&year=' + areaYear.value;
+    }
+
+}
+
+Hao.DataLoader().load({ requestURL: 'http://erji.hao123.com/resource/erji/public/data/edu.xml?' + new Date().getMilliseconds(), isText: false, callBack: function (data) {
+    var eduData = Hao.EduModal(data.data);
+    Hao.EduView(eduData);
+}
+});
+
+</script>
+
+<script type="text/javascript" src="js/content_mouseoverout0927.js"></script>
+</body>
+</html>

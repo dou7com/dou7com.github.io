@@ -1,0 +1,768 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+   <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <base target="_blank" />
+    <title>hao123网址之家－－交通违章查询</title>
+    <link href="../css/v_base_old.css" rel="stylesheet" type="text/css" />
+    <style  type="text/css">
+       /*--override basic style-*/
+      .wrapper-basic{ width:778px;}     
+      .head-basic .search{ margin-left:80px;}
+      /*traffic*/
+      #body-basic{ text-align:center; background-color:#eff7f0;}
+      .wrapper-traffic h1{ font-size:12px; font-weight:bold; color:#346f0E; background-color:#d9edda; font-weight:normal; line-height:20px;}
+      .wrapper-traffic .wrapper-map{ padding-top:10px; position:relative; _height:40px;}
+      .wrapper-traffic .city{ border:solid 1px #666; padding:6px; position:absolute;  left:0;top:0;display:none; background-color:#FCFFF7; text-align:left;}
+      .wrapper-traffic .city a{ margin:5px; display:inline-block; font-size:14px;}
+      .wrapper-traffic table a{ margin:5px 0px 5px 3px; display:inline-block;}
+      .wrapper-traffic table{}
+      .wrapper-traffic table td{ width:25%; background-color:#eff7f0; color:#424242; border:1px solid #FCFFF7;text-align:left; font-size:15px; vertical-align:top; padding:3px;}
+	  
+	  .cus-link{;color:#000000;font-weight:bold;font-size:14px;}
+#custom-city{position:absolute;top:20px;left:50px;}
+   </style>
+</head>
+<body>
+<div id="head-basic" >
+            <div class="head-basic wrapper-basic" id='nav' monkey="cool">
+                <div class="logo">
+                    <a href="/" target="_self" title="hao123网址之家"><img src="../images/logo_new.gif" width="168" height="63" alt="hao123网址之家" /></a>
+                </div>
+                <div class="search">
+                        <ul>
+							<li onmousedown="ClickMonkey.log('haoweb');" key="web" class="current">网页</li>
+                            <li onmousedown="ClickMonkey.log('haovideo');" key="video" class="">视频</li>
+							<li key='mp3' onmousedown="ClickMonkey.log('haomp3');">MP3</li>
+							<li key='image' onmousedown="ClickMonkey.log('haoimage');">图片</li>
+							<li key='tieba' onmousedown="ClickMonkey.log('haoimage');">贴吧</li>
+							<li key='zhidao' onmousedown="ClickMonkey.log('haozhidao');">知道</li>
+							<li key='news' onmousedown="ClickMonkey.log('haonews');">新闻</li>							
+						</ul>
+                          <form action="http://www.baidu.com/s" name="f" onsubmit="fromElement.submit();return false;" target="_blank" >
+                            <i><input id="kw" class="text" value="" type="text"  maxlength="100" /></i>   
+                            <input class="submit" type="submit" value="百度一下" id='sb' />
+                        </form>
+                </div>	        
+            </div>
+</div>
+ <div class="crumb-basic wrapper-basic">
+           <ul>
+            <li class="sethome"><a href='#' target="_self" id='sethome'>设hao123为首页</a></li>
+            <li class="feedback"><a href='http://feedback.hao123.com/?catalog_id=4' >网友反馈</a></li>
+            <li class="bread"><a href='/'>首页</a>&gt;交通违章查询</li>
+           </ul>    
+ </div>
+    <div id="body-basic" class="wrapper-basic wrapper-traffic main-basic">
+     <h1>交通违章查询</h1>
+     <div class='wrapper-map'>
+           <div id='city' class='city'></div>
+		   <div id="custom-city"></div>
+           <img width="471" height="400" border="0" usemap="#Map" src="../images/map.gif"  />
+		<map name="Map" id='map'>
+  <area hint="北京" href="http://www.bjjtgl.gov.cn/publish/portal0/tab72/" coords="344,137,373,152" shape="rect" />
+  <area hint="天津" href="http://www.tjits.cn/wfcx/index.asp" coords="362,156,393,170" shape="rect"  />
+  <area hint="上海" href="http://www.shjtaq.com/zwfg/chafen.asp" coords="414,237,440,251" shape="rect"  />
+  <area hint="重庆" href="http://www.cqjg.gov.cn/DriverFind.html" coords="254,264,283,283" shape="rect"/>
+  <area hint="广东" index='0' coords="330,320,362,338" shape="rect" href='#'/>
+  <area hint="浙江" index='1' coords="385,257,416,275" shape="rect" href='#' />
+  <area hint="山东" index='2' coords="351,186,379,199" shape="rect" href='#' />
+  <area hint="江苏" index='3'  coords="379,206,408,224" shape="rect" href='#' />
+  <area hint="河北" index='4'  coords="326,164,357,180" shape="rect" href='#' />
+  <area hint="辽宁" index='5'  coords="385,121,415,138" shape="rect" href='#' />
+  <area hint="河南" index='6'  coords="316,215,342,230" shape="rect" href='#' />
+  <area hint="福建" index='7'  coords="368,292,399,308" shape="rect" href='#' />
+  <area hint="江西" index='8'  coords="345,270,373,284" shape="rect" href='#' />
+  <area hint="湖北" index='9'  coords="309,243,340,263" shape="rect" href='#' />
+  <area hint="湖南" index='10'  coords="303,276,337,299" shape="rect" href='#' />
+  <area hint="山西" index='11'  coords="301,181,330,199" shape="rect" href='#' />
+  <area hint="黑龙江" index='12' coords="400,54,453,79" shape="rect" href='#' />
+  <area hint="陕西" index='13'  coords="274,215,303,233" shape="rect" href='#' />
+  <area hint="甘肃" index='14'  coords="167,149,198,168" shape="rect" href='#' />
+  <area hint="广西" index='15'  coords="280,323,313,346" shape="rect" href='#' />
+  <area hint="青海" index='16'  coords="161,188,204,221" shape="rect" href='#' />
+  <area hint="云南" index='17'  coords="211,317,240,340" shape="rect" href='#' />
+  <area hint="贵州" index='18'  coords="265,294,291,313" shape="rect" href='#' />
+  <area hint="海南" index='19'  coords="278,373,309,395" shape="rect" href='#' />
+  <area hint="四川" index='20'  coords="211,249,249,272" shape="rect" href='#' />
+  <area hint="吉林"  index='21' coords="405,93,437,111" shape="rect" href='#' />
+  <area hint="宁夏" index='22'  coords="240,179,272,199" shape="rect" href='#' />
+  <area hint="内蒙古"  index='23' coords="265,138,312,160" shape="rect" href="#" />
+  <area hint="安徽" index='24' coords="354,233,385,249" shape="rect" href='#' />
+  <area hint="新疆" index='25' coords="85,128,125,150" shape="rect" href='#' />  
+  <area hint="香港"  index='26' coords="360,340,390,362" shape="rect" href="http://www.td.gov.hk/sc/traffic_notices/index_type_1.html" />
+  <area hint="澳门"  index='27' coords="320,360,350,375" shape="rect" href="https://www.fsm.gov.mo/webticket/default.aspx" /> 
+  <!--<area alt="台湾"  index='28' coords="400,310,426,342" shape="rect" />-->
+
+   
+		</map>
+
+
+     </div>  
+    </div>
+     <div id="foot-basic" class="wrapper-basic">
+      <a href="/">返回首页</a>
+  </div> 
+
+
+
+
+<script src="../js/v_base.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+    window.Hao.TrafficData = [];
+			Hao.TrafficData [0] = [//广东省
+						["广东省","http://www.gdga.gov.cn/service/jjwzcx/"],
+						["广州","http://www.gzjd.gov.cn/gzwfcx/"],
+						["深圳","http://www.stc.gov.cn/search/vehicle_peccacy.asp"],
+                        [],
+						["汕头","http://gdst110.gov.cn/query/searchJtwf.html"],	
+						["江门", "http://weizhang.jmjgj.gov.cn/"],					
+						["肇庆","http://www.zqga.gov.cn/jjzdzw.shtml"],
+						["惠州","http://183.63.1.146:81/hzjj/sel_transgress.aspx"],
+                        [],						
+						["潮州","http://www.cztp.gov.cn/"],
+						["佛山","http://www.fsgajj.cn/fsjj/sel_transgress.aspx"],
+						["揭阳","http://www.jyjj.gov.cn/"],
+						["南海","http://www.nhga.gov.cn/qgafj/"],
+                        [],
+						["清远","http://www.qyga.gov.cn/qysms20/wfclxx/wfywcx.jsp"],
+						["韶关","http://www.sgjjzd.gov.cn/"]
+					   ]
+			Hao.TrafficData [1] = [//浙江省
+						["杭州","http://www.hzti.com/service/default.aspx"],
+						["湖州","http://www.hzjxj.com/"],
+						["金华","http://www.jhga.gov.cn/"],
+						["嘉兴", "http://www.zjjxjj.gov.cn/"],
+
+                        [],
+						["义乌", "http://www.jhga.gov.cn/"],						
+						["舟山","http://www.police.zhoushan.gov.cn/interaction_wfsearch.aspx"],
+						["绍兴","http://wscgs.sxga.gov.cn/"],
+						["台州","http://www.tzga.gov.cn/tzjjwwcx/"],
+                        [],						
+						["丽水", "http://61.153.62.58/"],
+						["萧山", "http://www.xsti.gov.cn/"],
+						["宁波","http://wf.nbjj.gov.cn/"],
+						["温州","http://www.wzsjj.cn/"],
+                        [],						
+						["衢州","http://gajadmin.qz.gov.cn/was/portals/cxfw/searchclwf.jsp"]
+
+					   ]
+			Hao.TrafficData [2] = [//山东省
+						["济南","http://www.jnjj.com/"],
+						["青岛","http://auto.qingdaonews.com/wzcx/search.html"],
+						["烟台","http://www.ytjj.gov.cn/"],
+						["济宁", "http://www.jnjj.gov.cn/"],
+                        [],
+						["淄博","http://www.zbjj.gov.cn/"],
+						["日照","http://58.59.39.43:9080/wfcx/html/jdcwf/jdcwfmain.jsp"],
+						["德州","http://218.201.153.138:9080/wfcx/html/jdcwf/jdcwfmain.jsp"],
+						["枣庄","http://218.59.228.162/wfcx/html/jdcwf/jdcwfmain.jsp"],			
+                        [],
+						["聊城","http://www.lcwscgs.com/wfcx/html/jdcwf/jdcwfmain.jsp"],
+						["滨州","http://www.bzwscgs.com/"],
+						["临沂","http://www.lyjj.net/"],
+						["威海","http://www.whdzjc.com/"],							
+                        [],
+						["诸城","http://car.zcinfo.net/"],
+						["泰安","http://www.ta-police.com/wfcx/index.asp"],
+						["莱芜","http://www.laiwu.gov.cn/car/weizhang_search.asp"],
+						["菏泽","http://123.130.240.182/"],					
+                        [],
+						["潍坊","http://www.wfcgs.com/wscgs/"],
+						["东营","http://www.dygajj.gov.cn/jncmp/html/jdcwf/jdcwf2.html"]		
+					   ]
+					   
+					   
+			Hao.TrafficData [3] = [//江苏省
+						["南京","http://www.njjg.net/"],
+						["连云港","http://www.lygjg.net/"],
+						["常州", "http://czjxj.czinfo.net/dzjccx.htm"],
+						["镇江", "http://jxj.zhenjiang.gov.cn/"],
+
+                         [],
+						["无锡", "http://jxj.wuxi.gov.cn/"],
+						["徐州","http://www.xzjgw.com/2010cx/cars.asp"],
+						["淮安", "http://www.hajxj.gov.cn/jtwfcx/jsysearch.asp"],
+						["南通","http://www.ntjxj.com/"],
+                       [],	
+																		["江阴","http://www.wxga.gov.cn/default.php?mod=c&s=ssb69ad59"],
+						["泰州","http://www.tzjgw.com/news/default.asp"],
+						["张家港","http://www.zjgga.cn/website/police/ShowWeiZhang2.asp"],
+									["常熟","http://www.csjxj.com/wzcx.php"],
+                         [],				
+			
+						["扬州","http://www.yzjxw.com/"],
+						["昆山","http://58.210.126.206:9091/QueryVD/"],
+						["宿迁","http://www.sqjg.net/"],
+							["盐城","http://www.ycga.gov.cn/default.php?mod=c&s=sscfe6a82"]	
+							
+													   ]
+			Hao.TrafficData [4] = [//河北省
+						["河北省","http://www.hbjtaq.com/"],
+						["石家庄","http://www.jdcjsr.com/"],			
+						["保定","http://www.bdjiaojing.cn/"],
+						["衡水","http://hsjj2.hengshui.com/"],
+                         [],						
+						["廊坊","http://www.lfcgs.com/"],
+						["唐山","http://www.tscg.gov.cn/"],	
+						["邢台","http://www.xtjdcjsr.com/"],
+						["张家口","http://www.zjkjjw.com.cn/"],
+                         [],						
+						["承德","http://www.cdjj.gov.cn/Index.asp"],
+						["邯郸","http://hd.jdcjsr.com/"]
+					   ]
+			Hao.TrafficData [5] = [//辽宁省
+						["辽宁省","http://www.lnjj.gov.cn/"],
+						["沈阳","http://218.25.58.44/searchsys/"],
+						["葫芦岛","http://www.hldgajjzd.com/sjcx/Index.asp"],
+						["丹东","http://www.dd122.com/pages/xxcx.asp"],
+                        [],
+						["锦州","http://www.jzgajx.com/"],						
+						["阜新","http://218.24.200.244/"],
+						["大连","http://www.dlutc.gov.cn/"],
+						["盘锦","http://jjd.panjin.gov.cn/"],
+                        [],						
+						["朝阳","http://www.zgcy.gov.cn/car_seek/"],
+						["鞍山","http://www.asgajj.com/"],
+						["营口","http://www.ykjj.gov.cn/wfcx.php"],
+						["海城","http://hcgajj.com/xxcx.asp"],
+                        [],						
+						["铁岭","http://www.tlga.gov.cn/jdc.jsp?name1=list_jdc.jsp&name2=kb.html?lb=2"]							]
+			Hao.TrafficData [6] = [//河南省
+						[ "郑州","http://www.zzcgs.com.cn/default?url=peccancy/search_info.jsp"],
+						["南阳","http://www.nydzjc.com/"],
+						["信阳","http://www.xyjjzd.com/"],
+						["濮阳","http://www.puyang.gov.cn/wmjdcwz.asp"],
+                        [],
+						["鹤壁", "http://www.hebi.gov.cn/gonggongfuwu/weizhangcheliangchaxun/"],						
+						["焦作","http://www.jzga.gov.cn/wzcx/lookup.aspx"],
+						["许昌","http://www.xcjjw.gov.cn/"],
+						["新乡","http://www.xxgaw.gov.cn/weifa.html"],
+                        [],						
+						["洛阳","http://www.lyjjzd.com/wfcx.asp"],
+						["平顶山","http://www.pds122.com/"],
+						["安阳","http://www.anyangdx.com/Web_Asking.aspx"],
+                        [],						
+						["商丘","http://www.sqradio.com/old945/jdccx.htm"],
+						["开封","http://www.kfpolice.com/NewChange/ConditionPage2.aspx"],	
+						["周口","http://www.zkga.gov.cn/wzcx/"]
+			   ]
+			Hao.TrafficData [7] = [//福建省
+						["福州","http://fzjj.easdo.com/jtwf/"],
+						["厦门","http://www.xmjj.gov.cn:8080/xmjj_cxfw/cxsjMain.action?actionStr=getwfcxMain_new#"],
+						["泉州","http://www.qzgajt.com/smss/index.asp"],			
+						["漳州","http://fzjj.easdo.com/jtwf/"]										   ]					   
+			Hao.TrafficData [8] = [//江西省
+						["江西省","http://www.jxhld.gov.cn/"],
+						["南昌","http://ncjj.nc.gov.cn/infos.asp"],						
+						["赣州","http://www.gzsjjzd.gov.cn/cx.asp"],						
+						["九江","http://www.jjjj.com.cn/page/index.php"]						
+					   ]
+			Hao.TrafficData [9] = [//湖北省
+						["湖北省","http://www.hb122.org/xxcx/xxcx.jsp"],			
+						["武汉","http://www.whjg.gov.cn/"],
+						["黄石","http://www.hsjj.gov.cn/"],
+						["襄阳","http://xfwfcx.com/"],
+                        [],								
+						["十堰","http://www.hbsydx.com/"],
+						["宜昌","http://www.yichang.gov.cn/col/col3062/"],
+						["荆门","http://jmapp.jingmen.gov.cn/jiaojing/"],
+						["随州","http://www.sz122.net/query.html"],
+                        [],								
+						["黄冈","http://www.hb122.org/xxcx/xxcx.jsp"],
+						["荆州","http://www.jzjtgl.com/jzjjweb/"]
+					   ]
+			Hao.TrafficData [10] = [//湖南省
+						["湖南省","http://search.pazx888.com/SearchIndex.aspx"],
+						["长沙","http://www.hncsjj.gov.cn/QueryJDCWZOther.aspx"],
+						["常德","http://www.changde.gov.cn/art/2008/12/29/art_2511_83281.html"],
+						["邵阳","http://www.sysgajj.gov.cn/"],
+                        [],								
+						["益阳","http://so.jtjc.cn/"],
+						["衡阳","http://www.hnhyjj.gov.cn/HYJJXXW/"],
+						["郴州","http://search.pazx888.com/"],
+						["株洲","http://www.hnzzjj.gov.cn/ZzjtWeb/queryvv.aspx"]						
+					   ]
+			Hao.TrafficData [11] = [//山西省
+						["山西省","http://www.sxgajj.gov.cn/site/guest/search.action?type=0"],
+						["太原","http://www.tyjj.gov.cn/"],						
+						["长治","http://www.jjzd.changzhi.gov.cn/"],
+						["忻州","http://www.sxxzjj.gov.cn/"],
+                        [],						
+						["晋城","http://wzcx.jconline.cn/"],
+						["大同","http://www.dtjj.com.cn/"],
+						["朔州","http://www.sxszjj.gov.cn/weizhang.aspx"]	
+											
+					   ]
+			Hao.TrafficData [12] = [//黑龙江
+						["黑龙江","http://www.hljjj.gov.cn/"],
+						["哈尔滨","http://www.hrbgaj.gov.cn/wzcx/"],	
+						["齐齐哈尔","http://www.jtaqxx.com"],					                        [],							
+						
+						["双鸭山","http://www.sysjj.cn/"]
+
+											   ]
+			Hao.TrafficData [13] = [//陕西省
+						["西安","http://www.xianjj.com/"],
+						["延安","http://www.yajjzd.com/"],
+						["安康","http://cx.akjjzd.gov.cn/"],
+						["宝鸡","http://web.baoji.gov.cn/cxjg.jsp?urltype=tree.TreeTempUrl&wbtreeid=1148"],
+						["咸阳", "http://www.xyjjzd.gov.cn/"],
+                        [],
+						["铜川","http://www.tc122.com/typenews.asp?id=13"],
+						["渭南","http://www.wncar.net/tools/wzcx.htm"],
+						["商洛","http://sljj.sl163.com/"],
+						["榆林","http://www.yljjw.net/cx/"]
+
+
+					  ]
+			Hao.TrafficData [14] = [//甘肃省
+						["兰州","http://www.gsgajt.gov.cn/"]
+					   ]
+			Hao.TrafficData [15] = [//广西省
+						["广西","http://www.gxjj.gov.cn/"],				
+						["南宁","http://www.nn122.com/wfsx.aspx"],						
+						["贵港","http://www.gg122.com/"],
+						["桂林","http://www.966096.com/"]					   ]
+			Hao.TrafficData [16] = [//青海
+						["西宁","http://www.qh.xinhuanet.com/trafficxn/search.htm"]
+					   ]
+			Hao.TrafficData [17] = [//云南省
+						["昆明","http://www.km122.cn/q2/query.html"]				   ]
+			Hao.TrafficData [18] = [//贵州
+						["贵州省","http://www.gzjjzd.gov.cn/subindex.asp?leftname=subleft7&rightname=jtwfcx/hphm_cx"],
+						["贵阳","http://jjzd.gygov.gov.cn/jjzd/2380439375600156672/index.html"]						
+					   ]
+			Hao.TrafficData [19] = [//海南省
+						["海南","http://hainanjj.gov.cn/"],
+						["海口","http://www.hkjxj.gov.cn/php/wei_zcx.php"]
+					   ]
+			Hao.TrafficData [20] = [//四川省
+						["四川省","http://www.scjj.gov.cn/sp_test.htm"],
+						["成都","http://www.cdjg.gov.cn/"],
+						["绵阳","http://www.myjtaq.com/"],
+						["自贡","http://www.zg122.gov.cn/illegal.jsp"],
+                        [],						
+						["泸州","http://www.sclzjj.gov.cn/"],						
+						["达州","http://dzjj.dz169.net:8088/"],
+						["德阳","http://www.dyjj.gov.cn/InfoQuery.aspx"]						
+					   ]
+			Hao.TrafficData [21] = [//吉林省
+						["长春","http://www.ccjg.gov.cn/"],					
+						["吉林","http://www.jlsjj.gov.cn/"],												["白城","http://www.bcjjzd.com/web/qx/cl.asp"],
+						["松原","http://www.syjjzd.com/Default.aspx"],
+                        [],	
+						["延边","http://www.ybjg.gov.cn/wzch/index.asp?Modid=013001"]						
+					   ]
+			Hao.TrafficData [22] = [//宁夏
+						["宁夏","http://www.nxjj.gov.cn/web/nxjjxxw/index.jsp"],
+						["银川","http://www.nx.cninfo.net/zhuanti/wz/index.html"]						
+					   ]
+			Hao.TrafficData[23] = [//内蒙古
+						["鄂尔多斯", "http://www.ordosgajj.gov.cn/"],
+						["包头", "http://www.btjj.gov.cn/"],
+						["巴彦淖尔", "http://www.bsgajj.gov.cn/"],
+						["通辽", "http://www.tlcgs.com/Zxcx/clwzcx.asp"]
+					   ];
+			Hao.TrafficData [24] = [//安徽省
+			            ["安徽","http://jiaojing.anhuinews.com/"],
+						["合肥","http://www.hfjjzd.gov.cn/hfwebquery/"],
+						["淮南","http://www.ahhnjj.net/"],
+						["六安","http://www.lajjzd.gov.cn/frmVehVio.aspx"],
+                        [],
+						["马鞍山", "http://jjzd.mas.gov.cn/"],							
+						["安庆","http://www.ahjtxx.com/query/"],
+						["亳州","http://bzjj.bz163.net/Index.asp"],
+						["芜湖","http://www.whtppr.gov.cn/"],
+                        [],
+						["淮北","http://www.hbjjzd.cn/hbwfcx/Main.aspx?fzjg=F"],
+						["宿州","http://www.ahszjj.gov.cn/"]						
+                        ];
+			Hao.TrafficData [25] = [//新疆
+						["乌鲁木齐","http://www.xj163.cn/tools/car/"],
+						["巴州","http://www.xjbzjj.com/default.asp"],
+						["伊犁","http://www.xjylcar.com/"]	
+					   ];						
+			Hao.TrafficData [26] = [//直辖市
+						["北京","http://www.bjjtgl.gov.cn/publish/portal0/tab72/"],
+						["天津","http://www.tjits.cn/wfcx/index.asp"],
+						["上海","http://www.shjtaq.com/zwfg/chafen.asp"],
+						["重庆","http://www.cqjg.gov.cn/DriverFind.html"],
+					   ];
+			Hao.province=[
+				"广东","浙江","山东","江苏","河北","辽宁","河南","福建","江西","湖北","湖南","山西","黑龙江","陕西","甘肃","广西","青海","云南","贵州","海南","四川","吉林","宁夏","内蒙古","安徽","新疆"
+			];
+			Hao.TrafficView = function () {
+			    var doc = document, map = doc.getElementById('map'), city = doc.getElementById('city');
+			    city.onmousedown = function (e) {
+			        var event = window.event || e;
+			        if (window.event) {
+			            window.event.cancelBubble = true;
+			        }
+			        else {
+			            event.stopPropagation();
+			        }
+			    };
+			    map.onclick = function (e) {
+			        var coords, index, cityHTML, event, src;
+			        event = window.event || e;
+			        src = event.srcElement || event.target;
+
+			        if (Hao.Tools.checkTag(e, 'area')) {
+			            if (window.event) {
+			                window.event.cancelBubble = true;
+			            }
+			            else {
+			                event.stopPropagation();
+			            }
+			            coords = src.getAttribute('coords').split(',');
+			            index = src.getAttribute('index');
+                        if(index>=26) return; 
+			            city.style.left = 150 + 10 + parseFloat(coords[0]) + 'px';
+			            city.style.top = 10 + 20 + parseFloat(coords[1]) + 'px';
+			            cityHTML = makeCityHTML(index);
+			            if (cityHTML === null) {
+			                return true;
+			            }
+			            else {
+			                city.innerHTML = cityHTML
+			            }
+			            city.style.display = 'block';
+			        }
+			        return false;
+			    };
+			    doc.onmousedown = function (e) {
+			        city.style.display = 'none';
+			    }
+			    /*--inner function---------*/
+			    function makeCityHTML(index) {
+			        var data = Hao.TrafficData[index], i = 0, html = [];
+			        if (!data || data.length == 0) { return null; }
+			        for (i = 0; i < data.length; i++) {
+			            if (data[i].length == 2) {
+			                html.push("<a href='" + data[i][1] + "'>" + data[i][0] + "</a>");
+			            }
+			            else {
+			                html.push('<br/>');
+			            }
+			        }
+			        return html.join('');
+			    }
+			};
+    Hao.TrafficView();
+	
+
+		
+function getjsonp(url,callback){
+    var head = document.getElementsByTagName( "head" )[ 0 ] || document.documentElement,
+        script = document.createElement( "script" );
+    script.async = "async";
+    script.src = url;
+    // Attach handlers for all browsers
+    script.onload = script.onreadystatechange = function( _, isAbort ) {
+
+        if ( !script.readyState || /loaded|complete/.test( script.readyState ) ) {
+            // Handle memory leak in IE
+            script.onload = script.onreadystatechange = null;
+            if ( head && script.parentNode ) {
+                head.removeChild( script );
+            }
+            // Dereference the script
+            script = undefined;
+            // Callback if not abort
+        }
+    };
+    // Use insertBefore instead of appendChild  to circumvent an IE6 bug.
+    // This arises when a base node is used (#2709 and #4378).
+    head.insertBefore( script, head.firstChild);
+    if(callback) callback();                                                                                                                                                                                                     // Remove the script
+}
+/*http://app.hao123.com/ipquery/getcity.php?userip=202.115.64.4&rtype=1*/
+T.sio.callByServer("http://app.hao123.com/ipquery/getcity.php?rtype=2&r="+Math.random());
+
+function HaoLocationCallback(str){
+	//alert(str);
+	var loc=eval('('+str+')');
+	var cus=document.getElementById("custom-city");
+	if(!loc.ip) {
+		showMessage("");
+		return;
+	}
+	
+	//先查城市
+    if(loc.city){
+		for(var i=0;i<Hao.TrafficData.length;i++){
+			var datas=Hao.TrafficData[i];
+			for(var j=0;j<datas.length;j++){
+				var data=datas[j];
+				if(data.length<2) continue;
+				//alert(data[0]+","+loc.city);
+				if(data[0]==loc.city){	
+                    
+                    showMessage("当前默认城市："+"<a id=\"cus-link\" class=\"cus-link\" href=\""+data[1]+"\">"+loc.city+"交通违章</a>");
+					return;
+				}
+			}
+		}
+    }
+		//没有查到城市，再找省会
+    if(loc.provice){
+		for(var i=0;i<Hao.province.length;i++){
+			if(Hao.province[i]==loc.provice){
+               showMessage("当前默认城市："+"<a id=\"cus-link\" class=\"cus-link\" href=\""+Hao.TrafficData[i][0][1]+"\">"+Hao.TrafficData[i][0][0]+"交通违章</a>");
+				return;
+			}
+		}
+    }
+	showMessage("");
+    function showMessage(m){
+        cus.innerHTML=m;
+    }
+}
+
+
+
+
+function test(ip){
+	getjsonp("http://app.hao123.com/ipquery/getcity.php?userip="+ip+"&rtype=2&r="+Math.random());
+}
+
+//设置首页
+/*---------from yuji--------------------*/
+
+var UA = (function (WIN, UA) {
+    var key = {		//关键字常量
+        ie: "msie",
+        sf: "safari",
+        tt: "tencenttraveler"
+    },
+
+    //正则列表
+		reg = {
+		    browser: "(" + key.ie + "|" + key.sf + "|firefox|chrome|opera)",
+		    shell: "(maxthon|360se|theworld|se|theworld|greenbrowser|qqbrowser)",
+		    tt: "(tencenttraveler)",
+		    os: "(windows nt|macintosh|solaris|linux)"
+		},
+
+    //ua匹配方法
+		uaMatch = function (str) {
+		    var reg = new RegExp(str + "\\b[ \\/]?([\\w\\.]*)", "i"),
+				result = UA.match(reg);
+		    return result ? result.slice(1) : ["", ""];
+		},
+
+    //特殊浏览器检测
+		is360 = function () {
+
+		    //高速模式
+		    var result = UA.toLowerCase().indexOf("360chrome") > -1 ? !!1 : !1,
+				s;
+
+		    //普通模式
+		    try {
+		        if (WIN.external && WIN.external.twGetRunPath) {
+		            s = WIN.external.twGetRunPath;
+		            if (s && s.toLowerCase().indexOf("360se") > -1) {
+		                result = !!1;
+		            }
+		        }
+		    } catch (e) {
+		        result = !1
+		    }
+		    return result;
+		} (),
+
+    //特殊检测maxthon返回版本号
+		maxthonVer = function () {
+		    try {
+		        if (/(\d+\.\d)/.test(external.max_version)) {
+		            return parseFloat(RegExp['\x241']);
+		        }
+		    } catch (e) { }
+		} (),
+
+		browser = uaMatch(reg.browser),
+		shell = uaMatch(reg.shell),
+		os = uaMatch(reg.os);
+
+    //修正部分IE外壳浏览器
+    if (browser[0].toLowerCase() === key.ie) {
+
+        //360
+        if (is360) {
+            shell = ["360se", ""];
+        } else if (maxthonVer) {
+            shell = ["maxthon", maxthonVer];
+        } else if (shell == ",") {
+            shell = uaMatch(reg.tt);
+        }
+    } else if (browser[0].toLowerCase() === key.sf) {
+
+        //特殊处理sf的version
+        browser[1] = uaMatch("version") + "." + browser[1];
+    }
+
+    return {
+        browser: browser.join(","),
+        shell: shell.join(","),
+        os: os.join(",")
+    };
+})(window, navigator.userAgent);
+
+var indexSetHome = {
+
+    //配置跳转锚点
+    config: {
+
+        //配置帮助页面地址
+        helpUrl: "http://www.hao123.com/redian/sheshouyef.htm",
+
+        //外壳浏览器
+        shell: {
+            //360
+            "360se": "02",
+            "maxthon": "03",
+            //搜狗
+            "se": "04",
+            "qqbrowser": "05",
+            "theworld": "10",
+            "greenbrowser": "12"
+        },
+
+        //内核浏览器
+        browser: {
+            "firefox": "ff",
+            "chrome": "08",
+            "opera": "09",
+            "safari": "11"
+        }
+    },
+
+    //设置主页或跳转方法
+    set: function (el, url) {
+
+        //浏览器
+        var browser = UA.browser.split(",")[0].toLowerCase(),
+
+        //外壳
+			shell = UA.shell.split(",")[0].toLowerCase(),
+
+			config = this.config,
+
+			helpUrl = config.helpUrl,
+
+			errorTip = "您的浏览器不支持，请手动设置",
+
+			setForIE = function () {
+			    try {
+			        el.style.behavior = 'url(#default#homepage)';
+			        el.setHomePage(url);
+			    } catch (e) {
+			        alert(errorTip);
+			    }
+			};
+
+        if (browser === "msie" && (!shell || shell === "tencenttraveler")) {
+            setForIE();
+            return false;
+        } else if (shell && config.shell[shell]) {
+
+            //alert(shell)
+            helpUrl += "#" + config.shell[shell];
+
+            //测试发现maxthon也会注入UA
+            if (shell === "maxthon") {
+                try {
+                    if (external.max_version) {
+                        window.open(helpUrl);
+                        return false;
+                    } else {
+                        setForIE();
+                        return false;
+                    }
+                } catch (e) {
+                    setForIE();
+                    return false;
+                }
+            } else {
+                window.open(helpUrl);
+                return false;
+            }
+        } else if (config.browser[browser]) {
+            //测试发现maxthon3跳至chrome
+            if (browser === "chrome") {
+                try {
+                    if (external.max_version) {
+                        helpUrl += "#" + "03";
+                        window.open(helpUrl);
+                        return false;
+                    } else {
+                        helpUrl += "#" + config.browser[browser];
+                        window.open(helpUrl);
+                        return false;
+                    }
+                } catch (e) {
+                    helpUrl += "#" + config.browser[browser];
+                    window.open(helpUrl);
+                    return false;
+                }
+            } else {
+                helpUrl += "#" + config.browser[browser];
+                window.open(helpUrl);
+                return false;
+            }
+        } else {
+            alert(errorTip);
+            return false;
+        }
+    },
+
+    //绑定对象接口
+    bind: function (el, url) {
+
+        //允许id或dom
+        el = typeof el === "string" ? document.getElementById(el) : el;
+
+        url = url || 'http://www.hao123.com';
+       
+        var that = this;
+			on = document.addEventListener ? function (el, type, callback) {
+			    el.addEventListener(type, callback, !1);
+			} : function (el, type, callback) {
+			    el.attachEvent("on" + type, callback);
+			};
+
+        on(el, "click", function () {
+            that.set(el, url);
+            return false;
+        });
+
+        //允许链式绑定多个dom对象
+        return this;
+    }
+}
+/*-----全局的不好，暂时这样-----*/
+function fineEvent(e) {
+    if (window.event) {
+        e = window.event;
+        e.target = e.srcElement;
+
+        e.targetName = e.target.tagName.toLowerCase();// 2011.8.1
+    }
+    return e;
+}
+indexSetHome.bind("sethome");   
+
+</script>
+<div style="display:none"><script type="text/javascript" src="../js/tj.js"></script></div>
+</body>
+
+</html>

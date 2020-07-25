@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>用户注册</title>
+<script type="text/javascript" src="../common/common.js" ></script>
+<script language="javascript" src="../common/ajax.js" ></script>
+<script type="text/javascript">
+function validateUserName(str){
+	if (-1 != str.indexOf('√')){
+		$('spanUserNameInfo').innerHTML = "<span class='areaOk'>" + str + "</span>";
+	}
+	else{
+		$('spanUserNameInfo').innerHTML = "<span class='areaErr'>" + str + "</span>";
+	}
+}
+function validateUserEmail(str){
+	if (-1 != str.indexOf('√')){
+		$('spanUserEmailInfo').innerHTML = "<span class='areaOk'>" + str + "</span>";
+	}
+	else{
+		$('spanUserEmailInfo').innerHTML = "<span class='areaErr'>" + str + "</span>";
+	}
+}
+</script>
+<style type="text/css">
+*{ margin:0; padding:0; font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif;}
+body{ background:none;}
+table{ margin:0 0 0 9px;}
+table tr td{ height:36px;}
+table tr td b{ display:block; height:24px; border:1px solid #aaa; width:192px}
+input.stext{ height:22px; font:normal 12px/22px verdana; border:1px solid #f2f2f2; width:180px; padding:0 5px;}
+p{ font-weight:bold; line-height:14px; height:28px; margin:0; padding:4px 0 0 0; text-indent:9px; width:625px; overflow:hidden; color:#338CE6;}
+span#spanUserNameInfo span.areaOk{ color:#519539;}
+span#spanUserNameInfo span.areaErr{ color:#519539;}
+#button{ height:26px; font:normal 12px/26px verdana; background:url("../../images/userbtn.gif") no-repeat 0 0; width:61px; display:block; border:none; cursor:pointer;}
+</style>
+</head>
+<body>
+
+<p>用户注册</p>
+<form action="http://www.wozaixianshang.comuser/passport/register_do.php" method="post" name="formReg" id="formReg" onSubmit="return notEmpty(userName, '请填写用户名。')&&notEmpty(userPwd, '请填写登录密码。')&&notEmpty(userPwd2, '请再填写一次登录密码。')&&isSamePwd(userPwd, userPwd2)&&notEmpty(authCode, '请填写验证码。')">
+
+              <table border="0" cellspacing="0" cellpadding="2">
+                <tr>
+                  <td width="80">用户名：</td>
+                  <td width="180"><b>
+                  <input name="userName" type="text" id="userName" maxlength="20" class="stext" onBlur="ajax.get('register_check.php?type=userName&value=' + ajax.urlEncode($('userName').value), 'spanUserNameInfo', 'validateUserName', '正在检查，请稍候…')" ></b></td>
+                  <td width="300">&nbsp;<span id="spanUserNameInfo"></span> </td>
+                </tr>
+                <tr>
+                  <td>密 &nbsp; 码：</td>
+                  <td><b><input type="password" class="stext" name="userPwd" id="userPwd" onFocus="this.style.background='#ffc'" onBlur="this.style.background='#fff'"></b></td>
+                  <td>&nbsp; 不小于6位数</td>
+				</tr>
+                <tr style="height:38px">
+                  <td>重复密码：<br></td>
+                  <td><b><input type="password" class="stext" name="userPwd2" id="userPwd2" onFocus="this.style.background='#ffc'" onBlur="this.style.background='#fff'"></b></td>
+                </tr>
+                <tr style="height:50px;">
+                  <td>验证码： </td>
+                  <td><b style="height:38px;"><input type="text" class="stext" style="height:36px; line-height:36px;" name="authCode" id="authCode" autocomplete="off"></b></td>
+                  <td><img src="../inc/authcode.php.png"  alt="看不清？点击更换" class="borderAll" onClick="this.src=this.src"></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><input type="submit" name="button" id="button" value=" 提交" ></td>
+                  <td>&nbsp;</td>
+                </tr>
+              </table>
+</form>
+
+
+<script type="text/javascript" language="javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-21501997-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www/') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</body>
+</html>

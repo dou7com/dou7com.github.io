@@ -1,0 +1,509 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>安全购导航 --购物网址大全</title>
+<meta name="description" content="安全购导航，汇聚常用购物网址，拒绝假冒山寨网站，提高网络购物安全" />
+<meta name="keywords" content="安全购导航，网址大全，购物网址大全，" />
+<link href="css/style.css" type="text/css" rel="stylesheet">
+
+<script language="javascript" type="text/javascript">
+// JavaScript Document
+function RunGLNL(){
+var today=new Date();
+var d=new Array("周日","周一","周二","周三","周四","周五","周六");
+var DDDD= d[today.getDay()];
+DDDD = DDDD+ " " + (CnDateofDateStr(today)); //显示农历
+DDDD = DDDD+SolarTerm(today); //显示二十四节气
+document.write(DDDD);
+}
+function DaysNumberofDate(DateGL){
+return parseInt((Date.parse(DateGL)-Date.parse(DateGL.getFullYear()+"/1/1"))/86400000)+1;
+}
+function CnDateofDate(DateGL){
+var CnData=new Array(
+0x16,0x2a,0xda,0x00,0x83,0x49,0xb6,0x05,0x0e,0x64,0xbb,0x00,0x19,0xb2,0x5b,0x00,
+0x87,0x6a,0x57,0x04,0x12,0x75,0x2b,0x00,0x1d,0xb6,0x95,0x00,0x8a,0xad,0x55,0x02,
+0x15,0x55,0xaa,0x00,0x82,0x55,0x6c,0x07,0x0d,0xc9,0x76,0x00,0x17,0x64,0xb7,0x00,
+0x86,0xe4,0xae,0x05,0x11,0xea,0x56,0x00,0x1b,0x6d,0x2a,0x00,0x88,0x5a,0xaa,0x04,
+0x14,0xad,0x55,0x00,0x81,0xaa,0xd5,0x09,0x0b,0x52,0xea,0x00,0x16,0xa9,0x6d,0x00,
+0x84,0xa9,0x5d,0x06,0x0f,0xd4,0xae,0x00,0x1a,0xea,0x4d,0x00,0x87,0xba,0x55,0x04
+);
+var CnMonth=new Array();
+var CnMonthDays=new Array();
+var CnBeginDay;
+var LeapMonth;
+var Bytes=new Array();
+var I;
+var CnMonthData;
+var DaysCount;
+var CnDaysCount;
+var ResultMonth;
+var ResultDay;
+var yyyy=DateGL.getFullYear();
+var mm=DateGL.getMonth()+1;
+var dd=DateGL.getDate();
+if(yyyy<100) yyyy+=1900;
+  if ((yyyy < 1997) || (yyyy > 2020)){
+    return 0;
+    }
+  Bytes[0] = CnData[(yyyy - 1997) * 4];
+  Bytes[1] = CnData[(yyyy - 1997) * 4 + 1];
+  Bytes[2] = CnData[(yyyy - 1997) * 4 + 2];
+  Bytes[3] = CnData[(yyyy - 1997) * 4 + 3];
+  if ((Bytes[0] & 0x80) != 0) {CnMonth[0] = 12;}
+  else {CnMonth[0] = 11;}
+  CnBeginDay = (Bytes[0] & 0x7f);
+  CnMonthData = Bytes[1];
+  CnMonthData = CnMonthData << 8;
+  CnMonthData = CnMonthData | Bytes[2];
+  LeapMonth = Bytes[3];
+for (I=15;I>=0;I--){
+    CnMonthDays[15 - I] = 29;
+    if (((1 << I) & CnMonthData) != 0 ){
+      CnMonthDays[15 - I]++;}
+    if (CnMonth[15 - I] == LeapMonth ){
+      CnMonth[15 - I + 1] = - LeapMonth;}
+    else{
+      if (CnMonth[15 - I] < 0 ){CnMonth[15 - I + 1] = - CnMonth[15 - I] + 1;}
+      else {CnMonth[15 - I + 1] = CnMonth[15 - I] + 1;}
+      if (CnMonth[15 - I + 1] > 12 ){ CnMonth[15 - I + 1] = 1;}
+    }
+  }
+  DaysCount = DaysNumberofDate(DateGL) - 1;
+  if (DaysCount <= (CnMonthDays[0] - CnBeginDay)){
+    if ((yyyy > 1901)  &&  (CnDateofDate(new Date((yyyy - 1)+"/12/31")) < 0)){
+      ResultMonth = - CnMonth[0];}
+    else {ResultMonth = CnMonth[0];}
+    ResultDay = CnBeginDay + DaysCount;
+  }
+  else{
+    CnDaysCount = CnMonthDays[0] - CnBeginDay;
+    I = 1;
+    while ((CnDaysCount < DaysCount)  &&  (CnDaysCount + CnMonthDays[I] < DaysCount)){
+      CnDaysCount+= CnMonthDays[I];
+      I++;
+    }
+    ResultMonth = CnMonth[I];
+    ResultDay = DaysCount - CnDaysCount;
+  }
+  if (ResultMonth > 0){
+    return ResultMonth * 100 + ResultDay;}
+  else{return ResultMonth * 100 - ResultDay;}
+}
+function CnYearofDate(DateGL){
+var YYYY=DateGL.getFullYear();
+var MM=DateGL.getMonth()+1;
+var CnMM=parseInt(Math.abs(CnDateofDate(DateGL))/100);
+if(YYYY<100) YYYY+=1900;
+if(CnMM>MM) YYYY--;
+YYYY-=1864;
+return CnEra(YYYY)+"年";
+}
+function CnMonthofDate(DateGL){
+var  CnMonthStr=new Array("零","正","二","三","四","五","六","七","八","九","十","冬","腊");
+var  Month;
+  Month = parseInt(CnDateofDate(DateGL)/100);
+  if (Month < 0){return "闰" + CnMonthStr[-Month] + "月";}
+  else{return CnMonthStr[Month] + "月";}
+}
+function CnDayofDate(DateGL){
+var CnDayStr=new Array("零",
+    "初一", "初二", "初三", "初四", "初五",
+    "初六", "初七", "初八", "初九", "初十",
+    "十一", "十二", "十三", "十四", "十五",
+    "十六", "十七", "十八", "十九", "二十",
+    "廿一", "廿二", "廿三", "廿四", "廿五",
+    "廿六", "廿七", "廿八", "廿九", "三十");
+var Day;
+  Day = (Math.abs(CnDateofDate(DateGL)))%100;
+  return CnDayStr[Day];
+}
+function DaysNumberofMonth(DateGL){
+var MM1=DateGL.getFullYear();
+    MM1<100 ? MM1+=1900:MM1;
+var MM2=MM1;
+    MM1+="/"+(DateGL.getMonth()+1);
+    MM2+="/"+(DateGL.getMonth()+2);
+    MM1+="/1";
+    MM2+="/1";
+return parseInt((Date.parse(MM2)-Date.parse(MM1))/86400000);
+}
+function CnEra(YYYY){
+var Tiangan=new Array("甲","乙","丙","丁","戊","己","庚","辛","壬","癸");
+//var Dizhi=new Array("子(鼠)","丑(牛)","寅(虎)","卯(兔)","辰(龙)","巳(蛇)",
+                    //"午(马)","未(羊)","申(猴)","酉(鸡)","戌(狗)","亥(猪)");
+var Dizhi=new Array("子","丑","寅","卯","辰","巳","午","未","申","酉","戌","亥");
+return Tiangan[YYYY%10]+Dizhi[YYYY%12];
+}
+function CnDateofDateStr(DateGL){
+  if(CnMonthofDate(DateGL)=="零月") return "　请调整您的计算机日期!";
+  else return "农历"+CnYearofDate(DateGL)+ " " + CnMonthofDate(DateGL) + CnDayofDate(DateGL);
+}
+function SolarTerm(DateGL){
+  var SolarTermStr=new Array(
+        "小寒","大寒","立春","雨水","惊蛰","春分",
+        "清明","谷雨","立夏","小满","芒种","夏至",
+        "小暑","大暑","立秋","处暑","白露","秋分",
+        "寒露","霜降","立冬","小雪","大雪","冬至");
+  var DifferenceInMonth=new Array(
+        1272060,1275495,1281180,1289445,1299225,1310355,
+        1321560,1333035,1342770,1350855,1356420,1359045,
+        1358580,1355055,1348695,1340040,1329630,1318455,
+        1306935,1297380,1286865,1277730,1274550,1271556);
+  var DifferenceInYear=31556926;
+  var BeginTime=new Date(1901/1/1);
+  BeginTime.setTime(947120460000);
+     for(;DateGL.getFullYear()<BeginTime.getFullYear();){
+        BeginTime.setTime(BeginTime.getTime()-DifferenceInYear*1000);
+     }
+     for(;DateGL.getFullYear()>BeginTime.getFullYear();){
+        BeginTime.setTime(BeginTime.getTime()+DifferenceInYear*1000);
+     }
+     for(var M=0;DateGL.getMonth()>BeginTime.getMonth();M++){
+        BeginTime.setTime(BeginTime.getTime()+DifferenceInMonth[M]*1000);
+     }
+     if(DateGL.getDate()>BeginTime.getDate()){
+        BeginTime.setTime(BeginTime.getTime()+DifferenceInMonth[M]*1000);
+        M++;
+     }
+     if(DateGL.getDate()>BeginTime.getDate()){
+        BeginTime.setTime(BeginTime.getTime()+DifferenceInMonth[M]*1000);
+        M==23?M=0:M++;
+     }
+  var JQ="二十四节气";
+  if(DateGL.getDate()==BeginTime.getDate()){
+    JQ+="    今日 <font color='#598F03'><b>"+SolarTermStr[M] + "</b></font>";
+  }
+  else if(DateGL.getDate()==BeginTime.getDate()-1){
+    JQ+="　 明日 <font color='#598F03'><b>"+SolarTermStr[M] + "</b></font>";
+  }
+  else if(DateGL.getDate()==BeginTime.getDate()-2){
+    JQ+="　 后日 <font color='#598F03'><b>"+SolarTermStr[M] + "</b></font>";
+  }
+  else{
+   JQ=" 二十四节气";
+   if(DateGL.getMonth()==BeginTime.getMonth()){
+      JQ+=" 本月";
+   }
+   else{
+     JQ+=" 下月";
+   }
+   JQ+=BeginTime.getDate()+"日"+"<font color='#598F03'><b>"+SolarTermStr[M]+"</b></font>";
+  }
+return JQ;
+}
+</script>
+
+</head>
+<body>
+	<div id="wrap">
+	<div id="lbtip"><div style="padding-top:3px ;padding-left:5px;float: left ;font-family:"Microsoft YaHei","微软雅黑",Arial,Verdana,serif;"><script language="JavaScript">
+RunGLNL();
+</script></div><div style="padding-top:0px ;"><iframe allowtransparency="true" frameborder="0" width="180" height="25" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=3&z=2&t=1&v=0&d=1&bd=0&k=&f=&q=1&e=0&a=1&c=54511&w=180&h=25&align=center"></iframe></div></div>
+        <div class="bg"><img src="images/bg.jpg" /></div>
+        <div id="container" class="main">
+		
+		<div align="center" style="margin-top: 0.5%;"><img src="images/bgg.png" width="240" height="78" /></div>
+		
+            <!-- 搜索模块 -->
+            <div id="search">
+                <form target="_blank" action="" method="get" class="clear">
+                    <div class="engine">
+                        <a class="name" href="javascript:;">
+                            淘宝<span></span>
+                        </a>
+                        <div class="list">
+                            <a href="#" class="baidu" data-name="baidu"><span></span>百度</a>
+                            <a href="#" class="google" data-name="google"><span></span>谷歌</a>
+                            <a href="#" class="sougou" data-name="sougou"><span></span>搜狗</a>
+                            <a href="#" class="taobao active" data-name="taobao"><span></span>淘宝</a>
+                        </div>
+                    </div>
+                    <input type="search" name="q" id="s" />
+                    <button type="submit">搜索</button>
+                </form>
+            </div>
+            <!-- 导航模块 -->
+            <div id="dh"></div>
+        </div>
+        
+        <div id="footer">
+            <div class="inner">
+                <div class="l">安全防护体系已开启，请放心购物！</div>
+                <ul>
+                    <li class="fangyu">
+                        <span></span>购物实时防御
+                    </li>
+                    <li class="fanghu">
+                        <span></span>7层网购防护
+                    </li>
+                    <li class="ganpei">
+                        <span></span>双重敢赔服务
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var Themes={
+            'default':'images/bg.jpg',
+            grey:'images/grey.jpg',
+            lmcchpabdhdgdlmlokknkjcbgehmcibi:'images/bg.jpg'
+        },
+        DH=[
+            {
+                name:'热门',
+                data:[
+                    /* 12个栏目信息，下同*/
+					{title:'天猫商城',img:'images/tianmao.jpg',url:'http://s.click.taobao.com/t?e=m%3D2%26s%3DVUzQ0lQkXt4cQipKwQzePCperVdZeJviK7Vc7tFgwiFRAdhuF14FMVOPu2gDzjbZJ1gyddu7kN%2F8LWZhFGzJUvkytLlrkd57FMqWhiwhKn%2BnLcgY8qPbG6UuZxIcp9pfUIgVEmFmgnbDX0%2BHH2IEVaX4VWt66S4EJPwiig1bxLMnyi1UQ%2F17I9xSd4k%2BkojmUiXYJgFO%2BdU%3D'},  
+                    {title:'爱淘宝',img:'images/aitaobao.jpg',url:'http://ai.taobao.com/?pid=mm_13902122_6928505_26714536'},  
+                    {title:'唯品会',img:'images/weipinhui.jpg',url:'http://p.yiqifa.com/n?k=2mLErn2F1n4H2mLErI6HMlyNW94QrnDLWNbH6EReWNWFrn2q6lKFrI6HkQLErnbw3OD73l68rIW-&e=c&spm=1.1.1.1&t=http://www.vip.com'},  
+                    {title:'京东',img:'images/jingdong.jpg',url:'http://p.yiqifa.com/n?k=2mLErntOWZLErI6H2mqsDEgAROoHWEK7rn3m1Ntl1ZLO6nUH2mqerI6H35MyWl4bMN6H2L--&e=c&spm=1.1.1.1&t=http://www.jd.com/'}, 
+                    {title:'苏宁易购',img:'images/suning.jpg',url:'http://p.yiqifa.com/n?k=2mLErnzLWcLErI6H2mLLPOeI6BMHWNWern3m1Ntl1ZLq6NBH2mqerI6H6Eg86lXy3EbH2L--&e=c&spm=1.1.1.1&t=http://www.yhd.com/'},  
+                    {title:'1号店',img:'images/yihaodian.jpg',url:'http://p.yiqifa.com/n?k=2mLErnzLWcLErI6H2mLLPOeI6BMHWNWern3m1Ntl1ZLq6NBH2mqerI6H6Eg86lXy3EbH2L--&e=c&spm=1.1.1.1&t=http://www.yhd.com/'},  
+                    {title:'淘宝网',img:'images/taobao.jpg',url:'http://www.taobao.com'},  
+                    {title:'当当网',img:'images/dangdangwang.jpg',url:'http://p.yiqifa.com/n?k=2mLErnts1QLErI6H2mLErn276mLO6lwqWlbH6E2mrI6HkQLErnzO154EM5WlrngE3PgAgZL-&e=daohang2014&spm=1.1.1.1&t=http://www.dangdang.com'},  
+                    {title:'聚划算',img:'images/juhuasuan.jpg',url:'http://s.click.taobao.com/t?e=m%3D2%26s%3DEUNdTy6CHmocQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAm4vTYJGi66fivm%2Bjhx0mAA%2BHmhbDclfITsECPe8PWYT8rPDzQYmninfFLKaTY91OOo0BcZWWIRYYA%2FDpPH01wK9AmARIwX9K%2BAjBDXvuqoU47FHjfsActnIQu5PdXpojKJn5AyUbPoV'},  
+                    {title:'易迅网',img:'images/yixunwang.jpg',url:'http://p.yiqifa.com/n?k=UZXFNwggrI6H6nwF6ZLErI6H2mLErnDlWlXH6EReWNWFrnWq6nDOrI6HkQLErJ6b69Pw1nDsrIW-&e=c&spm=1.1.1.1&t=http://www.yixun.com'},  
+                    {title:'亚马逊',img:'images/yamaxun.jpg',url:'http://www.amazon.cn?tag=eqifarebate1257-23&ascsubtag=679138|1|daohang2014'},  
+                    {title:'更多购物',img:'images/gengduogouwu.jpg',url:'http://gouwu.duba.com/index.html'}
+                ]
+            },
+            {
+                name:'购物',
+                data:[
+                    /* 12个栏目信息，下同*/                    
+                    {title:'聚划算',img:'images/juhuasuan.jpg',url:'http://s.click.taobao.com/t?e=m%3D2%26s%3DEUNdTy6CHmocQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAm4vTYJGi66fivm%2Bjhx0mAA%2BHmhbDclfITsECPe8PWYT8rPDzQYmninfFLKaTY91OOo0BcZWWIRYYA%2FDpPH01wK9AmARIwX9K%2BAjBDXvuqoU47FHjfsActnIQu5PdXpojKJn5AyUbPoV'},  
+                    {title:'银泰网',img:'images/yintai.jpg',url:'http://p.yiqifa.com/n?k=RcBpWw4nrI6H1nzSWcLErI6H2mLErnDe1n4H6EReWNWFrnKS6EWsrI6HkQLErJtLWN2l6549rIW-&e=c&spm=1.1.1.1&t=http://www.yintai.com'},  
+                    {title:'乐蜂网',img:'images/lefengwang.jpg',url:'http://p.yiqifa.com/n?k=2mLErnte6cLErI6H2mLErn2S6mLO6lwqWlbH6n27rI6HkQLErJtFWOKL6lWmrZ6QkNB8WmL-&e=c&spm=1.1.1.1&t=http://www.lefeng.com/'},  
+                    {title:'聚美优品',img:'images/jumeiyoupin.jpg',url:'http://p.yiqifa.com/n?k=2mLErntL6n3SrI6H2mLErI6H6N2S6mLO6lwqWlbH6Nt76NMHRt48MtUDrZyH2mqy3EjS6lRL6cLE&e=c&spm=1.1.1.1&t=http://www.jumei.com/'}, 
+                    {title:'优购网',img:'images/yougou.jpg',url:'http://p.yiqifa.com/n?k=ROsmpnb1rI6HWE27WE6H2mLErI6H2mLO6EwSrn3m1Ntl1ZLFWEWS1QLErZyH2mqy6NMy1N6E3mLE&e=c&spm=1.1.1.1&t=http://www.yougou.com/'},  
+                    {title:'麦包包',img:'images/maibaobao.jpg',url:'http://p.yiqifa.com/n?k=2mLErntl6mLErI6H2mLErn2mWcLO6lwqWlbH6EwOrtgWCJBINcqerI6HWE6yW5Ks35MH2L--&e=c&spm=1.1.1.1&t=http://www.mbaobao.com'},  
+                    {title:'梦芭莎',img:'images/mengbasha.jpg',url:'http://p.yiqifa.com/n?k=K7eM39UsrI6HWEj71n6H2mLErI6H2mLS1NbH6EReWNWFrnRL1ZLErZyH2mLF6nb8WlDL6QLE&e=c&spm=1.1.1.1&t=http://www.moonbasa.com'},  
+                    {title:'天品网',img:'images/tianpinwang.jpg',url:'http://www.tianpin.com/'},  
+                    {title:'中粮我买网',img:'images/womaiwang.jpg',url:'http://p.yiqifa.com/n?k=2mLErnWs6n4H2mLErI6H2mL7WNjSrn3m1Ntl1ZLS6n2s6ZLErZyH2mqw396EW9B93mq5gOVm5tPH&e=c&spm=1.1.1.1&t=http://www.womai.com'},  
+                    {title:'酒仙网',img:'images/jiuxianwang.jpg',url:'http://p.yiqifa.com/n?k=2mLErnws6E4H2mLErI6HKBbq1PB_rnKq6EMH6EReWNWFrnKe6nz7rI6HkQLErn49WnWSWn2mrIW-&e=c&spm=1.1.1.1&t=http://www.jiuxian.com/'},  
+                    {title:'国美在线',img:'images/guomei.jpg',url:'http://p.yiqifa.com/n?k=2mLErnt71N2SrI6H2mLErI6H6NKm1QLO6lwqWlbH6l3eWN6H2mqerI6HWnb96nWlMJMHU5opNKULrj--&e=c&spm=1.1.1.1&t=http://www.gome.com.cn/ec/homeus/index.html'},  
+                    {title:'更多购物',img:'images/gengduogouwu.jpg',url:'http://gouwu.duba.com/index.html'}
+                ]
+            },
+            {
+                name:'生活',
+                data:[
+                    /* 12个栏目信息，下同*/
+                    {title:'话费充值',img:'images/huafeichongzhi.jpg',url:'http://chongzhi.jd.com/'},  
+                    {title:'彩票',img:'images/caipiao.jpg',url:'http://union.500.com/pages/interfacehezuo.php?coopid=5875&adid=97'},  
+                    {title:'快递查询',img:'images/kuaidichaxun.jpg',url:'http://www.kuaidi100.com/'},  
+                    {title:'定外卖',img:'images/dingwaimai.jpg',url:'http://www.duba.com/yinshiyingyang.html'}, 
+                    {title:'影视大全',img:'images/yingshidaquan.jpg',url:'http://yingshidaquan.com'},  
+                    {title:'搜狐视频',img:'images/sohu.jpg',url:'http://info.lm.tv.sohu.com/csl/00000007be95b8bbf9773de6sk5/11403.do'},  
+                    {title:'美团',img:'images/meituan.jpg',url:'http://p.yiqifa.com/n?k=2mLErntq6EDSrI6H2mLErI6H6NDLWcLO6lwqWlbH6lDLWEBHUy4c6tbKrZyH2mLsWE2F3NM86ZLE&e=c&spm=1.1.1.1&t=http://bj.meituan.com/'},  
+                    {title:'大众点评',img:'images/dazhongdianping.jpg',url:'http://p.yiqifa.com/n?k=5wAnNJP3rI6HWNReWn4H2mLErI6H2mLOWNwFrn3m1Ntl1ZLe6n3L6mLErZyH2mLs6nwm69We3cLE&e=c&spm=1.1.1.1&t=http://t.dianping.com'},  
+                    {title:'去哪儿',img:'images/qunawang.jpg',url:'http://tuan.qunar.com/'},  
+                    {title:'携程',img:'images/xiecheng.jpg',url:'http://www.ctrip.com'},  
+                    {title:'机票预定',img:'images/jipiaoyuding.jpg',url:'http://flights.ctrip.com/'},  
+                    {title:'酒店预订',img:'images/jiudianyuding.jpg',url:'http://p.yiqifa.com/n?k=2mLErn2s1nDSrI6H2mLErI6HWEROrn3m1Ntl1ZLmWlBHNQgJ6QBZrZyH2mq9WE686EzS1ZLE&e=c&spm=1.1.1.1&t=http://travel.elong.com/hotel/'}
+                ]
+            },
+            {
+                name:'网银支付',
+                data:[
+                    /* 12个栏目信息，下同*/
+                    {title:'支付宝',img:'images/zhifubao.jpg',url:'https://www.alipay.com/'},  
+					{title:'中国工商银行',img:'images/gongshang.jpg',url:'http://www.icbc.com.cn/icbc/',ccUrl:'http://www.icbc.com.cn/icbc/%e7%89%a1%e4%b8%b9%e5%8d%a1/default.htm',phone:95588},
+                    {title:'中国建设银行',img:'images/jianshe.jpg',url:'http://www.ccb.com/cn/home/index.html',ccUrl:'http://creditcard.ccb.com/',phone:95533},  
+				    {title:'中国农业银行',img:'images/nongye.jpg',url:'http://www.abchina.com/cn/',ccUrl:'http://www.abchina.com/cn/CreditCard/default.htm',phone:95599},
+					{title:'中国银行',img:'images/zhongguo.jpg',url:'http://www.boc.cn/',ccUrl:'http://www.boc.cn/bcservice/',phone:95566},  
+					{title:'中国邮政',img:'images/youzheng.jpg',url:'http://www.psbc.com/portal/zh_CN/index.html',ccUrl:'http://www.psbc.com/portal/zh_CN/CreditCard/index.html',phone:95580},  
+					{title:'交通银行',img:'images/jiaotong.jpg',url:'http://www.bankcomm.com/BankCommSite/cn/default.html',ccUrl:'http://creditcard.bankcomm.com/content/pccc/index.html',phone:95559}, 
+                    {title:'在线支付',img:'images/yinlian.jpg',url:'https://online.unionpay.com/portal/index.do'},
+					{title:'财付通',img:'images/caifutong.jpg',url:'https://www.tenpay.com/v2/'},                      
+                    {title:'招商银行',img:'images/zhaoshang.jpg',url:'http://www.cmbchina.com/',ccUrl:'http://creditcard.cmbchina.com/',phone:95555,type:1},  
+                    {title:'光大银行',img:'images/guangda.jpg',url:'http://www.cebbank.com/Site/ceb/cn',ccUrl:'http://xyk.cebbank.com/',phone:95595,type:1},            
+                    {title:'更多网银支付',img:'images/morebank.jpg',url:'#',moreBank:[
+                        {name:'主流网银',data:[
+ {name:'浦发银行',url:'http://www.spdb.com.cn/'},
+ {name:'民生银行',url:'http://www.cmbc.com.cn/'},
+ {name:'中信银行',url:'http://www.ecitic.com/'},
+ {name:'兴业银行',url:'http://www.cib.com.cn/'},
+ {name:'平安银行',url:'http://bank.pingan.com/'},
+ {name:'华夏银行',url:'http://www.hxb.com.cn/'},
+ {name:'广发银行',url:'http://www.cgbchina.com.cn/'},
+ {name:'北京农商银行',url:'http://www.bjrcb.com/'},
+ {name:'上海银行',url:'http://www.bankofshanghai.com/'},
+ {name:'上海农商银行',url:'http://www.srcb.com/'},
+ {name:'大连银行',url:'http://www.bankofdl.com/'},
+ {name:'南京银行',url:'http://www.njcb.com.cn/'},
+ {name:'中国人民银行',url:'http://www.pbc.gov.cn/'},
+ {name:'宁波银行',url:'http://www.nbcb.com.cn/'},
+ {name:'杭州银行',url:'http://www.hccb.com.cn/'},
+ {name:'河北银行',url:'http://www.sccb.com.cn/'},
+ {name:'吉林银行',url:'http://www.jlbank.com.cn/'},
+ {name:'齐鲁银行',url:'http://www.qlbchina.com/'},
+ {name:'北京银行',url:'http://www.bankofbeijing.com.cn/'},
+ {name:'内蒙古银行',url:'http://www.boimc.com.cn/'},
+ {name:'渣打银行',url:'http://www.standardchartered.com.cn/'},
+ {name:'东亚银行',url:'http://www.hkbea.com.cn/'},
+ {name:'花旗银行',url:'http://www.citibank.com.cn/'},
+ {name:'汇丰银行',url:'http://www.hsbc.com.cn/'},
+ {name:'渤海银行',url:'http://www.cbhb.com.cn/'},
+ {name:'华侨银行',url:'http://www.ocbc.com.cn'},
+ {name:'永亨银行',url:'http://www.whbcn.com/'},
+ {name:'美国银行',url:'http://www.bankofamerica.com/'},
+ {name:'宁夏银行',url:'http://www.ycccb.com/'},
+ {name:'恒生银行',url:'http://bank.hangseng.com/1/2/schi/home/home'}
+                        ]},
+                        {name:'地方网银',data:[
+ {name:'长沙银行',url:'http://www.cscb.cn/'},
+ {name:'哈尔滨银行',url:'http://www.hrbcb.com.cn/'},
+ {name:'湖北银行荆州分行',url:'http://www.jzbank.cn/'},
+ {name:'天津银行',url:'http://www.tccb.com.cn/'},
+ {name:'天津农商银行',url:'http://www.trcb.net.cn/'},
+ {name:'广州银行',url:'http://www.gzcb.com.cn/'},
+ {name:'广州农商银行',url:'http://www.grcbank.com/'},
+ {name:'东莞银行',url:'http://www.dongguanbank.cn/'},
+ {name:'成都银行',url:'http://www.bocd.com.cn/'},
+ {name:'成都农商银行',url:'http://www.cdrcb.com/'},
+ {name:'重庆银行',url:'http://www.cqcbank.com/'},
+ {name:'富滇银行',url:'http://www.fudian-bank.com/'},
+ {name:'包商银行',url:'http://www.bsb.com.cn/'},
+ {name:'华融湘江银行',url:'http://www.hrxjbank.com.cn/'},
+ {name:'浙商银行',url:'http://www.czbank.com'},
+ {name:'温州银行',url:'http://www.wzcb.com.cn/'},
+ {name:'南昌银行',url:'http://www.nccbank.com.cn/'},
+ {name:'九江银行',url:'http://www.jjccb.com/'},
+ {name:'上饶银行',url:'http://www.srbank.cn/'},
+ {name:'鞍山银行',url:'http://www.bankofas.com/'},
+ {name:'苏州银行',url:'http://www.suzhoubank.com/'},
+ {name:'东营银行',url:'http://www.dyccb.net/'},
+ {name:'嘉兴银行',url:'http://www.jxccb.com/'},
+ {name:'贵阳银行',url:'http://gycbank.com/'},
+ {name:'莱商银行',url:'http://www.lsbankchina.com/'},
+ {name:'晋城银行',url:'http://www.jccbank.com.cn/'},
+ {name:'绍兴银行',url:'http://www.sxccb.com/'},
+ {name:'鄂尔多斯银行',url:'http://www.ordosbank.com/'},
+ {name:'邢台银行',url:'http://www.xtbank.com/'},
+ {name:'晋商银行',url:'http://www.jshbank.com/cms/'},
+ {name:'营口银行',url:'http://www.bankofyk.com/'},
+ {name:'常熟农商银行',url:'http://www.csrcbank.com/'},
+ {name:'德阳银行',url:'http://www.dyccb.com/'},
+ {name:'福建海峡银行',url:'http://www.fjhxbank.com/'},
+ {name:'桂林银行',url:'http://www.guilinbank.com.cn/'},
+ {name:'恒丰银行',url:'http://www.egbank.com/'},
+ {name:'湖州银行',url:'http://www.hzccb.net/'},
+ {name:'辽阳银行',url:'http://www.bankofliaoyang.net/'},
+ {name:'廊坊银行',url:'https://ebank.lccb.com.cn/perbank/'},
+ {name:'龙江银行',url:'http://www.lj-bank.com/'},
+ {name:'青岛银行',url:'http://www.qdccb.com/'},
+ {name:'齐商银行',url:'http://www.qsbank.cc/'},
+ {name:'顺德农商银行',url:'http://www.sdebank.com/'},
+ {name:'台州银行',url:'http://www.tzbank.com/'},
+ {name:'吴江农商银行',url:'http://www.wjrcb.com/'},
+ {name:'徽商银行',url:'http://www.hsbank.com.cn/'},
+ {name:'长安银行',url:'http://www.ccabchina.com/'},
+ {name:'济宁银行',url:'http://www.jn-bank.com/'}
+                        ]},
+                        {name:'商业银行',data:[
+ {name:'深圳农村商业银行',url:'http://www.961200.net/'},
+ {name:'东莞农村商业银行',url:'http://www.drcbank.com/'},
+ {name:'江南农村商业银行',url:'http://www.jnbank.cc/'},
+ {name:'重庆农村商业银行',url:'http://www.cqrcb.com/'},
+ {name:'浙江泰隆商业银行',url:'http://www.zjtlcb.com/'},
+ {name:'晋中市商业银行',url:'http://www.jzbank.com/'},
+ {name:'浙江民泰商业银行',url:'http://www.mintaibank.com/'},
+ {name:'浙江稠州商业银行',url:'http://www.czcb.com.cn/'},
+ {name:'张家港农村商业银行',url:'http://www.zrcbank.com/'},
+ {name:'乌鲁木齐市商业银行',url:'http://www.uccb.com.cn/'},
+ {name:'遵义市商业银行',url:'http://www.zyccb.com/'},
+ {name:'自贡市商业银行',url:'http://www.zgbank.com.cn/'},
+ {name:'太仓农村商业银行',url:'http://www.tcrcb.com/'}
+                        ]},
+                        {name:'农村信用社',data:[
+ {name:'浙江农信',url:'http://www.zj96596.com/default.shtml'},
+ {name:'安徽农村信用社联合社',url:'http://www.ahrcu.com/'},
+ {name:'福建农村信用社',url:'http://www.fjnx.com.cn/'},
+ {name:'广东农村信用社',url:'http://www.gdrcu.com/'},
+ {name:'广西农村信用社',url:'http://www.gx966888.com/'},
+ {name:'河南农村信用社',url:'http://www.hnnx.com/'},
+ {name:'湖南农村信用联合社',url:'http://www.hnnxs.com/'},
+ {name:'河北省农村信用社',url:'http://www.hebnx.com/'},
+ {name:'湖北农村信用社',url:'http://www.hbxh.com.cn/'},
+ {name:'海南省农村信用社',url:'http://www.hainanbank.com.cn/'},
+ {name:'江苏农村信用社联合社',url:'http://www.js96008.com/'},
+ {name:'吉林省农村信用社',url:'http://www.jlnls.com/'},
+ {name:'辽宁省农村信用社',url:'http://www.lnrcu.com/'},
+ {name:'山东省农村信用社',url:'http://www.sdnxs.com/'},
+ {name:'四川农村信用社',url:'http://www.scrcu.com.cn/'},
+ {name:'山西农村信用社',url:'http://www.shanxinj.com/'},
+ {name:'陕西农村信用社',url:'http://www.sxnxs.com/'},
+ {name:'内蒙古农村信用社',url:'http://www.nmgnxs.com.cn/zzqnxs/'},
+ {name:'云南省农村信用社',url:'http://www.ynrcc.com/'},
+ {name:'甘肃省农村信用社',url:'http://www.gsrcu.com/'}
+                        ]},
+                        {name:'电子支付',data:[
+ {name:'易宝支付',url:'http://www.yibao.com/'},
+ {name:'付费通',url:'https://www.shfft.com/'},
+ {name:'首信易',url:'http://www.beijing.com.cn/'},
+ {name:'百付宝',url:'https://www.baifubao.com/'},
+ {name:'中国银联',url:'http://cn.unionpay.com/'},
+ {name:'移动手机支付',url:'https://cmpay.10086.cn/index.xhtml'},
+ {name:'环讯支付',url:'http://www.ips.com.cn/'},
+ {name:'翼支付',url:'https://www.bestpay.com.cn/main/index.html'},
+ {name:'盛付通',url:'https://www.shengpay.com/'},
+ {name:'拉卡拉',url:'http://www.lakala.com/'},
+ {name:'贝宝(paypal)',url:'https://www.paypal.com/cn'},
+ {name:'信付通',url:'http://www.cardinfo.com.cn/'},
+ {name:'新付通',url:'https://pay.sina.com.cn/index'},
+ {name:'诚信通',url:'http://cxt.china.alibaba.com/'},
+ {name:'乐刷',url:'http://www.yeahka.com/'},
+ {name:'网易宝',url:'https://epay.163.com/'}
+                        ]},
+                        {name:'港澳台银行',data:[
+ {name:'永亨銀行',url:'http://www.whbhk.com/'},
+ {name:'永隆銀行',url:'http://www.winglungbank.com/'},
+ {name:'星展銀行',url:'http://www.dbs.com.hk/'},
+ {name:'大眾銀行',url:'http://www.publicbank.com.hk/'},
+ {name:'集友銀行',url:'http://www.chiyubank.com/'},
+ {name:'大新銀行',url:'http://www.dahsing.com/'},
+ {name:'創興銀行',url:'http://www.chbank.com/'},
+ {name:'南洋商業銀行',url:'http://www.ncb.com.hk/'},
+ {name:'大生银行',url:'http://www.taisangbank.com.hk/'},
+ {name:'大西洋銀行',url:'http://www.bnu.com.mo/'},
+ {name:'大豐銀行',url:'http://www.taifungbank.com/'},
+ {name:'滙業銀行',url:'http://www.delta-asia.com/'},
+ {name:'澳門國際銀行',url:'http://www.lusobank.com.mo/'},
+ {name:'澳门商業銀行',url:'http://www.bcm.com.mo/'},
+ {name:'台湾銀行',url:'http://www.bot.com.tw/'},
+ {name:'第一銀行',url:'http://www.firstbank.com.tw/'},
+ {name:'華南銀行',url:'http://www.hncb.com.tw/'},
+ {name:'台北富邦銀行',url:'http://www.fubon.com/'},
+ {name:'國泰世華銀行',url:'https://www.cathaybk.com.tw/'},
+ {name:'兆豐國際商銀銀行',url:'https://www.megabank.com.tw/'},
+ {name:'新光商業銀行',url:'https://www.skbank.com.tw/'},
+ {name:'永豐銀行',url:'http://www.banksinopac.com.tw/'},
+ {name:'玉山銀行',url:'http://www.esunbank.com.tw/'},
+ {name:'萬泰銀行',url:'https://www.cosmosbank.com.tw/'},
+ {name:'台新銀行',url:'https://www.taishinbank.com.tw/'},
+ {name:'日盛國際商業銀行',url:'http://www.jihsunbank.com.tw/'},
+ {name:'中國信託商業銀行',url:'https://ecorp.chinatrust.com.tw/'}
+                        ]}
+                    ]}
+                ]
+            }
+        ]
+    </script>
+	<script type="text/javascript" src="js/common.js"></script>
+	
+<div style='display:none;'>
+
+<script type="text/javascript" src="js/tongji.js"></script>
+
+
+</div>
+	
+</body>
+<script charset="gbk" src="http://www.baidu.com/js/opensug.js"></script>
+
+</html>

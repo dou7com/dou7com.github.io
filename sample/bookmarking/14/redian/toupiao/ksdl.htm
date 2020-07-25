@@ -1,0 +1,173 @@
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+
+<style type="text/css">
+<!--
+
+td,body {  font-size: 9pt}
+
+a:link{ color:#000000; text-decoration:none}     
+
+a:visited{COLOR: #000000; TEXT-DECORATION: none} 
+
+a:active{color:green;text-decoration:none}
+
+a:hover{color:red;text-decoration:underline} .style1 {color: #008000}
+.style3 {color: #FF0000}
+.style4 {color: #008c39}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+--> 
+
+</style>
+<script language="javascript">
+function disableIt(obj){
+	obj.disabled = true;
+}
+function ableIt(obj){
+	obj.disabled = false;
+}
+function checkIt(mutiflag,obj,str){
+	var checkFlag = false;
+	var startPos,endPos;
+	if(mutiflag==0){
+		//处理单选的情况
+		obj.value=str;
+	}else if(mutiflag==1){
+		//处理多选的情况
+		eval("checkFlag=myform.checkoptn"+str+".checked;");
+		if(obj.value.indexOf(str+",")==-1 && checkFlag){
+			//将该编号加入到选择字符串
+			if(obj.value==0) obj.value="";
+			obj.value = "" + obj.value;
+			obj.value = obj.value + str +",";
+		}else if(obj.value.indexOf(str+",")!=-1 && !checkFlag){
+			//将该编号从选择字符串中剔除
+			if(obj.value.length==(str.length+1)) {
+				obj.value=0;
+				return;
+			}
+			startPos = obj.value.indexOf(str+",");
+			endPos = startPos + str.length + 1;
+			obj.value = obj.value.substring(0,startPos) + obj.value.substring(endPos,obj.value.length);
+		}
+	}
+}
+//Trim,参数String
+function trim(myStr)
+{
+  var pos1=-1;
+  var pos2=-1;
+  for(var i=0;i<myStr.length;i++){
+     if(myStr.charAt(i)!=' ' && pos1<0) pos1=i;
+     if(myStr.charAt(myStr.length-i-1)!=' ' && pos2<0) pos2=myStr.length-i;
+  }
+  if(pos1<0 || pos2 <0) return("");
+  return(myStr.substring(pos1,pos2));
+}
+function checkItem(){
+	var checkValue=0;
+	var checkType=0;
+	for(var i=0;i<myform.itemlength.value;i++){
+		eval("checkValue=myform.checkitem"+i+".value;");
+		eval("checkType=myform.checkitemtype"+i+".value;");
+		if(checkType==2 && checkValue=="other"){
+			eval("checkValue=myform.comment"+i+".value;");
+			if(checkValue==null || trim(checkValue)==""){
+				alert("请您将调查问卷填写完全！\n谢谢！");
+				return (false);
+			}
+		}else if(checkType==2 && checkValue=="input"){
+			eval("checkValue=myform.comment"+i+".value;");
+			if(checkValue==null || trim(checkValue)==""){
+				alert("请您将调查问卷填写完全！\n谢谢！");
+				return (false);
+			}
+		}else if(checkType==3&& checkValue==0){
+			eval("checkValue=myform.comment"+i+".value;");
+			if(checkValue==null || trim(checkValue)==""){
+				alert("请您将调查问卷填写完全！\n谢谢！");
+				return (false);
+			}
+		}else if(checkValue==0){
+			alert("请您将调查问卷填写完全！\n谢谢！");
+			return (false);
+		}
+	}
+	
+	return (true);
+}
+</script>
+<base target="_blank">
+
+</head>
+
+<body >
+ 
+ 
+   <table bgColor="#E6F2E7" border="1" borderColorDark="#FFFFFF" borderColorLight="#008000" cellPadding="3" cellSpacing="0" width="778">
+<form name="myform" method="post" action="http://vote.baidu.com/vote/home/vote.jsp" onsubmit="return checkItem();">
+     <tr>
+       <td><table  width="100%" border="0" cellpadding="0" cellspacing="0" >
+   <tr >
+    <td width="1%" bgcolor="99d1d3" ><input type='hidden' value=0 id='checkitem0'><input type='hidden' value=0 id='checkitemtype0'>
+      <input type=radio name=item[2005] value=8156 onclick="checkIt(0,myform.checkitem0,'1')"></td>
+    <td width="2" ></td>
+    <td width="94%" bgcolor="#F0F7FF" >　第一种方式　 ( 用户名— &gt; 选择邮箱— &gt; 密码 登陆 　hao123 现有登陆方式 ) </td>
+   </tr>
+  <tr >
+    <td height="35" colspan="2" align="right" valign="top"  >&nbsp;</td>
+    <td height="35" align="right" valign="top" bgcolor="#F0F7FF"  ><img src="../images/ksdl_01.gif" width="778" height="22" alt="此样式为hao123现有登陆方式"></td>
+  </tr>
+  <tr valign="bottom" >
+    <td height="35" colspan="3"  ><hr width="100%" size="1" color="008000"></td>
+  </tr>
+  
+  <tr >
+    <td align="left" bgcolor="99d1d3" ><input type=radio name=item[2005] value=8157 onclick="checkIt(0,myform.checkitem0,'1')"></td>
+    <td align="left" >&nbsp;</td>
+    <td align="left" bgcolor="#F0F7FF" >　第二种方式 　( 选择邮箱— &gt; 用户名— &gt; 密码 登陆 )</td>
+  </tr>
+  <tr >
+    <td height="35" colspan="2" align="right" valign="top" >&nbsp;</td>
+    <td height="35" align="right" valign="top" bgcolor="#F0F7FF" ><img src="../images/ksdl_02.gif" width="778" height="23" alt="此方式为第二种登陆方式"></td>
+  </tr>
+  <tr valign="bottom" >
+    <td height="35" colspan="3"  ><hr width="100%" size="1" color="008000"></td>
+  </tr>
+  <tr >
+    <td bgcolor="99d1d3" ><input type=radio name=item[2005] value=8158 onclick="checkIt(0,myform.checkitem0,'1')"></td>
+    <td >&nbsp;</td>
+    <td bgcolor="#F0F7FF" >　第三种方式　 ( 用户名— &gt; 密码— &gt; 选择邮箱 登陆 ) </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="right" valign="top" ></td>
+    <td height="35" align="right" valign="top" bgcolor="#F0F7FF" ><img src="../images/ksdl_03.gif" width="778" height="23" alt="此方式为第三种登陆方式"></td>
+  </tr>
+  <tr>
+    <td height="18" colspan="3" align="right" valign="top" ><br>      <hr width="100%" size="1" color="008000">     <br>      <br>      <div align="center"><input type="hidden" name="id" value=1234>
+    <input type="submit" name="submit" value="　投 票　">
+    <!-- <input type="button" name="view" value="返 回" onclick="window.location='../admin/index.jsp'">-->
+    
+<input type="hidden" name="viewres" value=1>
+    <input type="hidden" name="itemlength" id="itemlength" value=1>
+      </div>      <br></td>
+    </tr>
+</table></td>
+     </tr>
+	 </form>
+</table>
+   
+ 
+ 
+</body>
+
+</html>

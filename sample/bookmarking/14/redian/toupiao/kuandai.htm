@@ -1,0 +1,208 @@
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+
+<style type="text/css">
+<!--
+
+td,body {  font-size: 9pt}
+
+a:link{ color:#000000; text-decoration:none}     
+
+a:visited{COLOR: #000000; TEXT-DECORATION: none} 
+
+a:active{color:green;text-decoration:none}
+
+a:hover{color:red;text-decoration:underline} .style1 {color: #008000}
+.style3 {color: #FF0000}
+.style4 {color: #008c39}
+.style14 { font-size: 11pt}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+--> 
+
+</style>
+<script language="javascript">
+var myform;
+window.onload=function(){
+ myform=document.myform;
+}
+function openVote(url)
+{
+	window.open(url,'newWin','width=500,height=200,top=200,left=200,resize=no');
+}
+function prev(){
+	myform.direction.value="prev";
+	myform.submit();
+}
+function next(){
+	myform.direction.value="next";
+	if(checkItem()) {
+		myform.submit();
+	}
+}
+function submitit(){
+	myform.direction.value="submit";
+	if(checkItem()) {
+		myform.submit();
+	}
+}
+
+function disableIt(obj){
+	obj.disabled = true;
+}
+function ableIt(obj){
+	obj.disabled = false;
+}
+function checkIt(mutiflag,obj,str){
+	var checkFlag = false;
+	var startPos,endPos;
+	if(mutiflag==0){
+		//处理单选的情况
+		obj.value=str;
+	}else if(mutiflag==1){
+		//处理多选的情况
+		eval("checkFlag=myform.checkoptn"+str+".checked;");
+		if(obj.value.indexOf(str+",")==-1 && checkFlag){
+			//将该编号加入到选择字符串
+			if(obj.value==0) obj.value="";
+			obj.value = "" + obj.value;
+			obj.value = obj.value + str +",";
+		}else if(obj.value.indexOf(str+",")!=-1 && !checkFlag){
+			//将该编号从选择字符串中剔除
+			if(obj.value.length==(str.length+1)) {
+				obj.value=0;
+				return;
+			}
+			startPos = obj.value.indexOf(str+",");
+			endPos = startPos + str.length + 1;
+			obj.value = obj.value.substring(0,startPos) + obj.value.substring(endPos,obj.value.length);
+		}
+	}
+}
+//Trim,参数String
+function trim(myStr)
+{
+  var pos1=-1;
+  var pos2=-1;
+  for(var i=0;i<myStr.length;i++){
+     if(myStr.charAt(i)!=' ' && pos1<0) pos1=i;
+     if(myStr.charAt(myStr.length-i-1)!=' ' && pos2<0) pos2=myStr.length-i;
+  }
+  if(pos1<0 || pos2 <0) return("");
+  return(myStr.substring(pos1,pos2));
+}
+function checkItem(){
+	var checkValue=0;
+	var checkType=0;
+	for(var i=0;i<myform.itemlength.value;i++){
+		eval("checkValue=myform.checkitem"+i+".value;");
+		eval("checkType=myform.checkitemtype"+i+".value;");
+		if(checkType==2 && checkValue=="other"){
+			eval("checkValue=myform.comment"+i+".value;");
+			if(checkValue==null || trim(checkValue)==""){
+				alert("请您将调查问卷填写完全！\n谢谢！");
+				return (false);
+			}
+		}else if(checkType==2 && checkValue=="input"){
+			eval("checkValue=myform.comment"+i+".value;");
+			if(checkValue==null || trim(checkValue)==""){
+				alert("请您将调查问卷填写完全！\n谢谢！");
+				return (false);
+			}
+		}else if(checkType==3&& checkValue==0){
+			eval("checkValue=myform.comment"+i+".value;");
+			if(checkValue==null || trim(checkValue)==""){
+				alert("请您将调查问卷填写完全！\n谢谢！");
+				return (false);
+			}
+		}else if(checkValue==0){ 
+			alert("请您将调查问卷填写完全！\n谢谢！");
+			return (false);
+		}
+	}
+	openVote('');
+	return (true); 
+} 
+</script>
+<base target="_blank">
+
+</head>
+
+<body >
+ <form name="myform" method="post" target="newWin" action="http://vote.baidu.com/vote/home/show1.jsp" onsubmit="return checkItem();" style="margin:0">
+ <input type=hidden name="direction" id="direction" value=""><input type='hidden' value=0 id='checkitem0' name='checkitem0'><input type='hidden' value=1 id='checkitemtype0'>
+ <table width="778" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+              <td height="25" bgcolor="#f6f5f2" style="border-left:1px solid #dcdcdc; border-right:1px solid #dcdcdc;border-top:1px solid #dcdcdc ">　<span class="style14">hao123宽带电影栏目中，您经常使用的版块有哪些</span><span class="style14">？（多选）</span></td>
+    </tr>
+   <tr>
+     <td style="border-left:1px solid #dcdcdc; border-right:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; "><table width="90%"  border="0" align="center" cellpadding="3" cellspacing="0">
+       
+       <tr>
+         <td>
+           <input type=checkbox name=optn[5750]  value=5750 id="checkoptn5750" onclick="checkIt(1,myform.checkitem0,'5750')">
+         1 BT/电影下载</td>
+       </tr>
+       <tr>
+         <td>
+           <input type=checkbox name=optn[5751]  value=5751 id="checkoptn5751" onclick="checkIt(1,myform.checkitem0,'5751')">
+           2</a> 在线观看</td>
+       </tr>
+       <tr>
+         <td>
+           <input type=checkbox name=optn[5752]  value=5752 id="checkoptn5752" onclick="checkIt(1,myform.checkitem0,'5752')">
+         3 影视资讯</td>
+       </tr>
+       <tr>
+         <td>
+           <input type=checkbox name=optn[5753]  value=5753 id="checkoptn5753" onclick="checkIt(1,myform.checkitem0,'5753')">
+         4 影视论坛</td>
+       </tr>
+       <tr>
+         <td>
+           <input type=checkbox name=optn[5754]  value=5754 id="checkoptn5754" onclick="checkIt(1,myform.checkitem0,'5754')">
+         5 各地宽带互联星空</td>
+       </tr>
+       <tr>
+         <td>
+           <input type=checkbox name=optn[5755]  value=5755 id="checkoptn5755" onclick="checkIt(1,myform.checkitem0,'5755')">
+         6 各国电影节</td>
+       </tr>
+       <tr>
+         <td>
+           <input type=checkbox name=optn[5756]  value=5756 id="checkoptn5756" onclick="checkIt(1,myform.checkitem0,'5756')">
+         7 影碟信息</td>
+       </tr>
+       <tr>
+         <td>您还想得到哪些影视相关内容（不是必填）
+           <input type='hidden' value=1 id='checkitem1' name='checkitem1'><input type='hidden' value=3 id='checkitemtype1'></td>
+       </tr>
+       <tr>
+         <td><textarea name="text[1554]" cols="60" rows="4" id="comment1"></textarea></td>
+       </tr>
+       <tr>
+         <td height="7"><input type="hidden" name="pbid" value=0>
+           <input type="hidden" name="id" value=192><table width="98%" border="0" cellpadding="0" cellspacing="1">
+  <tr align="center"><td  class="Submit">
+ <input type="button" name="submit2" value="提  交" onclick="submitit()"><!-- <input type="button" name="view" value="返 回" onclick="window.location='../admin/index.jsp'">-->
+<input type="hidden" name="itemlength" id="itemlength" value=2></td></tr>
+</table></td>
+       </tr>
+       
+     </table></td>
+   </tr>
+ </table> 
+ 
+ </form>
+ 
+</body>
+
+</html>

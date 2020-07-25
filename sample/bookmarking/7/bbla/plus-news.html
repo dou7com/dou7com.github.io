@@ -1,0 +1,91 @@
+<html>
+<head>
+<base target="_blank" />
+<link type="text/css" rel="stylesheet" href="c1.css"  id="cl" /> 
+<style type="text/css">
+*{ margin:0; padding:0; list-style:none; font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif; text-decoration:none;}
+body{background:none}
+p{ font-weight:bold; line-height:14px; height:14px; margin:0; padding:5px 0 18px 0;}
+p span{ font-weight:normal; color:#aaa;}
+p a{color:#ccc;}
+p a:hover{color:#666;}
+#news{ position:relative; height:310px; width:576px;}
+#newstab{ width:600px; padding:0 5px 0 15px; font-weight:normal; height:30px; line-height:30px; position:absolute; top:0; left:0; background:#eee; color:#eee; overflow:hidden; border:1px solid #bbb;}
+#newstab a{ cursor:pointer; color:#161616;}
+#newstab a.thenews{ color:#FF0000;}
+#newslist{ width:560px; height:330px; padding:8px 0 0 1px;}
+#newslist li{ height:330px; display:none; overflow:hidden;}
+
+.baidu{ line-height:28px;}
+.baidu span{ display:inline; float:left; overflow:hidden; text-indent:0; padding:0 0 0 20px; color:#eee;}
+.baidu a{ color:#161616; text-decoration:none; float:left;}
+.baidu a:hover{ color:#FF0000;}
+.baidu a.more{ display:none;}
+</style>
+<script type="text/javascript" language="javascript">
+function setCookie(v,e){var t=new Date();t.setTime(t.getTime());var e_date=new Date(t.getTime()+365*1000*60*60*24);document.cookie="cl"+'='+encodeURIComponent(v)+';expires='+e_date.toGMTString()+';path=/';}
+function getCookie(n){var c=document.cookie.split("; ");for(var i=0;i<c.length;i++){var p=c[i].split("=");if(n==p[0])try{return decodeURIComponent(p[1])}catch(e){return null}}
+return null;}
+function set_cl(c){setCookie(c);document.getElementById('cl').href="c"+c+".css";}(function(){var c=getCookie("cl");if(c&&c!=1)set_cl(c);})();
+</script>
+</head>
+
+<body>
+<p>新闻资讯<span>&nbsp;&nbsp;-&nbsp;&nbsp;每5分钟更新一遍</span></p>
+
+<div id="news">
+<h6 id="newstab">
+<a onClick="shownews(0)" class="thenews">国内</a> | 
+<a onClick="shownews(1)">国际</a> | 
+<a onClick="shownews(2)">军事</a> | 
+<a onClick="shownews(3)">财经</a> | 
+<a onClick="shownews(4)">社会</a> | 
+<a onClick="shownews(5)">娱乐</a> | 
+<a onClick="shownews(6)">体育</a> | 
+<a onClick="shownews(7)">汽车</a> | 
+<a onClick="shownews(8)">房产</a> | 
+<a onClick="shownews(9)">互联网</a>
+</h6>
+<ul id="newslist">
+<li style="display:block;">
+	 <script language="javascript" type="text/javascript" src="../../news.baidu.com/n-cmd=1&class=civilnews&pn=1&tn=newsbrofcu" ></script></li>
+<li><script language="javascript" type="text/javascript" src="../../news.baidu.com/n-cmd=1&class=internews&pn=1&tn=newsbrofcu" ></script></li>
+<li><script language="javascript" type="text/javascript" src="../../news.baidu.com/n-cmd=1&class=mil&pn=1&tn=newsbrofcu" ></script></li>
+<li><script language="javascript" type="text/javascript" src="../../news.baidu.com/n-cmd=1&class=finannews&pn=1&tn=newsbrofcu" ></script></li>
+<li><script language="javascript" type="text/javascript" src="../../news.baidu.com/n-cmd=1&class=socianews&pn=1&tn=newsbrofcu" ></script></li>
+<li><script language="javascript" type="text/javascript" src="../../news.baidu.com/n-cmd=1&class=enternews&pn=1&tn=newsbrofcu" ></script></li>
+<li><script language="javascript" type="text/javascript" src="../../news.baidu.com/n-cmd=1&class=sportnews&pn=1&tn=newsbrofcu" ></script></li>
+<li><script language="javascript" type="text/javascript" src="../../news.baidu.com/n-cmd=1&class=autonews&pn=1&tn=newsbrofcu" ></script></li>
+<li><script language="javascript" type="text/javascript" src="../../news.baidu.com/n-cmd=1&class=housenews&pn=1&tn=newsbrofcu" ></script></li>
+<li><script language="javascript" type="text/javascript" src="../../news.baidu.com/n-cmd=1&class=internet&pn=1&tn=newsbrofcu" ></script></li>
+</ul>
+</div><!--news-->
+<script language="javascript" type="text/javascript">
+function shownews(n){
+	var as=document.getElementById("newstab").getElementsByTagName("a");
+	var ds=document.getElementById("newslist").getElementsByTagName("li");
+		for(i=0;i<as.length;i++){
+			as[i].className="";
+			as[n].className="thenews";
+		}
+		for(j=0;j<ds.length;j++){
+			ds[j].style.display="none";
+			ds[n].style.display="block";
+		}
+}
+</script>
+
+
+
+<script type="text/javascript" language="javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-21501997-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www/') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();</script>
+<script type="text/javascript">function killErrors(){return true;}window.onerror=killErrors;</script>
+</body>
+</html>

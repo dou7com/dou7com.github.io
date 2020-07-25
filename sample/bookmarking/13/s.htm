@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>集成搜索-KFC123开发城工作室</title>
+<link rel="shortcut icon" href="favicon.ico"/>
+<style type="text/css">
+<!--
+html, body, div, h1, h2, h3, dl, dt, dd, ul, li, form{ margin:0; padding:0; }
+body{ font:12px arial; text-align:center; background-color: #fff; }
+ul{ list-style: none; }
+img{border:0}
+a{color:#00c}
+.clear { clear:both; height:0px; width:0px; font-size:0px; line-height:0px; }
+/*--------------------------------------------------------------*/
+#banner{ border-bottom: 1px solid #D2D2D2; background: #FCFCFC; text-align: right; font-size: 12px; line-height: 20px; }
+
+#banner .ba{ HEIGHT: 20px; position: relative; border-right-width: 0px; border-left-width: 0px; border-right-style: solid; border-left-style: solid; border-right-color: #CCCCCC; border-left-color: #CCCCCC; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; width: 300px; float: right; margin-right: 2px; margin-top: 2px; }
+#banner .tz{ float: left; width: 226px; display: inline; text-align: left; padding-top: 1px; }
+#banner dt{ FLOAT: right; WIDTH: 48px; CURSOR: pointer; COLOR: #666! important; position: relative; display: inline; text-align: left; margin-left: 8px; background-image: url(img/vs.gif); background-repeat: no-repeat; background-position: -90px -40px; padding-top: 1px; padding-left: 5px; }
+#banner dd{ Z-INDEX: 99; FLOAT: right; WIDTH: 58px; CURSOR: pointer; COLOR: #666! important; PADDING-TOP: 1px; margin-left: 3px; position: relative; display: inline; }
+.tc{ border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; border-right-color: #FFFFFF; border-left-color: #FFFFFF; }
+.teli{ background-color: #F5F5F5; display: block; width: 47px; padding-left: 6px; font-family: "宋体"; font-size: 13px; line-height: 22px; }
+.tbli{ display: block; width: 47px; padding-left: 6px; font-family: "宋体"; font-size: 13px; line-height: 22px; }
+.overtab { POSITION: relative; BACKGROUND-COLOR: white; text-align: left; margin-top: -1px; margin-right: 0px; margin-bottom: 0px; margin-left: -1px; border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-color: #d8d8d8; border-right-color: #d8d8d8; border-left-color: #d8d8d8; z-index: 11; }
+.tbdis { display: inline; OVERFLOW: hidden; WIDTH: 53px; HEIGHT: 22px; position: absolute; border-top: 0px solid #d8d8d8; border-right: 1px solid #d8d8d8; border-bottom: 1px solid #d8d8d8; border-left: 1px solid #d8d8d8; right: 0px; top: 23px; text-align: left; background-color: #FCFCFC; }
+.untbdis { display: none;}
+
+#m{ width:660px; margin-top: 180px; margin-right: auto; margin-bottom: 0; margin-left: auto; }
+#con{ float: left; }
+#nv{ font-size:16px; margin:0 0 4px; text-align:left; text-indent: 27px; }
+#nv a,#nv b,.btn,#lk{font-size:14px}
+#logo{ width: 130px; float: left; height: 50px; margin-top: 10px; }
+.google{ background-image: url(img/jc.gif); background-repeat: no-repeat; background-position: 10px 9px; }
+.baidu{ background-image: url(img/jc.gif); background-repeat: no-repeat; background-position: 10px -42px; }
+.gougou{ background-image: url(img/jc.gif); background-repeat: no-repeat; background-position: 6px -296px; }
+.yahoo{ background-image: url(img/jc.gif); background-repeat: no-repeat; background-position: 10px -190px; }
+.youdao{ background-image: url(img/jc.gif); background-repeat: no-repeat; background-position: 8px -136px; }
+.soso{ background-image: url(img/jc.gif); background-repeat: no-repeat; background-position: 10px -85px; }
+.sogou{ background-image: url(img/jc.gif); background-repeat: no-repeat; background-position: 10px -239px; }
+.taobao{ background-image: url(img/jc.gif); background-repeat: no-repeat; background-position: 8px -349px; }
+#fm{ text-align:left; }
+#kw{width:404px;height:22px;padding:4px 7px;padding:6px 7px 2px\9;font:16px arial;background:url(http://www.baidu.com/img/i2.png) no-repeat;border:1px solid #cdcdcd;border-color:#9a9a9a #cdcdcd #cdcdcd #9a9a9a;vertical-align:top}
+.btn{ width:95px; height:32px; padding:0; padding-top:2px\9; border:0; cursor:pointer; background-color: #ddd; background-image: url(img/bt.png); background-position: 0 -35px; }
+.btn_h{background-position:-100px -35px}
+#kw,.btn_wr{margin:0 5px 0 0}
+.btn_wr{width:97px;height:34px;display:inline-block;background:url(http://www.baidu.com/img/i2.png) no-repeat -202px bottom;_padding-top:1px;*position:relative}
+#lk{ margin:33px 0; text-align: left; text-indent: 118px; }
+#lk{font:14px "宋体"}
+
+#cp{ color:#77c; text-indent: 36px; text-align: center; }
+#cp a{color:#77c}
+form{ width: 530px; }
+
+.hover{ font-weight: bold; color: #000000; text-decoration: none; }
+.nohover{}
+-->
+</style>
+<link rel="shortcut icon" href="favicon.ico"/>
+<script type="text/javascript" language="javascript">    
+function overtb(n){   
+	document.getElementById('tb').className='tbdis';
+	document.getElementById('tc').className='overtab';   
+}
+function outtb()
+{
+    document.getElementById('tb').className='untbdis';
+	document.getElementById('tc').className='tc';
+}
+function overli(n){   
+    document.getElementById(n).className='teli';
+}
+function outli(n){   
+    document.getElementById(n).className='tbli';
+}
+
+function setCookie(n){
+    //alert(n);
+	var expires=new Date();
+	expires.setTime(expires.getTime()+24*60*60*365*1000);
+	var flag="KFC_Cookie="+n;
+	document.cookie=flag+";expires="+expires.toGMTString();
+}
+
+function readCookie(){
+	var skin=0
+	var mycookie=document.cookie;
+	var name="KFC_Cookie";
+	var kfcstart1=mycookie.indexOf(name+"=");
+	if(kfcstart1==-1){
+		skin="1";
+	}
+	else{
+		var kfcstart=mycookie.indexOf("=",kfcstart1)+1;
+		var end=mycookie.indexOf(";",kfcstart);
+		if(end=-1){
+			end=mycookie.length;
+		}
+		var values= unescape(mycookie.substring(kfcstart,end));
+		if (values!=null)
+		{
+			skin=values;
+		}
+	}
+	return skin;
+	
+}
+switch (readCookie())
+   {
+   case "1":
+     window.location.href="http://www.kfc123.com";
+     break;
+   case "2":
+	 //window.location.href="s.htm";
+     break;
+   case "3":
+     //alert("宽屏版开发中")
+     break;
+   case "4":
+    //alert("老年版开发中")
+     break;
+   default:
+     break;
+}
+</script>
+</head>
+<body>
+<div id="banner">
+
+    <div class="ba">
+          <dl>
+            <dt id="tc" class="tc" onMouseOver="overtb()" onMouseOut="outtb()"><a href="javascript:void(0)">精简版</a></dt>
+            <dd><a onClick="AddFavorite(window.location,document.title)" href="javascript:void(0)">加入收藏</a></dd>
+            <dd><a onClick="SetHome(this,window.location)" href="javascript:void(0)">设为主页</a></dd>
+          </dl>
+          <div  id="tb" class="untbdis" onMouseOver="overtb();" onMouseOut="outtb();">
+              <a id="tf" class="tbli" href="http://www.kfc123.com" onClick="setCookie('1')" onMouseOver="overli('tf')" onMouseOut="outli('tf')">标准版</a>
+          </div>
+    </div>
+</div>
+
+
+<div id="m">
+<div id="logo" class="baidu"></div>
+<div id="con">
+<p id="nv">
+    <a id="tb_1" class="hover" href="javascript:void(0)" onClick="HoverLi(1)">百&nbsp;度</a>　<a id="tb_2" class="nohover"  href="javascript:void(0)" onClick="HoverLi(2)">谷&nbsp;歌</a>　<a id="tb_3" class="nohover"  href="javascript:void(0)" onClick="HoverLi(3)">搜&nbsp;搜</a>　<a id="tb_4" class="nohover"   href="javascript:void(0)" onClick="HoverLi(4)">有&nbsp;道</a>　<a id="tb_5" class="nohover"   href="javascript:void(0)" onClick="HoverLi(5)">雅&nbsp;虎</a>　<a id="tb_6" class="nohover"   href="javascript:void(0)" onClick="HoverLi(6)">搜&nbsp;狗</a>　<a id="tb_7" class="nohover"   href="javascript:void(0)" onClick="HoverLi(7)">狗&nbsp;狗</a>　<a id="tb_8" class="nohover"   href="javascript:void(0)" onClick="HoverLi(8)">淘&nbsp;宝</a>
+</p>
+
+<div id="fm">
+    <form id="search" name="f" action="http://www.baidu.com/s" target="_blank">
+    <input type="text" name="wd" id="kw" maxlength="100" baiduSug="1" ><INPUT id="ct" name="tn" value="kfc123" type=hidden><INPUT id="lm" name="ie" value="gb2312" type=hidden><span class="btn_wr"><input type="submit" value="百度搜索" id="su" class="btn" onMouseDown="this.className='btn btn_h'" onMouseOut="this.className='btn'"></span></form>
+</div>
+<p id="lk"><a href="http://click.union.360buy.com/JdClick/?unionId=4597&t=1&to=http://www.360buy.com" target="_blank">京东商城</a>　<a href="http://www.lashou.com/" target="_blank">拉手团购</a>　<a href="http://www.tmall.com/go/chn/tbk_channel/tmall_new.php?pid=mm_14701944_0_0&eventid=101334" target="_blank">淘宝商城</a></p>
+
+</div>
+<div class="clear"></div>
+</div>
+<p id="cp">&copy;2011 开发城工作室  <a href="http://www.kfc123.com/gho/default.htm" target="_blank">一键还原大师</a>  <a href="http://www.miibeian.gov.cn" target="_blank">闽ICP备11000543号</a> </p>
+<script charset="gbk" src="javascript/opensug.js?v=20101128"></script>
+<script type="text/javascript"language="javascript">
+   
+    function $(obj) {
+        return document.getElementById(obj)
+    }
+	
+    function HoverLi(n) {
+        for (var i = 1; i <= 8; i++) {
+            $('tb_' + i).className = 'nohover';
+        }
+        $('tb_' + n).className = 'hover';
+		switch (n)
+		{
+		   case 1:
+			 $('logo').className = 'baidu';
+			 $('search').action = 'http://www.baidu.com/s';
+			 $('ct').name = 'tn';
+             $('ct').value = 'kfc123';
+             $('lm').name = 'ie';
+             $('lm').value = 'gb2312';
+             $('kw').name = 'wd';
+             $('su').value = '百度搜索';
+			 break;
+		   case 2:
+		     $('logo').className = 'google';
+			 $('search').action = 'http://www.google.com.hk/search';
+			 $('ct').name = 'hl';
+             $('ct').value = 'zh-CN';
+             $('lm').name = 'ie';
+             $('lm').value = 'gb2312';
+			 $('kw').name = 'q';
+             $('su').value = '谷歌搜索';
+			 break;
+		   case 3:
+			 $('logo').className = 'soso';
+			 $('search').action = 'http://www.soso.com/q';
+			 $('ct').name = 'tn';
+             $('ct').value = 'kfc123';
+             $('lm').name = 'ie';
+             $('lm').value = 'gb2312';
+             $('kw').name = 'w';
+             $('su').value = '腾讯搜索';
+			 break;
+		   case 4:
+			 $('logo').className = 'youdao';
+			 $('search').action = 'http://www.youdao.com/search';
+			 $('ct').name = 'tn';
+             $('ct').value = 'kfc123';
+             $('lm').name = 'ie';
+             $('lm').value = 'gb2312';
+             $('kw').name = 'q';
+             $('su').value = '有道搜索';
+			 break;
+		   case 5:
+			 $('logo').className = 'yahoo';
+			 $('search').action = 'http://www.yahoo.cn/s';
+			 $('ct').name = 'tn';
+             $('ct').value = 'kfc123';
+             $('lm').name = 'ie';
+             $('lm').value = 'gb2312';
+             $('kw').name = 'q';
+             $('su').value = '雅虎搜索';
+			 break;
+		   case 6:
+			 $('logo').className = 'sogou';
+			 $('search').action = 'http://www.sogou.com/web';
+			 $('ct').name = '_asf';
+             $('ct').value = 'www.kfc123.com';
+             $('lm').name = 'ie';
+             $('lm').value = 'gb2312';
+             $('kw').name = 'query';
+             $('su').value = '搜狗搜索';
+			 break;
+		   case 7:
+			 $('logo').className = 'gougou';
+			 $('search').action = 'http://www.gougou.com/search';
+			 $('ct').name = 'tn';
+             $('ct').value = 'kfc123';
+             $('lm').name = 'ie';
+             $('lm').value = 'gb2312';
+             $('kw').name = 'search';
+             $('su').value = '搜狗搜索';
+			  break;
+		   case 8:
+			 $('logo').className = 'taobao';
+			 $('search').action = 'http://s8.taobao.com/search';
+			 $('ct').name = 'pid';
+             $('ct').value = 'mm_14701944_0_0';
+             $('lm').name = 'ie';
+             $('lm').value = 'gb2312';
+             $('kw').name = 'q';
+             $('su').value = '淘宝搜索';
+			 break;
+		 }
+
+    }
+	
+	function SetHome(obj,vrl){try{obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl)}catch(e){try{netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect")}catch(e){alert("你的浏览器不支持自动设置主页,请手动设置")}var prefs=Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);prefs.setCharPref('browser.startup.homepage',vrl)}}function AddFavorite(sURL,sTitle){try{window.external.addFavorite(sURL,sTitle)}catch(e){try{window.sidebar.addPanel(sTitle,sURL,"")}catch(e){alert("你的浏览器不支持自动设置主页,请手动设置")}}}
+</script>
+</body>
+</html>

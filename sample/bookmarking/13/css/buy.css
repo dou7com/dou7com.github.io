@@ -1,0 +1,47 @@
+@charset "utf-8";
+*{ margin:0; padding:0; }
+body { font: normal 14px "宋体"; }
+ul{ list-style: none; }
+img{ border-width: 0px; }
+A { COLOR: #000000; TEXT-DECORATION: none }
+A:hover { COLOR: #FF0000; TEXT-DECORATION: underline }
+.clear{ clear:both; height:0px; width:0px; font-size:0px; line-height:0px; }
+#so { width: 926px; margin: 0px auto; border-bottom: 2px solid #DEEDFE; padding: 13px 0px; border-top-width: 0px; border-right-width: 0px; border-left-width: 0px; }
+#so a{ cursor: pointer; }
+#so .logo{ float: left; width: 160px; display: inline; background: url(../img/loso.gif) no-repeat 1px -1px; height: 34px; }
+#so .kb{ display: inline; width: 282px; float: left; height: 20px; }
+#so .google { background: url(../img/loso.gif) no-repeat -124px -47px; width: 86px; float: left; height: 30px; margin-top: 1px; }
+#so .put { float: left; display: inline; }
+#so .st { height: 19px; font-size: 16px; width: 290px; border-top: 1px solid #CCCCCC; border-right: 0px solid; border-bottom: 1px solid #CCCCCC; border-left: 1px solid #CCCCCC; padding: 5px 0px 5px 8px; display: inline; margin: 0px; }
+#so .sb { background:url(../img/loso.gif) -2px -47px; height:31px; cursor:pointer; width: 99px; margin: 0px; padding: 0px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; font: 15px "宋体"; display: inline; }
+
+#ha{ margin: 0px auto; width: 926px; }
+#left{ float: left; display: inline; width: 234px; height: 801px; font-size: 12px; background: #F9FCFF; border: 1px solid #CCDBEC; }
+#left .ga{ padding-left: 8px; line-height: 21px; font-weight: bold; color: #4580AB; background: #E8F4FF; font-size: 13px; text-align: center; }
+#left .gb{ padding-left: 10px; font-weight: bold; color: #4580AB; padding-top: 10px; font-size: 13px; padding-bottom: 2px; }
+#left .gc{ margin-right: 4px; margin-left: 2px; padding-bottom: 6px; }
+#left a{ float: left; display: inline; text-align: center; padding-left: 6px; border-left: 1px solid #E6E6E6; line-height: 14px; margin: 10px 0px 8px 6px; }
+
+#right{ float: left; display: inline; margin-left: 4px; }
+#hb{ margin: 0px auto; width: 926px; }
+#hb .la{ line-height: 22px; color: #929292; font-size: 12px; float: left; }
+#hb .lb{ float: right; font-size: 12px; }
+#right .ba{ background: #E8F4FF; color: #4580AB; border: 1px solid #CAE3FD; text-align: center; font-size: 13px; font-weight: bold; line-height: 20px; font-style: normal; }
+#right .bc{ background: #E8F4FF; line-height: 20px; color: #4580AB; font-weight: bold; font-size: 13px; text-align: center; border-top: 0px solid #CAE3FD; border-right: 1px solid #CAE3FD; border-bottom: 1px solid #CAE3FD; border-left: 1px solid #CAE3FD; }
+#ha .bd{ border-bottom: 1px solid #CAE3FD; border-right: 1px solid #CAE3FD; border-left: 1px solid #CAE3FD; padding: 25px 0px 25px 190px; }
+#right .b1{ border-left: 1px solid #C4E0FD; }
+#right .b2{ border-right: 1px solid #C4E0FD; }
+#right .b3{ border-bottom: 1px solid #C4E0FD; border-left: 1px solid #C4E0FD; }
+#right .b4{ border-bottom: 1px solid #C4E0FD; }
+#right .b5{ border-bottom: 1px solid #C4E0FD; border-right: 1px solid #C4E0FD; }
+#right a{ float: left; display: block; width: 136px; line-height: 32px; border-right: 1px solid #CCDBEC; border-bottom: 1px solid #CCDBEC; background: #F9FCFF; height: 32px; text-align: center; }
+#right .tu{ height: 48px; text-align: center; padding: 9px 0px; background: #FFFFFF; }
+#floot{ margin: 0px auto; width: 750px; font: 13px/50px "宋体"; }
+#floot a{ float: left; display: block; }
+#floot .f1{ float: left; text-align: center; width: 20px; color: #CCCCCC; }
+#floot .f2{ color: #666666; float: left; font-family: "宋体"; margin-left: 15px; }
+
+a.bj{ color: #999999; line-height: 22px; font-size: 12px; }
+a.ft{ color: #666666; }
+a.green { color: #178517; }
+a.reds { color: #FF0000; }

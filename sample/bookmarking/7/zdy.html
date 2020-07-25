@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style type="text/css">
+*{ margin:0; padding:0;}
+body{}
+h6{ padding:0 0 10px; color:#50835A; font-size:12px;}
+h6 a{ color:#F63; padding:0 0 0 5px; text-decoration:none;}
+i{ display:block; height:0; overflow:hidden; clear:both;}
+.sp10{ height:10px;}
+dl dt,dl dd{ float:left; font:normal 12px/28px verdana;}
+dl dt{ color:#d00; padding:0 3px 0 0; width:52px; height:28px; overflow:hidden;}
+dl dd{ width:560px;}
+dl dd a{ padding:0 0 0 14px; cursor:pointer; color:#222; text-shadow:1px 1px 0 #fff;}
+dl dd a.curlan,
+dl dd a:hover{ color:#e00;}
+#zdysite dl dt{ position:relative; width:600px;}
+#zdysite dl dt div{ position:absolute; left:229px; top:0; font:normal 12px/28px verdana; height:28px; width:200px; color:#aaa; text-shadow:1px 1px 0 #fff;}
+ul li{ list-style:none; font:normal 12px/30px verdana;}
+#zdyleft{ float:left; width:260px; height:380px; padding:0 0 0 28px; color:#454545;}
+#zdyleft ul li b{ display:block; float:left;}
+#zdyleft ul li p{ float:left; padding:0 0 0 22px;}
+#zdyleft ul li p input{ position:relative; top:2px; left:-4px;}
+#zdyleft p.suggest{ font:normal 12px/20px verdana; margin:49px 0 0 0;}
+#zdyleft p.suggest a{ color:#d45; text-decoration:none;}
+#zdyright{ float:right; width:671px;}
+#zdylan{ padding:0 0 30px 0;}
+#zdysite p{ height:32px; font:normal 12px/30px verdana;}
+#zdysite p span{ display:block; float:left; color:#222;}
+#zdysite p input{ display:block; float:left; margin:0 20px 0 0; height:18px; font:normal 12px/23px verdana; padding:2px 5px 3px; position:relative; top:4px; color:#222; border:1px solid #ddd; outline:none; border-color:#999 #ccc #ccc #999; box-shadow:1px 1px 3px #e3e3e3 inset;}
+#zdysite p input.name{ width:125px;}
+#zdysite p input.url{ width:280px; margin:0 10px 0 0; font-size:13px; font-family:simsun;}
+#zdysite p input.btn{ width:55px; height:25px; color:#666; padding:0; cursor:pointer; color:#fff; background:#53B7F9; border:1px solid #34A8E0; box-shadow:0 0 0 #fff; margin:0 10px 0 0; border-radius:3px;}
+
+
+#zdysite p input.error{ border-color:#d00;}
+#zdysite p input.btn.cc{ margin:0; background:#789; border-color:#456;}
+#zdysite p input.btn.kk{ display:none; width:30px;}
+</style>
+</head>
+<body>
+<script type="text/javascript" src="js/jquery.js" ></script>
+<div id="yourself">
+
+
+<div id="zdyleft">
+<h6>个性化您的首页</h6>
+<ul>
+<li><b>娱乐资讯</b><p><label for="rral"><input id="rral" type="radio" name="ifone" value="0" />显示</label>&nbsp;&nbsp;&nbsp;<label for="rrar"><input id="rrar" type="radio" name="ifone" value="1" />不显示</label></p><i></i></li>
+<li><b>省市导航</b><p><label for="rrbl"><input id="rrbl" type="radio" name="iftwo" value="0" />显示</label>&nbsp;&nbsp;&nbsp;<label for="rrbr"><input id="rrbr" type="radio" name="iftwo" value="1" />不显示</label></p><i></i></li>
+<li><b>生活工具</b><p><label for="rrcl"><input id="rrcl" type="radio" name="ifthree" value="0" />显示</label>&nbsp;&nbsp;&nbsp;<label for="rrcr"><input id="rrcr" type="radio" name="ifthree" value="1" />不显示</label></p><i></i></li>
+</ul>
+<p class="suggest"><a href="about/bbla-submit-suggest.html"  target="_blank">[ ~ 个性化建议及反馈 ~ ]</a></p>
+
+
+</div><!--zdyleft-->
+<div id="zdyright">
+
+
+<div id="zdylan">
+<h6>定义 常用名站 中间 4行您最常用的<span>栏目</span></h6>
+<dl><dt>[&nbsp;&nbsp;<span>新闻</span>&nbsp;&nbsp;]</dt><dd></dd><i></i></dl><i></i>
+<dl><dt>[&nbsp;&nbsp;<span>邮箱</span>&nbsp;&nbsp;]</dt><dd></dd><i></i></dl><i></i>
+<dl><dt>[&nbsp;&nbsp;<span>财经</span>&nbsp;&nbsp;]</dt><dd></dd><i></i></dl><i></i>
+<dl><dt>[&nbsp;&nbsp;<span>团购</span>&nbsp;&nbsp;]</dt><dd></dd><i></i></dl><i></i>
+</div><!--zdylan-->
+
+<div id="zdysite">
+<h6>定义 常用名站 第4行 您最常用的5个<span>网址</span>&nbsp;&nbsp;- 如需永久保存更多网址，请关闭设置，登录首页<a>收藏夹</a></h6>
+<dl><dt>[&nbsp;&nbsp;<span>我的</span>&nbsp;&nbsp;]<div>网址不需要带 http://</div></dt></dl><i></i>
+<p><span>名称：</span><input type="text" maxlength="7" title="名称长度请在7字以内" name="atxt" class="name" onblur="handsite(0)" /><span>网址：</span><input type="text" name="aurl" class="url" maxlength="50"  title="网址不需要填http://，长度请控制在50字以内" onblur="handsite(0)" /><input class="btn kk" type="button" name="ok" value="OK" /><input class="btn cc" type="button" value="清除" onclick="delcookiesite(0)" /><i></i></p>
+
+<p><span>名称：</span><input type="text" maxlength="7" title="名称长度请在7字以内" name="atxt" class="name" onblur="handsite(1)" /><span>网址：</span><input type="text" name="aurl" class="url" maxlength="50"  title="网址不需要填http://，长度请控制在50字以内" onblur="handsite(1)" /><input class="btn kk" type="button" name="ok" value="OK" /><input class="btn cc" type="button" value="清除" onclick="delcookiesite(1)" /><i></i></p>
+
+<p><span>名称：</span><input type="text" maxlength="7" title="名称长度请在7字以内" name="atxt" class="name" onblur="handsite(2)" /><span>网址：</span><input type="text" name="aurl" class="url" maxlength="50"  title="网址不需要填http://，长度请控制在50字以内" onblur="handsite(2)" /><input class="btn kk" type="button" name="ok" value="OK" /><input class="btn cc" type="button" value="清除" onclick="delcookiesite(2)" /><i></i></p>
+
+<p><span>名称：</span><input type="text" maxlength="7" title="名称长度请在7字以内" name="atxt" class="name" onblur="handsite(3)" /><span>网址：</span><input type="text" name="aurl" class="url" maxlength="50"  title="网址不需要填http://，长度请控制在50字以内" onblur="handsite(3)" /><input class="btn kk" type="button" name="ok" value="OK" /><input class="btn cc" type="button" value="清除" onclick="delcookiesite(3)" /><i></i></p>
+
+<p><span>名称：</span><input type="text" maxlength="7" title="名称长度请在7字以内" name="atxt" class="name" onblur="handsite(4)" /><span>网址：</span><input type="text" name="aurl" class="url" maxlength="50"  title="网址不需要填http://，长度请控制在50字以内" onblur="handsite(4)" /><input class="btn kk" type="button" name="ok" value="OK" /><input class="btn cc" type="button" value="清除" onclick="delcookiesite(4)" /><i></i></p>
+</div><!--zdysite-->
+<i></i>
+</div><!--zdyright-->
+
+
+
+
+<i></i>
+</div><!--yourself-->
+<script type="text/javascript">
+var $j = jQuery.noConflict();
+//  自定义排版
+var expdate = new Date(); expdate.setTime(expdate.getTime() + (36500*24*60*60*1000));
+
+
+var rronecoov=$j.cookie("ronev");
+if(rronecoov){$j("input[name='ifone']").eq(rronecoov).attr("checked",true)}else{$j("input[name='ifone']").eq(0).attr("checked",true)}var rrtwocoov=$j.cookie("rtwov");
+if(rrtwocoov){$j("input[name='iftwo']").eq(rrtwocoov).attr("checked",true)}else{$j("input[name='iftwo']").eq(0).attr("checked",true)}var rrthreecoov=$j.cookie("rthreev");
+if(rrthreecoov){$j("input[name='ifthree']").eq(rrthreecoov).attr("checked",true)}else{$j("input[name='ifthree']").eq(0).attr("checked",true)}$j("input[name='ifone']").each(function(index){$j(this).click(function(){$j.cookie("ronev",index,{expires:expdate})})});$j("input[name='iftwo']").each(function(index){$j(this).click(function(){$j.cookie("rtwov",index,{expires:expdate})})});$j("input[name='ifthree']").each(function(index){$j(this).click(function(){$j.cookie("rthreev",index,{expires:expdate})})});
+
+//  自定义栏目
+var lans = new Array("新闻","邮箱","财经","团购","小说","游戏","旅游","汽车","银行","手机","招聘","科技","女性","搞笑");
+$j("#zdylan dl dd").append("<a></a><a></a><a></a><a></a><a></a><a></a><a></a><a></a><a></a><a></a><a></a><a></a><a></a><a></a>");
+$j("#zdylan dl:eq(0) dd a").each(function(i){$j(this).append(lans[i]).click(function(){cookieLan(0,i);$j(this).addClass("curlan").siblings().removeClass("curlan")})});
+$j("#zdylan dl:eq(1) dd a").each(function(i){$j(this).append(lans[i]).click(function(){cookieLan(1,i);$j(this).addClass("curlan").siblings().removeClass("curlan")})});
+$j("#zdylan dl:eq(2) dd a").each(function(i){$j(this).append(lans[i]).click(function(){cookieLan(2,i);$j(this).addClass("curlan").siblings().removeClass("curlan")})});
+$j("#zdylan dl:eq(3) dd a").each(function(i){$j(this).append(lans[i]).click(function(){cookieLan(3,i);$j(this).addClass("curlan").siblings().removeClass("curlan")})});
+
+function cookieLan(j,i){
+$j("#zdylan dl").eq(j).find("span").empty().html(lans[i]); 
+$j.cookie("l"+j,i,{ expires:expdate });
+}
+
+$j("#zdylan dl").each(function(index){
+var curlx=$j.cookie("l"+index);
+if(curlx){
+$j(this).find("span").empty().html(lans[curlx]);
+$j(this).find("a").eq(curlx).addClass("curlan");
+}else{
+$j(this).find("span").empty().html(lans[index]);
+$j(this).find("a").eq(index).addClass("curlan");		
+}
+})
+
+//  自定义网址
+
+
+
+$j("#zdysite p input[name='atxt']").each(function(j){
+var cursl = $j.cookie("sl"+j);
+if(cursl && cursl!=""){
+$j(this).empty().val(cursl);
+}
+});
+$j("#zdysite p input[name='aurl']").each(function(j){
+var cursr = $j.cookie("sr"+j);
+if(cursr && cursr!=""){
+$j(this).empty().val(cursr);
+}
+});
+
+function handsite(i){
+var curtxt = $j("#zdysite p").eq(i).find("input[name='atxt']");
+var cururl = $j("#zdysite p").eq(i).find("input[name='aurl']");
+var curtxtv = curtxt.val();
+var cururlv = cururl.val();
+
+if((curtxtv.length>=1) && (cururlv.length>=1)){
+curtxt.removeClass("error");
+cururl.removeClass("error");
+$j.cookie("sl"+i,curtxtv,{ expires:expdate });
+$j.cookie("sr"+i,cururlv,{ expires:expdate });
+$j("#zdysite p").eq(i).find("input[name='ok']").fadeIn(200);
+// alert("保存成功！");
+}else{
+curtxt.addClass("error");
+cururl.addClass("error");
+$j("#zdysite p").eq(i).find("input[name='ok']").hide();
+}}
+
+function delcookiesite(i){
+$j("#zdysite p").eq(i).find("input[name='atxt']").val("");
+$j("#zdysite p").eq(i).find("input[name='aurl']").val("");
+$j.cookie("sl"+i,"",{ expires:-1 });
+$j.cookie("sr"+i,"",{ expires:-1 });
+$j("#zdysite p").eq(i).find("input[name='ok']").hide();
+}
+</script>
+</body>
+</html>

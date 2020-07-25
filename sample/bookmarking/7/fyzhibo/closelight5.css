@@ -1,0 +1,34 @@
+
+body{ background:#000;}
+.bbla-banner{ background:none!important; background:none; filter:Alpha(opacity=100); border:none;}
+.bbla-banner .banleft a{ color:#bbb; text-decoration:underline;}
+.bbla-banner .banright{ display:none;}
+.bbla-banner-shadow{ display:none;}
+.bbla-top{ height:80px; overflow:hidden;}
+.bbla-logo{ visibility:hidden;}
+#search{ visibility:hidden;}
+#bottom{ display:none;}
+#cbtn.open{ background:#000;}
+#cbtn.close{ background:#fff;}
+#lightbtn{ color:#fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

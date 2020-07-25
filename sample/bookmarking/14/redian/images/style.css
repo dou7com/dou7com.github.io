@@ -1,0 +1,120 @@
+.font {
+	FONT-SIZE: 9pt; FILTER: dropshadow(color=#ffffff,offx=1,offy=1, 	positive=true); COLOR: #000000; FONT-FAMILY: "宋体"
+}
+BODY {
+	FONT-SIZE: 12px; FONT-FAMILY: 宋体; font-color: #000000
+}
+TD {
+	FONT-SIZE: 12px; FONT-FAMILY: 宋体; font-color: #000000
+}
+P {
+	FONT-SIZE: 12px; FONT-FAMILY: 宋体; font-color: #000000
+}
+A:link {
+	FONT-SIZE: 12px; COLOR: #041f00; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 12px; COLOR: #020D4F; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 12px; COLOR: #020D4F; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #333333; TEXT-DECORATION: underline
+}
+.line {
+	FONT-SIZE: 12px; COLOR: #003399; FONT-FAMILY: 宋体
+}
+.line2 {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #000000; COLOR: #003399; BORDER-TOP-COLOR: #000000; FONT-FAMILY: 宋体; BACKGROUND-COLOR: #efe7de; BORDER-RIGHT-WIDTH: 0px; BORDER-RIGHT-COLOR: #000000
+}
+.line3 {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: 宋体
+}
+.fontbig {
+	FONT-SIZE: 10.5pt
+}
+.l15 {
+	LINE-HEIGHT: 150%
+}
+.l12 {
+	LINE-HEIGHT: 120%
+}
+.sd {
+	FILTER: dropShadow(color=#808080, OffX=1, OffY=1, Positive=2)
+}
+A.a02:link {
+	FONT-SIZE: 12px; COLOR: #041f00; TEXT-DECORATION: none
+}
+A.a02:active {
+	FONT-SIZE: 12px; COLOR: #041f00; TEXT-DECORATION: none
+}
+A.a02:visited {
+	FONT-SIZE: 12px; COLOR: #041f00; TEXT-DECORATION: none
+}
+A.a02:hover {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A.a01:link {
+	FONT-SIZE: 12px; COLOR: #003399; TEXT-DECORATION: none
+}
+A.a01:active {
+	FONT-SIZE: 12px; COLOR: #003399; TEXT-DECORATION: none
+}
+A.a01:visited {
+	FONT-SIZE: 12px; COLOR: #003399; TEXT-DECORATION: none
+}
+A.a01:hover {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A.2:link {
+	COLOR: #0066cc; TEXT-DECORATION: none
+}
+A.2:active {
+	COLOR: #0066cc; TEXT-DECORATION: none
+}
+A.2:visited {
+	COLOR: #0066cc; TEXT-DECORATION: none
+}
+A.2:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.1:link {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A.1:active {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A.1:visited {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A.1:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.skin0 {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; VISIBILITY: hidden; BORDER-LEFT: black 1px solid; WIDTH: 100px; CURSOR: default; LINE-HEIGHT: 20px; BORDER-BOTTOM: black 1px solid; FONT-FAMILY: Verdana; POSITION: absolute; BACKGROUND-COLOR: menu
+}
+.skin1 {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; VISIBILITY: hidden; BORDER-LEFT: black 1px solid; WIDTH: 90px; CURSOR: default; LINE-HEIGHT: 20px; BORDER-BOTTOM: black 1px solid; POSITION: absolute; BACKGROUND-COLOR: #ece7dc
+}
+.menuitems {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px
+}
+A {
+	TEXT-DECORATION: none
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #e1ddd1; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #bfbbaf; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-BASE-COLOR: #000000; scrollbar-dark-shadow-color: #7B776B; scrollbar-3d-light-color: white
+}
+.unnamed1 {
+	CLIP: rect(auto auto 10px auto)
+}
+.unnamed2 {
+	BOTTOM: 10px
+}
+.D-bg {  background-image: url(../xximage/fenye/ljnzt-m.gif); background-repeat: no-repeat; background-position: right bottom}
+
+.caption {	FONT-SIZE: 19pt; LINE-HEIGHT: 30pt}
+
+.lxm {	FONT-SIZE: 9pt; LINE-HEIGHT: 15pt}
+

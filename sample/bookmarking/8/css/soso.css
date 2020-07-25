@@ -1,0 +1,32 @@
+@charset "utf-8";
+*{ margin:0; padding:0; }
+body { font: normal 14px Arial, Tahoma, Helvetica, sans-serif; }
+ul{ list-style: none; }
+img{ border-width: 0px; }
+A { COLOR: #000000; TEXT-DECORATION: none }
+A:hover { COLOR: #FF0000; TEXT-DECORATION: underline }
+.clear{ clear:both; height:0px; width:0px; font-size:0px; line-height:0px; }
+#so { width: 876px; margin: 0px auto; }
+
+#ha{ margin: 0px auto; width: 876px; }
+#hb{ margin: 0px auto; width: 876px; }
+#hb .la{ line-height: 22px; color: #929292; font-size: 12px; float: left; }
+#hb .lb{ float: right; font-size: 12px; }
+#ha .ba{ background: #E8F4FF; color: #4580AB; border: 1px solid #CAE3FD; text-align: center; font-size: 13px; font-weight: bold; line-height: 20px; font-style: normal; }
+#ha .bc{ background: #E8F4FF; line-height: 20px; color: #4580AB; font-weight: bold; font-size: 13px; text-align: center; border-top: 0px solid #CAE3FD; border-right: 1px solid #CAE3FD; border-bottom: 1px solid #CAE3FD; border-left: 1px solid #CAE3FD; }
+#ha .bd{ border-bottom: 1px solid #CAE3FD; border-right: 1px solid #CAE3FD; border-left: 1px solid #CAE3FD; padding: 25px 0px 25px 190px; }
+#ha .b1{ border-left: 1px solid #C4E0FD; }
+#ha .b2{ border-right: 1px solid #C4E0FD; }
+#ha .b3{ border-bottom: 1px solid #C4E0FD; border-left: 1px solid #C4E0FD; }
+#ha .b4{ border-bottom: 1px solid #C4E0FD; }
+#ha .b5{ border-bottom: 1px solid #C4E0FD; border-right: 1px solid #C4E0FD; }
+#ha a{ float: left; display: block; width: 160px; line-height: 32px; border-right: 1px solid #CCDBEC; border-bottom: 1px solid #CCDBEC; padding-left: 14px; background: #F9FCFF; height: 32px; }
+#floot{ margin: 0px auto; width: 750px; font-size: 13px; line-height: 50px; }
+#floot a{ float: left; display: block; }
+#floot .f1{ float: left; text-align: center; width: 20px; color: #CCCCCC; }
+#floot .f2{ color: #666666; float: left; font-family: "宋体"; margin-left: 15px; }
+
+a.bj{ color: #999999; line-height: 22px; font-size: 12px; }
+a.ft{ color: #666666; }
+a.green { color: #178517; }
+a.reds { color: #FF0000; }
