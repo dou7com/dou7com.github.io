@@ -1,8 +1,8 @@
                 ╭═══════════════╮
                 ║        源  码  之  家        ║
-  ╭══════┤    https://www.mycodes.net    ├══════╮
-  ║            ║  下载:https://www.mycodes.net ║            ║
-  ║            ║论坛https://bbs.mycodes.net    ║            ║
+  ╭══════┤    httpss://www.mycodes.net    ├══════╮
+  ║            ║  下载:httpss://www.mycodes.net ║            ║
+  ║            ║论坛httpss://bbs.mycodes.net    ║            ║
   ║            ╰═══════════════╯            ║
 　║                                                          ║
 　║声明：                                                    ║
@@ -14,19 +14,19 @@
   ║   6) 本站提供软件只可供研究使用，请在下载24小时内删除,   ║
   ║      切勿用于商业用途，由此引起一切后果与本站无关。      ║
   ║                                                          ║
-  ║           论坛:https://bbs.mycodes.net                    ║
+  ║           论坛:httpss://bbs.mycodes.net                    ║
   ║                                                          ║
   ║     1. 推荐使用：WinRAR V3.2以上版本解压本站软件         ║
-  ║     2. 本站空间支持:https://www.goodidc.com               ║
+  ║     2. 本站空间支持:httpss://www.goodidc.com               ║
 　║                                                          ║
   ║                                                          ║
-  ║         源 码 之 家: https://www.mycodes.net              ║
-  ║         源 码 论 坛: https://bbs.mycodes.net              ║
-  ║         空 间 购 买 : https://www.goodidc.com             ║
-  ║         论 坛: https://bbs.mycodes.net                    ║
+  ║         源 码 之 家: httpss://www.mycodes.net              ║
+  ║         源 码 论 坛: httpss://bbs.mycodes.net              ║
+  ║         空 间 购 买 : httpss://www.goodidc.com             ║
+  ║         论 坛: httpss://bbs.mycodes.net                    ║
   ║                                                          ║
   ║    ╭───────────────────────╮    ║
-  ╰══┤       源码之家 https://www.mycodes.net        ├══╯
+  ╰══┤       源码之家 httpss://www.mycodes.net        ├══╯
         ╰───────────────────────╯
       友情提示:
       如果遇到MD5加密文件，而又不知道的密码的，

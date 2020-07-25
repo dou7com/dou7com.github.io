@@ -7,5 +7,5 @@ document.writeln("google_ad_height = 90;");
 document.writeln("\/\/-->");
 document.writeln("<\/script>");
 document.writeln("<script type=\"text\/javascript\"");
-document.writeln("src=\"https:\/\/pagead2.googlesyndication.com\/pagead\/show_ads.js\">");
+document.writeln("src=\"httpss:\/\/pagead2.googlesyndication.com\/pagead\/show_ads.js\">");
 document.writeln("<\/script>")

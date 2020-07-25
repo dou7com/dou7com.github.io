@@ -1,5 +1,5 @@
 function bj(){ 
-document.getElementById('bj').innerHTML ="<a class='bj' href='https://www.kfc123.com/gho/default.htm'>一键还原大师下载</a>";}
+document.getElementById('bj').innerHTML ="<a class='bj' href='httpss://www.kfc123.com/gho/default.htm'>一键还原大师下载</a>";}
 function tops(){ 
 document.getElementById('so').innerHTML = "<iframe src='../top.htm' frameborder='0' scrolling='no' frameborder='0' width='876' height='62'></iframe>";}
 function floot(){ 

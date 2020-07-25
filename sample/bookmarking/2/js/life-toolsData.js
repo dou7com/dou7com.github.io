@@ -2,7 +2,7 @@
 		lifeTool: {
 			query: {				
                  "huoche":{
-					href:"https://p.yiqifa.com/c?s=26390d3a&w=253302&c=6451&i=19382&l=0&e=hao6&t=https://tj.tieyou.com/gw.php",
+					href:"http://p.yiqifa.com/c?s=26390d3a&w=253302&c=6451&i=19382&l=0&e=hao6&t=http://tj.tieyou.com/gw.php",
 					bg:"images/life/liecheshike.jpg",
 					title:"列车时刻",
 					type:"icon",
@@ -16,7 +16,7 @@
 					status:'hot'
 		        } ,
                 "shoujihaoma":{
-                href:"https://guishu.showji.com/search.htm",
+                href:"http://guishu.showji.com/search.htm",
                 bg:"images/life/shoujihaoma.gif",
                 title:"手机号码归属地",
                 param:"m",
@@ -31,14 +31,14 @@
 				status:'hot'
                 },
                 "hangban":{
-                href:"https://p.yiqifa.com/c?s=15f50b00&w=253302&c=7036&i=27402&l=0&e=hao6&t=https://www.ly.com",
+                href:"http://p.yiqifa.com/c?s=15f50b00&w=253302&c=7036&i=27402&l=0&e=hao6&t=http://www.ly.com",
                 bg:"images/life/hangbanchaxun.jpg",
                 title:"航班查询",
                 type:"icon",
 				status:''
                 },
                 "shenfenzheng":{
-                href:"https://qq.ip138.com/idsearch/index.asp",
+                href:"http://qq.ip138.com/idsearch/index.asp",
                 bg:"images/life/shenfenzheng.jpg",
                 title:"身份证信息查询",
 				param:"userid",
@@ -47,7 +47,7 @@
 				status:''
                 },
                 "quhao":{
-                href:"https://app.baidu.com/postcode",
+                href:"http://app.baidu.com/postcode",
 		bg:"images/life/quhaochaxun.png",
                 title:"区号查询",
                 param:"quhao",
@@ -56,7 +56,7 @@
 				status:''
                 },
                 "ip":{
-                href:"https://www.ip138.com/ips.asp",
+                href:"http://www.ip138.com/ips.asp",
                 bg:"images/life/ip.jpg",
                 title:"IP地址归属地",
                 param:"ip",
@@ -65,7 +65,7 @@
 				status:''
                 },
                 "gongjiao":{
-                href:"https://bus.mapbar.com/",
+                href:"http://bus.mapbar.com/",
                 title:"公交查询",
                 type:"text",
 				status:''
@@ -77,38 +77,38 @@
 				status:''
                 },
                 "ditu":{
-                href:"https://map.baidu.com/",
+                href:"http://map.baidu.com/",
                 title:"在线地图查询",
                 type:"text",
 					status:''
                 },
                 "anquanqi":{
-                href:"https://app.baidu.com/baefemale/female.html?v=1.00 ",
+                href:"http://app.baidu.com/baefemale/female.html?v=1.00 ",
                 title:"女性安全期",
                 type:"text",
 				status:''
                 },
                 "youbian":{
-                href:"https://www.ip138.com/post/",
+                href:"http://www.ip138.com/post/",
                 title:"邮政编码查询",
                 type:"text",
 				status:''
                 },
                 "wangsuceshi":{
-                href:"https://app.baidu.com/ada_nettest",
+                href:"http://app.baidu.com/ada_nettest",
                 title:"网速测试",
                 subtitle:"最权威最准确的网速测试",
                 type:"text",
 				status:''
                 },
 				"chuzujiaoche":{
-                href:"https://www.1hai.cn/",
+                href:"http://www.1hai.cn/",
                 title:"出租叫车",
                 type:"text",
 				status:'new'
                 },
                 "lvyoujingdian":{
-                href:"https://p.yiqifa.com/c?s=6d9eafeb&w=253302&c=5528&i=13362&l=0&e=hao6&t=https://www.uzai.com",
+                href:"http://p.yiqifa.com/c?s=6d9eafeb&w=253302&c=5528&i=13362&l=0&e=hao6&t=http://www.uzai.com",
                 title:"景点攻略",
                 type:"text",
 				status:''
@@ -124,88 +124,88 @@
 				status:''
                 },
                 "yidong":{
-                href:"https://www.10086.cn/index.htm",
+                href:"http://www.10086.cn/index.htm",
                 bg:"images/life/yidong.jpg",
                 title:"移动营业厅",
                 type:"icon",
 				status:''
                 },
                 "liantong":{
-                href:"https://www.10010.com/ ",
+                href:"http://www.10010.com/ ",
                 bg:"images/life/liantong.jpg",
                 title:"联通营业厅",
                 type:"icon",
 				status:''
                 },
                 "dianxin":{
-                href:"https://www.ct10000.com/ ",
+                href:"http://www.ct10000.com/ ",
                 bg:"images/life/dianxin.jpg",
                 title:"电信营业厅",
                 type:"icon",
                 status:''
                 },
                 "youxichongzhi":{
-                href:"https://s8.taobao.com/search?pid=mm_10054659_1405058_9666016&mode=63&refpos=&cat=99&commend=all&s=0&sort=commend&n=40&olu=yes&yp4p_page=0&viewIndex=1",
+                href:"http://s8.taobao.com/search?pid=mm_10054659_1405058_9666016&mode=63&refpos=&cat=99&commend=all&s=0&sort=commend&n=40&olu=yes&yp4p_page=0&viewIndex=1",
                 title:"游戏充值",
                 type:"text",
 				status:''
                 },
                 "shuidianmei":{
-                href:"httpss://www.alipay.com/",
+                href:"https://www.alipay.com/",
                 title:"水电煤缴费",
                 type:"text",
 				status:''
                 },
                 "shuidianmei":{
-                href:"httpss://shenghuo.alipay.com/jiaofei.htm?_ad=c&_adType=lifejf_sdmjf_shsy",
+                href:"https://shenghuo.alipay.com/jiaofei.htm?_ad=c&_adType=lifejf_sdmjf_shsy",
                 title:"水电煤缴费",
                 type:"text",
 				status:''
                 },
                 "jiaofangzhu":{
-                href:"httpss://shenghuo.alipay.com/rent.htm?_ad=c&_adType=lifezz_jfz_shsy",
+                href:"https://shenghuo.alipay.com/rent.htm?_ad=c&_adType=lifezz_jfz_shsy",
                 title:"交房租",
                 type:"text",
 				status:''
                 },
                 "guhuakuandai":{
-                href:"httpss://shenghuo.alipay.com/guhua.htm?_ad=c&_adType=lifejf_ghkd_shsy",
+                href:"https://shenghuo.alipay.com/guhua.htm?_ad=c&_adType=lifejf_ghkd_shsy",
                 title:"固话宽带",
                 type:"text",
 				status:''
                 },
                 "xinyongkahuankuan":{
-                href:"httpss://shenghuo.alipay.com/credit.htm?_ad=c&_adType=lifejr_xykhk_shsy",
+                href:"https://shenghuo.alipay.com/credit.htm?_ad=c&_adType=lifejr_xykhk_shsy",
                 title:"信用卡还款",
                 type:"text",
 				status:''
                 },
                 "huandaikuan":{
-                href:"httpss://shenghuo.alipay.com/perloan.htm?_ad=c&_adType=lifejr_hdk_shsy",
+                href:"https://shenghuo.alipay.com/perloan.htm?_ad=c&_adType=lifejr_hdk_shsy",
                 title:"还贷款",
                 type:"text",
 				status:''
                 },
                 "jiayouka":{
-                href:"httpss://shenghuo.alipay.com/oilcard.htm",
+                href:"https://shenghuo.alipay.com/oilcard.htm",
                 title:"加油卡充值",
                 type:"text",
 				status:''
                 },
                 "jiaotongfakuan":{
-                href:"httpss://ebppprod.alipay.com/traffic.htm",
+                href:"https://ebppprod.alipay.com/traffic.htm",
                 title:"交通罚款代办",
                 type:"text",
 				status:''
                 },
                  "jiaobaoxian":{
-                href:"https://baoxian.taobao.com/",
+                href:"http://baoxian.taobao.com/",
                 title:"买保险",
                 type:"text",
 				status:''
                 },
                  "zhuce":{
-                href:"https://www.1hai.cn/",
+                href:"http://www.1hai.cn/",
                 title:"租车",
                 type:"text",
 				status:''
@@ -213,37 +213,37 @@
             },	
 			ticket: {
                 "youapiaowu":{
-                href:"https://s.click.taobao.com/t?e=m%3D2%26s%3DUg0by3eHzX4cQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAvBNBBfsO0cGoTbo%2Fx%2FoFw7qGo1GWvL9hts%2FT56eVHRMhavTnqV6kOpufX2viMg2An7uq6sLYIqu0Q7QOybCaQy9AmARIwX9K9E0MBlxnM%2FDnaYpFBIfC%2F0t2Svxi9YpPg%3D%3D",
+                href:"http://s.click.taobao.com/t?e=m%3D2%26s%3DUg0by3eHzX4cQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAvBNBBfsO0cGoTbo%2Fx%2FoFw7qGo1GWvL9hts%2FT56eVHRMhavTnqV6kOpufX2viMg2An7uq6sLYIqu0Q7QOybCaQy9AmARIwX9K9E0MBlxnM%2FDnaYpFBIfC%2F0t2Svxi9YpPg%3D%3D",
                 title:"景点门票",
                 type:"text",
 				status:''
                 },
                 "maicaipiao":{
-                href:"https://union.500wan.com/pages/interfacehezuo.php?coopid=1605&adid=16",
+                href:"http://union.500wan.com/pages/interfacehezuo.php?coopid=1605&adid=16",
                 title:"买彩票",
                 type:"text",
 				status:''
                 },
                 "huochepiaodaigou":{
-                href:"https://p.yiqifa.com/c?s=26390d3a&w=253302&c=6451&i=19382&l=0&e=hao6&t=https://tj.tieyou.com/gw.php",
+                href:"http://p.yiqifa.com/c?s=26390d3a&w=253302&c=6451&i=19382&l=0&e=hao6&t=http://tj.tieyou.com/gw.php",
                 title:"火车票代购",
                 type:"text",
 				status:''
                 },
                 "dianyingpiao":{
-                href:"https://dianying.taobao.com/",
+                href:"http://dianying.taobao.com/",
                 title:"电影票",
                 type:"text",
 				status:''
                 },
                 "jipiao":{
-                href:"https://p.yiqifa.com/c?s=15f50b00&w=253302&c=7036&i=27402&l=0&e=hao6&t=https://www.ly.com",
+                href:"http://p.yiqifa.com/c?s=15f50b00&w=253302&c=7036&i=27402&l=0&e=hao6&t=http://www.ly.com",
                 title:"买机票",
                 type:"text",
 				status:''
                 },
                 "hotel":{
-                href:"https://p.yiqifa.com/n?k=KBAqRyWlrI6HWEKF6n4H2mLErI6H2mLS6lMH6l2O6lwlrnRlWQLErZyH2mLFWEwlMJKm6cLE&e=hao6&spm=1.1.1.1&t=https://travel.elong.com/hotel/",
+                href:"http://p.yiqifa.com/n?k=KBAqRyWlrI6HWEKF6n4H2mLErI6H2mLS6lMH6l2O6lwlrnRlWQLErZyH2mLFWEwlMJKm6cLE&e=hao6&spm=1.1.1.1&t=http://travel.elong.com/hotel/",
                 title:"订酒店",
                 type:"text",
 				status:''
@@ -252,7 +252,7 @@
 			info: {
 
                 "tianqi":{
-                href:"https://weather.news.sina.com.cn/",
+                href:"http://weather.news.sina.com.cn/",
                 bg:"images/life/tianqi.jpg",
                 title:"天气预报",
                 type:"icon",
@@ -260,7 +260,7 @@
                 },
 
                 "caipiao":{
-                href:"https://union.500wan.com/pages/interfacehezuo.php?coopid=1605&adid=43",
+                href:"http://union.500wan.com/pages/interfacehezuo.php?coopid=1605&adid=43",
                 bg:"images/life/caipiao2.jpg",
                 title:"彩票开奖",
                 type:"icon",
@@ -268,7 +268,7 @@
                 },
 
                 "dianshiyugao":{
-                href:"https://tuan.6164.com/",
+                href:"http://tuan.6164.com/",
 				bg:"images/life/tuangou.jpg",
                 title:"团购",
                 type:"icon",
@@ -283,26 +283,26 @@
                 },
 
                 "beijingshijian":{
-                href:"https://open.baidu.com/special/time/",
+                href:"http://open.baidu.com/special/time/",
                 title:"北京时间",
                 subtitle:"国家授时中心标准时间",
                 type:"text",
 				status:''
                 },
                 "shencaicesuan":{
-                href:"https://app.baidu.com/shencai",
+                href:"http://app.baidu.com/shencai",
                 title:"身材测算",
                 type:"text",
 				status:''
                 },
                 "chidejiankang":{
-                href:"https://www.tvsou.com/",
+                href:"http://www.tvsou.com/",
                 title:"电视预告",
                 type:"text",
 				status:''
                 },
                 "yuchanqi":{
-                href:"https://app.baidu.com/yunqijczx",
+                href:"http://app.baidu.com/yunqijczx",
                 title:"预产期计算器",
                 type:"text",
 				status:''
@@ -313,47 +313,47 @@
 			amuse: {
                 
                 "yingshi":{
-                href:"https://v.6164.com/",
+                href:"http://v.6164.com/",
                 bg:"images/life/gaoqingyingshi.png",
                 title:"高清影视",
                 type:"icon",
 				status:''
                 },
                 "yinyue":{
-                href:"https://fm.baidu.com",
+                href:"http://fm.baidu.com",
                 bg:"images/life/hao123yinyue.jpg",
                 title:"在线听歌",
                 type:"icon",
 				status:''
                 },
 				"gexingqianming":{
-                href:"https://www.qqgexing.com/qianming/",
+                href:"http://www.qqgexing.com/qianming/",
                 bg:"images/life/gexingqianming.jpg",
                 title:"QQ个性签名",
                 type:"icon",
 				status:''
                 },
                 "gexingtouxiang":{
-                href:"https://www.qqgexing.com/touxiang/",
+                href:"http://www.qqgexing.com/touxiang/",
                 bg:"images/life/gexingtouxiang.jpg",
                 title:"QQ个性头像",
                 type:"icon",
 				status:''
                 },
                 "qqbiaoqing":{
-                href:"https://app.baidu.com/7gaoqqbq",
+                href:"http://app.baidu.com/7gaoqqbq",
                 title:"QQ表情",
                 type:"text",
 				status:''
                 },
                 "haoyouyinxiang":{
-                href:"https://www.qqgexing.com/yinxiang/",
+                href:"http://www.qqgexing.com/yinxiang/",
                 title:"好友印象",
                 type:"text",
 				status:''
                 },
                 "gexingfenzu":{
-                href:"https://www.qqgexing.com/fenzu/",
+                href:"http://www.qqgexing.com/fenzu/",
                 title:"个性分组",
                 type:"text",
 				status:''
@@ -365,85 +365,85 @@
 				status:''
                 },
                  "jianpangangqin":{
-                href:"https://app.baidu.com/widget?appid=101428",
+                href:"http://app.baidu.com/widget?appid=101428",
                 title:"键盘钢琴",
                 type:"text",
 				status:''
                 },
                 "zuomianbizhi":{
-                href:"https://www.deskcity.com/",
+                href:"http://www.deskcity.com/",
                 title:"桌面壁纸",
                 type:"text",
 				status:''
                 },
                 "jingpinxiaohua":{
-                href:"https://app.baidu.com/xiaohuaquanji",
+                href:"http://app.baidu.com/xiaohuaquanji",
                 title:"精品笑话大全",
                 type:"text",
 				status:''
                 },
                 "xinliceshi":{
-                href:"https://www.jiqie.com/1/7/",
+                href:"http://www.jiqie.com/1/7/",
                 title:"艺术签名",
                 type:"text",
 				status:''
                 },
                 "jizhuanwan":{
-                href:"https://app.baidu.com/widget?appid=106602",
+                href:"http://app.baidu.com/widget?appid=106602",
                 title:"脑筋急转弯",
                 type:"text",
 				status:''
                 },
 				"weiboqunfa":{
-					href:"https://app.baidu.com/baidupush",
+					href:"http://app.baidu.com/baidupush",
 					title:"微博在线群发",
 					type:"text",
 					status:''
 					},
 				"gaoxiaozhengjian":{
-                href:"https://app.baidu.com/jobcert",
+                href:"http://app.baidu.com/jobcert",
                 title:"搞笑网络证件",
                 type:"text",
 				status:''
                 },
 				"jiehunzheng":{
-					href:"https://app.baidu.com/jiehunzheng/index.php",
+					href:"http://app.baidu.com/jiehunzheng/index.php",
 					title:"网络结婚证",
 					type:"text",
 					status:''
 					},
 				"jingdianyulu":{
-					href:"https://app.baidu.com/jdyjdqw/index.html",
+					href:"http://app.baidu.com/jdyjdqw/index.html",
 					title:"经典语录",
 					type:"text",
 					status:''
 					},
 				"renshengganwu":{
-					href:"https://app.baidu.com/bdappgwrs",
+					href:"http://app.baidu.com/bdappgwrs",
 					title:"人生感悟",
 					type:"text"
 					,status:''
 					},
 				"lengxiaohua":{
-					href:"https://app.baidu.com/lengxiaohua",
+					href:"http://app.baidu.com/lengxiaohua",
 					title:"冷笑话",
 					type:"text",
 					status:''
 					},
 				"changshidakaoyan":{
-					href:"https://app.baidu.com/widget?appid=107265",
+					href:"http://app.baidu.com/widget?appid=107265",
 					title:"常识大考验",
 					type:"text",
 					status:''
 					},
 					"faxing":{
-					href:"https://app.baidu.com/widget?appid=101133",
+					href:"http://app.baidu.com/widget?appid=101133",
 					title:"公主时尚发型",
 					type:"text",
 					status:''
 					},
 					"baobaoqiming":{
-                href:"https://app.baidu.com/qimingzi/Baby.aspx",
+                href:"http://app.baidu.com/qimingzi/Baby.aspx",
                 title:"宝宝起名工具",
                 type:"text",
 				status:''
@@ -451,150 +451,150 @@
             },
 			planet: {
                 "xingmingceshi":{
-                href:"https://app.baidu.com/cemingzi/CeMing.aspx",
+                href:"http://app.baidu.com/cemingzi/CeMing.aspx",
                 bg:"images/life/meimingtengceshi.jpg",
                 title:"姓名测试",
                 type:"icon",
 					status:''
                 },
                 "zhougongjiemeng":{
-                href:"https://www.51jiemeng.com/",
+                href:"http://www.51jiemeng.com/",
                 bg:"images/life/zhougongjiemeng.jpg",
                 title:"周公解梦",
                 type:"icon",
 					status:''
                 },
                 "xingzuoyunshi":{
-                href:"https://www.sheup.com/luck.php",
+                href:"http://www.sheup.com/luck.php",
                 bg:"images/life/xingzuoyunshi3.jpg",
                 title:"今年运势",
                 type:"icon",
 					status:''
                 },
                 "haomaxiongji":{
-                href:"https://app.baidu.com/jixiong",
+                href:"http://app.baidu.com/jixiong",
                 bg:"images/life/haomaxiongji.jpg",
                 title:"手机号码吉凶查询",
                 type:"icon",
 					status:''
                 },
                 "taohuayun":{
-                href:"https://app.baidu.com/taohuayun",
+                href:"http://app.baidu.com/taohuayun",
                 title:"桃花运测试",
                 type:"text",
 					status:''
                 },
                 "xinlinianling":{
-                href:"https://app.baidu.com/widget?appid=117940",
+                href:"http://app.baidu.com/widget?appid=117940",
                 title:"心理年龄测试",
                 type:"text",
 					status:''
                 },
 				 "qianshijinsheng":{
-                href:"https://app.baidu.com/qianshi",
+                href:"http://app.baidu.com/qianshi",
                 title:"前世今生测试",
                 type:"text",
 					status:''
                 },
 				"zhiyeceshi":{
-                href:"https://app.baidu.com/zhiyeceshi",
+                href:"http://app.baidu.com/zhiyeceshi",
                 title:"职业测试",
                 type:"text",
 					status:''
                 },
 				"xingzuoceshi":{
-				  href:"https://app.baidu.com/xingzuoceshi/constellation.php",
+				  href:"http://app.baidu.com/xingzuoceshi/constellation.php",
 				  title:"星座测试",
 				  type:"text",
 				  status:''
 				  },
 			  "yuanfen":{
-				  href:"https://app.baidu.com/yuanfenceshi",
+				  href:"http://app.baidu.com/yuanfenceshi",
 				  title:"缘分测试",
 				  type:"text",
 				  status:''
 				  },
 				  "aiqingceshi":{
-				  href:"https://www.yuanfenup.com/",
+				  href:"http://www.yuanfenup.com/",
 				  title:"爱情魔法测试",
 				  type:"text",
 				  status:''
 				  },
 				   "qingshang":{
-				  href:"https://app.baidu.com/widget?appid=107376",
+				  href:"http://app.baidu.com/widget?appid=107376",
 				  title:"情商测试",
 				  type:"text",
 				  status:''
 				  }, 
 				  "zhishangceshi":{
-                href:"https://app.baidu.com/widget?appid=105981",
+                href:"http://app.baidu.com/widget?appid=105981",
                 title:"智商测试",
                 type:"text",
 					status:''
                 },
                 "renpinjisuanqi":{
-                href:"https://cts.388g.com/",
+                href:"http://cts.388g.com/",
                 title:"藏头诗",
                 type:"text",
 					status:''
                 },
                 "bazi":{
-                href:"https://app.baidu.com/suanming",
-                title:"httpsCN 八字算命",
+                href:"http://app.baidu.com/suanming",
+                title:"HttpCN 八字算命",
                 type:"text",
 					status:''
                 },
                 "suanming":{
-                href:"https://app.baidu.com/ada_zhanbu",
+                href:"http://app.baidu.com/ada_zhanbu",
                 title:"称骨算命",
                 type:"text",
 					status:''
                 },
 				"xingmingpeidui":{
-				   href:"https://www.sheup.com/xingming_wuge_peidui.php",
+				   href:"http://www.sheup.com/xingming_wuge_peidui.php",
 				   title:"姓名配对",
 				   type:"text",
 				   status:''
 				   },
 				 "xingzuopeidui":{
-				  href:"https://app.baidu.com/my_with",
+				  href:"http://app.baidu.com/my_with",
 				  title:"星座配对",
 				  type:"text",
 				  status:''
 				  },   
                 "shengxiaopeidui":{
-                href:"https://app.baidu.com/sxmatch/index.php",
+                href:"http://app.baidu.com/sxmatch/index.php",
                 title:"生肖配对",
                 type:"text",
 					status:''
                 },
 				"shiershengxiao":{
-				  href:"https://app.baidu.com/zodiacs",
+				  href:"http://app.baidu.com/zodiacs",
 				  title:"十二生肖",
 				  type:"text",
 				  status:''
 				  },
                 "shengnannv":{
-                href:"https://app.baidu.com/widget?appid=128621",
+                href:"http://app.baidu.com/widget?appid=128621",
                 title:"生男生女预测表",
                 type:"text",
 					status:''
                 },
                 
 				"xinggesecaifenxi":{
-					href:"https://app.baidu.com/charcolor",
+					href:"http://app.baidu.com/charcolor",
 					title:"性格色彩分析",
 					type:"text",
 					status:''
 					},
 			  "taluopai":{
-				  href:"https://astro.fashion.qq.com/tarot/tarot.shtml",
+				  href:"http://astro.fashion.qq.com/tarot/tarot.shtml",
 				  title:"塔罗牌在线占卜",
 				  type:"text",
 				  status:''
 				  }, 
 			  "taijishenshu":{
-				  href:"https://music.baidu.com/",
+				  href:"http://music.baidu.com/",
 				  title:"手机铃声下载",
 				  type:"text",
 				  status:''
@@ -602,34 +602,34 @@
 						  },
 			shop: {
                 "waihui":{
-                href:"https://www.boc.cn/sourcedb/whpj/",
+                href:"http://www.boc.cn/sourcedb/whpj/",
                 bg:"images/life/waihui.gif",
                 title:"外汇牌价",
                 type:"icon",
 					status:''},
                 "gupiao":{
-                href:"https://quote.eastmoney.com/center/",
+                href:"http://quote.eastmoney.com/center/",
 				bg:"images/life/gupiao.jpg",
                 title:"股票行情",
                 type:"icon",
 					status:''
                 },
                 "huobiduihuan":{
-                href:"https://app.baidu.com/currencyExchange",
+                href:"http://app.baidu.com/currencyExchange",
                 bg:"images/life/huobiduihuan2.gif",
                 title:"货币兑换计算器",
                 type:"icon",
 					status:''
                 },
                 "tuangou":{
-                href:"https://tuan.6164.com/",
+                href:"http://tuan.6164.com/",
                 bg:"images/life/tuangou.jpg",
                 title:"团购导航",
                 type:"icon",
 					status:''
                 },
                 "jijinjingzhi":{
-                href:"https://fund.eastmoney.com/",
+                href:"http://fund.eastmoney.com/",
                 title:"基金净值",
                 type:"text",
 					status:''
@@ -641,104 +641,104 @@
 					status:''
                 },
                 "yinjia":{
-                href:"https://gold.hexun.com/hjxh/",
+                href:"http://gold.hexun.com/hjxh/",
                 title:"黄金价格",
                 type:"text",
 					status:''
                 },
 				"yinjia":{
-					href:"https://app.baidu.com/widget?appid=117649",
+					href:"http://app.baidu.com/widget?appid=117649",
 					title:"白银价格",
 					type:"text",
 					status:''
 					},
                 "cunkuan":{
-                href:"https://app.baidu.com/bae_saving/index.html",
+                href:"http://app.baidu.com/bae_saving/index.html",
                 title:"存款计算器",
                 type:"text",
 					status:''
                 },
 				"daikuan":{
-					href:"https://app.baidu.com/daikuanjisuanqi/dkjsq.html",
+					href:"http://app.baidu.com/daikuanjisuanqi/dkjsq.html",
 					title:"贷款计算器",
 					type:"text",
 					status:''
 					},
 				"fangdai":{
-					href:"https://www.soufun.com/house/tools.htm",
+					href:"http://www.soufun.com/house/tools.htm",
 					title:"房贷计算器",
 					type:"text",
 					status:''
 					},
 				"yanglaobaoxian":{
-					href:"https://finance.sina.com.cn/money/283/2005/0708/20.html",
+					href:"http://finance.sina.com.cn/money/283/2005/0708/20.html",
 					title:"养老保险金计算器",
 					type:"text",
 					status:''
 					},
 				"gongjijin":{
-					href:"https://www.bjgjj.gov.cn/wsyw/jsq/cygj.htm",
+					href:"http://www.bjgjj.gov.cn/wsyw/jsq/cygj.htm",
 					title:"公积金贷款计算器",
 					type:"text",
 					status:''
 					},
 				"gupiaoshouyi":{
-					href:"https://app.baidu.com/bae_stock/index.htm",
+					href:"http://app.baidu.com/bae_stock/index.htm",
 					title:"股票收益计算器",
 					type:"text"
 					,status:''
 					},
 				"geshui":{
-					href:"https://finance.sina.com.cn/calc/tax_pers_income.html",
+					href:"http://finance.sina.com.cn/calc/tax_pers_income.html",
 					title:"个人所得税计算器",
 					type:"text",
 					status:''
 					},
 				"anjieyuegong":{
-					href:"https://app.baidu.com/bae_bank/index.htm",
+					href:"http://app.baidu.com/bae_bank/index.htm",
 					title:"按揭月供计算器",
 					type:"text",
 					status:''
 					},
 				"pinganchexian":{
-					href:"https://p.yiqifa.com/c?s=4e438714&w=253302&c=6299&i=18845&l=0&e=hao6&t=https://chexian.sinosig.com/simplePremium/chexian_emar.jsp",
+					href:"http://p.yiqifa.com/c?s=4e438714&w=253302&c=6299&i=18845&l=0&e=hao6&t=http://chexian.sinosig.com/simplePremium/chexian_emar.jsp",
 					title:"阳光车险计算器",
 					type:"text",
 					status:''
 					},
 				"jiaoyuchuxu":{
-					href:"https://app.baidu.com/edusave/index.html",
+					href:"http://app.baidu.com/edusave/index.html",
 					title:"教育储蓄计算器",
 					type:"text",
 					status:''
 					},
 				"gouche":{
-					href:"https://app.baidu.com/baecarTax/index.htm",
+					href:"http://app.baidu.com/baecarTax/index.htm",
 					title:"购车计算器",
 					type:"text",
 					status:''
 					},
 					"chaogu":{
-					href:"https://app.baidu.com/simstock",
+					href:"http://app.baidu.com/simstock",
 					bg:"images/life/chaogu.gif",
 					title:"模拟炒股",
 					type:"text",
 					status:''
 					},
 				"jizhang":{
-					href:"https://app.baidu.com/jizhang/user/baidu.do",
+					href:"http://app.baidu.com/jizhang/user/baidu.do",
 					title:"随手记",
 					type:"text",
 					status:''
 					},
 				"xianjinliu":{
-					href:"https://app.baidu.com/youshang_cfs",
+					href:"http://app.baidu.com/youshang_cfs",
 					title:"友商现金流量表",
 					type:"text",
 					status:''
 					},
 				"zhuangxiuyusuan":{
-					href:"https://home.focus.cn/group/calc/zxjsq_zong.php",
+					href:"http://home.focus.cn/group/calc/zxjsq_zong.php",
 					title:"装修预算",
 					type:"text",
 					status:''
@@ -746,182 +746,182 @@
             },
 			inter:{
 				"webqq":{
-                href:"https://web.qq.com/",
+                href:"http://web.qq.com/",
                 bg:"images/life/webqq.jpg",
                 title:"网页版QQ",
                 type:"icon",
 					status:''
                 },
 				"mianfeishadu":{
-					href:"https://app.baidu.com/kis_duba/index.html",
+					href:"http://app.baidu.com/kis_duba/index.html",
 					bg:"images/life/mianfeishadu.gif",
 					title:"金山在线杀毒",
 					type:"icon",
 					status:''
 					},
 				"meituxiuxiu":{
-					href:"https://app.baidu.com/meituxiuxiu",
+					href:"http://app.baidu.com/meituxiuxiu",
 					bg:"images/life/meituxiuxiu.gif",
 					title:"美图秀秀网页版",
 					type:"icon",
 					status:''
 					},
 				"geshizhuanhuan":{
-					href:"https://app.baidu.com/ada_tpgs",
+					href:"http://app.baidu.com/ada_tpgs",
 					bg:"images/life/geshizhuanhuan.jpg",
 					title:"图片格式转换",
 					type:"icon",
 					status:''
 					},
 					"dongtaitupian":{
-					href:"https://app.baidu.com/widget?appid=120980",
+					href:"http://app.baidu.com/widget?appid=120980",
 					title:"GIF图片修改制作",
 					type:"text",
 					status:''
 					},
 					"luyinji":{
-					href:"https://app.baidu.com/ada_luyin",
+					href:"http://app.baidu.com/ada_luyin",
 					bg:"images/life/luyinji.jpg",
 					title:"录音机",
 					type:"text",
 					status:''
 					},
 					"webfeixin":{
-                href:"httpss://webim.feixin.10086.cn/",
+                href:"https://webim.feixin.10086.cn/",
                 title:"网页版飞信",
                 type:"text",
 					status:''
                 },
 				"wenjianyasuo":{
-					href:"https://app.baidu.com/widget?appid=118683",
+					href:"http://app.baidu.com/widget?appid=118683",
 					title:"在线文件压缩工具",
 					type:"text",
 					status:''
 					},
 				"qudongjingling":{
-					href:"https://www.drivergenius.com/",
+					href:"http://www.drivergenius.com/",
 					title:"驱动精灵",
 					type:"text",
 					status:''
 					},
 					"fantizi":{
-					href:"https://app.baidu.com/ada_fanjian",
+					href:"http://app.baidu.com/ada_fanjian",
 					title:"繁体字转换器",
 					type:"text",
 					status:''
 					},
 					"huoxingwen":{
-					href:"https://app.baidu.com/huoxingwen/index.html",
+					href:"http://app.baidu.com/huoxingwen/index.html",
 					title:"火星文转换器",
 					type:"text",
 					status:''
 					},
 					"huoxingwen":{
-					href:"https://app.baidu.com/fantihuoxing",
+					href:"http://app.baidu.com/fantihuoxing",
 					title:"繁体字火星文转换",
 					type:"text",
 					status:''
 					},
 				"url":{
-					href:"https://app.baidu.com/urlcode/index.aspx",
+					href:"http://app.baidu.com/urlcode/index.aspx",
 					title:"URL编码解码",
 					type:"text",
 					status:''
 					},
 
 				"jianli":{
-					href:"https://app.baidu.com/gerenjianlimoban",
+					href:"http://app.baidu.com/gerenjianlimoban",
 					title:"个人简历模板",
 					type:"text",
 					status:''
 					},
 					"renminbidaxie":{
-					href:"https://app.baidu.com/renminbi",
+					href:"http://app.baidu.com/renminbi",
 					title:"人民币大写转换",
 					type:"text",
 					status:''
 					},
 				"qingjiatiao":{
-					href:"https://app.baidu.com/qingjiatiao",
+					href:"http://app.baidu.com/qingjiatiao",
 					title:"请假条",
 					type:"text",
 					status:''
 					},
 				"shenqingshu":{
-					href:"https://app.baidu.com/rudangsq",
+					href:"http://app.baidu.com/rudangsq",
 					title:"申请书",
 					type:"text",
 					status:''
 					},
 				"mingpiansheji":{
-					href:"https://app.baidu.com/mingpian",
+					href:"http://app.baidu.com/mingpian",
 					title:"名片设计",
 					type:"text",
 					status:''
 					},
 				"alexa":{
-					href:"https://www.alexa.com/",
+					href:"http://www.alexa.com/",
 					title:"Alexa排名",
 					type:"text",
 					status:''
 					},
 				"js":{
-					href:"https://app.baidu.com/widget?appid=121305",
+					href:"http://app.baidu.com/widget?appid=121305",
 					title:"JS代码工具",
 					type:"text",
 					status:''
 					},
 				
 				"kuaijiejian":{
-					href:"https://app.baidu.com/apphotkey/",
+					href:"http://app.baidu.com/apphotkey/",
 					title:"快捷键大全",
 					type:"text",
 					status:''
 					},
 				"yuming":{
-					href:"https://app.baidu.com/chaojizhan",
+					href:"http://app.baidu.com/chaojizhan",
 					title:"域名批量生成查询",
 					type:"text",
 					status:''
 					},
 				"katongtouxiang":{
-					href:"https://app.baidu.com/widget?appid=100965",
+					href:"http://app.baidu.com/widget?appid=100965",
 					title:"卡通头像制作",
 					type:"text",
 					status:''
 					},
 				"tupianpinjie":{
-					href:"https://app.baidu.com/qhcj_tuyaya",
+					href:"http://app.baidu.com/qhcj_tuyaya",
 					title:"非主流奇幻场景",
 					type:"text",
 					status:''
 					},
 				"jitatiaoyin":{
-					href:"https://app.baidu.com/widget?appid=104466",
+					href:"http://app.baidu.com/widget?appid=104466",
 					title:"吉他调音",
 					type:"text",
 					status:''
 					},
 				"yansedaima":{
-					href:"https://app.baidu.com/getcolortool",
+					href:"http://app.baidu.com/getcolortool",
 					title:"颜色代码生成器",
 					type:"text",
 					status:''
 					},
 				"ascii":{
-					href:"https://app.baidu.com/widget?appid=145822",
+					href:"http://app.baidu.com/widget?appid=145822",
 					title:"ascii码表",
 					type:"text",
 					status:''
 					},
 				"beian":{
-					href:"https://app.baidu.com/www_vs0_cn",
+					href:"http://app.baidu.com/www_vs0_cn",
 					title:"备案查询",
 					type:"text",
 					status:''
 					},
 				"zhanzhanggongju":{
-					href:"https://tool.chinaz.com/",
+					href:"http://tool.chinaz.com/",
 					title:"站长工具",
 					type:"text",
 					status:''
@@ -937,119 +937,119 @@
                 },
                 
                 "jisuanqi":{
-                href:"https://app.baidu.com/widget?appid=116526",
+                href:"http://app.baidu.com/widget?appid=116526",
                 bg:"images/life/kexuejisuanqi.jpg",
                 title:"科学计算器",
                 type:"icon",
 					status:''
                 },
                 "chengyuchidian":{
-                href:"https://app.baidu.com/chengyucidian",
+                href:"http://app.baidu.com/chengyucidian",
                 title:"成语词典",
                 type:"text",
 					status:''
                 },
                 "chazidian":{
-                href:"https://www.chazidian.com/",
+                href:"http://www.chazidian.com/",
                 title:"查字典",
                 type:"text",
 					status:''
                 },
                 "wubidazi":{
-                href:"https://app.baidu.com/widget?appid=115099",
+                href:"http://app.baidu.com/widget?appid=115099",
                 title:"五笔打字练习",
                 type:"text",
 					status:''
                 },
                 "jinshankuaikuai":{
-                href:"https://app.baidu.com/widget?appid=117675",
+                href:"http://app.baidu.com/widget?appid=117675",
                 bg:"images/life/jinshankuaikuai.jpg",
                 title:"金山快快打字测试",
                 type:"icon",
 					status:''
                 },
                 "wubizigen":{
-                href:"https://app.baidu.com/widget?appid=107922",
+                href:"http://app.baidu.com/widget?appid=107922",
                 title:"五笔字根表",
                 type:"text",
 					status:''
                 },
 				"changduhuansuan":{
-					href:"https://app.baidu.com/baiducdhs",
+					href:"http://app.baidu.com/baiducdhs",
 					title:"长度换算",
 					type:"text",
 					status:''
 					},
 				"mianjihuansuan":{
-					href:"https://app.baidu.com/baidumjhs",
+					href:"http://app.baidu.com/baidumjhs",
 					title:"面积换算",
 					type:"text",
 					status:''
 					},
 					"zhonglianghuansuan":{
-					href:"https://app.baidu.com/baiduzlhs",
+					href:"http://app.baidu.com/baiduzlhs",
 					title:"重量单位换算",
 					type:"text",
 					status:''
 					},
 				"danweihuansuan":{
-					href:"https://app.baidu.com/bangbangunit",
+					href:"http://app.baidu.com/bangbangunit",
                                         bg:"images/life/danweihuansuan.jpg",
 					title:"单位换算",
 					type:"icon",
 					status:''
 					},
 				 "chebiao":{
-                href:"https://app.baidu.com/carlogo",
+                href:"http://app.baidu.com/carlogo",
                 title:"汽车标志大全",
                 type:"text",
 					status:''
                 },
 				"naoliduanlian":{
-                href:"https://app.baidu.com/app/enter?appid=105986",
+                href:"http://app.baidu.com/app/enter?appid=105986",
                 title:"脑力训练",
                 type:"text",
 					status:''
                 },
 				"shizi":{
-					href:"https://app.baidu.com/widget?appid=125213",
+					href:"http://app.baidu.com/widget?appid=125213",
 					title:"童话识字乐园",
 					type:"text",
 					status:''
 					},
 				"pinyinzimubiao":{
-					href:"https://app.baidu.com/widget?appid=110331",
+					href:"http://app.baidu.com/widget?appid=110331",
 					title:"汉语拼音字母表",
 					type:"text",
 					status:''
 					},
                
 				"miyu":{
-					href:"https://app.baidu.com/bdmiyuapp",
+					href:"http://app.baidu.com/bdmiyuapp",
 					title:"谜语",
 					type:"text",
 					status:''
 					},
 				"meiguihuayu":{
-					href:"https://app.baidu.com/meiguihuayu",
+					href:"http://app.baidu.com/meiguihuayu",
 					title:"玫瑰花语",
 					type:"text",
 					status:''
 					},
 				"baihehuayu":{
-					href:"https://app.baidu.com/baihehuayu",
+					href:"http://app.baidu.com/baihehuayu",
 					title:"百合花语",
 					type:"text",
 					status:''
 					},
 				"yanyudaquan":{
-					href:"https://app.baidu.com/yanyudq",
+					href:"http://app.baidu.com/yanyudq",
 					title:"谚语大全",
 					type:"text",
 					status:''
 					},
 				"xiehouyu":{
-					href:"https://app.baidu.com/xhyu_daq",
+					href:"http://app.baidu.com/xhyu_daq",
 					title:"歇后语",
 					type:"text"
 					}
@@ -1058,49 +1058,49 @@
 		softTool: {
 			chart: {
                 'QQ': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=QQsetup.zip',
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=QQsetup.zip',
      			bg: 'images/life/soft_qq.gif',
      			title: 'QQ',
 	 			type: 'download'		
 				},
                 'MSN': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=wlsetup-web.zip',
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=wlsetup-web.zip',
      			bg: 'images/life/soft_msn.gif',
      			title: 'MSN',
 	 			type: 'download'		
 				},
                 'MSN': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=wlsetup-web.zip',
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=wlsetup-web.zip',
      			bg: 'images/life/soft_msn.gif',
      			title: 'MSN',
 	 			type: 'download'		
 				},
                 '飞信': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=Fetion.zip',
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=Fetion.zip',
      			bg: 'images/life/soft_feixin.gif',
      			title: '飞信',
 	 			type: 'download'		
 				},
                 '百度HI': {
-	 			href:'https://www.uucall.com/tj39s2q.html',
+	 			href:'http://www.uucall.com/tj39s2q.html',
     			bg: 'images/life/soft_hi.gif',
      			title: 'UUcall电话',
 	 			type: 'download'		
 				},
                 'Skype': {
-				href:'https://www.skycn.com/ipinfo/d_hao123.php?f=Skype.zip',
+				href:'http://www.skycn.com/ipinfo/d_hao123.php?f=Skype.zip',
      			bg: 'images/life/soft_skype.jpg',
      			title: 'Skype',
 	 			type: 'download'		
 				},
                 '阿里旺旺': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=AliIMsetup.zip',
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=AliIMsetup.zip',
      			bg: 'images/life/soft_wangwang.gif',
      			title: '阿里旺旺',
 	 			type: 'download'		
 					},
                 '阿里通': {
-	 			href:'https://www.alicall.com/down.asp?linkid=8930492',
+	 			href:'http://www.alicall.com/down.asp?linkid=8930492',
      			bg: 'images/life/soft_alicall.gif',
      			title: '阿里通',
 	 			type: 'download'		
@@ -1108,37 +1108,37 @@
 			},
 			music: {
                 '酷我音乐盒': {
-	 			href:'https://www.koowo.com/mbox.down2?src=kwun0271',
+	 			href:'http://www.koowo.com/mbox.down2?src=kwun0271',
      			bg: 'images/life/soft_kuwo.gif',
      			title: '酷我音乐盒',
 	 			type: 'download'		
 				},
                 '千千静听': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=ttpsetup.zip',
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=ttpsetup.zip',
      			bg: 'images/life/soft_qianqian.gif',
      			title: '千千静听',
 	 			type: 'download'		
 				},
                 '酷狗': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=KuGousetup.zip',
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=KuGousetup.zip',
      			bg: 'images/life/soft_kugou.gif',
      			title: '酷狗',
 	 			type: 'download'		
 				},
                 'QQ音乐': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=QQMusic.zip',
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=QQMusic.zip',
      			bg: 'images/life/soft_qqbf.jpg',
      			title: 'QQ音乐',
 	 			type: 'download'		
 				},
                 'Foobar': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=foobar.zip',
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=foobar.zip',
      			bg: 'images/life/soft_foobar.jpg',
      			title: 'Foobar',
 	 			type: 'download'		
 				},
                 'Winamp5': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=winamp.zip',
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=winamp.zip',
      			bg: 'images/life/soft_winamp.jpg',
      			title: 'Winamp5',
 	 			type: 'download'		
@@ -1146,43 +1146,43 @@
             },
 			video: {
                 '百度播放器': {
-	 			href:'https://dl.pps.tv/',
+	 			href:'http://dl.pps.tv/',
      			bg: 'images/life/soft_pps.jpg',
      			title: 'PPS网络电视',
 	 			type: 'download'		
 				},
                 '风行': {
-	 			href:'https://www.fun.tv/download',
+	 			href:'http://www.fun.tv/download',
      			bg: 'images/life/funshion.gif',
      			title: '风行',
 	 			type: 'download'		
 				},
                 'PPTV': {
-	 			href:'https://download.pptv.com/',
+	 			href:'http://download.pptv.com/',
      			bg: 'images/life/pplive.gif',
      			title: 'PPTV',
 	 			type: 'download'		
 				},
                 'uusee': {
-	 			href:'https://download.uusee.com/',
+	 			href:'http://download.uusee.com/',
      			bg: 'images/life/uusee.jpg',
      			title: 'uusee',
 	 			type: 'download'		
 				},
                 '皮皮': {
-	 			href:'https://www.pipi.cn/down/',
+	 			href:'http://www.pipi.cn/down/',
      			bg: 'images/life/soft_pipi.jpg',
      			title: '皮皮',
 	 			type: 'download'		
 				},
                 '暴风影音': {
-	 			href:'https://home.baofeng.com/',
+	 			href:'http://home.baofeng.com/',
      			bg: 'images/life/baofengyingyin16.jpg',
      			title: '暴风影音',
 	 			type: 'download'		
 				},
                 '奇艺影音': {
-	 			href:'https://app.iqiyi.com/pc/player/',
+	 			href:'http://app.iqiyi.com/pc/player/',
      			bg: 'images/life/soft_qiyi.jpg',
      			title: '奇艺影音',
 	 			type: 'download'		
@@ -1190,37 +1190,37 @@
             },
 			download: {
                 '迅雷': {
-	 			href:'https://dl.xunlei.com/',
+	 			href:'http://dl.xunlei.com/',
      			bg: 'images/life/Thunder.gif',
      			title: '迅雷',
 	 			type: 'download'		
 				},
                 '快车': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=flashget.zip',
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=flashget.zip',
      			bg: 'images/life/soft_kuaiche.jpg',
      			title: '快车',
 	 			type: 'download'		
 				},
                 'eMule(电驴)': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=easyMule-Setup.zip',
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=easyMule-Setup.zip',
      			bg: 'images/life/soft_emule.gif',
      			title: 'eMule(电驴)',
 	 			type: 'download'		
 				},
                 'QQ旋风': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=QQDownloadSetup.zip',
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=QQDownloadSetup.zip',
      			bg: 'images/life/soft_xuanfen.gif',
      			title: 'QQ旋风',
 	 			type: 'download'		
 				},
                 'Vagaa': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=main_setup.zip',
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=main_setup.zip',
      			bg: 'images/life/soft_vagaa.jpg',
 				title: 'Vagaa',
 				type: 'download'		
 					},
                 'Bitcomet': {
-				href:'https://www.skycn.com/ipinfo/d_hao123.php?f=BitComet.zip',
+				href:'http://www.skycn.com/ipinfo/d_hao123.php?f=BitComet.zip',
 				bg: 'images/life/soft_bitcomet.jpg',
 				title: 'Bitcomet',
 				type: 'download'		
@@ -1228,31 +1228,31 @@
             },
 			office: {
                 '金山词霸': {
-				href:'https://www.skycn.com/ipinfo/d_hao123.php?f=PowerWordsetup.zip',
+				href:'http://www.skycn.com/ipinfo/d_hao123.php?f=PowerWordsetup.zip',
 				bg: 'images/life/jinshanciba16.jpg',
 				title: '金山词霸',
 				type: 'download'		
 				},
                 '美图秀秀': {
-				 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=XiuXiu_Soft.zip',
+				 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=XiuXiu_Soft.zip',
 				 bg: 'images/life/meituxiuxiu16.jpg',
 				 title: '美图秀秀',
 				 type: 'download'		
 				},
                     'Photoshop CS4': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=ADBEPHSPCS4.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=ADBEPHSPCS4.zip',
      bg: 'images/life/ps16.jpg',
      title: 'Photoshop CS4',
 	 type: 'download'		
 					},
                     '福昕阅读器': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=FoxitReader_Setup.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=FoxitReader_Setup.zip',
      bg: 'images/life/soft_foxit.jpg',
      title: '福昕阅读器',
 	 type: 'download'		
 					},
                     'WPS Office': {
-	 href:'https://j.union.ijinshan.com/jump.php?u_key=556',
+	 href:'http://j.union.ijinshan.com/jump.php?u_key=556',
      bg: 'images/life/soft_keke.jpg',
      title: 'WPS Office',
 	 type: 'download'		
@@ -1260,37 +1260,37 @@
             },
 			browser: {
             'IE8': {
-	 href:'https://rj.baidu.com/soft/detail/23360.html',
+	 href:'http://rj.baidu.com/soft/detail/23360.html',
      bg: 'images/life/soft_ie.gif',
      title: 'IE11',
 	 type: 'download'		
 					},
                     '谷歌浏览器': {
-	 href:'https://rj.baidu.com/soft/detail/14744.html',
+	 href:'http://rj.baidu.com/soft/detail/14744.html',
      bg: 'images/life/soft_baidullq.jpg',
      title: '猎豹浏览器',
 	 type: 'download'		
 					},
                     '火狐': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=Firefox-hao123-latest.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=Firefox-hao123-latest.zip',
      bg: 'images/life/firefox.gif',
      title: '火狐',
 	 type: 'download'		
 					},
                     '搜狗浏览器': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=sogou_explorer.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=sogou_explorer.zip',
      bg: 'images/life/soft_sogoullq.jpg',
      title: '搜狗浏览器',
 	 type: 'download'		
 					},
                     '傲游': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=mxsetup_hao123.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=mxsetup_hao123.zip',
      bg: 'images/life/soft_aoyou.gif',
      title: '傲游',
 	 type: 'download'		
 					},
                     '2345浏览器': {
-	 href:'https://download.2345.com/down/2345Explorer_239391.exe',
+	 href:'http://download.2345.com/down/2345Explorer_239391.exe',
      bg: 'images/life/soft_youxiliulanqi.jpg',
      title: '2345浏览器',
 	 type: 'download'		
@@ -1298,37 +1298,37 @@
             },
 			inputMethod: {
             '搜狗输入法': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=sogou_pinyin.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=sogou_pinyin.zip',
      bg: 'images/life/soft_sougou.gif',
      title: '搜狗输入法',
 	 type: 'download'		
 					},
                  '百度输入法': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=BaiduPinyinSetup.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=BaiduPinyinSetup.zip',
      bg: 'images/life/baidusrf.gif',
      title: '百度输入法',
 	 type: 'download'		
 					},
                     '紫光拼音': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=unispim.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=unispim.zip',
      bg: 'images/life/soft_ziguang.jpg',
      title: '紫光拼音',
 	 type: 'download'		
 					},
                     '万能五笔': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=wnwb_800_50.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=wnwb_800_50.zip',
      bg: 'images/life/soft_wangnengwubi.jpg',
      title: '万能五笔',
 	 type: 'download'		
 					},
                     '王码五笔': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=wmwb.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=wmwb.zip',
      bg: 'images/life/soft_wangmawubi.jpg',
      title: '王码五笔',
 	 type: 'download'		
 					},
                     'QQ五笔': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=QQWubi_Setup.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=QQWubi_Setup.zip',
      bg: 'images/life/soft_qqwubi.jpg',
      title: 'QQ五笔',
 	 type: 'download'		
@@ -1336,37 +1336,37 @@
             },
 			system: {
                    '金山卫士': {
-	 href:'https://www.ijinshan.com/ws/index.shtml',
+	 href:'http://www.ijinshan.com/ws/index.shtml',
      bg: 'images/life/jinshanweishi16.jpg',
      title: '金山卫士',
 	 type: 'download'		
 					},
                     '360安全卫士': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=360setup.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=360setup.zip',
      bg: 'images/life/360anquanweishi16.jpg',
      title: '360安全卫士',
 	 type: 'download'		
 					},
                     '魔方': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=TweakCubeSetup.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=TweakCubeSetup.zip',
      bg: 'images/life/soft_mofang.jpg',
      title: '魔方',
 	 type: 'download'		
 					},
                     '鲁大师': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=ludashisetup.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=ludashisetup.zip',
      bg: 'images/life/soft_ludashi.jpg',
      title: '鲁大师',
 	 type: 'download'		
 					},
                     '超级兔子': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=sr2011setup.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=sr2011setup.zip',
      bg: 'images/life/soft_chaojituzi.jpg',
      title: '超级兔子',
 	 type: 'download'		
 					},
                     '驱动人生': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=dtl_setup.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=dtl_setup.zip',
      bg: 'images/life/qudongrensheng16.jpg',
      title: '驱动人生',
 	 type: 'download'		
@@ -1374,37 +1374,37 @@
             },
 			antiVirus: {
                     '金山毒霸': {
-	 href:'https://j.union.ijinshan.com/jump.php?u_key=549',
+	 href:'http://j.union.ijinshan.com/jump.php?u_key=549',
      bg: 'images/life/jinshanduba16.jpg',
      title: '金山毒霸',
 	 type: 'download'		
 					},
             '卡巴斯基': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=kaspersky.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=kaspersky.zip',
      bg: 'images/life/kabasiji16.jpg',
      title: '卡巴斯基',
 	 type: 'download'		
 					},
                     '江民杀毒': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=kv_setup.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=kv_setup.zip',
      bg: 'images/life/jiangminshadu16.jpg',
      title: '江民杀毒',
 	 type: 'download'		
 					},
                     '瑞星杀毒': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=ravolsky.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=ravolsky.zip',
      bg: 'images/life/ruixingshadu16.jpg',
      title: '瑞星杀毒',
 	 type: 'download'		
 					},
                     '360杀毒': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=360sd_se.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=360sd_se.zip',
      bg: 'images/life/360.gif',
      title: '360杀毒',
 	 type: 'download'		
 					},
                     'NOD32': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=eav_ac_nt32.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=eav_ac_nt32.zip',
      bg: 'images/life/soft_nod32.jpg',
      title: 'NOD32',
 	 type: 'download'		
@@ -1413,37 +1413,37 @@
             },
 			game: {
             '4399游戏盒': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=4399box_install.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=4399box_install.zip',
      bg: 'images/life/4399youxihe.jpg',
      title: '4399游戏盒',
 	 type: 'download'		
 					},
                     '植物大战僵尸': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=PlantsvsZombies_ndb.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=PlantsvsZombies_ndb.zip',
      bg: 'images/life/zhiwudazhanjiangshi16.jpg',
      title: '植物大战僵尸',
 	 type: 'download'		
 					},
                     '小霸王游戏机 84合一': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=disland.xiaopw84in1.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=disland.xiaopw84in1.zip',
      bg: 'images/life/xiaobawang16.jpg',
      title: '小霸王游戏机 84合一',
 	 type: 'download'		
 					},
                     'Kawaks游戏机': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=kawaks_skycn.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=kawaks_skycn.zip',
      bg: 'images/life/soft_kawaks.jpg',
      title: 'Kawaks游戏机',
 	 type: 'download'		
 					},
                     '连连看': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=llk48.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=llk48.zip',
      bg: 'images/life/lianliankan16.jpg',
      title: '连连看',
 	 type: 'download'		
 					},
                      '祖玛': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=zuma_hh.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=zuma_hh.zip',
      bg: 'images/life/zuma16.jpg',
      title: '祖玛',
 	 type: 'download'		
@@ -1452,37 +1452,37 @@
             },
 			others: {
             'Winrar': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=WinRAR.exe',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=WinRAR.exe',
      bg: 'images/life/winrar16.jpg',
      title: 'Winrar',
 	 type: 'download'		
 					},
                     '好压软件': {
-	 href:'https://download.haozip.com/uniondown/haozip_tiny.206102.exe',
+	 href:'http://download.haozip.com/uniondown/haozip_tiny.206102.exe',
      bg: 'images/life/soft_formatf.jpg',
      title: '好压软件',
 	 type: 'download'		
 					},
                      '有道云笔记': {
-	 href:'https://codown.youdao.com/note/youdaonote_v_heima046.exe',
+	 href:'http://codown.youdao.com/note/youdaonote_v_heima046.exe',
      bg: 'images/life/soft_zhuomiangupiao.jpg',
      title: '有道云笔记',
 	 type: 'download'		
 					},
                     '同花顺': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=THS_hexin.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=THS_hexin.zip',
      bg: 'images/life/soft_hexin.jpg',
      title: '同花顺',
 	 type: 'download'		
 					},
                     '操盘手': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=wlymZL15160.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=wlymZL15160.zip',
      bg: 'images/life/caopanshou.jpg',
      title: '操盘手',
 	 type: 'download'		
 					},
                     '人人桌面': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=rrsetup.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=rrsetup.zip',
      bg: 'images/life/soft_renren.jpg',
      title: '人人桌面',
 	 type: 'download'		
@@ -1490,37 +1490,37 @@
             },
 			phoneSoft: {
             '手机版QQ': {
-	 href:'https://mobile.qq.com/',
+	 href:'http://mobile.qq.com/',
      bg: 'images/life/soft_qqweb.gif',
      title: '手机版QQ',
 	 type: 'download'		
 					},
                     'UCWEB': {
-	 href:'https://www.uc.cn/',
+	 href:'http://www.uc.cn/',
      bg: 'images/life/soft_ucweb.gif',
      title: 'UCWEB',
 	 type: 'download'		
 					},
                     '百度输入法': {
-	 href:'https://shouji.baidu.com/input/',
+	 href:'http://shouji.baidu.com/input/',
      bg: 'images/life/baidusrf.gif',
      title: '百度输入法',
 	 type: 'download'		
 					},
                     '搜狗输入法': {
-	 href:'https://shouji.sogou.com/',
+	 href:'http://shouji.sogou.com/',
      bg: 'images/life/soft_sougou.gif',
      title: '搜狗输入法',
 	 type: 'download'		
 					},
                     '新浪微博手机版': {
-	 href:'https://weibo.com/mobile/wap.php',
+	 href:'http://weibo.com/mobile/wap.php',
      bg: 'images/life/soft_weibo.jpg',
      title: '新浪微博手机版',
 	 type: 'download'		
 					},
                     '人人网手机版': {
-	 href:'https://www.renren.com/mobile/web.do?ref=minifeed',
+	 href:'http://www.renren.com/mobile/web.do?ref=minifeed',
      bg: 'images/life/soft_renren.jpg',
      title: '人人网手机版',
 	 type: 'download'		

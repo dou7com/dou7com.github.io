@@ -1,6 +1,6 @@
 (function( window, $, undefined ) {
 	
-	// httpss://www.netcu.de/jquery-touchwipe-iphone-ipad-library
+	// httpsss://www.netcu.de/jquery-touchwipe-iphone-ipad-library
 	$.fn.touchwipe 				= function(settings) {
 		
 		var config = {

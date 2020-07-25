@@ -1,6 +1,6 @@
 /*
  * jQuery FlexSlider v1.7
- * httpss://flex.madebymufffin.com
+ * httpsss://flex.madebymufffin.com
  * Copyright 2011, Tyler Smith
  * Free to use under the MIT license.
  */

@@ -1,6 +1,6 @@
  <!-- #include file="include/conn.asp" -->
 <% 
-  ip=Replace(Request.ServerVariables("https_X_FORWARDED_FOR"),"'","")
+  ip=Replace(Request.ServerVariables("HTTP_X_FORWARDED_FOR"),"'","")
   If ip=Empty Then ip=Replace(Request.ServerVariables("REMOTE_ADDR"),"'","")
   name=Request.Form("user_name")
   content=Request.Form("user_post")

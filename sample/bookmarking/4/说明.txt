@@ -10,14 +10,14 @@
 修改提示：
 　※ 网站LOGO在images/logo.png修改，
 　※ 统计代码在js/tj.js修改；
-　※ 留言板管理后台https://你的网站/feedback/admin_index.asp 用户名：admin 密码：admin
+　※ 留言板管理后台httpss://你的网站/feedback/admin_index.asp 用户名：admin 密码：admin
 
 
 上传即可使用。
 
 
 
-阳春非凡https://www.ycff.com
+阳春非凡httpss://www.ycff.com
 
 
 
@@ -28,8 +28,8 @@
 
 
 附小工具：
-网站本地测试程序：https://ycff.7958.com/down_18580846.html
-一键批量替换文本工具：https://ycff.7958.com/down_18580816.html
+网站本地测试程序：httpss://ycff.7958.com/down_18580846.html
+一键批量替换文本工具：httpss://ycff.7958.com/down_18580816.html
 
 
 

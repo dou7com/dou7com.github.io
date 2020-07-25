@@ -1,6 +1,6 @@
 <html>
 <head>
-<meta https-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <style type=text/css>
 <!--
  td,body {  font-size: 15px; font-family:arial,sans-serif,宋体;}body{margin-top:0px;margin-left:0px;margin-right:0px;background-color: #fcfff7} a:link{ color:#000000; text-decoration:none;padding-left:4px; }     a:visited{COLOR: #000000; TEXT-DECORATION: none;padding-left:4px;} a:active{color:green;text-decoration:none;padding-left:4px;}a:hover{color:red;text-decoration:underline;padding-left:4px;}
@@ -141,37 +141,37 @@ function haoSubSearch(sc){
 	if(sc != "baidu"){
 		if(sc == "post")
 		{
-		    f.action = "https://tieba.baidu.com/f";
+		    f.action = "http://tieba.baidu.com/f";
 
 		}
 		else if(sc == "zhidao")
 		{
-			f.action = "https://zhidao.baidu.com/q";
+			f.action = "http://zhidao.baidu.com/q";
 
 		}
 		else if(sc == "mp3")
 		{
-			f.action = "https://mp3.baidu.com/m";
+			f.action = "http://mp3.baidu.com/m";
 
 		}
 		else if(sc == "img")
 		{
-			f.action = "https://image.baidu.com/i";
+			f.action = "http://image.baidu.com/i";
 
 		}
 		else if(sc == "news")
 		{
-			f.action = "https://news.baidu.com/ns";
+			f.action = "http://news.baidu.com/ns";
 
 		}
 		else if(sc == "video")
 		{
-			f.action = "https://video.baidu.com/v";
+			f.action = "http://video.baidu.com/v";
 
 		}
 		else
 		{
-			f.action = "https://www.baidu.com/s";
+			f.action = "http://www.baidu.com/s";
 
 		}
 		f.sc.value = sc;
@@ -184,7 +184,7 @@ function haoSubSearch(sc){
 
 function haoGoSoba(){
 
-	f.action = "https://www.baidu.com/s";
+	f.action = "http://www.baidu.com/s";
 	f.kw.value = f.word.value;
 }
 function G(id)
@@ -228,7 +228,7 @@ function goSearch(){
      <td height="51" align="center">
 <p class="WB">
 <table width=100% border=0 cellspacing=0 cellpadding=0 style="margin-bottom:-6px "><tr><td width=2 height=18> </td><td  valign=bottom class=searchfod1 id=haoweb onClick="haoSubSearch('web');goSearch()" onmousedown="ClickMonkey.log('haoweb');" >网 页</td><td width="4"></td><td valign=bottom class=searchfod2 id=haomp3 onClick="haoSubSearch('mp3');goSearch()" onmousedown="ClickMonkey.log('haomp3');" >MP3</td> <td width="4"></td><td valign=bottom   class=searchfod2 id=haoimg onClick="haoSubSearch('img');goSearch()" onmousedown="ClickMonkey.log('haoimg');" >图 片</td><td width="4"></td><td valign=bottom class=searchfod2 id=haopost onClick="haoSubSearch('post');goSearch()" onmousedown="ClickMonkey.log('haopost');" >贴 吧</td><td width="4"></td><td  valign=bottom class=searchfod2 id=haozhidao onClick="haoSubSearch('zhidao');goSearch()" onmousedown="ClickMonkey.log('haozhidao');" >知 道</td><td width="4"></td><td  valign=bottom class=searchfod2 id=haonews onClick="haoSubSearch('news');goSearch()" onmousedown="ClickMonkey.log('haonews');" >新 闻</td><td width="4"></td><td valign=bottom class=searchfod2 id=haovideo onClick="haoSubSearch('video');goSearch()" onmousedown="ClickMonkey.log('haovideo');">视 频</td><td width="4"></td><td  width=240 valign=bottom> </td></tr></table>
-<table border="0" cellspacing="0" cellpadding="0" id=FrP><tr><form onSubmit="return haoValidate();" action=https://www.baidu.com/s name=f><td align="left"><INPUT type=hidden name=kw><INPUT type=hidden name=sc><input type=hidden name=cl value=3><input type=hidden name=tn value=hao123><input type=hidden name=ct><input type=hidden name=rn><input type=hidden name=lm><input type=hidden name=ie><input type=hidden name=rs2><input type=hidden name=myselectvalue><input type=hidden name=f><input type=hidden name=pv><input type=hidden name=z><input type=hidden name=from>
+<table border="0" cellspacing="0" cellpadding="0" id=FrP><tr><form onSubmit="return haoValidate();" action=http://www.baidu.com/s name=f><td align="left"><INPUT type=hidden name=kw><INPUT type=hidden name=sc><input type=hidden name=cl value=3><input type=hidden name=tn value=hao123><input type=hidden name=ct><input type=hidden name=rn><input type=hidden name=lm><input type=hidden name=ie><input type=hidden name=rs2><input type=hidden name=myselectvalue><input type=hidden name=f><input type=hidden name=pv><input type=hidden name=z><input type=hidden name=from>
 <input type="text" name="word" size=38 maxlength="100" class="kw" id="kww"  style="margin-bottom:-5px; font-size:16px;height:1.78em;font-family:arial,sans-serif,宋体;padding-top:2px; padding-left:1px"> <input type=submit value=百度一下 style="height:1.82em;width:6.4em;font-size:16px; margin-bottom:-5px; padding-top:2px"  class=sb monkey="submit">
 </span>
 </td>
@@ -249,63 +249,63 @@ window.onload = function(){
 <div align="center"><center>
  <table border=0 cellPadding=0 cellSpacing=0 width=900 height=1><tr align=center><td height="1" bgcolor="C1D0D7"></td></tr></table>
 <table width=900 height=25 bgcolor=#EEF7FF border=0 cellspacing=0 cellspadding=2><tr>
-<td width="50%" class="f9pt" style="color:#424242 "> <a href="https://www.hao123.com" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('https://www.hao123.com/');return(false);" style="behavior: url(#default#homepage); color:#D35E04"><img src="../images/home.gif" width="15" height="15" border="0" align="absmiddle"> 把hao123设为主页</a>　　<a href="../book/"><img src="../images/notebook.gif" width="15" height="15" border="0" align="absmiddle"> 网友留言</a></td><td align="right" class="f9pt" style="color:#424242; padding-right:10px"><a href="/" target=_self style="color:#424242 ">首页</a> > 娱乐休闲</td></tr></table>
+<td width="50%" class="f9pt" style="color:#424242 "> <a href="http://www.hao123.com" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.hao123.com/');return(false);" style="behavior: url(#default#homepage); color:#D35E04"><img src="../images/home.gif" width="15" height="15" border="0" align="absmiddle"> 把hao123设为主页</a>　　<a href="../book/"><img src="../images/notebook.gif" width="15" height="15" border="0" align="absmiddle"> 网友留言</a></td><td align="right" class="f9pt" style="color:#424242; padding-right:10px"><a href="/" target=_self style="color:#424242 ">首页</a> > 娱乐休闲</td></tr></table>
 </center></div>
 <div align="center" onmousedown="bdRecord.scope(event)"><center>
 <div class="t1 bgg">
 <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#EFF7F0">
 <tr>
-    <td width="55%" class="tdH"><div class=tdL><a href="https://www.6164.com/music.htm">音乐</a></div>　<a href="https://mp3.baidu.com/">百度MP3</a>　<a href="https://www.koowo.com/mbox.down2?src=kwun0271">酷我音乐盒</a>　<a href="https://www.1ting.com/">一听音乐</a>　<a href="https://www.6164.com/music.htm">更多&raquo;</a></td>
-    <td width="45%" class="tdH"><div class=tdR><a href="https://www.6164.com/game.htm">游戏</a></div><a href="https://www.3399.com/games/11748.html?fr=10009-1">JJ比赛</a>　<a href="https://www.4399.com/">4399</a>　<a href="https://www.5173.com?recommenduserid=US08122946261122-038D">5173交易</a>　<a href="https://dnf.qq.com/">DNF</a>　<a href="https://www.6164.com/game/15llk.htm">连连看</a>　<a href="https://www.6164.com/game.htm">更多&raquo;</a></td>
+    <td width="55%" class="tdH"><div class=tdL><a href="http://www.6164.com/music.htm">音乐</a></div>　<a href="http://mp3.baidu.com/">百度MP3</a>　<a href="http://www.koowo.com/mbox.down2?src=kwun0271">酷我音乐盒</a>　<a href="http://www.1ting.com/">一听音乐</a>　<a href="http://www.6164.com/music.htm">更多&raquo;</a></td>
+    <td width="45%" class="tdH"><div class=tdR><a href="http://www.6164.com/game.htm">游戏</a></div><a href="http://www.3399.com/games/11748.html?fr=10009-1">JJ比赛</a>　<a href="http://www.4399.com/">4399</a>　<a href="http://www.5173.com?recommenduserid=US08122946261122-038D">5173交易</a>　<a href="http://dnf.qq.com/">DNF</a>　<a href="http://www.6164.com/game/15llk.htm">连连看</a>　<a href="http://www.6164.com/game.htm">更多&raquo;</a></td>
   </tr>
   <tr>
     <td colspan="2" ><hr class=cg></td>
     </tr>
 <tr>
-    <td width="55%" class="tdH"><div class=tdL><a href="https://www.6164.com/video.htm">视频</a></div>　<a href="https://www.youku.com/">优酷网</a>　<a href="https://v.yisou.com/?cid=4392">一搜视频搜索</a>　<a href="https://click.t3nlink.com/link/131482/">PPTV</a>　<a href="https://www.6164.com/video.htm">更多&raquo;</a></td>
-    <td width="45%" class="tdH"><div class=tdR><a href="https://www.6164.com/movie.htm">电影</a></div><a href="https://dianying.yisou.com/?cid=4392">一搜电影</a>　<a href="https://movie.youku.com/">优酷电影</a>　<a href="https://www.qiyi.com/">奇艺高清</a>　<a href="https://www.6164.com/movie.htm">更多&raquo;</a></td>
+    <td width="55%" class="tdH"><div class=tdL><a href="http://www.6164.com/video.htm">视频</a></div>　<a href="http://www.youku.com/">优酷网</a>　<a href="http://v.yisou.com/?cid=4392">一搜视频搜索</a>　<a href="http://click.t3nlink.com/link/131482/">PPTV</a>　<a href="http://www.6164.com/video.htm">更多&raquo;</a></td>
+    <td width="45%" class="tdH"><div class=tdR><a href="http://www.6164.com/movie.htm">电影</a></div><a href="http://dianying.yisou.com/?cid=4392">一搜电影</a>　<a href="http://movie.youku.com/">优酷电影</a>　<a href="http://www.qiyi.com/">奇艺高清</a>　<a href="http://www.6164.com/movie.htm">更多&raquo;</a></td>
   </tr>
   <tr>
     <td colspan="2" ><hr class=cg></td>
     </tr>
 <tr>
-    <td width="55%" class="tdH"><div class=tdL><a href="https://www.6164.com/newsweek.htm">新闻</a></div>　<a href="https://news.sina.com.cn/">新浪新闻</a>　<a href="https://www.wenweipo.com/">香港文汇报</a>　<a href="https://chn.chosun.com/">朝鲜日报</a>　<a href="https://www.6164.com/newsweek.htm">更多&raquo;</a></td>
-    <td width="45%" class="tdH"><div class=tdR><a href="https://www.6164.com/book.htm">小说</a></div><a href="https://www.cc222.com/union/url/?uId=182">烟雨红尘</a>　<a href="https://www.qidian.com/">起点</a>　<a href="https://www.txdzs.com/">天下电子书</a>　<a href="https://www.6164.com/book.htm">更多&raquo;</a></td>
+    <td width="55%" class="tdH"><div class=tdL><a href="http://www.6164.com/newsweek.htm">新闻</a></div>　<a href="http://news.sina.com.cn/">新浪新闻</a>　<a href="http://www.wenweipo.com/">香港文汇报</a>　<a href="http://chn.chosun.com/">朝鲜日报</a>　<a href="http://www.6164.com/newsweek.htm">更多&raquo;</a></td>
+    <td width="45%" class="tdH"><div class=tdR><a href="http://www.6164.com/book.htm">小说</a></div><a href="http://www.cc222.com/union/url/?uId=182">烟雨红尘</a>　<a href="http://www.qidian.com/">起点</a>　<a href="http://www.txdzs.com/">天下电子书</a>　<a href="http://www.6164.com/book.htm">更多&raquo;</a></td>
   </tr>
    <tr>
     <td colspan="2" ><hr class=cg></td>
     </tr>
 <tr>
-    <td width="55%" class="tdH"><div class=tdL><a href="https://www.6164.com/junshi.htm">军事</a></div>　<a href="https://military.china.com/zh_cn/">中华军事</a>　<a href="https://www.mod.gov.cn/">国防部</a>　<a href="https://www.qiyi.com/jilupian/jqgc.html">军情观察室</a>　<a href="https://www.6164.com/junshi.htm">更多&raquo;</a></td>
-    <td width="45%" class="tdH"><div class=tdR><a href="https://www.6164.com/picture.htm">图片</a></div><a href="https://www.baidu.com/search/image_star.html">美女明星-百度图片</a>　<a href="https://photo.xitek.com/">色影无忌图片</a>　<a href="https://xiuxiu.meitu.com/">美图秀秀</a>　<a href="https://www.6164.com/picture.htm">更多&raquo;</a></td>
+    <td width="55%" class="tdH"><div class=tdL><a href="http://www.6164.com/junshi.htm">军事</a></div>　<a href="http://military.china.com/zh_cn/">中华军事</a>　<a href="http://www.mod.gov.cn/">国防部</a>　<a href="http://www.qiyi.com/jilupian/jqgc.html">军情观察室</a>　<a href="http://www.6164.com/junshi.htm">更多&raquo;</a></td>
+    <td width="45%" class="tdH"><div class=tdR><a href="http://www.6164.com/picture.htm">图片</a></div><a href="http://www.baidu.com/search/image_star.html">美女明星-百度图片</a>　<a href="http://photo.xitek.com/">色影无忌图片</a>　<a href="http://xiuxiu.meitu.com/">美图秀秀</a>　<a href="http://www.6164.com/picture.htm">更多&raquo;</a></td>
   </tr>
   <tr>
     <td colspan="2" ><hr class=cg></td>
     </tr>
 <tr>
-    <td width="55%" class="tdH"><div class=tdL><a href="https://www.6164.com/cartoon.htm">动漫</a></div>　<a href="https://www.narutom.com/">火影忍者中文网</a>　<a href="https://www.imanhua.com/">爱漫画</a>　<a href="https://www.6164.com/cartoon.htm">更多&raquo;</a></td>
-    <td width="45%" class="tdH"><div class=tdR><a href="https://www.6164.com/xingzuo.htm">星座</a></div><a href="https://astro.sina.com.cn/">新浪星座</a>　<a href="https://www.51jiemeng.com/">周公解梦</a>　<a href="https://www.xingming.net/">瓷都取名</a>　<a href="https://www.6164.com/xingzuo.htm">更多&raquo;</a></td>
+    <td width="55%" class="tdH"><div class=tdL><a href="http://www.6164.com/cartoon.htm">动漫</a></div>　<a href="http://www.narutom.com/">火影忍者中文网</a>　<a href="http://www.imanhua.com/">爱漫画</a>　<a href="http://www.6164.com/cartoon.htm">更多&raquo;</a></td>
+    <td width="45%" class="tdH"><div class=tdR><a href="http://www.6164.com/xingzuo.htm">星座</a></div><a href="http://astro.sina.com.cn/">新浪星座</a>　<a href="http://www.51jiemeng.com/">周公解梦</a>　<a href="http://www.xingming.net/">瓷都取名</a>　<a href="http://www.6164.com/xingzuo.htm">更多&raquo;</a></td>
   </tr>
   <tr>
     <td colspan="2" ><hr class=cg></td>
     </tr>
 <tr>
-    <td width="55%" class="tdH"><div class=tdL><a href="https://www.6164.com/sport.htm">体育</a></div>　<a href="https://sports.sohu.com/">搜狐体育</a>　<a href="https://sports.sina.com.cn/global/">新浪国际足球</a>　<a href="https://tiyu.yisou.com/?cid=4392">体育直播</a>　<a href="https://www.6164.com/sport.htm">更多&raquo;</a></td>
-    <td width="45%" class="tdH"><div class=tdR><a href="https://www.6164.com/sport/basketball.htm">NBA</a></div><a href="https://nba.tom.com/">NBA中文网</a>　<a href="https://cbachina.163.com/">CBA官网</a>　<a href="https://www.espnstar.com.cn/new/basketball/">ESPN篮球</a>　<a href="https://www.6164.com/sport/basketball.htm">更多&raquo;</a></td>
+    <td width="55%" class="tdH"><div class=tdL><a href="http://www.6164.com/sport.htm">体育</a></div>　<a href="http://sports.sohu.com/">搜狐体育</a>　<a href="http://sports.sina.com.cn/global/">新浪国际足球</a>　<a href="http://tiyu.yisou.com/?cid=4392">体育直播</a>　<a href="http://www.6164.com/sport.htm">更多&raquo;</a></td>
+    <td width="45%" class="tdH"><div class=tdR><a href="http://www.6164.com/sport/basketball.htm">NBA</a></div><a href="http://nba.tom.com/">NBA中文网</a>　<a href="http://cbachina.163.com/">CBA官网</a>　<a href="http://www.espnstar.com.cn/new/basketball/">ESPN篮球</a>　<a href="http://www.6164.com/sport/basketball.htm">更多&raquo;</a></td>
   </tr>
   <tr>
     <td colspan="2" ><hr class=cg></td>
     </tr>  
 <tr>
-    <td width="55%" class="tdH"><div class=tdL><a href="https://www.6164.com/love.htm">交友</a></div>　<a href="https://click.t3nlink.com/link/131488/">珍爱网</a>　<a href="https://www.51.com/">51空间</a>　<a href="https://yuehui.163.com/">网易同城约会</a>　<a href="https://www.6164.com/love.htm">更多&raquo;</a></td>
-    <td width="45%" class="tdH"><div class=tdR><a href="https://www.6164.com/mm.htm">明星</a></div><a href="https://ent.sina.com.cn/">新浪娱乐</a>　<a href="https://entertainment.tvb.com/">香港TVB娱乐</a>　<a href="https://data.yule.baidu.com/f">明星档案</a>　<a href="https://www.6164.com/mm.htm">更多&raquo;</a></td>
+    <td width="55%" class="tdH"><div class=tdL><a href="http://www.6164.com/love.htm">交友</a></div>　<a href="http://click.t3nlink.com/link/131488/">珍爱网</a>　<a href="http://www.51.com/">51空间</a>　<a href="http://yuehui.163.com/">网易同城约会</a>　<a href="http://www.6164.com/love.htm">更多&raquo;</a></td>
+    <td width="45%" class="tdH"><div class=tdR><a href="http://www.6164.com/mm.htm">明星</a></div><a href="http://ent.sina.com.cn/">新浪娱乐</a>　<a href="http://entertainment.tvb.com/">香港TVB娱乐</a>　<a href="http://data.yule.baidu.com/f">明星档案</a>　<a href="http://www.6164.com/mm.htm">更多&raquo;</a></td>
   </tr>
   <tr>
     <td colspan="2" ><hr class=cg></td>
     </tr>
 <tr>
-    <td width="55%" class="tdH"><div class=tdL><a href="https://www.6164.com/club.htm">社区</a></div>　<a href="https://www.tianya.cn/">天涯社区</a>　<a href="https://www.chinaren.com/">中国人校友录</a>　<a href="https://weibo.com/?c=spr_web_sq_6164_weibo_t001">新浪微博</a>　<a href="https://www.6164.com/club.htm">更多&raquo;</a></td>
-    <td width="45%" class="tdH"><div class=tdR><a href="https://www.6164.com/xiaohua.htm">笑话</a></div><a href="https://www.qiushibaike.com/">糗事百科</a>　<a href="https://fun.youku.com/">优酷搞笑</a>　<a href="https://t.sina.com.cn/lxhjx">冷笑话精选</a>　<a href="https://www.6164.com/xiaohua.htm">更多&raquo;</a></td>
+    <td width="55%" class="tdH"><div class=tdL><a href="http://www.6164.com/club.htm">社区</a></div>　<a href="http://www.tianya.cn/">天涯社区</a>　<a href="http://www.chinaren.com/">中国人校友录</a>　<a href="http://weibo.com/?c=spr_web_sq_6164_weibo_t001">新浪微博</a>　<a href="http://www.6164.com/club.htm">更多&raquo;</a></td>
+    <td width="45%" class="tdH"><div class=tdR><a href="http://www.6164.com/xiaohua.htm">笑话</a></div><a href="http://www.qiushibaike.com/">糗事百科</a>　<a href="http://fun.youku.com/">优酷搞笑</a>　<a href="http://t.sina.com.cn/lxhjx">冷笑话精选</a>　<a href="http://www.6164.com/xiaohua.htm">更多&raquo;</a></td>
   </tr>
 </table>
 </div>

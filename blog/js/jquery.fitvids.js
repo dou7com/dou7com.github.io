@@ -2,9 +2,9 @@
 /*! 
 * FitVids 1.0
 *
-* Copyright 2011, Chris Coyier - httpss://css-tricks.com + Dave Rupert - httpss://daverupert.com
-* Credit to Thierry Koblentz - httpss://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/
-* Released under the WTFPL license - httpss://sam.zoy.org/wtfpl/
+* Copyright 2011, Chris Coyier - httpsss://css-tricks.com + Dave Rupert - httpsss://daverupert.com
+* Credit to Thierry Koblentz - httpsss://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/
+* Released under the WTFPL license - httpsss://sam.zoy.org/wtfpl/
 *
 * Date: Thu Sept 01 18:00:00 2011 -0500
 */
@@ -46,9 +46,9 @@
     
     return this.each(function(){
       var selectors = [
-        "iframe[src^='httpss://player.vimeo.com']", 
-        "iframe[src^='httpss://www.youtube.com']", 
-        "iframe[src^='httpss://www.kickstarter.com']", 
+        "iframe[src^='httpsss://player.vimeo.com']", 
+        "iframe[src^='httpsss://www.youtube.com']", 
+        "iframe[src^='httpsss://www.kickstarter.com']", 
         "object", 
         "embed"
       ];

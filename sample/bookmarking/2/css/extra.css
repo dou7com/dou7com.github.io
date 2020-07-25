@@ -107,9 +107,9 @@ a:hover{color:#f30;text-decoration:underline;}
 .suggest_panel .list tbody td{ padding: 4px 0 4px 10px; font-size:14px; cursor:pointer; /*white-space:nowrap;*/ vertical-align:top;}
 .suggest_panel .list tbody td.bt {padding-left:0; padding-right:10px; text-align:right;}
 .suggest_panel .list .cur { background-color:#F5F5F5;}
-.suggest_panel .list button{ border:none; background:url(https://www.hao123.com/images/stock/add-normal.png) no-repeat; width:44px; height:19px; cursor:pointer;}
-.suggest_panel .list button.disabled{background:url(https://www.hao123.com/images/stock/add-disabled.png) no-repeat;}
-.suggest_panel .list button.added{background:url(https://www.hao123.com/images/stock/add-added.png) no-repeat;}
+.suggest_panel .list button{ border:none; background:url(http://www.hao123.com/images/stock/add-normal.png) no-repeat; width:44px; height:19px; cursor:pointer;}
+.suggest_panel .list button.disabled{background:url(http://www.hao123.com/images/stock/add-disabled.png) no-repeat;}
+.suggest_panel .list button.added{background:url(http://www.hao123.com/images/stock/add-added.png) no-repeat;}
 .suggest_panel .list tfoot{ text-align:center;}
 .suggest_panel .list tfoot td{ padding-top:10px;}
 .suggest_panel .list tfoot td p{ border-top:1px solid #999; line-height:32px;color:red;}
