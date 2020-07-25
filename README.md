@@ -2,7 +2,7 @@
 https://www.dou7.com
 私人资源管家服务
 
-1，提供网络域名代注册和管理，托管在GODADDY（全球最大域名注册商）上，可放心使用，已经相关的wordpress网站建设等相关服务。
+1，提供网络域名代注册和管理，托管在GODADDY（全球最大域名注册商）上，可放心使用，以及相关的wordpress网站建设等相关服务。
 
 2，提供个人网址收藏页（html模板独立性强）
 模板地址：https://www.dou7.com/sample/bookmarking
