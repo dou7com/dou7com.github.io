@@ -2,23 +2,23 @@
 		lifeTool: {
 			query: {				
                  "huoche":{
-					href:"https://p.yiqifa.com/c?s=26390d3a&w=253302&c=6451&i=19382&l=0&e=hao6&t=https://tj.tieyou.com/gw.php",
+					href:"http://p.yiqifa.com/c?s=26390d3a&w=253302&c=6451&i=19382&l=0&e=hao6&t=http://tj.tieyou.com/gw.php",
 					bg:"images/life/liecheshike.jpg",
-					title:"ÁĞ³µÊ±¿Ì",
+					title:"åˆ—è½¦æ—¶åˆ»",
 					type:"icon",
 					status:'hot'
 		        } ,
                 "weizhang":{
 					href:"haoserver/jiaotongcx.htm",
                     bg:"images/life/weizhang.jpg",
-                    title:"½»Í¨Î¥ÕÂ²éÑ¯",
+                    title:"äº¤é€šè¿ç« æŸ¥è¯¢",
                     type:"icon",
 					status:'hot'
 		        } ,
                 "shoujihaoma":{
-                href:"https://guishu.showji.com/search.htm",
+                href:"http://guishu.showji.com/search.htm",
                 bg:"images/life/shoujihaoma.gif",
-                title:"ÊÖ»úºÅÂë¹éÊôµØ",
+                title:"æ‰‹æœºå·ç å½’å±åœ°",
                 param:"m",
                 type:"form",
                 status:''
@@ -26,90 +26,90 @@
                 "kuaidi":{
                 href:"haoserver/kuaidi.htm",
                 bg:"images/life/kuaidi.jpg",
-                title:"¿ìµİ²éÑ¯",
+                title:"å¿«é€’æŸ¥è¯¢",
                 type:"icon",
 				status:'hot'
                 },
                 "hangban":{
-                href:"https://p.yiqifa.com/c?s=15f50b00&w=253302&c=7036&i=27402&l=0&e=hao6&t=https://www.ly.com",
+                href:"http://p.yiqifa.com/c?s=15f50b00&w=253302&c=7036&i=27402&l=0&e=hao6&t=http://www.ly.com",
                 bg:"images/life/hangbanchaxun.jpg",
-                title:"º½°à²éÑ¯",
+                title:"èˆªç­æŸ¥è¯¢",
                 type:"icon",
 				status:''
                 },
                 "shenfenzheng":{
-                href:"https://qq.ip138.com/idsearch/index.asp",
+                href:"http://qq.ip138.com/idsearch/index.asp",
                 bg:"images/life/shenfenzheng.jpg",
-                title:"Éí·İÖ¤ĞÅÏ¢²éÑ¯",
+                title:"èº«ä»½è¯ä¿¡æ¯æŸ¥è¯¢",
 				param:"userid",
                 hiddenParam:"action=idcard",
                 type:"form",
 				status:''
                 },
                 "quhao":{
-                href:"https://app.baidu.com/postcode",
+                href:"http://app.baidu.com/postcode",
 		bg:"images/life/quhaochaxun.png",
-                title:"ÇøºÅ²éÑ¯",
+                title:"åŒºå·æŸ¥è¯¢",
                 param:"quhao",
                 hiddenParam:"action=2",
                 type:"icon",
 				status:''
                 },
                 "ip":{
-                href:"https://www.ip138.com/ips.asp",
+                href:"http://www.ip138.com/ips.asp",
                 bg:"images/life/ip.jpg",
-                title:"IPµØÖ·¹éÊôµØ",
+                title:"IPåœ°å€å½’å±åœ°",
                 param:"ip",
                 hiddenParam:"action=2",
                 type:"form",
 				status:''
                 },
                 "gongjiao":{
-                href:"https://bus.mapbar.com/",
-                title:"¹«½»²éÑ¯",
+                href:"http://bus.mapbar.com/",
+                title:"å…¬äº¤æŸ¥è¯¢",
                 type:"text",
 				status:''
                 },
                 "wannianli":{
                 href:"haoserver/wnl.htm",
-                title:"ÍòÄêÀú",
+                title:"ä¸‡å¹´å†",
                 type:"text",
 				status:''
                 },
                 "ditu":{
-                href:"https://map.baidu.com/",
-                title:"ÔÚÏßµØÍ¼²éÑ¯",
+                href:"http://map.baidu.com/",
+                title:"åœ¨çº¿åœ°å›¾æŸ¥è¯¢",
                 type:"text",
 					status:''
                 },
                 "anquanqi":{
-                href:"https://app.baidu.com/baefemale/female.html?v=1.00 ",
-                title:"Å®ĞÔ°²È«ÆÚ",
+                href:"http://app.baidu.com/baefemale/female.html?v=1.00 ",
+                title:"å¥³æ€§å®‰å…¨æœŸ",
                 type:"text",
 				status:''
                 },
                 "youbian":{
-                href:"https://www.ip138.com/post/",
-                title:"ÓÊÕş±àÂë²éÑ¯",
+                href:"http://www.ip138.com/post/",
+                title:"é‚®æ”¿ç¼–ç æŸ¥è¯¢",
                 type:"text",
 				status:''
                 },
                 "wangsuceshi":{
-                href:"https://app.baidu.com/ada_nettest",
-                title:"ÍøËÙ²âÊÔ",
-                subtitle:"×îÈ¨Íş×î×¼È·µÄÍøËÙ²âÊÔ",
+                href:"http://app.baidu.com/ada_nettest",
+                title:"ç½‘é€Ÿæµ‹è¯•",
+                subtitle:"æœ€æƒå¨æœ€å‡†ç¡®çš„ç½‘é€Ÿæµ‹è¯•",
                 type:"text",
 				status:''
                 },
 				"chuzujiaoche":{
-                href:"https://www.1hai.cn/",
-                title:"³ö×â½Ğ³µ",
+                href:"http://www.1hai.cn/",
+                title:"å‡ºç§Ÿå«è½¦",
                 type:"text",
 				status:'new'
                 },
                 "lvyoujingdian":{
-                href:"https://p.yiqifa.com/c?s=6d9eafeb&w=253302&c=5528&i=13362&l=0&e=hao6&t=https://www.uzai.com",
-                title:"¾°µã¹¥ÂÔ",
+                href:"http://p.yiqifa.com/c?s=6d9eafeb&w=253302&c=5528&i=13362&l=0&e=hao6&t=http://www.uzai.com",
+                title:"æ™¯ç‚¹æ”»ç•¥",
                 type:"text",
 				status:''
                 }
@@ -119,132 +119,132 @@
 				"shoujichongzhi":{
                 href:"../haoserver/chongzhi.htm",
                 bg:"images/life/shoujichongzhi.jpg",
-                title:"ÊÖ»ú³äÖµ",
+                title:"æ‰‹æœºå……å€¼",
                 type:"icon",
 				status:''
                 },
                 "yidong":{
-                href:"https://www.10086.cn/index.htm",
+                href:"http://www.10086.cn/index.htm",
                 bg:"images/life/yidong.jpg",
-                title:"ÒÆ¶¯ÓªÒµÌü",
+                title:"ç§»åŠ¨è¥ä¸šå…",
                 type:"icon",
 				status:''
                 },
                 "liantong":{
-                href:"https://www.10010.com/ ",
+                href:"http://www.10010.com/ ",
                 bg:"images/life/liantong.jpg",
-                title:"ÁªÍ¨ÓªÒµÌü",
+                title:"è”é€šè¥ä¸šå…",
                 type:"icon",
 				status:''
                 },
                 "dianxin":{
-                href:"https://www.ct10000.com/ ",
+                href:"http://www.ct10000.com/ ",
                 bg:"images/life/dianxin.jpg",
-                title:"µçĞÅÓªÒµÌü",
+                title:"ç”µä¿¡è¥ä¸šå…",
                 type:"icon",
                 status:''
                 },
                 "youxichongzhi":{
-                href:"https://s8.taobao.com/search?pid=mm_10054659_1405058_9666016&mode=63&refpos=&cat=99&commend=all&s=0&sort=commend&n=40&olu=yes&yp4p_page=0&viewIndex=1",
-                title:"ÓÎÏ·³äÖµ",
+                href:"http://s8.taobao.com/search?pid=mm_10054659_1405058_9666016&mode=63&refpos=&cat=99&commend=all&s=0&sort=commend&n=40&olu=yes&yp4p_page=0&viewIndex=1",
+                title:"æ¸¸æˆå……å€¼",
                 type:"text",
 				status:''
                 },
                 "shuidianmei":{
                 href:"https://www.alipay.com/",
-                title:"Ë®µçÃº½É·Ñ",
+                title:"æ°´ç”µç…¤ç¼´è´¹",
                 type:"text",
 				status:''
                 },
                 "shuidianmei":{
                 href:"https://shenghuo.alipay.com/jiaofei.htm?_ad=c&_adType=lifejf_sdmjf_shsy",
-                title:"Ë®µçÃº½É·Ñ",
+                title:"æ°´ç”µç…¤ç¼´è´¹",
                 type:"text",
 				status:''
                 },
                 "jiaofangzhu":{
                 href:"https://shenghuo.alipay.com/rent.htm?_ad=c&_adType=lifezz_jfz_shsy",
-                title:"½»·¿×â",
+                title:"äº¤æˆ¿ç§Ÿ",
                 type:"text",
 				status:''
                 },
                 "guhuakuandai":{
                 href:"https://shenghuo.alipay.com/guhua.htm?_ad=c&_adType=lifejf_ghkd_shsy",
-                title:"¹Ì»°¿í´ø",
+                title:"å›ºè¯å®½å¸¦",
                 type:"text",
 				status:''
                 },
                 "xinyongkahuankuan":{
                 href:"https://shenghuo.alipay.com/credit.htm?_ad=c&_adType=lifejr_xykhk_shsy",
-                title:"ĞÅÓÃ¿¨»¹¿î",
+                title:"ä¿¡ç”¨å¡è¿˜æ¬¾",
                 type:"text",
 				status:''
                 },
                 "huandaikuan":{
                 href:"https://shenghuo.alipay.com/perloan.htm?_ad=c&_adType=lifejr_hdk_shsy",
-                title:"»¹´û¿î",
+                title:"è¿˜è´·æ¬¾",
                 type:"text",
 				status:''
                 },
                 "jiayouka":{
                 href:"https://shenghuo.alipay.com/oilcard.htm",
-                title:"¼ÓÓÍ¿¨³äÖµ",
+                title:"åŠ æ²¹å¡å……å€¼",
                 type:"text",
 				status:''
                 },
                 "jiaotongfakuan":{
                 href:"https://ebppprod.alipay.com/traffic.htm",
-                title:"½»Í¨·£¿î´ú°ì",
+                title:"äº¤é€šç½šæ¬¾ä»£åŠ",
                 type:"text",
 				status:''
                 },
                  "jiaobaoxian":{
-                href:"https://baoxian.taobao.com/",
-                title:"Âò±£ÏÕ",
+                href:"http://baoxian.taobao.com/",
+                title:"ä¹°ä¿é™©",
                 type:"text",
 				status:''
                 },
                  "zhuce":{
-                href:"https://www.1hai.cn/",
-                title:"×â³µ",
+                href:"http://www.1hai.cn/",
+                title:"ç§Ÿè½¦",
                 type:"text",
 				status:''
                 }
             },	
 			ticket: {
                 "youapiaowu":{
-                href:"https://s.click.taobao.com/t?e=m%3D2%26s%3DUg0by3eHzX4cQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAvBNBBfsO0cGoTbo%2Fx%2FoFw7qGo1GWvL9hts%2FT56eVHRMhavTnqV6kOpufX2viMg2An7uq6sLYIqu0Q7QOybCaQy9AmARIwX9K9E0MBlxnM%2FDnaYpFBIfC%2F0t2Svxi9YpPg%3D%3D",
-                title:"¾°µãÃÅÆ±",
+                href:"http://s.click.taobao.com/t?e=m%3D2%26s%3DUg0by3eHzX4cQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAvBNBBfsO0cGoTbo%2Fx%2FoFw7qGo1GWvL9hts%2FT56eVHRMhavTnqV6kOpufX2viMg2An7uq6sLYIqu0Q7QOybCaQy9AmARIwX9K9E0MBlxnM%2FDnaYpFBIfC%2F0t2Svxi9YpPg%3D%3D",
+                title:"æ™¯ç‚¹é—¨ç¥¨",
                 type:"text",
 				status:''
                 },
                 "maicaipiao":{
-                href:"https://union.500wan.com/pages/interfacehezuo.php?coopid=1605&adid=16",
-                title:"Âò²ÊÆ±",
+                href:"http://union.500wan.com/pages/interfacehezuo.php?coopid=1605&adid=16",
+                title:"ä¹°å½©ç¥¨",
                 type:"text",
 				status:''
                 },
                 "huochepiaodaigou":{
-                href:"https://p.yiqifa.com/c?s=26390d3a&w=253302&c=6451&i=19382&l=0&e=hao6&t=https://tj.tieyou.com/gw.php",
-                title:"»ğ³µÆ±´ú¹º",
+                href:"http://p.yiqifa.com/c?s=26390d3a&w=253302&c=6451&i=19382&l=0&e=hao6&t=http://tj.tieyou.com/gw.php",
+                title:"ç«è½¦ç¥¨ä»£è´­",
                 type:"text",
 				status:''
                 },
                 "dianyingpiao":{
-                href:"https://dianying.taobao.com/",
-                title:"µçÓ°Æ±",
+                href:"http://dianying.taobao.com/",
+                title:"ç”µå½±ç¥¨",
                 type:"text",
 				status:''
                 },
                 "jipiao":{
-                href:"https://p.yiqifa.com/c?s=15f50b00&w=253302&c=7036&i=27402&l=0&e=hao6&t=https://www.ly.com",
-                title:"Âò»úÆ±",
+                href:"http://p.yiqifa.com/c?s=15f50b00&w=253302&c=7036&i=27402&l=0&e=hao6&t=http://www.ly.com",
+                title:"ä¹°æœºç¥¨",
                 type:"text",
 				status:''
                 },
                 "hotel":{
-                href:"https://p.yiqifa.com/n?k=KBAqRyWlrI6HWEKF6n4H2mLErI6H2mLS6lMH6l2O6lwlrnRlWQLErZyH2mLFWEwlMJKm6cLE&e=hao6&spm=1.1.1.1&t=https://travel.elong.com/hotel/",
-                title:"¶©¾Æµê",
+                href:"http://p.yiqifa.com/n?k=KBAqRyWlrI6HWEKF6n4H2mLErI6H2mLS6lMH6l2O6lwlrnRlWQLErZyH2mLFWEwlMJKm6cLE&e=hao6&spm=1.1.1.1&t=http://travel.elong.com/hotel/",
+                title:"è®¢é…’åº—",
                 type:"text",
 				status:''
                 }
@@ -252,58 +252,58 @@
 			info: {
 
                 "tianqi":{
-                href:"https://weather.news.sina.com.cn/",
+                href:"http://weather.news.sina.com.cn/",
                 bg:"images/life/tianqi.jpg",
-                title:"ÌìÆøÔ¤±¨",
+                title:"å¤©æ°”é¢„æŠ¥",
                 type:"icon",
 				status:''
                 },
 
                 "caipiao":{
-                href:"https://union.500wan.com/pages/interfacehezuo.php?coopid=1605&adid=43",
+                href:"http://union.500wan.com/pages/interfacehezuo.php?coopid=1605&adid=43",
                 bg:"images/life/caipiao2.jpg",
-                title:"²ÊÆ±¿ª½±",
+                title:"å½©ç¥¨å¼€å¥–",
                 type:"icon",
 				status:''
                 },
 
                 "dianshiyugao":{
-                href:"https://tuan.6164.com/",
+                href:"http://tuan.6164.com/",
 				bg:"images/life/tuangou.jpg",
-                title:"ÍÅ¹º",
+                title:"å›¢è´­",
                 type:"icon",
 				status:''
                 },
                 "caipu":{
                 href:"zhekou.htm",
 				bg:"images/life/zhekou.jpg",
-                title:"ÕÛ¿Û",
+                title:"æŠ˜æ‰£",
                 type:"icon",
 				status:''
                 },
 
                 "beijingshijian":{
-                href:"https://open.baidu.com/special/time/",
-                title:"±±¾©Ê±¼ä",
-                subtitle:"¹ú¼ÒÊÚÊ±ÖĞĞÄ±ê×¼Ê±¼ä",
+                href:"http://open.baidu.com/special/time/",
+                title:"åŒ—äº¬æ—¶é—´",
+                subtitle:"å›½å®¶æˆæ—¶ä¸­å¿ƒæ ‡å‡†æ—¶é—´",
                 type:"text",
 				status:''
                 },
                 "shencaicesuan":{
-                href:"https://app.baidu.com/shencai",
-                title:"Éí²Ä²âËã",
+                href:"http://app.baidu.com/shencai",
+                title:"èº«ææµ‹ç®—",
                 type:"text",
 				status:''
                 },
                 "chidejiankang":{
-                href:"https://www.tvsou.com/",
-                title:"µçÊÓÔ¤¸æ",
+                href:"http://www.tvsou.com/",
+                title:"ç”µè§†é¢„å‘Š",
                 type:"text",
 				status:''
                 },
                 "yuchanqi":{
-                href:"https://app.baidu.com/yunqijczx",
-                title:"Ô¤²úÆÚ¼ÆËãÆ÷",
+                href:"http://app.baidu.com/yunqijczx",
+                title:"é¢„äº§æœŸè®¡ç®—å™¨",
                 type:"text",
 				status:''
                 }  
@@ -313,616 +313,616 @@
 			amuse: {
                 
                 "yingshi":{
-                href:"https://v.6164.com/",
+                href:"http://v.6164.com/",
                 bg:"images/life/gaoqingyingshi.png",
-                title:"¸ßÇåÓ°ÊÓ",
+                title:"é«˜æ¸…å½±è§†",
                 type:"icon",
 				status:''
                 },
                 "yinyue":{
-                href:"https://fm.baidu.com",
+                href:"http://fm.baidu.com",
                 bg:"images/life/hao123yinyue.jpg",
-                title:"ÔÚÏßÌı¸è",
+                title:"åœ¨çº¿å¬æ­Œ",
                 type:"icon",
 				status:''
                 },
 				"gexingqianming":{
-                href:"https://www.qqgexing.com/qianming/",
+                href:"http://www.qqgexing.com/qianming/",
                 bg:"images/life/gexingqianming.jpg",
-                title:"QQ¸öĞÔÇ©Ãû",
+                title:"QQä¸ªæ€§ç­¾å",
                 type:"icon",
 				status:''
                 },
                 "gexingtouxiang":{
-                href:"https://www.qqgexing.com/touxiang/",
+                href:"http://www.qqgexing.com/touxiang/",
                 bg:"images/life/gexingtouxiang.jpg",
-                title:"QQ¸öĞÔÍ·Ïñ",
+                title:"QQä¸ªæ€§å¤´åƒ",
                 type:"icon",
 				status:''
                 },
                 "qqbiaoqing":{
-                href:"https://app.baidu.com/7gaoqqbq",
-                title:"QQ±íÇé",
+                href:"http://app.baidu.com/7gaoqqbq",
+                title:"QQè¡¨æƒ…",
                 type:"text",
 				status:''
                 },
                 "haoyouyinxiang":{
-                href:"https://www.qqgexing.com/yinxiang/",
-                title:"ºÃÓÑÓ¡Ïó",
+                href:"http://www.qqgexing.com/yinxiang/",
+                title:"å¥½å‹å°è±¡",
                 type:"text",
 				status:''
                 },
                 "gexingfenzu":{
-                href:"https://www.qqgexing.com/fenzu/",
-                title:"¸öĞÔ·Ö×é",
+                href:"http://www.qqgexing.com/fenzu/",
+                title:"ä¸ªæ€§åˆ†ç»„",
                 type:"text",
 				status:''
                 },
 				"youxi":{
                 href:"xyx.htm",
-                title:"Ğ¡ÓÎÏ·",
+                title:"å°æ¸¸æˆ",
                 type:"text",
 				status:''
                 },
                  "jianpangangqin":{
-                href:"https://app.baidu.com/widget?appid=101428",
-                title:"¼üÅÌ¸ÖÇÙ",
+                href:"http://app.baidu.com/widget?appid=101428",
+                title:"é”®ç›˜é’¢ç´",
                 type:"text",
 				status:''
                 },
                 "zuomianbizhi":{
-                href:"https://www.deskcity.com/",
-                title:"×ÀÃæ±ÚÖ½",
+                href:"http://www.deskcity.com/",
+                title:"æ¡Œé¢å£çº¸",
                 type:"text",
 				status:''
                 },
                 "jingpinxiaohua":{
-                href:"https://app.baidu.com/xiaohuaquanji",
-                title:"¾«Æ·Ğ¦»°´óÈ«",
+                href:"http://app.baidu.com/xiaohuaquanji",
+                title:"ç²¾å“ç¬‘è¯å¤§å…¨",
                 type:"text",
 				status:''
                 },
                 "xinliceshi":{
-                href:"https://www.jiqie.com/1/7/",
-                title:"ÒÕÊõÇ©Ãû",
+                href:"http://www.jiqie.com/1/7/",
+                title:"è‰ºæœ¯ç­¾å",
                 type:"text",
 				status:''
                 },
                 "jizhuanwan":{
-                href:"https://app.baidu.com/widget?appid=106602",
-                title:"ÄÔ½î¼±×ªÍä",
+                href:"http://app.baidu.com/widget?appid=106602",
+                title:"è„‘ç­‹æ€¥è½¬å¼¯",
                 type:"text",
 				status:''
                 },
 				"weiboqunfa":{
-					href:"https://app.baidu.com/baidupush",
-					title:"Î¢²©ÔÚÏßÈº·¢",
+					href:"http://app.baidu.com/baidupush",
+					title:"å¾®åšåœ¨çº¿ç¾¤å‘",
 					type:"text",
 					status:''
 					},
 				"gaoxiaozhengjian":{
-                href:"https://app.baidu.com/jobcert",
-                title:"¸ãĞ¦ÍøÂçÖ¤¼ş",
+                href:"http://app.baidu.com/jobcert",
+                title:"æç¬‘ç½‘ç»œè¯ä»¶",
                 type:"text",
 				status:''
                 },
 				"jiehunzheng":{
-					href:"https://app.baidu.com/jiehunzheng/index.php",
-					title:"ÍøÂç½á»éÖ¤",
+					href:"http://app.baidu.com/jiehunzheng/index.php",
+					title:"ç½‘ç»œç»“å©šè¯",
 					type:"text",
 					status:''
 					},
 				"jingdianyulu":{
-					href:"https://app.baidu.com/jdyjdqw/index.html",
-					title:"¾­µäÓïÂ¼",
+					href:"http://app.baidu.com/jdyjdqw/index.html",
+					title:"ç»å…¸è¯­å½•",
 					type:"text",
 					status:''
 					},
 				"renshengganwu":{
-					href:"https://app.baidu.com/bdappgwrs",
-					title:"ÈËÉú¸ĞÎò",
+					href:"http://app.baidu.com/bdappgwrs",
+					title:"äººç”Ÿæ„Ÿæ‚Ÿ",
 					type:"text"
 					,status:''
 					},
 				"lengxiaohua":{
-					href:"https://app.baidu.com/lengxiaohua",
-					title:"ÀäĞ¦»°",
+					href:"http://app.baidu.com/lengxiaohua",
+					title:"å†·ç¬‘è¯",
 					type:"text",
 					status:''
 					},
 				"changshidakaoyan":{
-					href:"https://app.baidu.com/widget?appid=107265",
-					title:"³£Ê¶´ó¿¼Ñé",
+					href:"http://app.baidu.com/widget?appid=107265",
+					title:"å¸¸è¯†å¤§è€ƒéªŒ",
 					type:"text",
 					status:''
 					},
 					"faxing":{
-					href:"https://app.baidu.com/widget?appid=101133",
-					title:"¹«Ö÷Ê±ÉĞ·¢ĞÍ",
+					href:"http://app.baidu.com/widget?appid=101133",
+					title:"å…¬ä¸»æ—¶å°šå‘å‹",
 					type:"text",
 					status:''
 					},
 					"baobaoqiming":{
-                href:"https://app.baidu.com/qimingzi/Baby.aspx",
-                title:"±¦±¦ÆğÃû¹¤¾ß",
+                href:"http://app.baidu.com/qimingzi/Baby.aspx",
+                title:"å®å®èµ·åå·¥å…·",
                 type:"text",
 				status:''
                 }
             },
 			planet: {
                 "xingmingceshi":{
-                href:"https://app.baidu.com/cemingzi/CeMing.aspx",
+                href:"http://app.baidu.com/cemingzi/CeMing.aspx",
                 bg:"images/life/meimingtengceshi.jpg",
-                title:"ĞÕÃû²âÊÔ",
+                title:"å§“åæµ‹è¯•",
                 type:"icon",
 					status:''
                 },
                 "zhougongjiemeng":{
-                href:"https://www.51jiemeng.com/",
+                href:"http://www.51jiemeng.com/",
                 bg:"images/life/zhougongjiemeng.jpg",
-                title:"ÖÜ¹«½âÃÎ",
+                title:"å‘¨å…¬è§£æ¢¦",
                 type:"icon",
 					status:''
                 },
                 "xingzuoyunshi":{
-                href:"https://www.sheup.com/luck.php",
+                href:"http://www.sheup.com/luck.php",
                 bg:"images/life/xingzuoyunshi3.jpg",
-                title:"½ñÄêÔËÊÆ",
+                title:"ä»Šå¹´è¿åŠ¿",
                 type:"icon",
 					status:''
                 },
                 "haomaxiongji":{
-                href:"https://app.baidu.com/jixiong",
+                href:"http://app.baidu.com/jixiong",
                 bg:"images/life/haomaxiongji.jpg",
-                title:"ÊÖ»úºÅÂë¼ªĞ×²éÑ¯",
+                title:"æ‰‹æœºå·ç å‰å‡¶æŸ¥è¯¢",
                 type:"icon",
 					status:''
                 },
                 "taohuayun":{
-                href:"https://app.baidu.com/taohuayun",
-                title:"ÌÒ»¨ÔË²âÊÔ",
+                href:"http://app.baidu.com/taohuayun",
+                title:"æ¡ƒèŠ±è¿æµ‹è¯•",
                 type:"text",
 					status:''
                 },
                 "xinlinianling":{
-                href:"https://app.baidu.com/widget?appid=117940",
-                title:"ĞÄÀíÄêÁä²âÊÔ",
+                href:"http://app.baidu.com/widget?appid=117940",
+                title:"å¿ƒç†å¹´é¾„æµ‹è¯•",
                 type:"text",
 					status:''
                 },
 				 "qianshijinsheng":{
-                href:"https://app.baidu.com/qianshi",
-                title:"Ç°ÊÀ½ñÉú²âÊÔ",
+                href:"http://app.baidu.com/qianshi",
+                title:"å‰ä¸–ä»Šç”Ÿæµ‹è¯•",
                 type:"text",
 					status:''
                 },
 				"zhiyeceshi":{
-                href:"https://app.baidu.com/zhiyeceshi",
-                title:"Ö°Òµ²âÊÔ",
+                href:"http://app.baidu.com/zhiyeceshi",
+                title:"èŒä¸šæµ‹è¯•",
                 type:"text",
 					status:''
                 },
 				"xingzuoceshi":{
-				  href:"https://app.baidu.com/xingzuoceshi/constellation.php",
-				  title:"ĞÇ×ù²âÊÔ",
+				  href:"http://app.baidu.com/xingzuoceshi/constellation.php",
+				  title:"æ˜Ÿåº§æµ‹è¯•",
 				  type:"text",
 				  status:''
 				  },
 			  "yuanfen":{
-				  href:"https://app.baidu.com/yuanfenceshi",
-				  title:"Ôµ·Ö²âÊÔ",
+				  href:"http://app.baidu.com/yuanfenceshi",
+				  title:"ç¼˜åˆ†æµ‹è¯•",
 				  type:"text",
 				  status:''
 				  },
 				  "aiqingceshi":{
-				  href:"https://www.yuanfenup.com/",
-				  title:"°®ÇéÄ§·¨²âÊÔ",
+				  href:"http://www.yuanfenup.com/",
+				  title:"çˆ±æƒ…é­”æ³•æµ‹è¯•",
 				  type:"text",
 				  status:''
 				  },
 				   "qingshang":{
-				  href:"https://app.baidu.com/widget?appid=107376",
-				  title:"ÇéÉÌ²âÊÔ",
+				  href:"http://app.baidu.com/widget?appid=107376",
+				  title:"æƒ…å•†æµ‹è¯•",
 				  type:"text",
 				  status:''
 				  }, 
 				  "zhishangceshi":{
-                href:"https://app.baidu.com/widget?appid=105981",
-                title:"ÖÇÉÌ²âÊÔ",
+                href:"http://app.baidu.com/widget?appid=105981",
+                title:"æ™ºå•†æµ‹è¯•",
                 type:"text",
 					status:''
                 },
                 "renpinjisuanqi":{
-                href:"https://cts.388g.com/",
-                title:"²ØÍ·Ê«",
+                href:"http://cts.388g.com/",
+                title:"è—å¤´è¯—",
                 type:"text",
 					status:''
                 },
                 "bazi":{
-                href:"https://app.baidu.com/suanming",
-                title:"HttpCN °Ë×ÖËãÃü",
+                href:"http://app.baidu.com/suanming",
+                title:"HttpCN å…«å­—ç®—å‘½",
                 type:"text",
 					status:''
                 },
                 "suanming":{
-                href:"https://app.baidu.com/ada_zhanbu",
-                title:"³Æ¹ÇËãÃü",
+                href:"http://app.baidu.com/ada_zhanbu",
+                title:"ç§°éª¨ç®—å‘½",
                 type:"text",
 					status:''
                 },
 				"xingmingpeidui":{
-				   href:"https://www.sheup.com/xingming_wuge_peidui.php",
-				   title:"ĞÕÃûÅä¶Ô",
+				   href:"http://www.sheup.com/xingming_wuge_peidui.php",
+				   title:"å§“åé…å¯¹",
 				   type:"text",
 				   status:''
 				   },
 				 "xingzuopeidui":{
-				  href:"https://app.baidu.com/my_with",
-				  title:"ĞÇ×ùÅä¶Ô",
+				  href:"http://app.baidu.com/my_with",
+				  title:"æ˜Ÿåº§é…å¯¹",
 				  type:"text",
 				  status:''
 				  },   
                 "shengxiaopeidui":{
-                href:"https://app.baidu.com/sxmatch/index.php",
-                title:"ÉúĞ¤Åä¶Ô",
+                href:"http://app.baidu.com/sxmatch/index.php",
+                title:"ç”Ÿè‚–é…å¯¹",
                 type:"text",
 					status:''
                 },
 				"shiershengxiao":{
-				  href:"https://app.baidu.com/zodiacs",
-				  title:"Ê®¶şÉúĞ¤",
+				  href:"http://app.baidu.com/zodiacs",
+				  title:"åäºŒç”Ÿè‚–",
 				  type:"text",
 				  status:''
 				  },
                 "shengnannv":{
-                href:"https://app.baidu.com/widget?appid=128621",
-                title:"ÉúÄĞÉúÅ®Ô¤²â±í",
+                href:"http://app.baidu.com/widget?appid=128621",
+                title:"ç”Ÿç”·ç”Ÿå¥³é¢„æµ‹è¡¨",
                 type:"text",
 					status:''
                 },
                 
 				"xinggesecaifenxi":{
-					href:"https://app.baidu.com/charcolor",
-					title:"ĞÔ¸ñÉ«²Ê·ÖÎö",
+					href:"http://app.baidu.com/charcolor",
+					title:"æ€§æ ¼è‰²å½©åˆ†æ",
 					type:"text",
 					status:''
 					},
 			  "taluopai":{
-				  href:"https://astro.fashion.qq.com/tarot/tarot.shtml",
-				  title:"ËşÂŞÅÆÔÚÏßÕ¼²·",
+				  href:"http://astro.fashion.qq.com/tarot/tarot.shtml",
+				  title:"å¡”ç½—ç‰Œåœ¨çº¿å åœ",
 				  type:"text",
 				  status:''
 				  }, 
 			  "taijishenshu":{
-				  href:"https://music.baidu.com/",
-				  title:"ÊÖ»úÁåÉùÏÂÔØ",
+				  href:"http://music.baidu.com/",
+				  title:"æ‰‹æœºé“ƒå£°ä¸‹è½½",
 				  type:"text",
 				  status:''
 				  }
 						  },
 			shop: {
                 "waihui":{
-                href:"https://www.boc.cn/sourcedb/whpj/",
+                href:"http://www.boc.cn/sourcedb/whpj/",
                 bg:"images/life/waihui.gif",
-                title:"Íâ»ãÅÆ¼Û",
+                title:"å¤–æ±‡ç‰Œä»·",
                 type:"icon",
 					status:''},
                 "gupiao":{
-                href:"https://quote.eastmoney.com/center/",
+                href:"http://quote.eastmoney.com/center/",
 				bg:"images/life/gupiao.jpg",
-                title:"¹ÉÆ±ĞĞÇé",
+                title:"è‚¡ç¥¨è¡Œæƒ…",
                 type:"icon",
 					status:''
                 },
                 "huobiduihuan":{
-                href:"https://app.baidu.com/currencyExchange",
+                href:"http://app.baidu.com/currencyExchange",
                 bg:"images/life/huobiduihuan2.gif",
-                title:"»õ±Ò¶Ò»»¼ÆËãÆ÷",
+                title:"è´§å¸å…‘æ¢è®¡ç®—å™¨",
                 type:"icon",
 					status:''
                 },
                 "tuangou":{
-                href:"https://tuan.6164.com/",
+                href:"http://tuan.6164.com/",
                 bg:"images/life/tuangou.jpg",
-                title:"ÍÅ¹ºµ¼º½",
+                title:"å›¢è´­å¯¼èˆª",
                 type:"icon",
 					status:''
                 },
                 "jijinjingzhi":{
-                href:"https://fund.eastmoney.com/",
-                title:"»ù½ğ¾»Öµ",
+                href:"http://fund.eastmoney.com/",
+                title:"åŸºé‡‘å‡€å€¼",
                 type:"text",
 					status:''
                 },
                 "zhekou":{
                 href:"zhekou.htm",
-                title:"hao123ÕÛ¿Û",
+                title:"hao123æŠ˜æ‰£",
                 type:"text",
 					status:''
                 },
                 "yinjia":{
-                href:"https://gold.hexun.com/hjxh/",
-                title:"»Æ½ğ¼Û¸ñ",
+                href:"http://gold.hexun.com/hjxh/",
+                title:"é»„é‡‘ä»·æ ¼",
                 type:"text",
 					status:''
                 },
 				"yinjia":{
-					href:"https://app.baidu.com/widget?appid=117649",
-					title:"°×Òø¼Û¸ñ",
+					href:"http://app.baidu.com/widget?appid=117649",
+					title:"ç™½é“¶ä»·æ ¼",
 					type:"text",
 					status:''
 					},
                 "cunkuan":{
-                href:"https://app.baidu.com/bae_saving/index.html",
-                title:"´æ¿î¼ÆËãÆ÷",
+                href:"http://app.baidu.com/bae_saving/index.html",
+                title:"å­˜æ¬¾è®¡ç®—å™¨",
                 type:"text",
 					status:''
                 },
 				"daikuan":{
-					href:"https://app.baidu.com/daikuanjisuanqi/dkjsq.html",
-					title:"´û¿î¼ÆËãÆ÷",
+					href:"http://app.baidu.com/daikuanjisuanqi/dkjsq.html",
+					title:"è´·æ¬¾è®¡ç®—å™¨",
 					type:"text",
 					status:''
 					},
 				"fangdai":{
-					href:"https://www.soufun.com/house/tools.htm",
-					title:"·¿´û¼ÆËãÆ÷",
+					href:"http://www.soufun.com/house/tools.htm",
+					title:"æˆ¿è´·è®¡ç®—å™¨",
 					type:"text",
 					status:''
 					},
 				"yanglaobaoxian":{
-					href:"https://finance.sina.com.cn/money/283/2005/0708/20.html",
-					title:"ÑøÀÏ±£ÏÕ½ğ¼ÆËãÆ÷",
+					href:"http://finance.sina.com.cn/money/283/2005/0708/20.html",
+					title:"å…»è€ä¿é™©é‡‘è®¡ç®—å™¨",
 					type:"text",
 					status:''
 					},
 				"gongjijin":{
-					href:"https://www.bjgjj.gov.cn/wsyw/jsq/cygj.htm",
-					title:"¹«»ı½ğ´û¿î¼ÆËãÆ÷",
+					href:"http://www.bjgjj.gov.cn/wsyw/jsq/cygj.htm",
+					title:"å…¬ç§¯é‡‘è´·æ¬¾è®¡ç®—å™¨",
 					type:"text",
 					status:''
 					},
 				"gupiaoshouyi":{
-					href:"https://app.baidu.com/bae_stock/index.htm",
-					title:"¹ÉÆ±ÊÕÒæ¼ÆËãÆ÷",
+					href:"http://app.baidu.com/bae_stock/index.htm",
+					title:"è‚¡ç¥¨æ”¶ç›Šè®¡ç®—å™¨",
 					type:"text"
 					,status:''
 					},
 				"geshui":{
-					href:"https://finance.sina.com.cn/calc/tax_pers_income.html",
-					title:"¸öÈËËùµÃË°¼ÆËãÆ÷",
+					href:"http://finance.sina.com.cn/calc/tax_pers_income.html",
+					title:"ä¸ªäººæ‰€å¾—ç¨è®¡ç®—å™¨",
 					type:"text",
 					status:''
 					},
 				"anjieyuegong":{
-					href:"https://app.baidu.com/bae_bank/index.htm",
-					title:"°´½ÒÔÂ¹©¼ÆËãÆ÷",
+					href:"http://app.baidu.com/bae_bank/index.htm",
+					title:"æŒ‰æ­æœˆä¾›è®¡ç®—å™¨",
 					type:"text",
 					status:''
 					},
 				"pinganchexian":{
-					href:"https://p.yiqifa.com/c?s=4e438714&w=253302&c=6299&i=18845&l=0&e=hao6&t=https://chexian.sinosig.com/simplePremium/chexian_emar.jsp",
-					title:"Ñô¹â³µÏÕ¼ÆËãÆ÷",
+					href:"http://p.yiqifa.com/c?s=4e438714&w=253302&c=6299&i=18845&l=0&e=hao6&t=http://chexian.sinosig.com/simplePremium/chexian_emar.jsp",
+					title:"é˜³å…‰è½¦é™©è®¡ç®—å™¨",
 					type:"text",
 					status:''
 					},
 				"jiaoyuchuxu":{
-					href:"https://app.baidu.com/edusave/index.html",
-					title:"½ÌÓı´¢Ğî¼ÆËãÆ÷",
+					href:"http://app.baidu.com/edusave/index.html",
+					title:"æ•™è‚²å‚¨è“„è®¡ç®—å™¨",
 					type:"text",
 					status:''
 					},
 				"gouche":{
-					href:"https://app.baidu.com/baecarTax/index.htm",
-					title:"¹º³µ¼ÆËãÆ÷",
+					href:"http://app.baidu.com/baecarTax/index.htm",
+					title:"è´­è½¦è®¡ç®—å™¨",
 					type:"text",
 					status:''
 					},
 					"chaogu":{
-					href:"https://app.baidu.com/simstock",
+					href:"http://app.baidu.com/simstock",
 					bg:"images/life/chaogu.gif",
-					title:"Ä£Äâ³´¹É",
+					title:"æ¨¡æ‹Ÿç‚’è‚¡",
 					type:"text",
 					status:''
 					},
 				"jizhang":{
-					href:"https://app.baidu.com/jizhang/user/baidu.do",
-					title:"ËæÊÖ¼Ç",
+					href:"http://app.baidu.com/jizhang/user/baidu.do",
+					title:"éšæ‰‹è®°",
 					type:"text",
 					status:''
 					},
 				"xianjinliu":{
-					href:"https://app.baidu.com/youshang_cfs",
-					title:"ÓÑÉÌÏÖ½ğÁ÷Á¿±í",
+					href:"http://app.baidu.com/youshang_cfs",
+					title:"å‹å•†ç°é‡‘æµé‡è¡¨",
 					type:"text",
 					status:''
 					},
 				"zhuangxiuyusuan":{
-					href:"https://home.focus.cn/group/calc/zxjsq_zong.php",
-					title:"×°ĞŞÔ¤Ëã",
+					href:"http://home.focus.cn/group/calc/zxjsq_zong.php",
+					title:"è£…ä¿®é¢„ç®—",
 					type:"text",
 					status:''
 					}
             },
 			inter:{
 				"webqq":{
-                href:"https://web.qq.com/",
+                href:"http://web.qq.com/",
                 bg:"images/life/webqq.jpg",
-                title:"ÍøÒ³°æQQ",
+                title:"ç½‘é¡µç‰ˆQQ",
                 type:"icon",
 					status:''
                 },
 				"mianfeishadu":{
-					href:"https://app.baidu.com/kis_duba/index.html",
+					href:"http://app.baidu.com/kis_duba/index.html",
 					bg:"images/life/mianfeishadu.gif",
-					title:"½ğÉ½ÔÚÏßÉ±¶¾",
+					title:"é‡‘å±±åœ¨çº¿æ€æ¯’",
 					type:"icon",
 					status:''
 					},
 				"meituxiuxiu":{
-					href:"https://app.baidu.com/meituxiuxiu",
+					href:"http://app.baidu.com/meituxiuxiu",
 					bg:"images/life/meituxiuxiu.gif",
-					title:"ÃÀÍ¼ĞãĞãÍøÒ³°æ",
+					title:"ç¾å›¾ç§€ç§€ç½‘é¡µç‰ˆ",
 					type:"icon",
 					status:''
 					},
 				"geshizhuanhuan":{
-					href:"https://app.baidu.com/ada_tpgs",
+					href:"http://app.baidu.com/ada_tpgs",
 					bg:"images/life/geshizhuanhuan.jpg",
-					title:"Í¼Æ¬¸ñÊ½×ª»»",
+					title:"å›¾ç‰‡æ ¼å¼è½¬æ¢",
 					type:"icon",
 					status:''
 					},
 					"dongtaitupian":{
-					href:"https://app.baidu.com/widget?appid=120980",
-					title:"GIFÍ¼Æ¬ĞŞ¸ÄÖÆ×÷",
+					href:"http://app.baidu.com/widget?appid=120980",
+					title:"GIFå›¾ç‰‡ä¿®æ”¹åˆ¶ä½œ",
 					type:"text",
 					status:''
 					},
 					"luyinji":{
-					href:"https://app.baidu.com/ada_luyin",
+					href:"http://app.baidu.com/ada_luyin",
 					bg:"images/life/luyinji.jpg",
-					title:"Â¼Òô»ú",
+					title:"å½•éŸ³æœº",
 					type:"text",
 					status:''
 					},
 					"webfeixin":{
                 href:"https://webim.feixin.10086.cn/",
-                title:"ÍøÒ³°æ·ÉĞÅ",
+                title:"ç½‘é¡µç‰ˆé£ä¿¡",
                 type:"text",
 					status:''
                 },
 				"wenjianyasuo":{
-					href:"https://app.baidu.com/widget?appid=118683",
-					title:"ÔÚÏßÎÄ¼şÑ¹Ëõ¹¤¾ß",
+					href:"http://app.baidu.com/widget?appid=118683",
+					title:"åœ¨çº¿æ–‡ä»¶å‹ç¼©å·¥å…·",
 					type:"text",
 					status:''
 					},
 				"qudongjingling":{
-					href:"https://www.drivergenius.com/",
-					title:"Çı¶¯¾«Áé",
+					href:"http://www.drivergenius.com/",
+					title:"é©±åŠ¨ç²¾çµ",
 					type:"text",
 					status:''
 					},
 					"fantizi":{
-					href:"https://app.baidu.com/ada_fanjian",
-					title:"·±Ìå×Ö×ª»»Æ÷",
+					href:"http://app.baidu.com/ada_fanjian",
+					title:"ç¹ä½“å­—è½¬æ¢å™¨",
 					type:"text",
 					status:''
 					},
 					"huoxingwen":{
-					href:"https://app.baidu.com/huoxingwen/index.html",
-					title:"»ğĞÇÎÄ×ª»»Æ÷",
+					href:"http://app.baidu.com/huoxingwen/index.html",
+					title:"ç«æ˜Ÿæ–‡è½¬æ¢å™¨",
 					type:"text",
 					status:''
 					},
 					"huoxingwen":{
-					href:"https://app.baidu.com/fantihuoxing",
-					title:"·±Ìå×Ö»ğĞÇÎÄ×ª»»",
+					href:"http://app.baidu.com/fantihuoxing",
+					title:"ç¹ä½“å­—ç«æ˜Ÿæ–‡è½¬æ¢",
 					type:"text",
 					status:''
 					},
 				"url":{
-					href:"https://app.baidu.com/urlcode/index.aspx",
-					title:"URL±àÂë½âÂë",
+					href:"http://app.baidu.com/urlcode/index.aspx",
+					title:"URLç¼–ç è§£ç ",
 					type:"text",
 					status:''
 					},
 
 				"jianli":{
-					href:"https://app.baidu.com/gerenjianlimoban",
-					title:"¸öÈË¼òÀúÄ£°å",
+					href:"http://app.baidu.com/gerenjianlimoban",
+					title:"ä¸ªäººç®€å†æ¨¡æ¿",
 					type:"text",
 					status:''
 					},
 					"renminbidaxie":{
-					href:"https://app.baidu.com/renminbi",
-					title:"ÈËÃñ±Ò´óĞ´×ª»»",
+					href:"http://app.baidu.com/renminbi",
+					title:"äººæ°‘å¸å¤§å†™è½¬æ¢",
 					type:"text",
 					status:''
 					},
 				"qingjiatiao":{
-					href:"https://app.baidu.com/qingjiatiao",
-					title:"Çë¼ÙÌõ",
+					href:"http://app.baidu.com/qingjiatiao",
+					title:"è¯·å‡æ¡",
 					type:"text",
 					status:''
 					},
 				"shenqingshu":{
-					href:"https://app.baidu.com/rudangsq",
-					title:"ÉêÇëÊé",
+					href:"http://app.baidu.com/rudangsq",
+					title:"ç”³è¯·ä¹¦",
 					type:"text",
 					status:''
 					},
 				"mingpiansheji":{
-					href:"https://app.baidu.com/mingpian",
-					title:"ÃûÆ¬Éè¼Æ",
+					href:"http://app.baidu.com/mingpian",
+					title:"åç‰‡è®¾è®¡",
 					type:"text",
 					status:''
 					},
 				"alexa":{
-					href:"https://www.alexa.com/",
-					title:"AlexaÅÅÃû",
+					href:"http://www.alexa.com/",
+					title:"Alexaæ’å",
 					type:"text",
 					status:''
 					},
 				"js":{
-					href:"https://app.baidu.com/widget?appid=121305",
-					title:"JS´úÂë¹¤¾ß",
+					href:"http://app.baidu.com/widget?appid=121305",
+					title:"JSä»£ç å·¥å…·",
 					type:"text",
 					status:''
 					},
 				
 				"kuaijiejian":{
-					href:"https://app.baidu.com/apphotkey/",
-					title:"¿ì½İ¼ü´óÈ«",
+					href:"http://app.baidu.com/apphotkey/",
+					title:"å¿«æ·é”®å¤§å…¨",
 					type:"text",
 					status:''
 					},
 				"yuming":{
-					href:"https://app.baidu.com/chaojizhan",
-					title:"ÓòÃûÅúÁ¿Éú³É²éÑ¯",
+					href:"http://app.baidu.com/chaojizhan",
+					title:"åŸŸåæ‰¹é‡ç”ŸæˆæŸ¥è¯¢",
 					type:"text",
 					status:''
 					},
 				"katongtouxiang":{
-					href:"https://app.baidu.com/widget?appid=100965",
-					title:"¿¨Í¨Í·ÏñÖÆ×÷",
+					href:"http://app.baidu.com/widget?appid=100965",
+					title:"å¡é€šå¤´åƒåˆ¶ä½œ",
 					type:"text",
 					status:''
 					},
 				"tupianpinjie":{
-					href:"https://app.baidu.com/qhcj_tuyaya",
-					title:"·ÇÖ÷Á÷Ææ»Ã³¡¾°",
+					href:"http://app.baidu.com/qhcj_tuyaya",
+					title:"éä¸»æµå¥‡å¹»åœºæ™¯",
 					type:"text",
 					status:''
 					},
 				"jitatiaoyin":{
-					href:"https://app.baidu.com/widget?appid=104466",
-					title:"¼ªËûµ÷Òô",
+					href:"http://app.baidu.com/widget?appid=104466",
+					title:"å‰ä»–è°ƒéŸ³",
 					type:"text",
 					status:''
 					},
 				"yansedaima":{
-					href:"https://app.baidu.com/getcolortool",
-					title:"ÑÕÉ«´úÂëÉú³ÉÆ÷",
+					href:"http://app.baidu.com/getcolortool",
+					title:"é¢œè‰²ä»£ç ç”Ÿæˆå™¨",
 					type:"text",
 					status:''
 					},
 				"ascii":{
-					href:"https://app.baidu.com/widget?appid=145822",
-					title:"asciiÂë±í",
+					href:"http://app.baidu.com/widget?appid=145822",
+					title:"asciiç è¡¨",
 					type:"text",
 					status:''
 					},
 				"beian":{
-					href:"https://app.baidu.com/www_vs0_cn",
-					title:"±¸°¸²éÑ¯",
+					href:"http://app.baidu.com/www_vs0_cn",
+					title:"å¤‡æ¡ˆæŸ¥è¯¢",
 					type:"text",
 					status:''
 					},
 				"zhanzhanggongju":{
-					href:"https://tool.chinaz.com/",
-					title:"Õ¾³¤¹¤¾ß",
+					href:"http://tool.chinaz.com/",
+					title:"ç«™é•¿å·¥å…·",
 					type:"text",
 					status:''
 					}
@@ -931,126 +931,126 @@
                 "fanyi":{
                 href:"haoserver/fy.htm",
                 bg:"images/life/fanyi.jpg",
-                title:"ÔÚÏß·­Òë",
+                title:"åœ¨çº¿ç¿»è¯‘",
                 type:"icon",
 					status:''
                 },
                 
                 "jisuanqi":{
-                href:"https://app.baidu.com/widget?appid=116526",
+                href:"http://app.baidu.com/widget?appid=116526",
                 bg:"images/life/kexuejisuanqi.jpg",
-                title:"¿ÆÑ§¼ÆËãÆ÷",
+                title:"ç§‘å­¦è®¡ç®—å™¨",
                 type:"icon",
 					status:''
                 },
                 "chengyuchidian":{
-                href:"https://app.baidu.com/chengyucidian",
-                title:"³ÉÓï´Êµä",
+                href:"http://app.baidu.com/chengyucidian",
+                title:"æˆè¯­è¯å…¸",
                 type:"text",
 					status:''
                 },
                 "chazidian":{
-                href:"https://www.chazidian.com/",
-                title:"²é×Öµä",
+                href:"http://www.chazidian.com/",
+                title:"æŸ¥å­—å…¸",
                 type:"text",
 					status:''
                 },
                 "wubidazi":{
-                href:"https://app.baidu.com/widget?appid=115099",
-                title:"Îå±Ê´ò×ÖÁ·Ï°",
+                href:"http://app.baidu.com/widget?appid=115099",
+                title:"äº”ç¬”æ‰“å­—ç»ƒä¹ ",
                 type:"text",
 					status:''
                 },
                 "jinshankuaikuai":{
-                href:"https://app.baidu.com/widget?appid=117675",
+                href:"http://app.baidu.com/widget?appid=117675",
                 bg:"images/life/jinshankuaikuai.jpg",
-                title:"½ğÉ½¿ì¿ì´ò×Ö²âÊÔ",
+                title:"é‡‘å±±å¿«å¿«æ‰“å­—æµ‹è¯•",
                 type:"icon",
 					status:''
                 },
                 "wubizigen":{
-                href:"https://app.baidu.com/widget?appid=107922",
-                title:"Îå±Ê×Ö¸ù±í",
+                href:"http://app.baidu.com/widget?appid=107922",
+                title:"äº”ç¬”å­—æ ¹è¡¨",
                 type:"text",
 					status:''
                 },
 				"changduhuansuan":{
-					href:"https://app.baidu.com/baiducdhs",
-					title:"³¤¶È»»Ëã",
+					href:"http://app.baidu.com/baiducdhs",
+					title:"é•¿åº¦æ¢ç®—",
 					type:"text",
 					status:''
 					},
 				"mianjihuansuan":{
-					href:"https://app.baidu.com/baidumjhs",
-					title:"Ãæ»ı»»Ëã",
+					href:"http://app.baidu.com/baidumjhs",
+					title:"é¢ç§¯æ¢ç®—",
 					type:"text",
 					status:''
 					},
 					"zhonglianghuansuan":{
-					href:"https://app.baidu.com/baiduzlhs",
-					title:"ÖØÁ¿µ¥Î»»»Ëã",
+					href:"http://app.baidu.com/baiduzlhs",
+					title:"é‡é‡å•ä½æ¢ç®—",
 					type:"text",
 					status:''
 					},
 				"danweihuansuan":{
-					href:"https://app.baidu.com/bangbangunit",
+					href:"http://app.baidu.com/bangbangunit",
                                         bg:"images/life/danweihuansuan.jpg",
-					title:"µ¥Î»»»Ëã",
+					title:"å•ä½æ¢ç®—",
 					type:"icon",
 					status:''
 					},
 				 "chebiao":{
-                href:"https://app.baidu.com/carlogo",
-                title:"Æû³µ±êÖ¾´óÈ«",
+                href:"http://app.baidu.com/carlogo",
+                title:"æ±½è½¦æ ‡å¿—å¤§å…¨",
                 type:"text",
 					status:''
                 },
 				"naoliduanlian":{
-                href:"https://app.baidu.com/app/enter?appid=105986",
-                title:"ÄÔÁ¦ÑµÁ·",
+                href:"http://app.baidu.com/app/enter?appid=105986",
+                title:"è„‘åŠ›è®­ç»ƒ",
                 type:"text",
 					status:''
                 },
 				"shizi":{
-					href:"https://app.baidu.com/widget?appid=125213",
-					title:"Í¯»°Ê¶×ÖÀÖÔ°",
+					href:"http://app.baidu.com/widget?appid=125213",
+					title:"ç«¥è¯è¯†å­—ä¹å›­",
 					type:"text",
 					status:''
 					},
 				"pinyinzimubiao":{
-					href:"https://app.baidu.com/widget?appid=110331",
-					title:"ººÓïÆ´Òô×ÖÄ¸±í",
+					href:"http://app.baidu.com/widget?appid=110331",
+					title:"æ±‰è¯­æ‹¼éŸ³å­—æ¯è¡¨",
 					type:"text",
 					status:''
 					},
                
 				"miyu":{
-					href:"https://app.baidu.com/bdmiyuapp",
-					title:"ÃÕÓï",
+					href:"http://app.baidu.com/bdmiyuapp",
+					title:"è°œè¯­",
 					type:"text",
 					status:''
 					},
 				"meiguihuayu":{
-					href:"https://app.baidu.com/meiguihuayu",
-					title:"Ãµ¹å»¨Óï",
+					href:"http://app.baidu.com/meiguihuayu",
+					title:"ç«ç‘°èŠ±è¯­",
 					type:"text",
 					status:''
 					},
 				"baihehuayu":{
-					href:"https://app.baidu.com/baihehuayu",
-					title:"°ÙºÏ»¨Óï",
+					href:"http://app.baidu.com/baihehuayu",
+					title:"ç™¾åˆèŠ±è¯­",
 					type:"text",
 					status:''
 					},
 				"yanyudaquan":{
-					href:"https://app.baidu.com/yanyudq",
-					title:"ÑèÓï´óÈ«",
+					href:"http://app.baidu.com/yanyudq",
+					title:"è°šè¯­å¤§å…¨",
 					type:"text",
 					status:''
 					},
 				"xiehouyu":{
-					href:"https://app.baidu.com/xhyu_daq",
-					title:"ĞªºóÓï",
+					href:"http://app.baidu.com/xhyu_daq",
+					title:"æ­‡åè¯­",
 					type:"text"
 					}
             }
@@ -1058,201 +1058,201 @@
 		softTool: {
 			chart: {
                 'QQ': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=QQsetup.zip',
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=QQsetup.zip',
      			bg: 'images/life/soft_qq.gif',
      			title: 'QQ',
 	 			type: 'download'		
 				},
                 'MSN': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=wlsetup-web.zip',
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=wlsetup-web.zip',
      			bg: 'images/life/soft_msn.gif',
      			title: 'MSN',
 	 			type: 'download'		
 				},
                 'MSN': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=wlsetup-web.zip',
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=wlsetup-web.zip',
      			bg: 'images/life/soft_msn.gif',
      			title: 'MSN',
 	 			type: 'download'		
 				},
-                '·ÉĞÅ': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=Fetion.zip',
+                'é£ä¿¡': {
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=Fetion.zip',
      			bg: 'images/life/soft_feixin.gif',
-     			title: '·ÉĞÅ',
+     			title: 'é£ä¿¡',
 	 			type: 'download'		
 				},
-                '°Ù¶ÈHI': {
-	 			href:'https://www.uucall.com/tj39s2q.html',
+                'ç™¾åº¦HI': {
+	 			href:'http://www.uucall.com/tj39s2q.html',
     			bg: 'images/life/soft_hi.gif',
-     			title: 'UUcallµç»°',
+     			title: 'UUcallç”µè¯',
 	 			type: 'download'		
 				},
                 'Skype': {
-				href:'https://www.skycn.com/ipinfo/d_hao123.php?f=Skype.zip',
+				href:'http://www.skycn.com/ipinfo/d_hao123.php?f=Skype.zip',
      			bg: 'images/life/soft_skype.jpg',
      			title: 'Skype',
 	 			type: 'download'		
 				},
-                '°¢ÀïÍúÍú': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=AliIMsetup.zip',
+                'é˜¿é‡Œæ—ºæ—º': {
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=AliIMsetup.zip',
      			bg: 'images/life/soft_wangwang.gif',
-     			title: '°¢ÀïÍúÍú',
+     			title: 'é˜¿é‡Œæ—ºæ—º',
 	 			type: 'download'		
 					},
-                '°¢ÀïÍ¨': {
-	 			href:'https://www.alicall.com/down.asp?linkid=8930492',
+                'é˜¿é‡Œé€š': {
+	 			href:'http://www.alicall.com/down.asp?linkid=8930492',
      			bg: 'images/life/soft_alicall.gif',
-     			title: '°¢ÀïÍ¨',
+     			title: 'é˜¿é‡Œé€š',
 	 			type: 'download'		
 				}
 			},
 			music: {
-                '¿áÎÒÒôÀÖºĞ': {
-	 			href:'https://www.koowo.com/mbox.down2?src=kwun0271',
+                'é…·æˆ‘éŸ³ä¹ç›’': {
+	 			href:'http://www.koowo.com/mbox.down2?src=kwun0271',
      			bg: 'images/life/soft_kuwo.gif',
-     			title: '¿áÎÒÒôÀÖºĞ',
+     			title: 'é…·æˆ‘éŸ³ä¹ç›’',
 	 			type: 'download'		
 				},
-                'Ç§Ç§¾²Ìı': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=ttpsetup.zip',
+                'åƒåƒé™å¬': {
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=ttpsetup.zip',
      			bg: 'images/life/soft_qianqian.gif',
-     			title: 'Ç§Ç§¾²Ìı',
+     			title: 'åƒåƒé™å¬',
 	 			type: 'download'		
 				},
-                '¿á¹·': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=KuGousetup.zip',
+                'é…·ç‹—': {
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=KuGousetup.zip',
      			bg: 'images/life/soft_kugou.gif',
-     			title: '¿á¹·',
+     			title: 'é…·ç‹—',
 	 			type: 'download'		
 				},
-                'QQÒôÀÖ': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=QQMusic.zip',
+                'QQéŸ³ä¹': {
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=QQMusic.zip',
      			bg: 'images/life/soft_qqbf.jpg',
-     			title: 'QQÒôÀÖ',
+     			title: 'QQéŸ³ä¹',
 	 			type: 'download'		
 				},
                 'Foobar': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=foobar.zip',
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=foobar.zip',
      			bg: 'images/life/soft_foobar.jpg',
      			title: 'Foobar',
 	 			type: 'download'		
 				},
                 'Winamp5': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=winamp.zip',
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=winamp.zip',
      			bg: 'images/life/soft_winamp.jpg',
      			title: 'Winamp5',
 	 			type: 'download'		
 				}
             },
 			video: {
-                '°Ù¶È²¥·ÅÆ÷': {
-	 			href:'https://dl.pps.tv/',
+                'ç™¾åº¦æ’­æ”¾å™¨': {
+	 			href:'http://dl.pps.tv/',
      			bg: 'images/life/soft_pps.jpg',
-     			title: 'PPSÍøÂçµçÊÓ',
+     			title: 'PPSç½‘ç»œç”µè§†',
 	 			type: 'download'		
 				},
-                '·çĞĞ': {
-	 			href:'https://www.fun.tv/download',
+                'é£è¡Œ': {
+	 			href:'http://www.fun.tv/download',
      			bg: 'images/life/funshion.gif',
-     			title: '·çĞĞ',
+     			title: 'é£è¡Œ',
 	 			type: 'download'		
 				},
                 'PPTV': {
-	 			href:'https://download.pptv.com/',
+	 			href:'http://download.pptv.com/',
      			bg: 'images/life/pplive.gif',
      			title: 'PPTV',
 	 			type: 'download'		
 				},
                 'uusee': {
-	 			href:'https://download.uusee.com/',
+	 			href:'http://download.uusee.com/',
      			bg: 'images/life/uusee.jpg',
      			title: 'uusee',
 	 			type: 'download'		
 				},
-                'Æ¤Æ¤': {
-	 			href:'https://www.pipi.cn/down/',
+                'çš®çš®': {
+	 			href:'http://www.pipi.cn/down/',
      			bg: 'images/life/soft_pipi.jpg',
-     			title: 'Æ¤Æ¤',
+     			title: 'çš®çš®',
 	 			type: 'download'		
 				},
-                '±©·çÓ°Òô': {
-	 			href:'https://home.baofeng.com/',
+                'æš´é£å½±éŸ³': {
+	 			href:'http://home.baofeng.com/',
      			bg: 'images/life/baofengyingyin16.jpg',
-     			title: '±©·çÓ°Òô',
+     			title: 'æš´é£å½±éŸ³',
 	 			type: 'download'		
 				},
-                'ÆæÒÕÓ°Òô': {
-	 			href:'https://app.iqiyi.com/pc/player/',
+                'å¥‡è‰ºå½±éŸ³': {
+	 			href:'http://app.iqiyi.com/pc/player/',
      			bg: 'images/life/soft_qiyi.jpg',
-     			title: 'ÆæÒÕÓ°Òô',
+     			title: 'å¥‡è‰ºå½±éŸ³',
 	 			type: 'download'		
 				}
             },
 			download: {
-                'Ñ¸À×': {
-	 			href:'https://dl.xunlei.com/',
+                'è¿…é›·': {
+	 			href:'http://dl.xunlei.com/',
      			bg: 'images/life/Thunder.gif',
-     			title: 'Ñ¸À×',
+     			title: 'è¿…é›·',
 	 			type: 'download'		
 				},
-                '¿ì³µ': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=flashget.zip',
+                'å¿«è½¦': {
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=flashget.zip',
      			bg: 'images/life/soft_kuaiche.jpg',
-     			title: '¿ì³µ',
+     			title: 'å¿«è½¦',
 	 			type: 'download'		
 				},
-                'eMule(µçÂ¿)': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=easyMule-Setup.zip',
+                'eMule(ç”µé©´)': {
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=easyMule-Setup.zip',
      			bg: 'images/life/soft_emule.gif',
-     			title: 'eMule(µçÂ¿)',
+     			title: 'eMule(ç”µé©´)',
 	 			type: 'download'		
 				},
-                'QQĞı·ç': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=QQDownloadSetup.zip',
+                'QQæ—‹é£': {
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=QQDownloadSetup.zip',
      			bg: 'images/life/soft_xuanfen.gif',
-     			title: 'QQĞı·ç',
+     			title: 'QQæ—‹é£',
 	 			type: 'download'		
 				},
                 'Vagaa': {
-	 			href:'https://www.skycn.com/ipinfo/d_hao123.php?f=main_setup.zip',
+	 			href:'http://www.skycn.com/ipinfo/d_hao123.php?f=main_setup.zip',
      			bg: 'images/life/soft_vagaa.jpg',
 				title: 'Vagaa',
 				type: 'download'		
 					},
                 'Bitcomet': {
-				href:'https://www.skycn.com/ipinfo/d_hao123.php?f=BitComet.zip',
+				href:'http://www.skycn.com/ipinfo/d_hao123.php?f=BitComet.zip',
 				bg: 'images/life/soft_bitcomet.jpg',
 				title: 'Bitcomet',
 				type: 'download'		
 				}
             },
 			office: {
-                '½ğÉ½´Ê°Ô': {
-				href:'https://www.skycn.com/ipinfo/d_hao123.php?f=PowerWordsetup.zip',
+                'é‡‘å±±è¯éœ¸': {
+				href:'http://www.skycn.com/ipinfo/d_hao123.php?f=PowerWordsetup.zip',
 				bg: 'images/life/jinshanciba16.jpg',
-				title: '½ğÉ½´Ê°Ô',
+				title: 'é‡‘å±±è¯éœ¸',
 				type: 'download'		
 				},
-                'ÃÀÍ¼ĞãĞã': {
-				 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=XiuXiu_Soft.zip',
+                'ç¾å›¾ç§€ç§€': {
+				 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=XiuXiu_Soft.zip',
 				 bg: 'images/life/meituxiuxiu16.jpg',
-				 title: 'ÃÀÍ¼ĞãĞã',
+				 title: 'ç¾å›¾ç§€ç§€',
 				 type: 'download'		
 				},
                     'Photoshop CS4': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=ADBEPHSPCS4.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=ADBEPHSPCS4.zip',
      bg: 'images/life/ps16.jpg',
      title: 'Photoshop CS4',
 	 type: 'download'		
 					},
-                    '¸£ê¿ÔÄ¶ÁÆ÷': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=FoxitReader_Setup.zip',
+                    'ç¦æ˜•é˜…è¯»å™¨': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=FoxitReader_Setup.zip',
      bg: 'images/life/soft_foxit.jpg',
-     title: '¸£ê¿ÔÄ¶ÁÆ÷',
+     title: 'ç¦æ˜•é˜…è¯»å™¨',
 	 type: 'download'		
 					},
                     'WPS Office': {
-	 href:'https://j.union.ijinshan.com/jump.php?u_key=556',
+	 href:'http://j.union.ijinshan.com/jump.php?u_key=556',
      bg: 'images/life/soft_keke.jpg',
      title: 'WPS Office',
 	 type: 'download'		
@@ -1260,151 +1260,151 @@
             },
 			browser: {
             'IE8': {
-	 href:'https://rj.baidu.com/soft/detail/23360.html',
+	 href:'http://rj.baidu.com/soft/detail/23360.html',
      bg: 'images/life/soft_ie.gif',
      title: 'IE11',
 	 type: 'download'		
 					},
-                    '¹È¸èä¯ÀÀÆ÷': {
-	 href:'https://rj.baidu.com/soft/detail/14744.html',
+                    'è°·æ­Œæµè§ˆå™¨': {
+	 href:'http://rj.baidu.com/soft/detail/14744.html',
      bg: 'images/life/soft_baidullq.jpg',
-     title: 'ÁÔ±ªä¯ÀÀÆ÷',
+     title: 'çŒè±¹æµè§ˆå™¨',
 	 type: 'download'		
 					},
-                    '»ğºü': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=Firefox-hao123-latest.zip',
+                    'ç«ç‹': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=Firefox-hao123-latest.zip',
      bg: 'images/life/firefox.gif',
-     title: '»ğºü',
+     title: 'ç«ç‹',
 	 type: 'download'		
 					},
-                    'ËÑ¹·ä¯ÀÀÆ÷': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=sogou_explorer.zip',
+                    'æœç‹—æµè§ˆå™¨': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=sogou_explorer.zip',
      bg: 'images/life/soft_sogoullq.jpg',
-     title: 'ËÑ¹·ä¯ÀÀÆ÷',
+     title: 'æœç‹—æµè§ˆå™¨',
 	 type: 'download'		
 					},
-                    '°ÁÓÎ': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=mxsetup_hao123.zip',
+                    'å‚²æ¸¸': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=mxsetup_hao123.zip',
      bg: 'images/life/soft_aoyou.gif',
-     title: '°ÁÓÎ',
+     title: 'å‚²æ¸¸',
 	 type: 'download'		
 					},
-                    '2345ä¯ÀÀÆ÷': {
-	 href:'https://download.2345.com/down/2345Explorer_239391.exe',
+                    '2345æµè§ˆå™¨': {
+	 href:'http://download.2345.com/down/2345Explorer_239391.exe',
      bg: 'images/life/soft_youxiliulanqi.jpg',
-     title: '2345ä¯ÀÀÆ÷',
+     title: '2345æµè§ˆå™¨',
 	 type: 'download'		
 					}
             },
 			inputMethod: {
-            'ËÑ¹·ÊäÈë·¨': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=sogou_pinyin.zip',
+            'æœç‹—è¾“å…¥æ³•': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=sogou_pinyin.zip',
      bg: 'images/life/soft_sougou.gif',
-     title: 'ËÑ¹·ÊäÈë·¨',
+     title: 'æœç‹—è¾“å…¥æ³•',
 	 type: 'download'		
 					},
-                 '°Ù¶ÈÊäÈë·¨': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=BaiduPinyinSetup.zip',
+                 'ç™¾åº¦è¾“å…¥æ³•': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=BaiduPinyinSetup.zip',
      bg: 'images/life/baidusrf.gif',
-     title: '°Ù¶ÈÊäÈë·¨',
+     title: 'ç™¾åº¦è¾“å…¥æ³•',
 	 type: 'download'		
 					},
-                    '×Ï¹âÆ´Òô': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=unispim.zip',
+                    'ç´«å…‰æ‹¼éŸ³': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=unispim.zip',
      bg: 'images/life/soft_ziguang.jpg',
-     title: '×Ï¹âÆ´Òô',
+     title: 'ç´«å…‰æ‹¼éŸ³',
 	 type: 'download'		
 					},
-                    'ÍòÄÜÎå±Ê': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=wnwb_800_50.zip',
+                    'ä¸‡èƒ½äº”ç¬”': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=wnwb_800_50.zip',
      bg: 'images/life/soft_wangnengwubi.jpg',
-     title: 'ÍòÄÜÎå±Ê',
+     title: 'ä¸‡èƒ½äº”ç¬”',
 	 type: 'download'		
 					},
-                    'ÍõÂëÎå±Ê': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=wmwb.zip',
+                    'ç‹ç äº”ç¬”': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=wmwb.zip',
      bg: 'images/life/soft_wangmawubi.jpg',
-     title: 'ÍõÂëÎå±Ê',
+     title: 'ç‹ç äº”ç¬”',
 	 type: 'download'		
 					},
-                    'QQÎå±Ê': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=QQWubi_Setup.zip',
+                    'QQäº”ç¬”': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=QQWubi_Setup.zip',
      bg: 'images/life/soft_qqwubi.jpg',
-     title: 'QQÎå±Ê',
+     title: 'QQäº”ç¬”',
 	 type: 'download'		
 					}       
             },
 			system: {
-                   '½ğÉ½ÎÀÊ¿': {
-	 href:'https://www.ijinshan.com/ws/index.shtml',
+                   'é‡‘å±±å«å£«': {
+	 href:'http://www.ijinshan.com/ws/index.shtml',
      bg: 'images/life/jinshanweishi16.jpg',
-     title: '½ğÉ½ÎÀÊ¿',
+     title: 'é‡‘å±±å«å£«',
 	 type: 'download'		
 					},
-                    '360°²È«ÎÀÊ¿': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=360setup.zip',
+                    '360å®‰å…¨å«å£«': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=360setup.zip',
      bg: 'images/life/360anquanweishi16.jpg',
-     title: '360°²È«ÎÀÊ¿',
+     title: '360å®‰å…¨å«å£«',
 	 type: 'download'		
 					},
-                    'Ä§·½': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=TweakCubeSetup.zip',
+                    'é­”æ–¹': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=TweakCubeSetup.zip',
      bg: 'images/life/soft_mofang.jpg',
-     title: 'Ä§·½',
+     title: 'é­”æ–¹',
 	 type: 'download'		
 					},
-                    'Â³´óÊ¦': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=ludashisetup.zip',
+                    'é²å¤§å¸ˆ': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=ludashisetup.zip',
      bg: 'images/life/soft_ludashi.jpg',
-     title: 'Â³´óÊ¦',
+     title: 'é²å¤§å¸ˆ',
 	 type: 'download'		
 					},
-                    '³¬¼¶ÍÃ×Ó': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=sr2011setup.zip',
+                    'è¶…çº§å…”å­': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=sr2011setup.zip',
      bg: 'images/life/soft_chaojituzi.jpg',
-     title: '³¬¼¶ÍÃ×Ó',
+     title: 'è¶…çº§å…”å­',
 	 type: 'download'		
 					},
-                    'Çı¶¯ÈËÉú': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=dtl_setup.zip',
+                    'é©±åŠ¨äººç”Ÿ': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=dtl_setup.zip',
      bg: 'images/life/qudongrensheng16.jpg',
-     title: 'Çı¶¯ÈËÉú',
+     title: 'é©±åŠ¨äººç”Ÿ',
 	 type: 'download'		
 					}
             },
 			antiVirus: {
-                    '½ğÉ½¶¾°Ô': {
-	 href:'https://j.union.ijinshan.com/jump.php?u_key=549',
+                    'é‡‘å±±æ¯’éœ¸': {
+	 href:'http://j.union.ijinshan.com/jump.php?u_key=549',
      bg: 'images/life/jinshanduba16.jpg',
-     title: '½ğÉ½¶¾°Ô',
+     title: 'é‡‘å±±æ¯’éœ¸',
 	 type: 'download'		
 					},
-            '¿¨°ÍË¹»ù': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=kaspersky.zip',
+            'å¡å·´æ–¯åŸº': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=kaspersky.zip',
      bg: 'images/life/kabasiji16.jpg',
-     title: '¿¨°ÍË¹»ù',
+     title: 'å¡å·´æ–¯åŸº',
 	 type: 'download'		
 					},
-                    '½­ÃñÉ±¶¾': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=kv_setup.zip',
+                    'æ±Ÿæ°‘æ€æ¯’': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=kv_setup.zip',
      bg: 'images/life/jiangminshadu16.jpg',
-     title: '½­ÃñÉ±¶¾',
+     title: 'æ±Ÿæ°‘æ€æ¯’',
 	 type: 'download'		
 					},
-                    'ÈğĞÇÉ±¶¾': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=ravolsky.zip',
+                    'ç‘æ˜Ÿæ€æ¯’': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=ravolsky.zip',
      bg: 'images/life/ruixingshadu16.jpg',
-     title: 'ÈğĞÇÉ±¶¾',
+     title: 'ç‘æ˜Ÿæ€æ¯’',
 	 type: 'download'		
 					},
-                    '360É±¶¾': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=360sd_se.zip',
+                    '360æ€æ¯’': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=360sd_se.zip',
      bg: 'images/life/360.gif',
-     title: '360É±¶¾',
+     title: '360æ€æ¯’',
 	 type: 'download'		
 					},
                     'NOD32': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=eav_ac_nt32.zip',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=eav_ac_nt32.zip',
      bg: 'images/life/soft_nod32.jpg',
      title: 'NOD32',
 	 type: 'download'		
@@ -1412,117 +1412,117 @@
             
             },
 			game: {
-            '4399ÓÎÏ·ºĞ': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=4399box_install.zip',
+            '4399æ¸¸æˆç›’': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=4399box_install.zip',
      bg: 'images/life/4399youxihe.jpg',
-     title: '4399ÓÎÏ·ºĞ',
+     title: '4399æ¸¸æˆç›’',
 	 type: 'download'		
 					},
-                    'Ö²Îï´óÕ½½©Ê¬': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=PlantsvsZombies_ndb.zip',
+                    'æ¤ç‰©å¤§æˆ˜åƒµå°¸': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=PlantsvsZombies_ndb.zip',
      bg: 'images/life/zhiwudazhanjiangshi16.jpg',
-     title: 'Ö²Îï´óÕ½½©Ê¬',
+     title: 'æ¤ç‰©å¤§æˆ˜åƒµå°¸',
 	 type: 'download'		
 					},
-                    'Ğ¡°ÔÍõÓÎÏ·»ú 84ºÏÒ»': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=disland.xiaopw84in1.zip',
+                    'å°éœ¸ç‹æ¸¸æˆæœº 84åˆä¸€': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=disland.xiaopw84in1.zip',
      bg: 'images/life/xiaobawang16.jpg',
-     title: 'Ğ¡°ÔÍõÓÎÏ·»ú 84ºÏÒ»',
+     title: 'å°éœ¸ç‹æ¸¸æˆæœº 84åˆä¸€',
 	 type: 'download'		
 					},
-                    'KawaksÓÎÏ·»ú': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=kawaks_skycn.zip',
+                    'Kawaksæ¸¸æˆæœº': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=kawaks_skycn.zip',
      bg: 'images/life/soft_kawaks.jpg',
-     title: 'KawaksÓÎÏ·»ú',
+     title: 'Kawaksæ¸¸æˆæœº',
 	 type: 'download'		
 					},
-                    'Á¬Á¬¿´': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=llk48.zip',
+                    'è¿è¿çœ‹': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=llk48.zip',
      bg: 'images/life/lianliankan16.jpg',
-     title: 'Á¬Á¬¿´',
+     title: 'è¿è¿çœ‹',
 	 type: 'download'		
 					},
-                     '×æÂê': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=zuma_hh.zip',
+                     'ç¥–ç›': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=zuma_hh.zip',
      bg: 'images/life/zuma16.jpg',
-     title: '×æÂê',
+     title: 'ç¥–ç›',
 	 type: 'download'		
 					}
                     
             },
 			others: {
             'Winrar': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=WinRAR.exe',
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=WinRAR.exe',
      bg: 'images/life/winrar16.jpg',
      title: 'Winrar',
 	 type: 'download'		
 					},
-                    'ºÃÑ¹Èí¼ş': {
-	 href:'https://download.haozip.com/uniondown/haozip_tiny.206102.exe',
+                    'å¥½å‹è½¯ä»¶': {
+	 href:'http://download.haozip.com/uniondown/haozip_tiny.206102.exe',
      bg: 'images/life/soft_formatf.jpg',
-     title: 'ºÃÑ¹Èí¼ş',
+     title: 'å¥½å‹è½¯ä»¶',
 	 type: 'download'		
 					},
-                     'ÓĞµÀÔÆ±Ê¼Ç': {
-	 href:'https://codown.youdao.com/note/youdaonote_v_heima046.exe',
+                     'æœ‰é“äº‘ç¬”è®°': {
+	 href:'http://codown.youdao.com/note/youdaonote_v_heima046.exe',
      bg: 'images/life/soft_zhuomiangupiao.jpg',
-     title: 'ÓĞµÀÔÆ±Ê¼Ç',
+     title: 'æœ‰é“äº‘ç¬”è®°',
 	 type: 'download'		
 					},
-                    'Í¬»¨Ë³': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=THS_hexin.zip',
+                    'åŒèŠ±é¡º': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=THS_hexin.zip',
      bg: 'images/life/soft_hexin.jpg',
-     title: 'Í¬»¨Ë³',
+     title: 'åŒèŠ±é¡º',
 	 type: 'download'		
 					},
-                    '²ÙÅÌÊÖ': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=wlymZL15160.zip',
+                    'æ“ç›˜æ‰‹': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=wlymZL15160.zip',
      bg: 'images/life/caopanshou.jpg',
-     title: '²ÙÅÌÊÖ',
+     title: 'æ“ç›˜æ‰‹',
 	 type: 'download'		
 					},
-                    'ÈËÈË×ÀÃæ': {
-	 href:'https://www.skycn.com/ipinfo/d_hao123.php?f=rrsetup.zip',
+                    'äººäººæ¡Œé¢': {
+	 href:'http://www.skycn.com/ipinfo/d_hao123.php?f=rrsetup.zip',
      bg: 'images/life/soft_renren.jpg',
-     title: 'ÈËÈË×ÀÃæ',
+     title: 'äººäººæ¡Œé¢',
 	 type: 'download'		
 					}
             },
 			phoneSoft: {
-            'ÊÖ»ú°æQQ': {
-	 href:'https://mobile.qq.com/',
+            'æ‰‹æœºç‰ˆQQ': {
+	 href:'http://mobile.qq.com/',
      bg: 'images/life/soft_qqweb.gif',
-     title: 'ÊÖ»ú°æQQ',
+     title: 'æ‰‹æœºç‰ˆQQ',
 	 type: 'download'		
 					},
                     'UCWEB': {
-	 href:'https://www.uc.cn/',
+	 href:'http://www.uc.cn/',
      bg: 'images/life/soft_ucweb.gif',
      title: 'UCWEB',
 	 type: 'download'		
 					},
-                    '°Ù¶ÈÊäÈë·¨': {
-	 href:'https://shouji.baidu.com/input/',
+                    'ç™¾åº¦è¾“å…¥æ³•': {
+	 href:'http://shouji.baidu.com/input/',
      bg: 'images/life/baidusrf.gif',
-     title: '°Ù¶ÈÊäÈë·¨',
+     title: 'ç™¾åº¦è¾“å…¥æ³•',
 	 type: 'download'		
 					},
-                    'ËÑ¹·ÊäÈë·¨': {
-	 href:'https://shouji.sogou.com/',
+                    'æœç‹—è¾“å…¥æ³•': {
+	 href:'http://shouji.sogou.com/',
      bg: 'images/life/soft_sougou.gif',
-     title: 'ËÑ¹·ÊäÈë·¨',
+     title: 'æœç‹—è¾“å…¥æ³•',
 	 type: 'download'		
 					},
-                    'ĞÂÀËÎ¢²©ÊÖ»ú°æ': {
-	 href:'https://weibo.com/mobile/wap.php',
+                    'æ–°æµªå¾®åšæ‰‹æœºç‰ˆ': {
+	 href:'http://weibo.com/mobile/wap.php',
      bg: 'images/life/soft_weibo.jpg',
-     title: 'ĞÂÀËÎ¢²©ÊÖ»ú°æ',
+     title: 'æ–°æµªå¾®åšæ‰‹æœºç‰ˆ',
 	 type: 'download'		
 					},
-                    'ÈËÈËÍøÊÖ»ú°æ': {
-	 href:'https://www.renren.com/mobile/web.do?ref=minifeed',
+                    'äººäººç½‘æ‰‹æœºç‰ˆ': {
+	 href:'http://www.renren.com/mobile/web.do?ref=minifeed',
      bg: 'images/life/soft_renren.jpg',
-     title: 'ÈËÈËÍøÊÖ»ú°æ',
+     title: 'äººäººç½‘æ‰‹æœºç‰ˆ',
 	 type: 'download'		
 					}
             }

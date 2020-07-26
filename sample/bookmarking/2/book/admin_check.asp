@@ -12,6 +12,6 @@
       set rs=nothing
       response.redirect("admin_index.asp")       
   else  
-	  response.write ("<script language='javascript'>alert('ÓÃ»§Ãû»òÕßÃÜÂë²»ÕıÈ·£¡');location='index.asp';</script>")
+	  response.write ("<script language='javascript'>alert('ç”¨æˆ·åæˆ–è€…å¯†ç ä¸æ­£ç¡®ï¼');location='index.asp';</script>")
   End If
 %>

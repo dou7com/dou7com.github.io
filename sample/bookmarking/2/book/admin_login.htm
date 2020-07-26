@@ -1,15 +1,15 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml" lang="gb2312">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="UTF-8">
 <head>
-<title>¹ÜÀíµÇÂ½</title>
+<title>ç®¡ç†ç™»é™†</title>
 <script language=javascript>
 function checkform() {
 if(form_add.admin_name.value==""){
- alert("\ÓÃ»§Ãû²»ÄÜÎª¿Õ£¡");
+ alert("\ç”¨æˆ·åä¸èƒ½ä¸ºç©ºï¼");
  return false;
  }
  if(form_add.admin_password.value==""){
- alert("\ÃÜÂë²»ÄÜÎª¿Õ£¡");
+ alert("\å¯†ç ä¸èƒ½ä¸ºç©ºï¼");
  return false;
  }
  return true;
@@ -18,9 +18,9 @@ if(form_add.admin_name.value==""){
 </head>
 <body>
 <form name="form_add" action="admin_check.asp" method="post" onsubmit="return checkform();">
- ÓÃ»§Ãû:<input type="text" name="admin_name" class="input">
- ÃÜ  Âë:<input type="password" name="admin_password" class="input">
-<input type="submit" name="submit" value="Ìá½»">
+ ç”¨æˆ·å:<input type="text" name="admin_name" class="input">
+ å¯†  ç :<input type="password" name="admin_password" class="input">
+<input type="submit" name="submit" value="æäº¤">
 </form>
 </body>
 </html>

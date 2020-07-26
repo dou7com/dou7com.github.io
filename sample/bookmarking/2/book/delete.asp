@@ -11,6 +11,6 @@ If session("admin")="admin" Then
   response.redirect("admin_index.asp")
  }
  else 
- response.write ("<script language='javascript'>alert('非法进入可耻！');location='index.asp';</script>")
+ response.write ("<script language='javascript'>alert('闈炴硶杩涘叆鍙�伙紒');location='index.asp';</script>")
  End If 
 %>

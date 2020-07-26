@@ -1,9 +1,9 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <style type=text/css>
 <!--
- td,body {  font-size:15px;font-family:arial,sans-serif,ËÎÌå;}body{
+ td,body {  font-size:15px;font-family:arial,sans-serif,å®‹ä½“;}body{
 	margin-top:0px;
 	margin-left:0px;
 	margin-right:0px;
@@ -23,13 +23,13 @@ a.m:hover{color:red;text-decoration:underline;padding-left:0px;}
 .wr{text-align:right}
 .WB {width:530;text-align:left;clear:both;height:60px; padding-top:0px!important; padding-top:5px}
 @media screen and (min-width:0px){.WB {margin-top:3px!important;padding-top:0px!important}}
-#FrP{font-size:13px;border:0px solid #C5D5C5; height:48px; padding-top:1px; padding-bottom:2px;width:530;}<!-- ĞŞ¸Ä¸ß¶È44-48>
+#FrP{font-size:13px;border:0px solid #C5D5C5; height:48px; padding-top:1px; padding-bottom:2px;width:530;}<!-- ä¿®æ”¹é«˜åº¦44-48>
 #FrP a{color:#205001}
 #FrP a:hover{color:red}
 .searchfod1 {FONT-WEIGHT: bold; COLOR: #000; text-align:center; width:55px; font-size:14px}
 .searchfod2 {CURSOR: pointer; text-align:center; width:55px; font-size:14px}
 --> </style>
-<title>hao123ÍøÖ·Ö®¼Ò£­£­ÊµÓÃ²éÑ¯</title>
+<title>hao123ç½‘å€ä¹‹å®¶ï¼ï¼å®ç”¨æŸ¥è¯¢</title>
 <base target="_blank">
 </head>
 <body>
@@ -98,7 +98,7 @@ function haoValidate(source){
 	    f.cl.value=3
 		f.tn.value="hao123"
 		f.ct.value=0
-		f.ie.value="gb2312"
+		f.ie.value="UTF-8"
 		f.myselectvalue.value=""
 		f.rn.value=""
 		f.rs2.value=""
@@ -115,7 +115,7 @@ function haoValidate(source){
 		f.tn.value="baidump3"
 		f.f.value="ms"
 		f.myselectvalue.value=""
-		f.ie.value="gb2312"
+		f.ie.value="UTF-8"
 		f.z.value=""
 		f.from.value=""
 		}
@@ -139,37 +139,37 @@ function haoSubSearch(sc){
 	if(sc != "baidu"){
 		if(sc == "post")
 		{
-		    f.action = "https://tieba.baidu.com/f";
+		    f.action = "http://tieba.baidu.com/f";
 			
 		}
 		else if(sc == "zhidao")
 		{
-			f.action = "https://zhidao.baidu.com/q";
+			f.action = "http://zhidao.baidu.com/q";
 			
 		}
 		else if(sc == "mp3")
 		{
-			f.action = "https://mp3.baidu.com/m";
+			f.action = "http://mp3.baidu.com/m";
 			
 		}
 		else if(sc == "img")
 		{
-			f.action = "https://image.baidu.com/i";
+			f.action = "http://image.baidu.com/i";
 			
 		}
 		else if(sc == "news")
 		{
-			f.action = "https://news.baidu.com/ns";
+			f.action = "http://news.baidu.com/ns";
 			
 		}
 		else if(sc == "video")
 		{
-			f.action = "https://video.baidu.com/v";
+			f.action = "http://video.baidu.com/v";
 			
 		}
 		else
 		{
-			f.action = "https://www.baidu.com/s";
+			f.action = "http://www.baidu.com/s";
 			
 		}
 		f.sc.value = sc;
@@ -182,7 +182,7 @@ function haoSubSearch(sc){
 
 function haoGoSoba(){
 
-	f.action = "https://www.baidu.com/s";
+	f.action = "http://www.baidu.com/s";
 	f.kw.value = f.word.value;
 }
 function G(id)
@@ -222,12 +222,12 @@ function goSearch(){
 <div align="center"><center>
 <table border="0" cellpadding="0" cellspacing="0" width="900" height="51">
     <tr>
-      <td width="230" height="51"><a href="/" target="_self" class="m"><img src="../images/logo_new.gif" alt="hao123ÍøÖ·Ö®¼Òwww.hao123.com"    width="168" height="63" border="0"></a></td>
+      <td width="230" height="51"><a href="/" target="_self" class="m"><img src="../images/logo_new.gif" alt="hao123ç½‘å€ä¹‹å®¶www.hao123.com"    width="168" height="63" border="0"></a></td>
      <td height="51" align="center">
 <p class="WB">
-<table width=100% border=0 cellspacing=0 cellpadding=0 style="margin-bottom:-6px "><tr><td width=2 height=18>&nbsp;</td><td  valign=bottom class=searchfod1 id=haoweb onClick="haoSubSearch('web');goSearch()" onmousedown="ClickMonkey.log('haoweb');" >Íø Ò³</td><td width="4"></td><td valign=bottom class=searchfod2 id=haomp3 onClick="haoSubSearch('mp3');goSearch()" onmousedown="ClickMonkey.log('haomp3');" >MP3</td> <td width="4"></td><td valign=bottom   class=searchfod2 id=haoimg onClick="haoSubSearch('img');goSearch()" onmousedown="ClickMonkey.log('haoimg');" >Í¼ Æ¬</td><td width="4"></td><td valign=bottom class=searchfod2 id=haopost onClick="haoSubSearch('post');goSearch()" onmousedown="ClickMonkey.log('haopost');" >Ìù °É</td><td width="4"></td><td  valign=bottom class=searchfod2 id=haozhidao onClick="haoSubSearch('zhidao');goSearch()" onmousedown="ClickMonkey.log('haozhidao');" >Öª µÀ</td><td width="4"></td><td  valign=bottom class=searchfod2 id=haonews onClick="haoSubSearch('news');goSearch()" onmousedown="ClickMonkey.log('haonews');" >ĞÂ ÎÅ</td><td width="4"></td><td valign=bottom class=searchfod2 id=haovideo onClick="haoSubSearch('video');goSearch()" onmousedown="ClickMonkey.log('haovideo');">ÊÓ Æµ</td><td width="4"></td><td  width=240 valign=bottom> </td></tr></table>
-<table border="0" cellspacing="0" cellpadding="0" id=FrP><tr><form onSubmit="return haoValidate();" action=https://www.baidu.com/s name=f><td align="left"><INPUT type=hidden name=kw><INPUT type=hidden name=sc><input type=hidden name=cl value=3><input type=hidden name=tn value=hao123><input type=hidden name=ct><input type=hidden name=rn><input type=hidden name=lm><input type=hidden name=ie><input type=hidden name=rs2><input type=hidden name=myselectvalue><input type=hidden name=f><input type=hidden name=pv><input type=hidden name=z><input type=hidden name=from>&nbsp; 
-<input type="text" name="word" size=38 maxlength="100" class="kw" id="kww"  style="margin-bottom:-5px; font-size:16px;height:1.78em;font-family:arial,sans-serif,ËÎÌå;padding-top:2px; padding-left:1px">&nbsp;<input type=submit value=°Ù¶ÈÒ»ÏÂ style="height:1.82em;width:6.4em;font-size:16px; margin-bottom:-5px; padding-top:2px"  class=sb monkey="submit">
+<table width=100% border=0 cellspacing=0 cellpadding=0 style="margin-bottom:-6px "><tr><td width=2 height=18>&nbsp;</td><td  valign=bottom class=searchfod1 id=haoweb onClick="haoSubSearch('web');goSearch()" onmousedown="ClickMonkey.log('haoweb');" >ç½‘ é¡µ</td><td width="4"></td><td valign=bottom class=searchfod2 id=haomp3 onClick="haoSubSearch('mp3');goSearch()" onmousedown="ClickMonkey.log('haomp3');" >MP3</td> <td width="4"></td><td valign=bottom   class=searchfod2 id=haoimg onClick="haoSubSearch('img');goSearch()" onmousedown="ClickMonkey.log('haoimg');" >å›¾ ç‰‡</td><td width="4"></td><td valign=bottom class=searchfod2 id=haopost onClick="haoSubSearch('post');goSearch()" onmousedown="ClickMonkey.log('haopost');" >è´´ å§</td><td width="4"></td><td  valign=bottom class=searchfod2 id=haozhidao onClick="haoSubSearch('zhidao');goSearch()" onmousedown="ClickMonkey.log('haozhidao');" >çŸ¥ é“</td><td width="4"></td><td  valign=bottom class=searchfod2 id=haonews onClick="haoSubSearch('news');goSearch()" onmousedown="ClickMonkey.log('haonews');" >æ–° é—»</td><td width="4"></td><td valign=bottom class=searchfod2 id=haovideo onClick="haoSubSearch('video');goSearch()" onmousedown="ClickMonkey.log('haovideo');">è§† é¢‘</td><td width="4"></td><td  width=240 valign=bottom> </td></tr></table>
+<table border="0" cellspacing="0" cellpadding="0" id=FrP><tr><form onSubmit="return haoValidate();" action=http://www.baidu.com/s name=f><td align="left"><INPUT type=hidden name=kw><INPUT type=hidden name=sc><input type=hidden name=cl value=3><input type=hidden name=tn value=hao123><input type=hidden name=ct><input type=hidden name=rn><input type=hidden name=lm><input type=hidden name=ie><input type=hidden name=rs2><input type=hidden name=myselectvalue><input type=hidden name=f><input type=hidden name=pv><input type=hidden name=z><input type=hidden name=from>&nbsp; 
+<input type="text" name="word" size=38 maxlength="100" class="kw" id="kww"  style="margin-bottom:-5px; font-size:16px;height:1.78em;font-family:arial,sans-serif,å®‹ä½“;padding-top:2px; padding-left:1px">&nbsp;<input type=submit value=ç™¾åº¦ä¸€ä¸‹ style="height:1.82em;width:6.4em;font-size:16px; margin-bottom:-5px; padding-top:2px"  class=sb monkey="submit">
 </span>
 </td>
 </form></tr></table></p>
@@ -247,8 +247,8 @@ window.onload = function(){
 <div align="center"><center>
  <table border=0 cellPadding=0 cellSpacing=0 width=900 height=1><tr align=center><td height="1" bgcolor="C1D0D7"></td></tr></table>
 <table width=900 height=25 bgcolor=#EEF7FF border=0 cellspacing=0 cellspadding=2><tr>
-<td width="50%" class="f9pt" style="color:#424242 "> <a href="https://www.hao123.com" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('https://www.hao123.com/');return(false);" style="behavior: url(#default#homepage); color:#D35E04"><img src="../images/home.gif" width="15" height="15" border="0" align="absmiddle"> °Ñhao123ÉèÎªÖ÷Ò³</a>¡¡¡¡<a href="../book/"><img src="../images/notebook.gif" width="15" height="15" border="0" align="absmiddle"> ÍøÓÑÁôÑÔ</a></td><td align="right" class="f9pt" style="color:#424242; padding-right:10px">
-<a href="../index.htm" target=_self style="color:#424242 ">Ê×Ò³</a> &gt; ÊµÓÃ¹¤¾ß</td>
+<td width="50%" class="f9pt" style="color:#424242 "> <a href="http://www.hao123.com" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.hao123.com/');return(false);" style="behavior: url(#default#homepage); color:#D35E04"><img src="../images/home.gif" width="15" height="15" border="0" align="absmiddle"> æŠŠhao123è®¾ä¸ºä¸»é¡µ</a>ã€€ã€€<a href="../book/"><img src="../images/notebook.gif" width="15" height="15" border="0" align="absmiddle"> ç½‘å‹ç•™è¨€</a></td><td align="right" class="f9pt" style="color:#424242; padding-right:10px">
+<a href="../index.htm" target=_self style="color:#424242 ">é¦–é¡µ</a> &gt; å®ç”¨å·¥å…·</td>
     
 </tr></table>
 
@@ -260,94 +260,94 @@ window.onload = function(){
 <tr bgcolor="#EFF7F0">
   <td bgcolor="C5D5C5" ><table width="100%"  border="0" cellspacing="1" cellpadding="0">
     <tr bgcolor="#DFEEE0" align="center">
-      <td width="20%" height="20" class="f9pt clo">½»Í¨µØÍ¼</td>
-      <td width="20%" class="f9pt clo">ÈÕ³£Éú»î</td>
-      <td width="20%" class="f9pt clo">½ğÈÚÀí²Æ</td>
-      <td width="20%" class="f9pt clo">ÊµÓÃ¹¤¾ß</td>
-      <td width="20%" class="f9pt clo">³É¼¨²éÑ¯</td>
+      <td width="20%" height="20" class="f9pt clo">äº¤é€šåœ°å›¾</td>
+      <td width="20%" class="f9pt clo">æ—¥å¸¸ç”Ÿæ´»</td>
+      <td width="20%" class="f9pt clo">é‡‘èç†è´¢</td>
+      <td width="20%" class="f9pt clo">å®ç”¨å·¥å…·</td>
+      <td width="20%" class="f9pt clo">æˆç»©æŸ¥è¯¢</td>
     </tr>
     <tr bgcolor="#EFF7F0">
 	<td valign="top" bgcolor="#EFF7F0" class="h1">
-		<a href="https://map.baidu.com/">ÔÚÏßµØÍ¼</a><br>	
-		<a href="lccx.htm">ÁĞ³µÊ±¿Ì</a><br>
-		<a href="https://bus.mapbar.com/">¹«½»²éÑ¯</a><br>		
-		<a href="https://p.yiqifa.com/c?s=72ab52bc&w=253302&c=297&i=19323&l=0&d=2756&e=hao6&t=https://u.ctrip.com/union/redirect.aspx"><font color="#CC0000">º½°à²éÑ¯</font></a><br>	
-		<a href="https://huochepiao.tieyou.com/#utm_source=divencheng&fr=hao6">¸ßÌú¶¯³µÆ±</a><br>		
-		<a href="jiaotongcx.htm">½»Í¨Î¥ÕÂ²éÑ¯</a><br>		
-		<a href="https://www.ip138.com/carlist.htm">È«¹ú¸÷µØ³µÅÆ²éÑ¯±í</a><br>		
-		<a href="https://kaoshi.jxedt.com/">¼İÊ»Ô±Ä£Äâ¿¼ÊÔ</a>
+		<a href="http://map.baidu.com/">åœ¨çº¿åœ°å›¾</a><br>	
+		<a href="lccx.htm">åˆ—è½¦æ—¶åˆ»</a><br>
+		<a href="http://bus.mapbar.com/">å…¬äº¤æŸ¥è¯¢</a><br>		
+		<a href="http://p.yiqifa.com/c?s=72ab52bc&w=253302&c=297&i=19323&l=0&d=2756&e=hao6&t=http://u.ctrip.com/union/redirect.aspx"><font color="#CC0000">èˆªç­æŸ¥è¯¢</font></a><br>	
+		<a href="http://huochepiao.tieyou.com/#utm_source=divencheng&fr=hao6">é«˜é“åŠ¨è½¦ç¥¨</a><br>		
+		<a href="jiaotongcx.htm">äº¤é€šè¿ç« æŸ¥è¯¢</a><br>		
+		<a href="http://www.ip138.com/carlist.htm">å…¨å›½å„åœ°è½¦ç‰ŒæŸ¥è¯¢è¡¨</a><br>		
+		<a href="http://kaoshi.jxedt.com/">é©¾é©¶å‘˜æ¨¡æ‹Ÿè€ƒè¯•</a>
 </td>     
 		 <td valign="top" bgcolor="#EFF7F0" class="h1">
-		<a href="https://weather.news.sina.com.cn/">ÌìÆøÔ¤±¨</a><br>		
-		<a href="wn.htm">ÍòÄêÀú</a><br>		
-		<a href="https://tvguide.ent.sina.com.cn/">µçÊÓ½ÚÄ¿</a><br>		
-		<a href="https://open.baidu.com/special/time/">±±¾©Ê±¼ä</a><br>		
-		<a href="kuaidi.htm">¿ìµİ²éÑ¯</a><br>		
-		<a href="tefudh.htm">³£ÓÃµç»°</a><br>		
-		<a href="gjjcx.htm">×¡·¿¹«»ı½ğ</a><br>		
-		<a href="https://p.yiqifa.com/c?s=f3b2afae&w=253302&c=276&i=2122&l=0&e=hao6&t=https://travel.elong.com/hotel/"><font color="#CC0000">¾ÆµêÔ¤¶©´óÈ«</font></a>
+		<a href="http://weather.news.sina.com.cn/">å¤©æ°”é¢„æŠ¥</a><br>		
+		<a href="wn.htm">ä¸‡å¹´å†</a><br>		
+		<a href="http://tvguide.ent.sina.com.cn/">ç”µè§†èŠ‚ç›®</a><br>		
+		<a href="http://open.baidu.com/special/time/">åŒ—äº¬æ—¶é—´</a><br>		
+		<a href="kuaidi.htm">å¿«é€’æŸ¥è¯¢</a><br>		
+		<a href="tefudh.htm">å¸¸ç”¨ç”µè¯</a><br>		
+		<a href="gjjcx.htm">ä½æˆ¿å…¬ç§¯é‡‘</a><br>		
+		<a href="http://p.yiqifa.com/c?s=f3b2afae&w=253302&c=276&i=2122&l=0&e=hao6&t=http://travel.elong.com/hotel/"><font color="#CC0000">é…’åº—é¢„è®¢å¤§å…¨</font></a>
 </td>
   
 		 <td valign="top" bgcolor="#EFF7F0" class="h1">
-		<a href="https://quote.eastmoney.com/zs000001.html">¹ÉÆ±ĞĞÇé</a><br>		
-		<a href="https://fund.eastmoney.com/fund.html">»ù½ğ¾»Öµ</a><br>		
-		<a href="https://union.500.com/pages/interfacehezuo.php?coopid=1605&adid=97">¸£²Ê(Ë«É«Çò/3D)</a><br>		
-		<a href="https://www.lottery.gov.cn/">Ìå²Ê</a><br>		
-		<a href="https://www.boc.cn/sourcedb/whpj/">Íâ»ãÅÆ¼Û</a><br>		
-		<a href="https://qq.ip138.com/hl.asp">»ãÂÊ²éÑ¯»»Ëã</a><br>		
-		<a href="https://finance.21cn.com/bank/computer/tax.html">¸öÈËËùµÃË°</a><br>		
-		<a href="https://www.ccb.com/cn/personal/interest/rmbdeposit.html">ÈËÃñ±Ò´æ/´û¿îÀûÂÊ</a>
+		<a href="http://quote.eastmoney.com/zs000001.html">è‚¡ç¥¨è¡Œæƒ…</a><br>		
+		<a href="http://fund.eastmoney.com/fund.html">åŸºé‡‘å‡€å€¼</a><br>		
+		<a href="http://union.500.com/pages/interfacehezuo.php?coopid=1605&adid=97">ç¦å½©(åŒè‰²çƒ/3D)</a><br>		
+		<a href="http://www.lottery.gov.cn/">ä½“å½©</a><br>		
+		<a href="http://www.boc.cn/sourcedb/whpj/">å¤–æ±‡ç‰Œä»·</a><br>		
+		<a href="http://qq.ip138.com/hl.asp">æ±‡ç‡æŸ¥è¯¢æ¢ç®—</a><br>		
+		<a href="http://finance.21cn.com/bank/computer/tax.html">ä¸ªäººæ‰€å¾—ç¨</a><br>		
+		<a href="http://www.ccb.com/cn/personal/interest/rmbdeposit.html">äººæ°‘å¸å­˜/è´·æ¬¾åˆ©ç‡</a>
 </td>
   
 		 <td valign="top" bgcolor="#EFF7F0" class="h1">
-		<a href="https://app.baidu.com/cz88net_id/id.php">Éí·İÖ¤²éÑ¯</a><br>				
-		<a href="fy.htm">ÔÚÏß·­Òë</a><br>		
-		<a href="https://hanyu.iciba.com/">°®´Ê°ÔººÓï</a><br>		
-		<a href="https://app.baidu.com/calculator/base.html">¼ÆËãÆ÷</a><br>		
-		<a href="https://app.baidu.com/cz88net_ip/ip.aspx">IPµØÖ·</a><br>		
-		<a href="https://www.linkwan.com/gb/broadmeter/SpeedAuto/">ÉÏÍøËÙ¶È²âÊÔ</a><br>
-		<a href="https://qq.ip138.com/wb/wb.asp">Îå±Ê±àÂë²éÑ¯</a><br>
-		<a href="https://xue.baidu.com/">ĞÂÊÖÑ§ÉÏÍø</a><br>
+		<a href="http://app.baidu.com/cz88net_id/id.php">èº«ä»½è¯æŸ¥è¯¢</a><br>				
+		<a href="fy.htm">åœ¨çº¿ç¿»è¯‘</a><br>		
+		<a href="http://hanyu.iciba.com/">çˆ±è¯éœ¸æ±‰è¯­</a><br>		
+		<a href="http://app.baidu.com/calculator/base.html">è®¡ç®—å™¨</a><br>		
+		<a href="http://app.baidu.com/cz88net_ip/ip.aspx">IPåœ°å€</a><br>		
+		<a href="http://www.linkwan.com/gb/broadmeter/SpeedAuto/">ä¸Šç½‘é€Ÿåº¦æµ‹è¯•</a><br>
+		<a href="http://qq.ip138.com/wb/wb.asp">äº”ç¬”ç¼–ç æŸ¥è¯¢</a><br>
+		<a href="http://xue.baidu.com/">æ–°æ‰‹å­¦ä¸Šç½‘</a><br>
 		
 </td>
   
-         <td valign="top" class="h1"> <a href="https://gongwuyuan.eol.cn/di_fang_2713/20100511/t20100511_473560.shtml">¸÷Ê¡¹«ÎñÔ±±ÊÊÔ</a><br>
-<a href="https://www.eol.cn/html/zk/chaxun/">¸÷Ê¡×Ô¿¼</a> <br>
-<a href="https://www.nmec.org.cn/">Ö´ÒµÒ½Ê¦¿¼ÊÔ³É¼¨²éÑ¯</a> <br>
-<a href="https://www.51test.net/ncre/">¼ÆËã»ú¶ş¼¶¿¼ÊÔ³É¼¨²éÑ¯</a> <br>
-<a href="https://yz.chsi.com.cn/">ÑĞ¾¿ÉúÈëÑ§¿¼ÊÔĞÅÏ¢Íø</a><br>
-<a href="https://www.6164.com/kszy.htm">¸ü¶à²éÑ¯>></a></td>
+         <td valign="top" class="h1"> <a href="http://gongwuyuan.eol.cn/di_fang_2713/20100511/t20100511_473560.shtml">å„çœå…¬åŠ¡å‘˜ç¬”è¯•</a><br>
+<a href="http://www.eol.cn/html/zk/chaxun/">å„çœè‡ªè€ƒ</a> <br>
+<a href="http://www.nmec.org.cn/">æ‰§ä¸šåŒ»å¸ˆè€ƒè¯•æˆç»©æŸ¥è¯¢</a> <br>
+<a href="http://www.51test.net/ncre/">è®¡ç®—æœºäºŒçº§è€ƒè¯•æˆç»©æŸ¥è¯¢</a> <br>
+<a href="http://yz.chsi.com.cn/">ç ”ç©¶ç”Ÿå…¥å­¦è€ƒè¯•ä¿¡æ¯ç½‘</a><br>
+<a href="http://www.6164.com/kszy.htm">æ›´å¤šæŸ¥è¯¢>></a></td>
     </tr>
     <tr bgcolor="#DFEEE0" align="center">
-      <td width="20%" height="20" class="f9pt clo">»°·ÑÍ¨Ñ¶</td>
-      <td width="20%" class="f9pt clo">ĞÇ×ùÃüÀí</td>
-      <td width="20%" class="f9pt clo">ÉíÌå×´¿ö</td>
-      <td width="20%" class="f9pt clo">²úÆ·±¨¼Û</td>
-      <td width="20%" class="f9pt clo">ÆäËû</td>
+      <td width="20%" height="20" class="f9pt clo">è¯è´¹é€šè®¯</td>
+      <td width="20%" class="f9pt clo">æ˜Ÿåº§å‘½ç†</td>
+      <td width="20%" class="f9pt clo">èº«ä½“çŠ¶å†µ</td>
+      <td width="20%" class="f9pt clo">äº§å“æŠ¥ä»·</td>
+      <td width="20%" class="f9pt clo">å…¶ä»–</td>
     </tr>
     <tr bgcolor="#EFF7F0">
-      <td valign="top" class="h1"> <a href="showjicc.htm"> ÊÖ»úºÅ¹éÊôµØ²éÑ¯ </a> <br>
-          <a href="https://www.ip138.com/post/"> ÓÊ±à¡¢µç»°ÇøºÅ </a> <br>
-          <a href="https://10086.cn/"> ÒÆ¶¯ÍøÉÏÓªÒµÌü </a> <br>
-          <a href="https://www.10010.com/"> ÁªÍ¨ÍøÉÏÓªÒµÌü </a> <br>
-          <a href="https://www.ct10000.com/"> µçĞÅÍøÉÏÓªÒµÌü </a> </td>
-      <td valign="top" class="h1"> <a href="https://www.51jiemeng.com/"> ÖÜ¹«½âÃÎ </a> <br>
-          <a href="https://www.zdic.net/appendix/f27.htm"> Ôñ¼ªÀÏ»ÆÀú </a> <br>
-          <a href="shuxing.htm"> ÉúĞ¤ÊôÏà </a> <br>
-          <a href="xzcx.htm"> ĞÇ×ùÔË³Ì </a> <br>
-          <a href="https://jixiong.showji.com/"> ÊÖ»úºÅ²â¼ªĞ× </a> </td>
-      <td valign="top" class="h1"> <a href="https://jbk.39.net/"> ¼²²¡²éÑ¯ </a> <br>
-          <a href="https://app.baidu.com/shencai/"> ±ê×¼ÌåÖØ¼ÆËã </a> <br>
-          <a href="https://app.baidu.com/baefemale/female.html?v=1.00"> Å®ĞÔ°²È«ÆÚ </a> <br>
-          <a href="https://www.haodf.com/yiyuan/beijing/list.htm"> Ò½Ôº²éÑ¯ </a> </td>
-		 <td valign="top" bgcolor="#EFF7F0" class="h1"><a href="https://detail.zol.com.cn/"> µçÄÔ¼Û¸ñ </a> <br>
-             <a href="https://tech.sina.com.cn/mobile/select/index.html"> ÊÖ»ú±¨¼Û </a> <br>
-             <a href="https://car.autohome.com.cn/"> Æû³µ±¨¼Û </a> <br>
-             <a href="https://detail.zol.com.cn/digital_camera_index/subcate15_list_1.html"> ÊıÂëÏà»ú±¨¼Û </a></td>  
-         <td valign="top" bgcolor="#EFF7F0" class="h1"><a href="https://www.chsi.com.cn/xlcx/">Ñ§Àú²éÑ¯</a><br>
-<a href="https://p.yiqifa.com/c?s=72ab52bc&w=253302&c=297&i=40392&l=0&d=2756&e=hao6&t=https://www.ctrip.com/">ÕÛ¿Û»úÆ±¾Æµê</a><br>
-<a href="https://www.huoxingyu.com/">»ğĞÇÎÄ×ª»»</a><br>
-<a href="https://www.6164.com/haoserver/more.htm">¸ü¶à²éÑ¯>></a></td>
+      <td valign="top" class="h1"> <a href="showjicc.htm"> æ‰‹æœºå·å½’å±åœ°æŸ¥è¯¢ </a> <br>
+          <a href="http://www.ip138.com/post/"> é‚®ç¼–ã€ç”µè¯åŒºå· </a> <br>
+          <a href="http://10086.cn/"> ç§»åŠ¨ç½‘ä¸Šè¥ä¸šå… </a> <br>
+          <a href="http://www.10010.com/"> è”é€šç½‘ä¸Šè¥ä¸šå… </a> <br>
+          <a href="http://www.ct10000.com/"> ç”µä¿¡ç½‘ä¸Šè¥ä¸šå… </a> </td>
+      <td valign="top" class="h1"> <a href="http://www.51jiemeng.com/"> å‘¨å…¬è§£æ¢¦ </a> <br>
+          <a href="http://www.zdic.net/appendix/f27.htm"> æ‹©å‰è€é»„å† </a> <br>
+          <a href="shuxing.htm"> ç”Ÿè‚–å±ç›¸ </a> <br>
+          <a href="xzcx.htm"> æ˜Ÿåº§è¿ç¨‹ </a> <br>
+          <a href="http://jixiong.showji.com/"> æ‰‹æœºå·æµ‹å‰å‡¶ </a> </td>
+      <td valign="top" class="h1"> <a href="http://jbk.39.net/"> ç–¾ç—…æŸ¥è¯¢ </a> <br>
+          <a href="http://app.baidu.com/shencai/"> æ ‡å‡†ä½“é‡è®¡ç®— </a> <br>
+          <a href="http://app.baidu.com/baefemale/female.html?v=1.00"> å¥³æ€§å®‰å…¨æœŸ </a> <br>
+          <a href="http://www.haodf.com/yiyuan/beijing/list.htm"> åŒ»é™¢æŸ¥è¯¢ </a> </td>
+		 <td valign="top" bgcolor="#EFF7F0" class="h1"><a href="http://detail.zol.com.cn/"> ç”µè„‘ä»·æ ¼ </a> <br>
+             <a href="http://tech.sina.com.cn/mobile/select/index.html"> æ‰‹æœºæŠ¥ä»· </a> <br>
+             <a href="http://car.autohome.com.cn/"> æ±½è½¦æŠ¥ä»· </a> <br>
+             <a href="http://detail.zol.com.cn/digital_camera_index/subcate15_list_1.html"> æ•°ç ç›¸æœºæŠ¥ä»· </a></td>  
+         <td valign="top" bgcolor="#EFF7F0" class="h1"><a href="http://www.chsi.com.cn/xlcx/">å­¦å†æŸ¥è¯¢</a><br>
+<a href="http://p.yiqifa.com/c?s=72ab52bc&w=253302&c=297&i=40392&l=0&d=2756&e=hao6&t=http://www.ctrip.com/">æŠ˜æ‰£æœºç¥¨é…’åº—</a><br>
+<a href="http://www.huoxingyu.com/">ç«æ˜Ÿæ–‡è½¬æ¢</a><br>
+<a href="http://www.6164.com/haoserver/more.htm">æ›´å¤šæŸ¥è¯¢>></a></td>
     </tr>  
   </table></td>
   </tr>
@@ -356,237 +356,237 @@ window.onload = function(){
 	<div class="t1 bgg">
 <table width="100%"  border="0" cellpadding="0" cellspacing="1" bgcolor="C5D5C5">
     <tr align="center" bgcolor="#D9EDDA">
-      <td width="20%" height="20" class="f9pt clo">¼´Ê±ÁÄÌì</td>
-      <td width="20%" class="f9pt clo">²¡¶¾²éÉ±</td>
-      <td width="20%" class="f9pt clo">ÍøÂçµçÊÓ</td>
-      <td width="20%" class="f9pt clo">ÖĞÎÄÊäÈë</td>
-      <td width="20%" class="f9pt clo">Ö¤È¯¹ÉÆ±</td>
+      <td width="20%" height="20" class="f9pt clo">å³æ—¶èŠå¤©</td>
+      <td width="20%" class="f9pt clo">ç—…æ¯’æŸ¥æ€</td>
+      <td width="20%" class="f9pt clo">ç½‘ç»œç”µè§†</td>
+      <td width="20%" class="f9pt clo">ä¸­æ–‡è¾“å…¥</td>
+      <td width="20%" class="f9pt clo">è¯åˆ¸è‚¡ç¥¨</td>
     </tr>
     <tr bgcolor="#EFF7F0">
       <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
         <tr>
-          <td><a href="https://im.qq.com/" target="_blank"><img src="../soft/images/qq.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;ÌÚÑ¶QQ</a></td>
+          <td><a href="http://im.qq.com/" target="_blank"><img src="../soft/images/qq.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;è…¾è®¯QQ</a></td>
         </tr>
         <tr>
-          <td><a href="https://www.windowslive.cn/Messenger/" target="_blank"><img src="../soft/images/dmsnmessenger.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;<font color="red">MSN</font></a></td>
+          <td><a href="http://www.windowslive.cn/Messenger/" target="_blank"><img src="../soft/images/dmsnmessenger.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;<font color="red">MSN</font></a></td>
         </tr>
         <tr>
-          <td><a href="https://im.baidu.com/"><img src="../soft/images/baiduhi.gif" width="18" height="19" border="0" align="absmiddle">&nbsp;&nbsp;°Ù¶ÈHI</a></td>
+          <td><a href="http://im.baidu.com/"><img src="../soft/images/baiduhi.gif" width="18" height="19" border="0" align="absmiddle">&nbsp;&nbsp;ç™¾åº¦HI</a></td>
         </tr>
         <tr>
-          <td><a href="https://feixin.10086.cn/download/"><img src="../soft/shouji/images/fetion.gif" width="18" height="15" border="0" align="absmiddle">&nbsp;&nbsp;·ÉĞÅ</a></td>
+          <td><a href="http://feixin.10086.cn/download/"><img src="../soft/shouji/images/fetion.gif" width="18" height="15" border="0" align="absmiddle">&nbsp;&nbsp;é£ä¿¡</a></td>
         </tr>
         <tr>
-          <td><a href="https://www.taobao.com/wangwang/"><img src="../soft/images/wangwang18.gif" width="18" height="15" border="0" align="absmiddle">&nbsp;&nbsp;°¢ÀïÍúÍú</a></td>
-        </tr>
-      </table></td>
-      <td valign="top" bgcolor="#EFF7F0"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
-        <tr>
-          <td><a href="https://j.union.ijinshan.com/jump.php?u_key=552" target="_blank"><img src="../soft/images/kingsoft18.gif" width="18" border="0"  align="absmiddle">&nbsp;&nbsp;½ğÉ½¶¾°Ô</a></td>
-        </tr>
-
-        <tr>
-          <td><a href="https://sd.360.cn/" target="_blank"><img src="../soft/images/360.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;360É±¶¾</a></td>
-        </tr>
-        <tr>
-          <td><a href="https://www.rising.com.cn/" target="_blank"><img src="../soft/images/rising.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;ÈğĞÇÉ±¶¾</a></td>
+          <td><a href="http://www.taobao.com/wangwang/"><img src="../soft/images/wangwang18.gif" width="18" height="15" border="0" align="absmiddle">&nbsp;&nbsp;é˜¿é‡Œæ—ºæ—º</a></td>
         </tr>
       </table></td>
       <td valign="top" bgcolor="#EFF7F0"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
+        <tr>
+          <td><a href="http://j.union.ijinshan.com/jump.php?u_key=552" target="_blank"><img src="../soft/images/kingsoft18.gif" width="18" border="0"  align="absmiddle">&nbsp;&nbsp;é‡‘å±±æ¯’éœ¸</a></td>
+        </tr>
 
         <tr>
-          <td> <a href="https://www.pps.tv/"><img src="../soft/images/ppstream.jpg" width="18" height="18" border="0" align="absmiddle">&nbsp;&nbsp;PPS</a></td>
+          <td><a href="http://sd.360.cn/" target="_blank"><img src="../soft/images/360.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;360æ€æ¯’</a></td>
         </tr>
         <tr>
-          <td><a href="https://click.t3nlink.com/link/131483/"><img src="../soft/images/funshion.gif" width="18" height="18" border="0" align="absmiddle">&nbsp;&nbsp;·çĞĞ</a></td>
+          <td><a href="http://www.rising.com.cn/" target="_blank"><img src="../soft/images/rising.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;ç‘æ˜Ÿæ€æ¯’</a></td>
+        </tr>
+      </table></td>
+      <td valign="top" bgcolor="#EFF7F0"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
+
+        <tr>
+          <td> <a href="http://www.pps.tv/"><img src="../soft/images/ppstream.jpg" width="18" height="18" border="0" align="absmiddle">&nbsp;&nbsp;PPS</a></td>
         </tr>
         <tr>
-          <td><a href="https://click.t3nlink.com/link/134095/"><img src="../soft/images/uusee18.gif" width="18" height="18" border="0" align="absmiddle">&nbsp;&nbsp;UUSee</a></td>
+          <td><a href="http://click.t3nlink.com/link/131483/"><img src="../soft/images/funshion.gif" width="18" height="18" border="0" align="absmiddle">&nbsp;&nbsp;é£è¡Œ</a></td>
         </tr>
         <tr>
-          <td><a href="https://click.t3nlink.com/link/131482/"><img src="../soft/images/pplive.gif" width="18" height="18" border="0" align="absmiddle">&nbsp;&nbsp;PPTV</a></td>
+          <td><a href="http://click.t3nlink.com/link/134095/"><img src="../soft/images/uusee18.gif" width="18" height="18" border="0" align="absmiddle">&nbsp;&nbsp;UUSee</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://click.t3nlink.com/link/131482/"><img src="../soft/images/pplive.gif" width="18" height="18" border="0" align="absmiddle">&nbsp;&nbsp;PPTV</a></td>
         </tr>
 
       </table></td>
       <td valign="top" bgcolor="#EFF7F0"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
 	  <tr>
-          <td><a href="https://pinyin.sogou.com/"><img src="../soft/images/sogopy.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;ËÑ¹·ÊäÈë·¨</a></td>
+          <td><a href="http://pinyin.sogou.com/"><img src="../soft/images/sogopy.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;æœç‹—è¾“å…¥æ³•</a></td>
         </tr>
 
         <tr>
-          <td><a href="https://www.onlinedown.net/soft/7677.htm" target="_blank"><img src="../soft/images/jipin6.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;¼«Æ·Îå±Ê</a></td>
+          <td><a href="http://www.onlinedown.net/soft/7677.htm" target="_blank"><img src="../soft/images/jipin6.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;æå“äº”ç¬”</a></td>
         </tr>
         <tr>
-          <td><a href="https://py.qq.com/" target="_blank"><img src="../soft/images/qqpy.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;QQÆ´Òô</a></td>
+          <td><a href="http://py.qq.com/" target="_blank"><img src="../soft/images/qqpy.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;QQæ‹¼éŸ³</a></td>
         </tr>
         <tr>
-          <td><a href="https://shurufa.baidu.com/" target="_blank"><img src="../soft/images/baidusrf.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;°Ù¶ÈÊäÈë·¨</a></td>
+          <td><a href="http://shurufa.baidu.com/" target="_blank"><img src="../soft/images/baidusrf.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;ç™¾åº¦è¾“å…¥æ³•</a></td>
         </tr>
       </table></td>
       <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
           <tr>
-            <td><a href="https://www.gw.com.cn/download/level1/index.htm" target="_blank"><img src="../soft/images/dzh.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;´óÖÇ»Û</a></td>
+            <td><a href="http://www.gw.com.cn/download/level1/index.htm" target="_blank"><img src="../soft/images/dzh.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;å¤§æ™ºæ…§</a></td>
           </tr>
           <tr>
-            <td><a href="https://www.10jqka.com.cn/download/" target="_blank"><img src="../soft/images/ths.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;Í¬»¨Ë³</a></td>
+            <td><a href="http://www.10jqka.com.cn/download/" target="_blank"><img src="../soft/images/ths.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;åŒèŠ±é¡º</a></td>
           </tr>
       </table></td>
     </tr>
     <tr align="center" bgcolor="#D9EDDA">
-      <td height="20" class="f9pt clo">ÏÂÔØ¹¤¾ß</td>
-      <td class="f9pt clo">ÊÓÆµ²¥·Å</td>
-      <td class="f9pt clo">MP3¹¤¾ß</td>
-      <td class="f9pt clo">ÓÎÏ·Æ½Ì¨</td>
-      <td class="f9pt clo">ÓÎÏ·¸¨Öú</td>
+      <td height="20" class="f9pt clo">ä¸‹è½½å·¥å…·</td>
+      <td class="f9pt clo">è§†é¢‘æ’­æ”¾</td>
+      <td class="f9pt clo">MP3å·¥å…·</td>
+      <td class="f9pt clo">æ¸¸æˆå¹³å°</td>
+      <td class="f9pt clo">æ¸¸æˆè¾…åŠ©</td>
     </tr>
     <tr bgcolor="#EFF7F0">
       <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
         <tr>
-          <td><a href="https://dl.xunlei.com/index.htm?tag=1" target="_blank"><img src="../soft/images/Thunder.gif" width="18" height="18" border="0" align="absmiddle">&nbsp;&nbsp;Ñ¸À×</a></td>
+          <td><a href="http://dl.xunlei.com/index.htm?tag=1" target="_blank"><img src="../soft/images/Thunder.gif" width="18" height="18" border="0" align="absmiddle">&nbsp;&nbsp;è¿…é›·</a></td>
         </tr>
         <tr>
-          <td><a href="https://www.emule.org.cn/download/" target="_blank"><img src="../soft/images/emule.gif" width="18"   border="0" align="absmiddle">&nbsp;&nbsp;eMule(µçÂ¿)</a></td>
+          <td><a href="http://www.emule.org.cn/download/" target="_blank"><img src="../soft/images/emule.gif" width="18"   border="0" align="absmiddle">&nbsp;&nbsp;eMule(ç”µé©´)</a></td>
         </tr>
         <tr>
-          <td><a href="https://xf.qq.com/" target="_blank"><img src="../soft/images/xf.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;QQĞı·ç</a></td>
+          <td><a href="http://xf.qq.com/" target="_blank"><img src="../soft/images/xf.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;QQæ—‹é£</a></td>
         </tr>
         <tr>
-          <td><a href="https://www.flashget.com/cn/" target="_blank"><img src="../soft/images/flashget.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;¿ì³µ</a></td>
+          <td><a href="http://www.flashget.com/cn/" target="_blank"><img src="../soft/images/flashget.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;å¿«è½¦</a></td>
         </tr>
       </table></td>
       <td valign="top" bgcolor="#EFF7F0"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
         <tr>
-          <td><a href="https://www.baofeng.com/" target="_blank"><img src="../soft/images/bfyy.gif" width="18" border="0"  align="absmiddle">&nbsp;&nbsp;±©·çÓ°Òô</a></td>
+          <td><a href="http://www.baofeng.com/" target="_blank"><img src="../soft/images/bfyy.gif" width="18" border="0"  align="absmiddle">&nbsp;&nbsp;æš´é£å½±éŸ³</a></td>
         </tr>
         <tr>
-          <td><a href="https://www.qvod.com/" target="_blank"><img src="../soft/images/qvod.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;¿ì²¥QVOD</a></td>
+          <td><a href="http://www.qvod.com/" target="_blank"><img src="../soft/images/qvod.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;å¿«æ’­QVOD</a></td>
         </tr>
         <tr>
-          <td><a href="https://get.adobe.com/flashplayer/" target="_blank"><img src="../soft/images/flashplayer.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;Flash Player</a></td>
+          <td><a href="http://get.adobe.com/flashplayer/" target="_blank"><img src="../soft/images/flashplayer.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;Flash Player</a></td>
         </tr>
         <tr>
-          <td><a href="https://realplayer.cn.real.com/" target="_blank"><img src="../soft/images/realplay.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;RealPlayer</a></td>
+          <td><a href="http://realplayer.cn.real.com/" target="_blank"><img src="../soft/images/realplay.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;RealPlayer</a></td>
         </tr>
 
       </table></td>
       <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
         <tr>
-          <td><a href="https://www.koowo.com/mbox.down2?src=kwun0271" target="_blank"><img src="../soft/images/kuwo.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;¿áÎÒÒôÀÖºĞ</a></td>
+          <td><a href="http://www.koowo.com/mbox.down2?src=kwun0271" target="_blank"><img src="../soft/images/kuwo.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;é…·æˆ‘éŸ³ä¹ç›’</a></td>
         </tr>
         <tr>
-          <td><a href="https://www.kugou.com/" target="_blank"><img src="../soft/images/kugoo.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;¿á¹·</a></td>
+          <td><a href="http://www.kugou.com/" target="_blank"><img src="../soft/images/kugoo.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;é…·ç‹—</a></td>
         </tr>
         <tr>
-          <td><a href="https://ttplayer.qianqian.com/" target="_blank"><img src="../soft/images/ttplayer.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;Ç§Ç§¾²Ìı</a></td>
+          <td><a href="http://ttplayer.qianqian.com/" target="_blank"><img src="../soft/images/ttplayer.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;åƒåƒé™å¬</a></td>
         </tr>	
 	
       </table></td>
       <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
         <tr>
-          <td><a href="https://qqgame.qq.com/download.html" target="_blank"><img src="../soft/images/qqgame.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;QQÓÎÏ·ÖĞĞÄ</a></td>
+          <td><a href="http://qqgame.qq.com/download.html" target="_blank"><img src="../soft/images/qqgame.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;QQæ¸¸æˆä¸­å¿ƒ</a></td>
         </tr>
         <tr>
-          <td><a href="https://www.ourgame.com/download/" target="_blank"><img src="../soft/images/lianzhong.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;ÁªÖÚÓÎÏ·´óÌü</a></td>
+          <td><a href="http://www.ourgame.com/download/" target="_blank"><img src="../soft/images/lianzhong.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;è”ä¼—æ¸¸æˆå¤§å…</a></td>
         </tr>
         <tr>
-          <td><a href="https://www.cga.com.cn/download.shtml" target="_blank"><img src="../soft/images/haofang.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;ºÆ·½µç¾ºÆ½Ì¨</a></td>
+          <td><a href="http://www.cga.com.cn/download.shtml" target="_blank"><img src="../soft/images/haofang.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;æµ©æ–¹ç”µç«å¹³å°</a></td>
         </tr>
         <tr>
-          <td><a href="https://game1.vsa.com.cn/vsmain/jsp/down/down.html"><img src="../soft/images/vs_15.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;VS¾º¼¼ÓÎÏ·Æ½Ì¨</a></td>
+          <td><a href="http://game1.vsa.com.cn/vsmain/jsp/down/down.html"><img src="../soft/images/vs_15.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;VSç«æŠ€æ¸¸æˆå¹³å°</a></td>
         </tr>
       </table></td>
       <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
         <tr>
-          <td><a href="https://www.yy.com/s/download.html" target="_blank"><img src="../soft/images/duowan_15.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;¶àÍæYY</a></td>
+          <td><a href="http://www.yy.com/s/download.html" target="_blank"><img src="../soft/images/duowan_15.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;å¤šç©YY</a></td>
         </tr>
         <tr>
-          <td><a href="https://d.ispeak.cn/isdown.aspx" target="_blank"><img src="../soft/images/is_15.gif" width="18" border="0"  align="absmiddle">&nbsp;&nbsp;iSÓïÒô</a></td>
+          <td><a href="http://d.ispeak.cn/isdown.aspx" target="_blank"><img src="../soft/images/is_15.gif" width="18" border="0"  align="absmiddle">&nbsp;&nbsp;iSè¯­éŸ³</a></td>
         </tr>
         <tr>
-          <td><a href="https://www.alicall.com/down.asp?linkid=8930492" target="_blank"><img src="../soft/images/ut_15.gif" width="18" border="0"  align="absmiddle">&nbsp;&nbsp;°¢ÀïÍ¨</a></td>
+          <td><a href="http://www.alicall.com/down.asp?linkid=8930492" target="_blank"><img src="../soft/images/ut_15.gif" width="18" border="0"  align="absmiddle">&nbsp;&nbsp;é˜¿é‡Œé€š</a></td>
         </tr>
 
 
         <tr>
-          <td><a href="https://www.keepc.com/voip/?t=1&id=33263"><img src="../soft/images/Daemon.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;UUcallÍøÂçµç»°</a></td>
+          <td><a href="http://www.keepc.com/voip/?t=1&id=33263"><img src="../soft/images/Daemon.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;UUcallç½‘ç»œç”µè¯</a></td>
         </tr>
       </table></td>
     </tr>
     <tr align="center" bgcolor="#D9EDDA">
-      <td height="20" class="f9pt clo">²å¼şÇåÀí</td>
-      <td class="f9pt clo">ÏµÍ³¹¤¾ß</td>
-      <td class="f9pt clo">ä¯ÀÀÆ÷</td>
-      <td class="f9pt clo">ÔÄ¶Á/Í¼Ïñ</td>
-      <td class="f9pt clo">ÊÖ»úÈí¼ş</td>
+      <td height="20" class="f9pt clo">æ’ä»¶æ¸…ç†</td>
+      <td class="f9pt clo">ç³»ç»Ÿå·¥å…·</td>
+      <td class="f9pt clo">æµè§ˆå™¨</td>
+      <td class="f9pt clo">é˜…è¯»/å›¾åƒ</td>
+      <td class="f9pt clo">æ‰‹æœºè½¯ä»¶</td>
     </tr>
     <tr bgcolor="#EFF7F0">
       <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="3">
         
        
         <tr>
-          <td><a href="https://www.ijinshan.com/ws/index.shtml" target="_blank"><img src="../soft/images/jsweis.gif" width="18" height="18" border="0"   align="absmiddle">&nbsp;&nbsp;½ğÉ½ÎÀÊ¿</a></td>
+          <td><a href="http://www.ijinshan.com/ws/index.shtml" target="_blank"><img src="../soft/images/jsweis.gif" width="18" height="18" border="0"   align="absmiddle">&nbsp;&nbsp;é‡‘å±±å«å£«</a></td>
         </tr>
 		<tr>
-          <td><a href="https://tool.ikaka.com/" target="_blank"><img src="../soft/images/kaka_s.gif" width="18" border="0"   align="absmiddle">&nbsp;&nbsp;¿¨¿¨°²È«ÖúÊÖ</a></td>
+          <td><a href="http://tool.ikaka.com/" target="_blank"><img src="../soft/images/kaka_s.gif" width="18" border="0"   align="absmiddle">&nbsp;&nbsp;å¡å¡å®‰å…¨åŠ©æ‰‹</a></td>
         </tr>
 		<tr>
-          <td><a href="https://www.360.cn/"><img src="../soft/images/360.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;360°²È«ÎÀÊ¿</a></td>
+          <td><a href="http://www.360.cn/"><img src="../soft/images/360.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;360å®‰å…¨å«å£«</a></td>
         </tr>
       </table></td>
       <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
         <tr>
-          <td><a href="https://www.ludashi.com/" target="_blank"><img src="../soft/images/z.jpg" width="18" border="0"   align="absmiddle">&nbsp;&nbsp;Â³´óÊ¦</a></td>
+          <td><a href="http://www.ludashi.com/" target="_blank"><img src="../soft/images/z.jpg" width="18" border="0"   align="absmiddle">&nbsp;&nbsp;é²å¤§å¸ˆ</a></td>
         </tr>
         <tr>
-          <td><a href="https://www.downg.com/soft/302.html" target="_blank"><img src="../soft/images/WinRAR.gif" width="18"  border="0" align="absmiddle">&nbsp;&nbsp;WinRAR</a></td>
+          <td><a href="http://www.downg.com/soft/302.html" target="_blank"><img src="../soft/images/WinRAR.gif" width="18"  border="0" align="absmiddle">&nbsp;&nbsp;WinRAR</a></td>
         </tr>
         <tr>
-          <td><a href="https://www.drivergenius.com/" target="_blank"><img src="../soft/images/drivergenius.gif" width="18" border="0"    align="absmiddle">&nbsp;&nbsp;Çı¶¯¾«Áé</a></td>
+          <td><a href="http://www.drivergenius.com/" target="_blank"><img src="../soft/images/drivergenius.gif" width="18" border="0"    align="absmiddle">&nbsp;&nbsp;é©±åŠ¨ç²¾çµ</a></td>
         </tr>
         <tr>
-          <td><a href="https://www.updrv.com/" target="_blank"><img src="../soft/images/updrv.gif" width="18" border="0"    align="absmiddle"> Çı¶¯ÈËÉú</a></td>
+          <td><a href="http://www.updrv.com/" target="_blank"><img src="../soft/images/updrv.gif" width="18" border="0"    align="absmiddle"> é©±åŠ¨äººç”Ÿ</a></td>
         </tr>
       </table></td>
       <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
         <tr>
-          <td><a href="https://www.skycn.com/soft/30276.html" target="_blank"><img src="../soft/images/msie5ico.gif" width="18"  border="0" align="absmiddle">&nbsp;&nbsp;IE</a></td>
+          <td><a href="http://www.skycn.com/soft/30276.html" target="_blank"><img src="../soft/images/msie5ico.gif" width="18"  border="0" align="absmiddle">&nbsp;&nbsp;IE</a></td>
         </tr>
         <tr>
-          <td><a href="https://www.maxthon.cn/" target="_blank"><img src="../soft/images/myie2.gif" width="18"  border="0" align="absmiddle">&nbsp;&nbsp;°ÁÓÎ</a></td>
+          <td><a href="http://www.maxthon.cn/" target="_blank"><img src="../soft/images/myie2.gif" width="18"  border="0" align="absmiddle">&nbsp;&nbsp;å‚²æ¸¸</a></td>
         </tr>
         <tr>
-          <td><a href="https://www.mozillaonline.com/"><img src="../soft/images/firefox.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;»ğºü</a></td>
+          <td><a href="http://www.mozillaonline.com/"><img src="../soft/images/firefox.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;ç«ç‹</a></td>
         </tr>
         <tr>
-          <td><a href="https://www.google.com/chrome" target="_blank"><img src="../soft/images/chrome_18.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;¹È¸èä¯ÀÀÆ÷</a></td>
+          <td><a href="http://www.google.com/chrome" target="_blank"><img src="../soft/images/chrome_18.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;è°·æ­Œæµè§ˆå™¨</a></td>
         </tr>
       </table></td>
       <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="4">
         <tr>
-          <td><a href="https://www.skycn.com/soft/3076.html" target="_blank"><img src="../soft/images/adobereader.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;Adobe Reader</a></td>
+          <td><a href="http://www.skycn.com/soft/3076.html" target="_blank"><img src="../soft/images/adobereader.gif" width="18" border="0" align="absmiddle">&nbsp;&nbsp;Adobe Reader</a></td>
         </tr>
         <tr>
-          <td><a href="https://cn.acdsee.com/zh-cn/download/" target="_blank"><img src="../soft/images/ACDSee.gif" width="18" border="0"   align="absmiddle">&nbsp;&nbsp;ACDSee</a></td>
+          <td><a href="http://cn.acdsee.com/zh-cn/download/" target="_blank"><img src="../soft/images/ACDSee.gif" width="18" border="0"   align="absmiddle">&nbsp;&nbsp;ACDSee</a></td>
         </tr>
 
         <tr>
-          <td><a href="https://xiuxiu.meitu.com/" target="_blank"><img src="../soft/images/xiuxiu.gif" width="18" border="0"   align="absmiddle">&nbsp;&nbsp;ÃÀÍ¼ĞãĞã</a></td>
+          <td><a href="http://xiuxiu.meitu.com/" target="_blank"><img src="../soft/images/xiuxiu.gif" width="18" border="0"   align="absmiddle">&nbsp;&nbsp;ç¾å›¾ç§€ç§€</a></td>
         </tr>
 
       </table></td>
       <td valign="top"><table width="100%"  border="0" cellspacing="1" cellpadding="5">
         <tr>
-          <td colspan="2"><a href="https://mobile.qq.com/" target="_blank"><img src="../soft/shouji/images/qq.gif" width="20"   border="0" align="absmiddle">&nbsp;&nbsp;ÊÖ»ú°æQQ</a></td>
+          <td colspan="2"><a href="http://mobile.qq.com/" target="_blank"><img src="../soft/shouji/images/qq.gif" width="20"   border="0" align="absmiddle">&nbsp;&nbsp;æ‰‹æœºç‰ˆQQ</a></td>
         </tr>
         <tr>
-          <td colspan="2"><a href="https://www.uc.cn/ " target="_blank"><img src="../soft/shouji/images/ucweb.gif" width="18"   border="0" align="absmiddle">&nbsp;&nbsp;UCWEB</a></td>
+          <td colspan="2"><a href="http://www.uc.cn/ " target="_blank"><img src="../soft/shouji/images/ucweb.gif" width="18"   border="0" align="absmiddle">&nbsp;&nbsp;UCWEB</a></td>
         </tr>
         <tr>
-          <td colspan="2"><a href="https://www.blovestorm.com/" target="_blank"><img src="../soft/shouji/images/blovestorm.gif" width="20" border="0" align="absmiddle">&nbsp;&nbsp;À´µçÍ¨</a></td>
+          <td colspan="2"><a href="http://www.blovestorm.com/" target="_blank"><img src="../soft/shouji/images/blovestorm.gif" width="20" border="0" align="absmiddle">&nbsp;&nbsp;æ¥ç”µé€š</a></td>
         </tr>
         <tr>
           <td width="50%"></td>
-          <td width="50%">&nbsp;<a href="https://www.6164.com/soft/shouji/default.htm"  class="f14">¸ü¶à>></a></td>
+          <td width="50%">&nbsp;<a href="http://www.6164.com/soft/shouji/default.htm"  class="f14">æ›´å¤š>></a></td>
         </tr>
       </table></td>
     </tr>
@@ -594,7 +594,7 @@ window.onload = function(){
 </div>
     <br>
   </center></div>
-    <DIV align=center><a href="../" target="_self"><img src="../images/return.gif" width="60" height="30" alt="·µ»Ø±¾Õ¾Ê×Ò³" border="0"></a></DIV>
+    <DIV align=center><a href="../" target="_self"><img src="../images/return.gif" width="60" height="30" alt="è¿”å›æœ¬ç«™é¦–é¡µ" border="0"></a></DIV>
 
 <span style="display:none"><script src="../js/tj.js"></script></span></body>
 </html>

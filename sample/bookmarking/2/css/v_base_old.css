@@ -8,7 +8,7 @@ last modified on 2010-03-25
     img{border:none;}
     li{list-style:none;}
     table{ border-collapse:collapse; width:100%;}
-    body{ font-family: Arial,'ËÎÌå';background-color:#FCFFF7; font-size:12px;}
+    body{ font-family: Arial,'å®‹ä½“';background-color:#FCFFF7; font-size:12px;}
     a{ color:#000;text-decoration:none;}
     a:hover{color:Red; text-decoration:underline;}
     .wrapper-basic{ width:960px; margin:0 auto; }
@@ -45,18 +45,18 @@ last modified on 2010-03-25
      #body-basic{}
      #foot-basic a{ font-weight:bold; font-size:14px; color:#419250; display:block; margin:0 auto; line-height:60px;background:url(/images/base/back.gif) 0 50% no-repeat; cursor:pointer; padding-left:30px; width:90px;}
      
-      /*Ö÷ÒªÄÚÈİwrapper-basic*/
+      /*ä¸»è¦å†…å®¹wrapper-basic*/
       .main-basic{ border:1px solid #77AE84;}
      
-      /*ÁĞ±íÀà list*/
+      /*åˆ—è¡¨ç±» list*/
       .main-basic .list{ background-color:#F2F9F2;}
       .main-basic .list td{font-size:16px; padding-left:12px; border-style:none none solid solid; border-color:#E3EDE3; border-width:1px; height:36px; width:20%;}
       .main-basic  h5{ line-height:20px; color:#2F8059; font-size:12px; font-weight:normal; background-color:#E0F0E4;border-bottom:solid 1px #E3EDE3; text-align:center;}
       .main-basic  h5 span{ display:block; border:solid 1px #FFF; border-bottom:none;}
-      /*ÎªÁË¼æÈİie6ÉèÁ¢´ËÀà*/
+      /*ä¸ºäº†å…¼å®¹ie6è®¾ç«‹æ­¤ç±»*/
       .main-basic .list td.first{ border-left:none;}
       
-      /*tabÀà,ÌõÄ¿Îª¹Ì¶¨¸ß¿í*/
+      /*tabç±»,æ¡ç›®ä¸ºå›ºå®šé«˜å®½*/
       .tab-basic{ width:100%; border-bottom:1px solid #77AE84; height:29px; padding-top:10px;}
       .tab-basic li{ float:left; display:inline; margin-left:5px; height:22px; padding-top:6px; }
       .tab-basic div{ border:1px solid #77AE84; border-bottom:none; float:left;width:168px;}

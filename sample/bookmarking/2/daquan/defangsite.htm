@@ -1,10 +1,10 @@
 <html>
 <head>
 
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <style type=text/css>
 <!--
- td,body {  font-size: 15px; font-family:arial,sans-serif,ËÎÌå;}body{
+ td,body {  font-size: 15px; font-family:arial,sans-serif,å®‹ä½“;}body{
 	margin-top:0px;
 	margin-left:0px;
 	margin-right:0px;
@@ -23,7 +23,7 @@ a.m:hover{color:red;text-decoration:underline;padding-left:0px;}
 .wr{text-align:right}
 .WB {width:530;text-align:left;clear:both;height:60px; padding-top:0px!important; padding-top:5px}
 @media screen and (min-width:0px){.WB {margin-top:3px!important;padding-top:0px!important}}
-#FrP{font-size:13px;border:0px solid #C5D5C5; height:48px; padding-top:1px; padding-bottom:2px;width:530;}<!-- ĞŞ¸Ä¸ß¶È44-48>
+#FrP{font-size:13px;border:0px solid #C5D5C5; height:48px; padding-top:1px; padding-bottom:2px;width:530;}<!-- ä¿®æ”¹é«˜åº¦44-48>
 #FrP a{color:#205001}
 #FrP a:hover{color:red}
 .searchfod1 {FONT-WEIGHT: bold; COLOR: #000; text-align:center; width:55px; font-size:14px}
@@ -32,7 +32,7 @@ a.m:hover{color:red;text-decoration:underline;padding-left:0px;}
 
 <base target="_blank">
 
-<title>hao123ÍøÖ·Ö®¼Ò£­£­µØ·½ÍøÕ¾</title>
+<title>hao123ç½‘å€ä¹‹å®¶ï¼ï¼åœ°æ–¹ç½‘ç«™</title>
 
 </head>
 
@@ -101,7 +101,7 @@ function haoValidate(source){
 	    f.cl.value=3
 		f.tn.value="hao123"
 		f.ct.value=0
-		f.ie.value="gb2312"
+		f.ie.value="UTF-8"
 		f.myselectvalue.value=""
 		f.rn.value=""
 		f.rs2.value=""
@@ -118,7 +118,7 @@ function haoValidate(source){
 		f.tn.value="baidump3"
 		f.f.value="ms"
 		f.myselectvalue.value=""
-		f.ie.value="gb2312"
+		f.ie.value="UTF-8"
 		f.z.value=""
 		f.from.value=""
 		}
@@ -142,37 +142,37 @@ function haoSubSearch(sc){
 	if(sc != "baidu"){
 		if(sc == "post")
 		{
-		    f.action = "https://tieba.baidu.com/f";
+		    f.action = "http://tieba.baidu.com/f";
 
 		}
 		else if(sc == "zhidao")
 		{
-			f.action = "https://zhidao.baidu.com/q";
+			f.action = "http://zhidao.baidu.com/q";
 
 		}
 		else if(sc == "mp3")
 		{
-			f.action = "https://mp3.baidu.com/m";
+			f.action = "http://mp3.baidu.com/m";
 
 		}
 		else if(sc == "img")
 		{
-			f.action = "https://image.baidu.com/i";
+			f.action = "http://image.baidu.com/i";
 
 		}
 		else if(sc == "news")
 		{
-			f.action = "https://news.baidu.com/ns";
+			f.action = "http://news.baidu.com/ns";
 
 		}
 		else if(sc == "video")
 		{
-			f.action = "https://video.baidu.com/v";
+			f.action = "http://video.baidu.com/v";
 
 		}
 		else
 		{
-			f.action = "https://www.baidu.com/s";
+			f.action = "http://www.baidu.com/s";
 
 		}
 		f.sc.value = sc;
@@ -185,7 +185,7 @@ function haoSubSearch(sc){
 
 function haoGoSoba(){
 
-	f.action = "https://www.baidu.com/s";
+	f.action = "http://www.baidu.com/s";
 	f.kw.value = f.word.value;
 }
 function G(id)
@@ -225,12 +225,12 @@ function goSearch(){
 <div align="center"><center>
 <table border="0" cellpadding="0" cellspacing="0" width="900" height="51">
     <tr>
-      <td width="290" height="51"><a href="/" target="_self" class="m"><img src="../images/logo_new.gif" alt="hao123ÍøÖ·Ö®¼Òwww.hao123.com"    width="168" height="63" border="0"></a></td>
+      <td width="290" height="51"><a href="/" target="_self" class="m"><img src="../images/logo_new.gif" alt="hao123ç½‘å€ä¹‹å®¶www.hao123.com"    width="168" height="63" border="0"></a></td>
      <td height="51" align="center">
 <p class="WB">
-<table width=100% border=0 cellspacing=0 cellpadding=0 style="margin-bottom:-6px "><tr><td width=2 height=18> </td><td  valign=bottom class=searchfod1 id=haoweb onClick="haoSubSearch('web');goSearch()">Íø Ò³</td><td width="4"></td><td valign=bottom class=searchfod2 id=haomp3 onClick="haoSubSearch('mp3');goSearch()">MP3</td> <td width="4"></td><td valign=bottom   class=searchfod2 id=haoimg onClick="haoSubSearch('img');goSearch()">Í¼ Æ¬</td><td width="4"></td><td valign=bottom class=searchfod2 id=haopost onClick="haoSubSearch('post');goSearch()">Ìù °É</td><td width="4"></td><td  valign=bottom class=searchfod2 id=haozhidao onClick="haoSubSearch('zhidao');goSearch()">Öª µÀ</td><td width="4"></td><td  valign=bottom class=searchfod2 id=haonews onClick="haoSubSearch('news');goSearch()">ĞÂ ÎÅ</td><td width="4"></td><td valign=bottom class=searchfod2 id=haovideo onClick="haoSubSearch('video');goSearch()">ÊÓ Æµ</td><td width="4"></td><td  width=240 valign=bottom> </td></tr></table>
-<table border="0" cellspacing="0" cellpadding="0" id=FrP><tr><form onSubmit="return haoValidate();" action=https://www.baidu.com/s name=f><td align="left"><INPUT type=hidden name=kw><INPUT type=hidden name=sc><input type=hidden name=cl value=3><input type=hidden name=tn value=hao123><input type=hidden name=ct><input type=hidden name=rn><input type=hidden name=lm><input type=hidden name=ie><input type=hidden name=rs2><input type=hidden name=myselectvalue><input type=hidden name=f><input type=hidden name=pv><input type=hidden name=z><input type=hidden name=from>  
-<input type="text" name="word" size=38 maxlength="100" class="kw" id="kww"  style="margin-bottom:-5px; font-size:16px;height:1.78em;font-family:arial,sans-serif,ËÎÌå;padding-top:2px; padding-left:1px"> <input type=submit value=°Ù¶ÈÒ»ÏÂ style="height:1.82em;width:6.4em;font-size:16px; margin-bottom:-5px; padding-top:2px"  class=sb monkey="submit">
+<table width=100% border=0 cellspacing=0 cellpadding=0 style="margin-bottom:-6px "><tr><td width=2 height=18> </td><td  valign=bottom class=searchfod1 id=haoweb onClick="haoSubSearch('web');goSearch()">ç½‘ é¡µ</td><td width="4"></td><td valign=bottom class=searchfod2 id=haomp3 onClick="haoSubSearch('mp3');goSearch()">MP3</td> <td width="4"></td><td valign=bottom   class=searchfod2 id=haoimg onClick="haoSubSearch('img');goSearch()">å›¾ ç‰‡</td><td width="4"></td><td valign=bottom class=searchfod2 id=haopost onClick="haoSubSearch('post');goSearch()">è´´ å§</td><td width="4"></td><td  valign=bottom class=searchfod2 id=haozhidao onClick="haoSubSearch('zhidao');goSearch()">çŸ¥ é“</td><td width="4"></td><td  valign=bottom class=searchfod2 id=haonews onClick="haoSubSearch('news');goSearch()">æ–° é—»</td><td width="4"></td><td valign=bottom class=searchfod2 id=haovideo onClick="haoSubSearch('video');goSearch()">è§† é¢‘</td><td width="4"></td><td  width=240 valign=bottom> </td></tr></table>
+<table border="0" cellspacing="0" cellpadding="0" id=FrP><tr><form onSubmit="return haoValidate();" action=http://www.baidu.com/s name=f><td align="left"><INPUT type=hidden name=kw><INPUT type=hidden name=sc><input type=hidden name=cl value=3><input type=hidden name=tn value=hao123><input type=hidden name=ct><input type=hidden name=rn><input type=hidden name=lm><input type=hidden name=ie><input type=hidden name=rs2><input type=hidden name=myselectvalue><input type=hidden name=f><input type=hidden name=pv><input type=hidden name=z><input type=hidden name=from>  
+<input type="text" name="word" size=38 maxlength="100" class="kw" id="kww"  style="margin-bottom:-5px; font-size:16px;height:1.78em;font-family:arial,sans-serif,å®‹ä½“;padding-top:2px; padding-left:1px"> <input type=submit value=ç™¾åº¦ä¸€ä¸‹ style="height:1.82em;width:6.4em;font-size:16px; margin-bottom:-5px; padding-top:2px"  class=sb monkey="submit">
 </span>
 </td>
 </form></tr></table></p>
@@ -250,18 +250,18 @@ window.onload = function(){
   <table border=0 cellPadding=0 cellSpacing=0 width=900 height=1><tr align=center><td height="1" bgcolor="C1D0D7"></td></tr></table>
 </center></div><div align="center"><center>
 <table width=900 height=25 bgcolor=#EEF7FF border=0 cellspacing=0 cellspadding=2><tr>
-<td width="50%" class="f9pt" style="color:#424242 "> <a href="https://www.hao123.com" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('https://www.hao123.com/');return(false);" style="behavior: url(#default#homepage); color:#D35E04"><img src="../images/home.gif" width="15" height="15" border="0" align="absmiddle"> °Ñhao123ÉèÎªÖ÷Ò³</a>¡¡¡¡<a href="../book/"><img src="../images/notebook.gif" width="15" height="15" border="0" align="absmiddle"> ÍøÓÑÁôÑÔ</a></td><td align="right" class="f9pt" style="color:#424242; padding-right:10px"><a href="/" target=_self style="color:#424242 ">Ê×Ò³</a> > µØ·½ÍøÕ¾</td></tr></table></center></div>
+<td width="50%" class="f9pt" style="color:#424242 "> <a href="http://www.hao123.com" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.hao123.com/');return(false);" style="behavior: url(#default#homepage); color:#D35E04"><img src="../images/home.gif" width="15" height="15" border="0" align="absmiddle"> æŠŠhao123è®¾ä¸ºä¸»é¡µ</a>ã€€ã€€<a href="../book/"><img src="../images/notebook.gif" width="15" height="15" border="0" align="absmiddle"> ç½‘å‹ç•™è¨€</a></td><td align="right" class="f9pt" style="color:#424242; padding-right:10px"><a href="/" target=_self style="color:#424242 ">é¦–é¡µ</a> > åœ°æ–¹ç½‘ç«™</td></tr></table></center></div>
 <div align="center"><center>
 <div class="t1 bgg">
   <table width="100%" border="0" cellpadding="0" cellspacing="0">
    <tr bgcolor="C5D5C5">
-        <td height="20" align="center" bgcolor="#D9EDDA" class="f9pt" ><font color="#346F0E">¸÷µØµØ·½·şÎñ</font></td>
+        <td height="20" align="center" bgcolor="#D9EDDA" class="f9pt" ><font color="#346F0E">å„åœ°åœ°æ–¹æœåŠ¡</font></td>
       </tr>
       <tr bgcolor="C5D5C5">
         <td align="center" bgcolor="#EFF7F0" ><img src="../images/map.gif" width="471" height="400" border="0" usemap="#Map"></td>
       </tr>
     <tr bgcolor="#D9EDDA">
-      <td width="100%" height="20"  class="f9pt" align="center"><font color="#346F0E">µØ·½·şÎñ</font></td>
+      <td width="100%" height="20"  class="f9pt" align="center"><font color="#346F0E">åœ°æ–¹æœåŠ¡</font></td>
     </tr>
     <tr bgcolor="C5D5C5">
       <td><table width="100%"  border="0" cellspacing="1" cellpadding="5">
@@ -269,20 +269,20 @@ window.onload = function(){
 		            
     <tr bgcolor="#EFF7F0">
 	  
-      <td><a href="https://www.6164.com/gaokao.htm">¸÷Ê¡½ÌÓı¿¼ÊÔÔº</a> </td>
+      <td><a href="http://www.6164.com/gaokao.htm">å„çœæ•™è‚²è€ƒè¯•é™¢</a> </td>
         
-      <td><a href="https://www.6164.com/eduhtm/rsks.htm">¸÷Ê¡ÈËÊÂ¿¼ÊÔÍø</a> </td>
+      <td><a href="http://www.6164.com/eduhtm/rsks.htm">å„çœäººäº‹è€ƒè¯•ç½‘</a> </td>
         
-      <td><a href="https://www.6164.com/haoserver/jiaotongcx.htm">¸÷µØ½»Í¨Î¥ÕÂ²éÑ¯</a> </td>
+      <td><a href="http://www.6164.com/haoserver/jiaotongcx.htm">å„åœ°äº¤é€šè¿ç« æŸ¥è¯¢</a> </td>
         
-      <td><a href="https://www.6164.com/baoxian.htm">¸÷µØÉç±£²éÑ¯</a> </td>
+      <td><a href="http://www.6164.com/baoxian.htm">å„åœ°ç¤¾ä¿æŸ¥è¯¢</a> </td>
         
-      <td><a href="https://www.6164.com/haoserver/gjjcx.htm">¸÷µØ×¡·¿¹«»ı½ğ</a> </td>
+      <td><a href="http://www.6164.com/haoserver/gjjcx.htm">å„åœ°ä½æˆ¿å…¬ç§¯é‡‘</a> </td>
       
 		   </tr>
     <tr bgcolor="#EFF7F0">
 	  
-      <td><a href="https://www.6164.com/haoserver/shuiwucx.htm">¸÷µØ¹úË°/µØË°</a> </td> 
+      <td><a href="http://www.6164.com/haoserver/shuiwucx.htm">å„åœ°å›½ç¨/åœ°ç¨</a> </td> 
       <td></td>
       <td></td>
       <td></td>
@@ -299,40 +299,40 @@ window.onload = function(){
 </center></div>
 <p align="center"><a href="../" target="_self"><img src="../images/return.gif" width="60"
 
-height="30" alt="·µ»Ø±¾Õ¾Ê×Ò³" border="0"></a></p>
+height="30" alt="è¿”å›æœ¬ç«™é¦–é¡µ" border="0"></a></p>
 <map name="Map">
-  <area shape="rect" coords="344,137,373,152" href="../navhtm/navbj.htm" alt="±±¾©">
-  <area shape="rect" coords="362,156,393,170" href="../navhtm/navtj.htm" alt="Ìì½ò">
-  <area shape="rect" coords="414,237,440,251" href="../navhtm/navsh.htm" alt="ÉÏº£">
-  <area shape="rect" coords="379,206,408,224" href="../navhtm/navjs.htm" alt="½­ËÕ">
-  <area shape="rect" coords="385,257,416,275" href="../navhtm/navzj.htm" alt="Õã½­">
-  <area shape="rect" coords="309,243,340,263" href="../navhtm/navhub.htm" alt="ºş±±">
-  <area shape="rect" coords="330,320,362,338" href="../navhtm/navgd.htm" alt="¹ã¶«">
-  <area shape="rect" coords="274,215,303,233" href="../navhtm/navshanx.htm" alt="ÉÂÎ÷">
-  <area shape="rect" coords="211,249,249,272" href="../navhtm/navsc.htm" alt="ËÄ´¨">
-  <area shape="rect" coords="254,264,283,283" href="../navhtm/navcq.htm" alt="ÖØÇì">
-  <area shape="rect" coords="385,121,415,138" href="../navhtm/navln.htm" alt="ÁÉÄş">
-  <area shape="rect" coords="400,54,453,79" href="../navhtm/navhlj.htm" alt="ºÚÁú½­">
-  <area shape="rect" coords="303,276,337,299" href="../navhtm/navhun.htm" alt="ºşÄÏ">
-  <area shape="poly" coords="319,371,318,359,325,353,341,354,355,361,361,346,375,340,386,342,388,329,395,318,413,318,417,323,415,331,398,341,388,352,347,371" href="../navhtm/navgat.htm" alt="¸Û°ÄÌ¨">
-  <area shape="rect" coords="354,233,385,249" href="../navhtm/navah.htm" alt="°²»Õ">
-  <area shape="rect" coords="301,181,330,199" href="../navhtm/navsx.htm" alt="É½Î÷">
-  <area shape="rect" coords="405,93,437,111" href="../navhtm/navjl.htm" alt="¼ªÁÖ">
-  <area shape="rect" coords="368,292,399,308" href="../navhtm/navfj.htm" alt="¸£½¨">
-  <area shape="rect" coords="316,215,342,230" href="../navhtm/navhn.htm" alt="ºÓÄÏ">
-  <area shape="rect" coords="326,164,357,180" href="../navhtm/navhb.htm" alt="ºÓ±±">
-  <area shape="rect" coords="265,138,312,160" href="../navhtm/navnmg.htm" alt="ÄÚÃÉ¹Å">
-  <area shape="rect" coords="345,270,373,284" href="../navhtm/navjx.htm" alt="½­Î÷">
-  <area shape="rect" coords="280,323,313,346" href="../navhtm/navgx.htm" alt="¹ãÎ÷">
-  <area shape="rect" coords="278,373,309,395" href="../navhtm/navhain.htm" alt="º£ÄÏ">
-  <area shape="rect" coords="265,294,291,313" href="../navhtm/navgz.htm" alt="¹óÖİ">
-  <area shape="rect" coords="211,317,240,340" href="../navhtm/navyn.htm" alt="ÔÆÄÏ">
-  <area shape="rect" coords="95,237,128,256" href="../navhtm/navxz.htm" alt="Î÷²Ø">
-  <area shape="rect" coords="167,149,198,168" href="../navhtm/navgs.htm" alt="¸ÊËà">
-  <area shape="rect" coords="161,188,204,221" href="../navhtm/navqh.htm" alt="Çàº£">
-  <area shape="rect" coords="240,179,272,199" href="../navhtm/navnx.htm" alt="ÄşÏÄ">
-  <area shape="rect" coords="73,119,146,165" href="../navhtm/navxj.htm" alt="ĞÂ½®">
-  <area shape="rect" coords="351,186,379,199" href="../navhtm/navsd.htm" alt="É½¶«">
+  <area shape="rect" coords="344,137,373,152" href="../navhtm/navbj.htm" alt="åŒ—äº¬">
+  <area shape="rect" coords="362,156,393,170" href="../navhtm/navtj.htm" alt="å¤©æ´¥">
+  <area shape="rect" coords="414,237,440,251" href="../navhtm/navsh.htm" alt="ä¸Šæµ·">
+  <area shape="rect" coords="379,206,408,224" href="../navhtm/navjs.htm" alt="æ±Ÿè‹">
+  <area shape="rect" coords="385,257,416,275" href="../navhtm/navzj.htm" alt="æµ™æ±Ÿ">
+  <area shape="rect" coords="309,243,340,263" href="../navhtm/navhub.htm" alt="æ¹–åŒ—">
+  <area shape="rect" coords="330,320,362,338" href="../navhtm/navgd.htm" alt="å¹¿ä¸œ">
+  <area shape="rect" coords="274,215,303,233" href="../navhtm/navshanx.htm" alt="é™•è¥¿">
+  <area shape="rect" coords="211,249,249,272" href="../navhtm/navsc.htm" alt="å››å·">
+  <area shape="rect" coords="254,264,283,283" href="../navhtm/navcq.htm" alt="é‡åº†">
+  <area shape="rect" coords="385,121,415,138" href="../navhtm/navln.htm" alt="è¾½å®">
+  <area shape="rect" coords="400,54,453,79" href="../navhtm/navhlj.htm" alt="é»‘é¾™æ±Ÿ">
+  <area shape="rect" coords="303,276,337,299" href="../navhtm/navhun.htm" alt="æ¹–å—">
+  <area shape="poly" coords="319,371,318,359,325,353,341,354,355,361,361,346,375,340,386,342,388,329,395,318,413,318,417,323,415,331,398,341,388,352,347,371" href="../navhtm/navgat.htm" alt="æ¸¯æ¾³å°">
+  <area shape="rect" coords="354,233,385,249" href="../navhtm/navah.htm" alt="å®‰å¾½">
+  <area shape="rect" coords="301,181,330,199" href="../navhtm/navsx.htm" alt="å±±è¥¿">
+  <area shape="rect" coords="405,93,437,111" href="../navhtm/navjl.htm" alt="å‰æ—">
+  <area shape="rect" coords="368,292,399,308" href="../navhtm/navfj.htm" alt="ç¦å»º">
+  <area shape="rect" coords="316,215,342,230" href="../navhtm/navhn.htm" alt="æ²³å—">
+  <area shape="rect" coords="326,164,357,180" href="../navhtm/navhb.htm" alt="æ²³åŒ—">
+  <area shape="rect" coords="265,138,312,160" href="../navhtm/navnmg.htm" alt="å†…è’™å¤">
+  <area shape="rect" coords="345,270,373,284" href="../navhtm/navjx.htm" alt="æ±Ÿè¥¿">
+  <area shape="rect" coords="280,323,313,346" href="../navhtm/navgx.htm" alt="å¹¿è¥¿">
+  <area shape="rect" coords="278,373,309,395" href="../navhtm/navhain.htm" alt="æµ·å—">
+  <area shape="rect" coords="265,294,291,313" href="../navhtm/navgz.htm" alt="è´µå·">
+  <area shape="rect" coords="211,317,240,340" href="../navhtm/navyn.htm" alt="äº‘å—">
+  <area shape="rect" coords="95,237,128,256" href="../navhtm/navxz.htm" alt="è¥¿è—">
+  <area shape="rect" coords="167,149,198,168" href="../navhtm/navgs.htm" alt="ç”˜è‚ƒ">
+  <area shape="rect" coords="161,188,204,221" href="../navhtm/navqh.htm" alt="é’æµ·">
+  <area shape="rect" coords="240,179,272,199" href="../navhtm/navnx.htm" alt="å®å¤">
+  <area shape="rect" coords="73,119,146,165" href="../navhtm/navxj.htm" alt="æ–°ç–†">
+  <area shape="rect" coords="351,186,379,199" href="../navhtm/navsd.htm" alt="å±±ä¸œ">
 </map>
 <script> var pageId="hao123-daquan-defangsite-->
 <span style="display:none"><script src="../js/tj.js"></script></span></body>

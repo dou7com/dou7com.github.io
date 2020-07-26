@@ -9,9 +9,9 @@
         sql="insert into contents (name,content,ip) values ('"&name&"','"&content&"','"&ip&"')" 
         conn.Execute(sql)
 		conn.close
-		Response.Write "<script language='javascript'>alert('ÁôÑÔ³É¹¦£¡');location='index.asp';</script>"
+		Response.Write "<script language='javascript'>alert('ç•™è¨€æˆåŠŸï¼');location='index.asp';</script>"
         'response.redirect("index.asp")
  else 
-   Response.Write "<script language='javascript'>alert('ÄÚÈİ²»ÄÜÓĞ¿Õ£¡');location='index.asp';</script>"
+   Response.Write "<script language='javascript'>alert('å†…å®¹ä¸èƒ½æœ‰ç©ºï¼');location='index.asp';</script>"
  End If 
 %>
