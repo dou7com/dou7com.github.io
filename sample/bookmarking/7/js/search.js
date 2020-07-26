@@ -9,16 +9,16 @@ var sc_logo=[
 ["tb","jd","dd","zy","tg"],
 ["wb","zr"]];
 var sc_sb=[
-["°Ù¶È","ËÑ¹·","¹È¸è","±ØÓ¦","360"],
-["°Ù¶È","ËÑ¹·","ÒôÔÃÌ¨"],
-["°Ù¶È","¹È¸è","Zcool","»¨°ê","Topit"],
-["°Ù¶È","ÓÅ¿á","ÍÁ¶¹","ÆæÒÕ","¿á6"],
-["°Ù¶È","¶¹°ê","À´°É"],
-["°Ù¶È","¹È¸è","ËÑ¹·"],
-["ÌÔ±¦","¾©¶«","µ±µ±",
-"×¿Ô½","°Ù¶È","Ò»ÌÔ"],
-["ĞÂÀË","ĞÂÀË"]];
-var sc_url=[["°Ù¶È","www.baidu.com/s?ie=utf-8&wd={$query}&tn=benbenla.com","ËÑ¹·","www.sogou.com/sogou?query={$query}&pid=sogou-site-42a6845a557bef70","Google","www.google.com.hk/search?hl=zh-CN&source=hp&biw=1278&bih=933&q={$query}&aq=f&aqi=&aql=&oq=","Bing","cn.bing.com/search?q={$query}","So","www.so.com/s?ie=utf-8&q={$query}"],["°Ù¶È","music.baidu.com/search?key={$query}", "ËÑ¹·","http://www.wozaixianshang.comjs/mp3.sogou.com/music.so?query={$query}&ie=utf8&p=40040201", "MV","so.yinyuetai.com/mv?keyword={$query}"],["°Ù¶È","image.baidu.com/i?ct=201326592&cl=2&lm=-1&tn=baiduimage&pv=&z=0&word={$query}&ie=utf-8", "Google","images.google.com.hk/images?gbv=2&source=hp&hl=zh-CN&q={$query}&aq=f&oe=UTF-8","Zcool","http://www.wozaixianshang.comjs/www.zcool.com.cn/tosearch.do?page=0&world={$query}","»¨°ê","huaban.com/search/?q={$query}","Topit","www.topit.me/items/search?query={$query}"],["°Ù¶È","video.baidu.com/v?word={$query}&pn=0&rn=20&tn=&ct=301989888&ie=utf-8", "ÓÅ¿á","www.soku.com/search_video/q_{$query}", "ÍÁ¶¹","so.tudou.com/nisearch/{$query}/","ÆæÒÕ","so.iqiyi.com/so/q_{$query}_f_2","¿á6","my.ku6.com/search?q={$query}"],["°Ù¶È","tieba.baidu.com/f?kw={$query}&ie=utf-8","¶¹°ê","www.douban.com/search?q={$query}","ÌìÑÄ","http://www.wozaixianshang.comjs/laiba.tianya.cn/searchGroup.jsp?isFromStock=false&searchType=0&nameOrStockCode={$query}"],["°Ù¶È","map.baidu.com/m?word={$query}","Google","ditu.google.cn/maps?q={$query}&hl=zh-CN","ËÑ¹·","map.sogou.com/#lq={$query}"],["ÌÔ±¦","s8.taobao.com/search?commend=all&q={$query}&pid=mm_26141474_0_0&mode=66","¾©¶«","search.360buy.com/Search?keyword={$query}","µ±µ±","search.dangdang.com/?key={$query}","×¿Ô½","www.amazon.cn/gp/search?ie=UTF8&camp=536&creative=3200&index=books&keywords={$query}&linkCode=ur2&tag=benbenla-23","ÍÅ¹º","tuan.baidu.com/?do=search&wd={$query}&today=1","Ò»ÌÔ±È¼Û","s8.etao.com/search?tb_lm_id=etao_mmsearch_ziya&q={$query}&initiative_id=etao_20120811"],["Î¢²©","s.weibo.com/weibo/{$query}","ÕÒÈË","s.weibo.com/user/{$query}&Refer=weibo_user"]];
+["ç™¾åº¦","æœç‹—","è°·æ­Œ","å¿…åº”","360"],
+["ç™¾åº¦","æœç‹—","éŸ³æ‚¦å°"],
+["ç™¾åº¦","è°·æ­Œ","Zcool","èŠ±ç“£","Topit"],
+["ç™¾åº¦","ä¼˜é…·","åœŸè±†","å¥‡è‰º","é…·6"],
+["ç™¾åº¦","è±†ç“£","æ¥å§"],
+["ç™¾åº¦","è°·æ­Œ","æœç‹—"],
+["æ·˜å®","äº¬ä¸œ","å½“å½“",
+"å“è¶Š","ç™¾åº¦","ä¸€æ·˜"],
+["æ–°æµª","æ–°æµª"]];
+var sc_url=[["ç™¾åº¦","www.baidu.com/s?ie=utf-8&wd={$query}&tn=benbenla.com","æœç‹—","www.sogou.com/sogou?query={$query}&pid=sogou-site-42a6845a557bef70","Google","www.google.com.hk/search?hl=zh-CN&source=hp&biw=1278&bih=933&q={$query}&aq=f&aqi=&aql=&oq=","Bing","cn.bing.com/search?q={$query}","So","www.so.com/s?ie=utf-8&q={$query}"],["ç™¾åº¦","music.baidu.com/search?key={$query}", "æœç‹—","http://www.wozaixianshang.comjs/mp3.sogou.com/music.so?query={$query}&ie=utf8&p=40040201", "MV","so.yinyuetai.com/mv?keyword={$query}"],["ç™¾åº¦","image.baidu.com/i?ct=201326592&cl=2&lm=-1&tn=baiduimage&pv=&z=0&word={$query}&ie=utf-8", "Google","images.google.com.hk/images?gbv=2&source=hp&hl=zh-CN&q={$query}&aq=f&oe=UTF-8","Zcool","http://www.wozaixianshang.comjs/www.zcool.com.cn/tosearch.do?page=0&world={$query}","èŠ±ç“£","huaban.com/search/?q={$query}","Topit","www.topit.me/items/search?query={$query}"],["ç™¾åº¦","video.baidu.com/v?word={$query}&pn=0&rn=20&tn=&ct=301989888&ie=utf-8", "ä¼˜é…·","www.soku.com/search_video/q_{$query}", "åœŸè±†","so.tudou.com/nisearch/{$query}/","å¥‡è‰º","so.iqiyi.com/so/q_{$query}_f_2","é…·6","my.ku6.com/search?q={$query}"],["ç™¾åº¦","tieba.baidu.com/f?kw={$query}&ie=utf-8","è±†ç“£","www.douban.com/search?q={$query}","å¤©æ¶¯","http://www.wozaixianshang.comjs/laiba.tianya.cn/searchGroup.jsp?isFromStock=false&searchType=0&nameOrStockCode={$query}"],["ç™¾åº¦","map.baidu.com/m?word={$query}","Google","ditu.google.cn/maps?q={$query}&hl=zh-CN","æœç‹—","map.sogou.com/#lq={$query}"],["æ·˜å®","s8.taobao.com/search?commend=all&q={$query}&pid=mm_26141474_0_0&mode=66","äº¬ä¸œ","search.360buy.com/Search?keyword={$query}","å½“å½“","search.dangdang.com/?key={$query}","å“è¶Š","www.amazon.cn/gp/search?ie=UTF8&camp=536&creative=3200&index=books&keywords={$query}&linkCode=ur2&tag=benbenla-23","å›¢è´­","tuan.baidu.com/?do=search&wd={$query}&today=1","ä¸€æ·˜æ¯”ä»·","s8.etao.com/search?tb_lm_id=etao_mmsearch_ziya&q={$query}&initiative_id=etao_20120811"],["å¾®åš","s.weibo.com/weibo/{$query}","æ‰¾äºº","s.weibo.com/user/{$query}&Refer=weibo_user"]];
 function $(i){ return document.getElementById(i);}
 function set_so(n){
 var spk=""; 
@@ -37,7 +37,7 @@ $("sbmkeys").innerHTML=spk;
 }$("keyword").focus();}
 function so_img(n){ 
 $("sblogo").src="images/"+sc_logo[n][sc_sel[cur_sc]]+n+".gif";
-$("s-btn").value=sc_sb[n][sc_sel[cur_sc]]+"ËÑË÷";}
+$("s-btn").value=sc_sb[n][sc_sel[cur_sc]]+"æœç´¢";}
 function do_so(o) { 
 var k=$("keyword").value;
 var s=sc_sel[cur_sc];  
@@ -109,5 +109,5 @@ setTimeout(start,delay);
 function setHomepage(){
 if(document.all){document.body.style.behavior='url(#default#homepage)';
 document.body.setHomePage('../index.htm');}
-else if(window.sidebar){if(window.netscape){try{netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");}catch(e){return ture;alert("Ç×°®µÄÓÃ»§ÄãºÃ£º\n·ÇIEä¯ÀÀÆ÷ÇëÊÖ¶¯½«±¾Õ¾ÉèÎªÊ×Ò³£¡\n¸øÄú´øÀ´µÄ²»±ã,±¾Õ¾Éî±íÇ¸Òâ¡£¸ĞĞ»ÄúµÄÖ§³Ö~");}}}};
+else if(window.sidebar){if(window.netscape){try{netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");}catch(e){return ture;alert("äº²çˆ±çš„ç”¨æˆ·ä½ å¥½ï¼š\néIEæµè§ˆå™¨è¯·æ‰‹åŠ¨å°†æœ¬ç«™è®¾ä¸ºé¦–é¡µï¼\nç»™æ‚¨å¸¦æ¥çš„ä¸ä¾¿,æœ¬ç«™æ·±è¡¨æ­‰æ„ã€‚æ„Ÿè°¢æ‚¨çš„æ”¯æŒ~");}}}};
 window.onerror=function(){return true;}

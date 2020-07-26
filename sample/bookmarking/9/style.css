@@ -1,20 +1,20 @@
 BODY {
-	FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif", "宋体"; FONT-SIZE: 9pt
+	FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif", "瀹嬩綋"; FONT-SIZE: 9pt
 }
 TD {
-	FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif", "宋体"; FONT-SIZE: 9pt
+	FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif", "瀹嬩綋"; FONT-SIZE: 9pt
 }
 INPUT {
-	FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif", "宋体"; FONT-SIZE: 9pt
+	FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif", "瀹嬩綋"; FONT-SIZE: 9pt
 }
 TEXTAREA {
-	FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif", "宋体"; FONT-SIZE: 9pt
+	FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif", "瀹嬩綋"; FONT-SIZE: 9pt
 }
 SELECT {
-	FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif", "宋体"; FONT-SIZE: 9pt
+	FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif", "瀹嬩綋"; FONT-SIZE: 9pt
 }
 A {
-	FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif", "宋体"; FONT-SIZE: 9pt
+	FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif", "瀹嬩綋"; FONT-SIZE: 9pt
 }
 .tr1 {
 	LINE-HEIGHT: 25px
@@ -92,7 +92,7 @@ A.menulink:hover {
 	BACKGROUND-IMAGE: url(title2_2.gif); WIDTH: 16px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left 50%
 }
 .Newslist_Title_T {
-	BACKGROUND-IMAGE: url(title2_1.gif); FONT-FAMILY: "宋体", "Times New Roman"; HEIGHT: 24px; COLOR: #333333; FONT-SIZE: 12px; FONT-WEIGHT: bold
+	BACKGROUND-IMAGE: url(title2_1.gif); FONT-FAMILY: "瀹嬩綋", "Times New Roman"; HEIGHT: 24px; COLOR: #333333; FONT-SIZE: 12px; FONT-WEIGHT: bold
 }
 .bigfont {
 	FONT-SIZE: 14px; FONT-WEIGHT: bold
@@ -179,7 +179,7 @@ A.menulink:hover {
 	WIDTH: 5px
 }
 .Messageboard_TitleBar_T {
-	FONT-FAMILY: "宋体", "Times New Roman"; COLOR: #333333; FONT-SIZE: 12px
+	FONT-FAMILY: "瀹嬩綋", "Times New Roman"; COLOR: #333333; FONT-SIZE: 12px
 }
 .Messageboard_Border_L {
 	WIDTH: 4px

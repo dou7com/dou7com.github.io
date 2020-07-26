@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml" lang="gb2312">
+<html xmlns="https://www.w3.org/1999/xhtml" lang="UTF-8">
 <head>
-<title>»¶Ó­¸øÎÒÁôÑÔ</title>
+<title>æ¬¢è¿ç»™æˆ‘ç•™è¨€</title>
 <link type="text/css" href="style.css" rel="stylesheet" />
 <meta name="Copyright" content="www.028baidu.com" />
 <script language="javascript" type="text/javascript">
@@ -9,22 +9,22 @@ function check(){
 var a=mess.user_name.value;
 var b=mess.user_post.value;
 if(a=="")
-{alert("Ãû³Æ¿Õ"); return false;}
+{alert("åç§°ç©º"); return false;}
 if(b=="")
-{alert("ÄÚÈİ¿Õ"); return false;}
+{alert("å†…å®¹ç©º"); return false;}
 return true;
 }
 </script>
 </head> 
 <body>
 <BR><BR>
-<center>»¶Ó­¸øÎÒÁôÑÔ£¡&nbsp;&nbsp;&nbsp;&nbsp;  <a href="list.asp">È«²¿ÁôÑÔ</a> &nbsp;<a href="admin_login.htm" target="_blank">¹ÜÀí</a> </center>
+<center>æ¬¢è¿ç»™æˆ‘ç•™è¨€ï¼&nbsp;&nbsp;&nbsp;&nbsp;  <a href="list.asp">å…¨éƒ¨ç•™è¨€</a> &nbsp;<a href="admin_login.htm" target="_blank">ç®¡ç†</a> </center>
 <br>
 <div class="main">
 <form name="mess" action="add_messages.asp" method="post" onsubmit="return check();"> 
-    ĞÕÃû:<input type="text" name="user_name" size="60"><br/> <br/>
-    ÁôÑÔ:<textarea name="user_post" rows="20" cols="59"></textarea><br/><br/>
-	<center><input type="submit"  value="Ìá½»ÁôÑÔ" > </center>
+    å§“å:<input type="text" name="user_name" size="60"><br/> <br/>
+    ç•™è¨€:<textarea name="user_post" rows="20" cols="59"></textarea><br/><br/>
+	<center><input type="submit"  value="æäº¤ç•™è¨€" > </center>
    </form> 
 </div>
   

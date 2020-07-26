@@ -15,14 +15,14 @@
 　※ 网站LOGO在images/logo.png修改，
 　※ 首页默认搜索引擎在js/config.js修改；
 　※ 统计代码在js/tj.js修改；
-　※ 留言板管理后台http://你的网站/book/admin_index.asp 用户名：admin 密码：admin
+　※ 留言板管理后台https://你的网站/book/admin_index.asp 用户名：admin 密码：admin
 
 
 上传即可测试。
 
 
 
-阳春非凡http://www.ycff.com
+阳春非凡https://www.ycff.com
 
 
 
@@ -33,8 +33,8 @@
 
 
 附小工具：
-网站本地测试程序：http://pan.baidu.com/s/1hs6qr2G
-一键批量替换文本工具：http://pan.baidu.com/s/1bTmPlW
+网站本地测试程序：https://pan.baidu.com/s/1hs6qr2G
+一键批量替换文本工具：https://pan.baidu.com/s/1bTmPlW
 
 
 

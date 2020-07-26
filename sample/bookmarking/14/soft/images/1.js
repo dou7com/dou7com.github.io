@@ -42,10 +42,10 @@ MM_reloadPage(true)
 
 
 if (navigator.appName == "Netscape")
-{document.write("<layer id=dangdang top=300 width=80 height=80><a href=https://www.4399.com/ads222.htm  target=_blank><img src=https://www.7444.com/aliba/8080.gif  border=1 alt=µã»÷ÕâÀï,¾«²ÊµÄ²úÆ·µÈ×ÅÄã. ></a></layer>");
+{document.write("<layer id=dangdang top=300 width=80 height=80><a href=https://www.4399.com/ads222.htm  target=_blank><img src=https://www.7444.com/aliba/8080.gif  border=1 alt=ç‚¹å‡»è¿™é‡Œ,ç²¾å½©çš„äº§å“ç­‰ç€ä½ . ></a></layer>");
 myload()}
 else
 {
-document.write("<div id=dangdang style='position: absolute;width:80;top:0;left:570;visibility: visible;z-index: 1'><a href=https://www.4399.com/ads222.htm  target=_blank><img src=https://www.7444.com/aliba/8080.gif  border=1 alt=µã»÷ÕâÀï,¾«²ÊµÄ²úÆ·µÈ×ÅÄã. ></a></div>");
+document.write("<div id=dangdang style='position: absolute;width:80;top:0;left:570;visibility: visible;z-index: 1'><a href=https://www.4399.com/ads222.htm  target=_blank><img src=https://www.7444.com/aliba/8080.gif  border=1 alt=ç‚¹å‡»è¿™é‡Œ,ç²¾å½©çš„äº§å“ç­‰ç€ä½ . ></a></div>");
 myload()
 }

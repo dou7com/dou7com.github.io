@@ -16,7 +16,7 @@ body{ background:#f5f5f5;}
 box-shadow:1px 1px 5px #ddd;                    /* Op */
 }
 #navs ul li{ float:left; height:24px; line-height:24px;}
-#navs ul li a{ color:#1D63A3; padding:6px 8px; font:bold 14px/24px "Î¢ÈíÑÅºÚ","ËÎÌå";}
+#navs ul li a{ color:#1D63A3; padding:6px 8px; font:bold 14px/24px "å¾®è½¯é›…é»‘","å®‹ä½“";}
 #navs ul li a:hover{ color:#f00;}
 .bbla-title, .bbla-title h1{font-size:12px;line-height:25px;text-indent:30px;margin:0 0 5px 0;font-weight:bold;}
 .bbla-banner{ font-size:12px;zoom: 1;}
@@ -93,7 +93,7 @@ box-shadow:1px 1px 5px #ddd;}
 .mallright h6 a{ color:#888; font-weight:normal;}
 
 
-/*  ²à±ßÀ¸  */
+/*  ä¾§è¾¹æ   */
 .malladd{ border:1px solid #F5D5AB; background:#fff; padding:0 0 48px}
 .malladd ul p{ margin:16px 0 0 12px;}
 .malladd ul li{ padding:6px 0 0 15px; line-height:20px; font-size:12px; color:#ddd; text-align:left;}
@@ -105,7 +105,7 @@ box-shadow:1px 1px 5px #ddd;}
 
 
 
-/*  Í¼Æ¬Õ¹Ê¾ */
+/*  å›¾ç‰‡å±•ç¤º */
 .lunch{ padding:20px 0 0 0; width:127px; height:264px; float:left; font-size:12px; border:1px solid #F5D5AB; border-right:none; background:#fff;}
 .lunch p{ height:38px; line-height:32px; padding:0 0 0 30px; background:#fff url("../images/malllunch1.gif") no-repeat 12px top; margin-right:-1px; position:relative;}
 .lunch ul li{ height:26px; line-height:26px; overflow:hidden; text-align:left; padding:0 0 0 12px; color:#aaa;}
@@ -126,7 +126,7 @@ box-shadow:1px 1px 5px #ddd;}
 .package h6 a:hover{ color:#f00;}
 
 
-/*  ÉÌ³ÇÍøÖ·´óÈ« */
+/*  å•†åŸç½‘å€å¤§å…¨ */
 .mallsite{ width:749px;}
 .mallsite div{ border:1px solid #F3D3B6; background:#fff; padding:5px 1px; overflow:hidden; width:745px; position:relative;}
 .mallsite div.onone{ border:2px solid #F47D64; background:#fff; padding:4px 0;}
@@ -146,7 +146,7 @@ box-shadow:1px 1px 5px #ddd;}
 
 
 
-/*  Æ·ÅÆÍøÖ·´óÈ« */
+/*  å“ç‰Œç½‘å€å¤§å…¨ */
 .mallshop{}
 .mallshop div{ border:1px solid #F3D3B6; background:#fff; margin:10px 0 0 0; padding:5px 1px; overflow:hidden;}
 .mallshop div.onone{ border:2px solid #F47D64; background:#fff; padding:4px 0;}
@@ -159,7 +159,7 @@ box-shadow:1px 1px 5px #ddd;}
 
 
 
-/*  Éİ³ŞÆ· */
+/*  å¥¢ä¾ˆå“ */
 
 .scp{}
 .scp div{ border:1px solid #F3D3B6; background:#fff; margin:10px 0; padding:5px 1px; overflow:hidden;}
@@ -182,7 +182,7 @@ box-shadow:1px 1px 5px #ddd;}
 
 
 
-/*  ÍÅ¹º */
+/*  å›¢è´­ */
 
 div.tuanage{  border:none; margin:10px 0;}
 .tuanage ul{ border:1px solid #F5D5AB; width:972px; background:#fff;}
@@ -197,7 +197,7 @@ div.tuanage{  border:none; margin:10px 0;}
 
 
 
-/*  »Ê¹Úµê */
+/*  çš‡å† åº— */
 .crownleft{ float:left; width:310px; margin:0 20px 0 0;}
 .crownmiddle{ float:left; width:310px; margin:0 20px 0 0;}
 .crownright{ float:left; width:310px;}

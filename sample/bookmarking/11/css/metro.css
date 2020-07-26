@@ -38,15 +38,15 @@ body{ background:#0C6D37 url(../images/metro_bg.png) repeat center top; overflow
 .bg5{ background:#bdbac5 url(../images/bg5.jpg) repeat center top;}
 .bg6{ background:#bdbac5 url(../images/bg6.jpg) no-repeat center top;}
 #metro_box dl dt{ height:35px; line-height:35px;margin-bottom:20px;}
-#metro_box dl dt h1{ font-size:32px; font-family:"微软雅黑","黑体"; color:#fff; font-weight:normal; float:left;}
+#metro_box dl dt h1{ font-size:32px; font-family:"寰蒋闆呴粦","榛戜綋"; color:#fff; font-weight:normal; float:left;}
 #metro_box dl dt div{ float:right; font-size:12px;}
-.nav a{ border-top:3px solid #fff; text-decoration:none; padding:3px; color:#000; font-family:"微软雅黑"; cursor:pointer;}
+.nav a{ border-top:3px solid #fff; text-decoration:none; padding:3px; color:#000; font-family:"寰蒋闆呴粦"; cursor:pointer;}
 .nav a:hover, #a_hover{ border-top:3px solid #f60; color:#F60; font-weight:bold;}
 
 #metro_box dl dd ul{ width:990px; height:510px; overflow:hidden;}
 #metro_box dl dd ul li{ width:240px; height:120px; overflow:hidden;  float:left; margin:3px;_margin:2px; _display:inline; padding:1px; opacity:0.9;filter:alpha(opacity=90); position:relative;}
 #metro_box dl dd ul li span{ display:none;}
-#metro_box dl dd ul li span a{ color:#fff; font-family:"微软雅黑"; font-size:12px; text-decoration:none;}
+#metro_box dl dd ul li span a{ color:#fff; font-family:"寰蒋闆呴粦"; font-size:12px; text-decoration:none;}
 #metro_box dl dd ul li:hover span{ text-align:center; background:#000; height:20px; line-height:20px;opacity:0.1;filter:alpha(opacity=10); display:block; position:absolute; bottom:0; left:0; width:100%;}
 
 #metro_box dl dd ul li a img{  width:240px; height:120px; overflow:hidden; margin:0; padding:0; border:none;}

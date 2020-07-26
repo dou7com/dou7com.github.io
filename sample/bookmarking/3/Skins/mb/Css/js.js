@@ -8,13 +8,13 @@ $(document).ready(function(){
 	});
 });
 
-<!--µã»÷Õ¹¿ªÒıÓÃ½áÊø-->
+<!--ç‚¹å‡»å±•å¼€å¼•ç”¨ç»“æŸ-->
 function changeBody(index) { 
 $(".skinbox").hide(); 
 $("#ContentMenu" + index).show(0); 
 } 
 
-<!--Æ¤·ôTAGÇĞ»»-->
+<!--çš®è‚¤TAGåˆ‡æ¢-->
 $(document).ready(function(){
 
     var $li=$(".my_skin>li a");
@@ -35,7 +35,7 @@ $(document).ready(function(){
     }
    
 });
-<!--Æ¤·ôTAGÇĞ»»-->
+<!--çš®è‚¤TAGåˆ‡æ¢-->
 $(document).ready(function(){
 
     var $li=$(".skinok2>a");
@@ -57,14 +57,14 @@ $(document).ready(function(){
    
 });
 
-<!--»»·ôÒıÓÃÎÄ¼ş½áÊø-->
+<!--æ¢è‚¤å¼•ç”¨æ–‡ä»¶ç»“æŸ-->
 
 
 
 
 
 
-// ÉèÖÃÎªÖ÷Ò³ 
+// è®¾ç½®ä¸ºä¸»é¡µ 
 function SetHome(obj,vrl){ 
 try{ 
 obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl); 
@@ -75,16 +75,16 @@ try {
 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect"); 
 } 
 catch (e) { 
-alert("´Ë²Ù×÷±»ä¯ÀÀÆ÷¾Ü¾ø£¡\nÇëÔÚä¯ÀÀÆ÷µØÖ·À¸ÊäÈë¡°about:config¡±²¢»Ø³µ\nÈ»ºó½« [signed.applets.codebase_principal_support]µÄÖµÉèÖÃÎª'true',Ë«»÷¼´¿É¡£"); 
+alert("æ­¤æ“ä½œè¢«æµè§ˆå™¨æ‹’ç»ï¼\nè¯·åœ¨æµè§ˆå™¨åœ°å€æ è¾“å…¥â€œabout:configâ€å¹¶å›è½¦\nç„¶åå°† [signed.applets.codebase_principal_support]çš„å€¼è®¾ç½®ä¸º'true',åŒå‡»å³å¯ã€‚"); 
 } 
 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch); 
 prefs.setCharPref('browser.startup.homepage',vrl); 
 }else{ 
-alert("ÄúµÄä¯ÀÀÆ÷²»Ö§³Ö£¬Çë°´ÕÕÏÂÃæ²½Öè²Ù×÷£º1.´ò¿ªä¯ÀÀÆ÷ÉèÖÃ¡£2.µã»÷ÉèÖÃÍøÒ³¡£3.ÊäÈë£º"+vrl+"µã»÷È·¶¨¡£"); 
+alert("æ‚¨çš„æµè§ˆå™¨ä¸æ”¯æŒï¼Œè¯·æŒ‰ç…§ä¸‹é¢æ­¥éª¤æ“ä½œï¼š1.æ‰“å¼€æµè§ˆå™¨è®¾ç½®ã€‚2.ç‚¹å‡»è®¾ç½®ç½‘é¡µã€‚3.è¾“å…¥ï¼š"+vrl+"ç‚¹å‡»ç¡®å®šã€‚"); 
 } 
 } 
 } 
-// ¼ÓÈëÊÕ²Ø ¼æÈİ360ºÍIE6 
+// åŠ å…¥æ”¶è— å…¼å®¹360å’ŒIE6 
 function shoucang(sTitle,sURL) 
 { 
 try 
@@ -99,7 +99,7 @@ window.sidebar.addPanel(sTitle, sURL, "");
 } 
 catch (e) 
 { 
-alert("¼ÓÈëÊÕ²ØÊ§°Ü£¬ÇëÊ¹ÓÃCtrl+D½øĞĞÌí¼Ó"); 
+alert("åŠ å…¥æ”¶è—å¤±è´¥ï¼Œè¯·ä½¿ç”¨Ctrl+Dè¿›è¡Œæ·»åŠ "); 
 } 
 } 
 } 

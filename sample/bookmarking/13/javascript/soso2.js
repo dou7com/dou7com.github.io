@@ -1,6 +1,6 @@
 function bj(){ 
-document.getElementById('bj').innerHTML ="<a class='bj' href='https://www.kfc123.com/gho/default.htm'>Ò»¼ü»¹Ô­´óÊ¦ÏÂÔØ</a>";}
+document.getElementById('bj').innerHTML ="<a class='bj' href='https://www.kfc123.com/gho/default.htm'>ä¸€é”®è¿˜åŸå¤§å¸ˆä¸‹è½½</a>";}
 function tops(){ 
 document.getElementById('so').innerHTML = "<iframe src='../top.htm' frameborder='0' scrolling='no' frameborder='0' width='876' height='62'></iframe>";}
 function floot(){ 
-document.getElementById('gg').innerHTML = "<div id='floot'><a href='help/about.htm' target='_blank'>¹ØÓÚ±¾Õ¾</a><div class='f1'>|</div><a href='help/guanggao.htm' target='_blank'>¹ã¸æÕĞÉÌ</a><div class='f1'>|</div><a href='help/shoulu.htm' target='_blank'>ÉêÇëÊÕÂ¼</a><div class='f1'>|</div><a href='help/fankui.htm' target='_blank'>Òâ¼û·´À¡</a><div class='f1'>|</div><a href='help/tel.htm' target='_blank'>ÁªÏµÎÒÃÇ</a><div class='f1'>|</div><a >ÀÏÄêµ¼º½</a><div class='f1'>|</div><a href='help/xiazai.htm' target='_blank'>Ô´ÂëÏÂÔØ</a><div class='f2'>KFC123ÍøÖ·µ¼º½ ÃöICP±¸11000543ºÅ</div><div class='clear'></div></div>";}
+document.getElementById('gg').innerHTML = "<div id='floot'><a href='help/about.htm' target='_blank'>å…³äºæœ¬ç«™</a><div class='f1'>|</div><a href='help/guanggao.htm' target='_blank'>å¹¿å‘Šæ‹›å•†</a><div class='f1'>|</div><a href='help/shoulu.htm' target='_blank'>ç”³è¯·æ”¶å½•</a><div class='f1'>|</div><a href='help/fankui.htm' target='_blank'>æ„è§åé¦ˆ</a><div class='f1'>|</div><a href='help/tel.htm' target='_blank'>è”ç³»æˆ‘ä»¬</a><div class='f1'>|</div><a >è€å¹´å¯¼èˆª</a><div class='f1'>|</div><a href='help/xiazai.htm' target='_blank'>æºç ä¸‹è½½</a><div class='f2'>KFC123ç½‘å€å¯¼èˆª é—½ICPå¤‡11000543å·</div><div class='clear'></div></div>";}

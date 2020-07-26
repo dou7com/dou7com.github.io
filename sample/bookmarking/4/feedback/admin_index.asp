@@ -6,19 +6,19 @@ amain=session("admin")
 <script language=javascript>
 function checkform() {
  if(form_pwd.xpwd.value==""){
- alert("\ÃÜÂë²»ÄÜÎª¿Õ£¡");
+ alert("\å¯†ç ä¸èƒ½ä¸ºç©ºï¼");
  return false;
  }
  return true;
 }
 </script>
-<title>ºóÌ¨¹ÜÀíÖĞĞÄ</title>
+<title>åå°ç®¡ç†ä¸­å¿ƒ</title>
 <div style="background:#ccc; padding:10px">
-<p>ºóÌ¨¹ÜÀíÖĞĞÄ  <a href="login_out.asp">ÍË³ö</a><br />
+<p>åå°ç®¡ç†ä¸­å¿ƒ  <a href="login_out.asp">é€€å‡º</a><br />
 <form name="form_pwd" action="adm_mima.asp" method="post" onsubmit="return checkform();">
-£¨ĞŞ¸ÄÃÜÂë£©Ô­ÕËºÅ:<%=amain%>
-ÏÖÃÜÂë£º<input type="password" name="xpwd" />
-<input type="submit" value=" ĞŞ ¸Ä " />
+ï¼ˆä¿®æ”¹å¯†ç ï¼‰åŸè´¦å·:<%=amain%>
+ç°å¯†ç ï¼š<input type="password" name="xpwd" />
+<input type="submit" value=" ä¿® æ”¹ " />
 </form><hr /></p>
 <%
   set rs = server.CreateObject("adodb.recordset")
@@ -26,9 +26,9 @@ function checkform() {
   rs.Open sql,conn,1,1
   Do While Not rs.eof
   %>
-	  	ĞÕÃû£º<span style="color:blue"><%=rs("name")%></span>&nbsp;&nbsp;&nbsp;<span><br />ÁôÑÔ£º<%=rs("content")%></span><br />
-		Ê±¼ä£º<span><%=rs("time")%></span>  <span>ÁôÑÔÈËIP£º<%=rs("ip")%></span> 
-		<a href="modify.asp?id=<%=rs("id")%>">ĞŞ¸Ä</a>   <a href=delete.asp?id=<%=rs("id")%>>É¾³ı</a> <hr />
+	  	å§“åï¼š<span style="color:blue"><%=rs("name")%></span>&nbsp;&nbsp;&nbsp;<span><br />ç•™è¨€ï¼š<%=rs("content")%></span><br />
+		æ—¶é—´ï¼š<span><%=rs("time")%></span>  <span>ç•™è¨€äººIPï¼š<%=rs("ip")%></span> 
+		<a href="modify.asp?id=<%=rs("id")%>">ä¿®æ”¹</a>   <a href=delete.asp?id=<%=rs("id")%>>åˆ é™¤</a> <hr />
 	  
  <%
 	  rs.movenext

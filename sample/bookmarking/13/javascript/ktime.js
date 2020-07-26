@@ -1,9 +1,9 @@
 function WebDate(){
 var today=new Date();
-var d=new Array("ĞÇÆÚÈÕ","ĞÇÆÚÒ»","ĞÇÆÚ¶ş","ĞÇÆÚÈı","ĞÇÆÚËÄ","ĞÇÆÚÎå","ĞÇÆÚÁù");
-var DDDD=(today.getYear()<100 ? today.getYear()+1900:today.getFullYear())+"Äê"+(today.getMonth()+1)+"ÔÂ"+today.getDate()+"ÈÕ";
+var d=new Array("æ˜ŸæœŸæ—¥","æ˜ŸæœŸä¸€","æ˜ŸæœŸäºŒ","æ˜ŸæœŸä¸‰","æ˜ŸæœŸå››","æ˜ŸæœŸäº”","æ˜ŸæœŸå…­");
+var DDDD=(today.getYear()<100 ? today.getYear()+1900:today.getFullYear())+"å¹´"+(today.getMonth()+1)+"æœˆ"+today.getDate()+"æ—¥";
 DDDD = DDDD + " " + d[today.getDay()];
-DDDD = DDDD+ " " + (CnDateofDateStr(today));//ÏÔÊ¾Å©Àú
+DDDD = DDDD+ " " + (CnDateofDateStr(today));//æ˜¾ç¤ºå†œå†
 document.write(DDDD);
 }
 
@@ -88,23 +88,23 @@ var CnMM=parseInt(Math.abs(CnDateofDate(DateGL))/100);
 if(YYYY<100) YYYY+=1900;
 if(CnMM>MM) YYYY--;
 YYYY-=1864;
-return CnEra(YYYY)+"Äê";
+return CnEra(YYYY)+"å¹´";
 }
 function CnMonthofDate(DateGL){
-var  CnMonthStr=new Array("Áã","Õı","¶ş","Èı","ËÄ","Îå","Áù","Æß","°Ë","¾Å","Ê®","Ê®Ò»","Ê®¶ş");
+var  CnMonthStr=new Array("é›¶","æ­£","äºŒ","ä¸‰","å››","äº”","å…­","ä¸ƒ","å…«","ä¹","å","åä¸€","åäºŒ");
 var  Month;
   Month = parseInt(CnDateofDate(DateGL)/100);
-  if (Month < 0){return "Èò" + CnMonthStr[-Month] + "ÔÂ";}
-  else{return CnMonthStr[Month] + "ÔÂ";}
+  if (Month < 0){return "é—°" + CnMonthStr[-Month] + "æœˆ";}
+  else{return CnMonthStr[Month] + "æœˆ";}
 }
 function CnDayofDate(DateGL){
-var CnDayStr=new Array("Áã",
-    "³õÒ»", "³õ¶ş", "³õÈı", "³õËÄ", "³õÎå",
-    "³õÁù", "³õÆß", "³õ°Ë", "³õ¾Å", "³õÊ®",
-    "Ê®Ò»", "Ê®¶ş", "Ê®Èı", "Ê®ËÄ", "Ê®Îå",
-    "Ê®Áù", "Ê®Æß", "Ê®°Ë", "Ê®¾Å", "¶şÊ®",
-    "Ø¥Ò»", "Ø¥¶ş", "Ø¥Èı", "Ø¥ËÄ", "Ø¥Îå",
-    "Ø¥Áù", "Ø¥Æß", "Ø¥°Ë", "Ø¥¾Å", "ÈıÊ®");
+var CnDayStr=new Array("é›¶",
+    "åˆä¸€", "åˆäºŒ", "åˆä¸‰", "åˆå››", "åˆäº”",
+    "åˆå…­", "åˆä¸ƒ", "åˆå…«", "åˆä¹", "åˆå",
+    "åä¸€", "åäºŒ", "åä¸‰", "åå››", "åäº”",
+    "åå…­", "åä¸ƒ", "åå…«", "åä¹", "äºŒå",
+    "å»¿ä¸€", "å»¿äºŒ", "å»¿ä¸‰", "å»¿å››", "å»¿äº”",
+    "å»¿å…­", "å»¿ä¸ƒ", "å»¿å…«", "å»¿ä¹", "ä¸‰å");
 var Day;
   Day = (Math.abs(CnDateofDate(DateGL)))%100;
   return CnDayStr[Day];
@@ -120,13 +120,13 @@ var MM2=MM1;
 return parseInt((Date.parse(MM2)-Date.parse(MM1))/86400000);
 }
 function CnEra(YYYY){
-var Tiangan=new Array("¼×","ÒÒ","±û","¶¡","Îì","¼º","¸ı","ĞÁ","ÈÉ","¹ï");
-//var Dizhi=new Array("×Ó(Êó)","³ó(Å£)","Òú(»¢)","Ã®(ÍÃ)","³½(Áú)","ËÈ(Éß)","Îç(Âí)","Î´(Ñò)","Éê(ºï)","ÓÏ(¼¦)","Ğç(¹·)","º¥(Öí)");
-var Dizhi=new Array("×Ó","³ó","Òú","Ã®","³½","ËÈ","Îç","Î´","Éê","ÓÏ","Ğç","º¥");
+var Tiangan=new Array("ç”²","ä¹™","ä¸™","ä¸","æˆŠ","å·±","åºš","è¾›","å£¬","ç™¸");
+//var Dizhi=new Array("å­(é¼ )","ä¸‘(ç‰›)","å¯…(è™)","å¯(å…”)","è¾°(é¾™)","å·³(è›‡)","åˆ(é©¬)","æœª(ç¾Š)","ç”³(çŒ´)","é…‰(é¸¡)","æˆŒ(ç‹—)","äº¥(çŒª)");
+var Dizhi=new Array("å­","ä¸‘","å¯…","å¯","è¾°","å·³","åˆ","æœª","ç”³","é…‰","æˆŒ","äº¥");
 return Tiangan[YYYY%10]+Dizhi[YYYY%12];
 }
 function CnDateofDateStr(DateGL){
-  if(CnMonthofDate(DateGL)=="ÁãÔÂ") return "¡¡Çëµ÷ÕûÄúµÄ¼ÆËã»úÈÕÆÚ!";
+  if(CnMonthofDate(DateGL)=="é›¶æœˆ") return "ã€€è¯·è°ƒæ•´æ‚¨çš„è®¡ç®—æœºæ—¥æœŸ!";
   else return CnYearofDate(DateGL)+ " " + CnMonthofDate(DateGL) + CnDayofDate(DateGL);
 }
 WebDate();

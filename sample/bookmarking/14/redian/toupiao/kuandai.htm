@@ -1,7 +1,7 @@
 <html>
 <head>
 
-<meta httpss-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta httpss-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="GENERATOR" content="Microsoft FrontPage 3.0">
 
@@ -65,18 +65,18 @@ function checkIt(mutiflag,obj,str){
 	var checkFlag = false;
 	var startPos,endPos;
 	if(mutiflag==0){
-		//´¦Àíµ¥Ñ¡µÄÇé¿ö
+		//å¤„ç†å•é€‰çš„æƒ…å†µ
 		obj.value=str;
 	}else if(mutiflag==1){
-		//´¦Àí¶àÑ¡µÄÇé¿ö
+		//å¤„ç†å¤šé€‰çš„æƒ…å†µ
 		eval("checkFlag=myform.checkoptn"+str+".checked;");
 		if(obj.value.indexOf(str+",")==-1 && checkFlag){
-			//½«¸Ã±àºÅ¼ÓÈëµ½Ñ¡Ôñ×Ö·û´®
+			//å°†è¯¥ç¼–å·åŠ å…¥åˆ°é€‰æ‹©å­—ç¬¦ä¸²
 			if(obj.value==0) obj.value="";
 			obj.value = "" + obj.value;
 			obj.value = obj.value + str +",";
 		}else if(obj.value.indexOf(str+",")!=-1 && !checkFlag){
-			//½«¸Ã±àºÅ´ÓÑ¡Ôñ×Ö·û´®ÖĞÌŞ³ı
+			//å°†è¯¥ç¼–å·ä»é€‰æ‹©å­—ç¬¦ä¸²ä¸­å‰”é™¤
 			if(obj.value.length==(str.length+1)) {
 				obj.value=0;
 				return;
@@ -87,7 +87,7 @@ function checkIt(mutiflag,obj,str){
 		}
 	}
 }
-//Trim,²ÎÊıString
+//Trim,å‚æ•°String
 function trim(myStr)
 {
   var pos1=-1;
@@ -108,23 +108,23 @@ function checkItem(){
 		if(checkType==2 && checkValue=="other"){
 			eval("checkValue=myform.comment"+i+".value;");
 			if(checkValue==null || trim(checkValue)==""){
-				alert("ÇëÄú½«µ÷²éÎÊ¾íÌîĞ´ÍêÈ«£¡\nĞ»Ğ»£¡");
+				alert("è¯·æ‚¨å°†è°ƒæŸ¥é—®å·å¡«å†™å®Œå…¨ï¼\nè°¢è°¢ï¼");
 				return (false);
 			}
 		}else if(checkType==2 && checkValue=="input"){
 			eval("checkValue=myform.comment"+i+".value;");
 			if(checkValue==null || trim(checkValue)==""){
-				alert("ÇëÄú½«µ÷²éÎÊ¾íÌîĞ´ÍêÈ«£¡\nĞ»Ğ»£¡");
+				alert("è¯·æ‚¨å°†è°ƒæŸ¥é—®å·å¡«å†™å®Œå…¨ï¼\nè°¢è°¢ï¼");
 				return (false);
 			}
 		}else if(checkType==3&& checkValue==0){
 			eval("checkValue=myform.comment"+i+".value;");
 			if(checkValue==null || trim(checkValue)==""){
-				alert("ÇëÄú½«µ÷²éÎÊ¾íÌîĞ´ÍêÈ«£¡\nĞ»Ğ»£¡");
+				alert("è¯·æ‚¨å°†è°ƒæŸ¥é—®å·å¡«å†™å®Œå…¨ï¼\nè°¢è°¢ï¼");
 				return (false);
 			}
 		}else if(checkValue==0){ 
-			alert("ÇëÄú½«µ÷²éÎÊ¾íÌîĞ´ÍêÈ«£¡\nĞ»Ğ»£¡");
+			alert("è¯·æ‚¨å°†è°ƒæŸ¥é—®å·å¡«å†™å®Œå…¨ï¼\nè°¢è°¢ï¼");
 			return (false);
 		}
 	}
@@ -141,7 +141,7 @@ function checkItem(){
  <input type=hidden name="direction" id="direction" value=""><input type='hidden' value=0 id='checkitem0' name='checkitem0'><input type='hidden' value=1 id='checkitemtype0'>
  <table width="778" border="0" cellspacing="0" cellpadding="0">
    <tr>
-              <td height="25" bgcolor="#f6f5f2" style="border-left:1px solid #dcdcdc; border-right:1px solid #dcdcdc;border-top:1px solid #dcdcdc ">¡¡<span class="style14">hao123¿í´øµçÓ°À¸Ä¿ÖĞ£¬Äú¾­³£Ê¹ÓÃµÄ°æ¿éÓĞÄÄĞ©</span><span class="style14">£¿£¨¶àÑ¡£©</span></td>
+              <td height="25" bgcolor="#f6f5f2" style="border-left:1px solid #dcdcdc; border-right:1px solid #dcdcdc;border-top:1px solid #dcdcdc ">ã€€<span class="style14">hao123å®½å¸¦ç”µå½±æ ç›®ä¸­ï¼Œæ‚¨ç»å¸¸ä½¿ç”¨çš„ç‰ˆå—æœ‰å“ªäº›</span><span class="style14">ï¼Ÿï¼ˆå¤šé€‰ï¼‰</span></td>
     </tr>
    <tr>
      <td style="border-left:1px solid #dcdcdc; border-right:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; "><table width="90%"  border="0" align="center" cellpadding="3" cellspacing="0">
@@ -149,40 +149,40 @@ function checkItem(){
        <tr>
          <td>
            <input type=checkbox name=optn[5750]  value=5750 id="checkoptn5750" onclick="checkIt(1,myform.checkitem0,'5750')">
-         1 BT/µçÓ°ÏÂÔØ</td>
+         1 BT/ç”µå½±ä¸‹è½½</td>
        </tr>
        <tr>
          <td>
            <input type=checkbox name=optn[5751]  value=5751 id="checkoptn5751" onclick="checkIt(1,myform.checkitem0,'5751')">
-           2</a> ÔÚÏß¹Û¿´</td>
+           2</a> åœ¨çº¿è§‚çœ‹</td>
        </tr>
        <tr>
          <td>
            <input type=checkbox name=optn[5752]  value=5752 id="checkoptn5752" onclick="checkIt(1,myform.checkitem0,'5752')">
-         3 Ó°ÊÓ×ÊÑ¶</td>
+         3 å½±è§†èµ„è®¯</td>
        </tr>
        <tr>
          <td>
            <input type=checkbox name=optn[5753]  value=5753 id="checkoptn5753" onclick="checkIt(1,myform.checkitem0,'5753')">
-         4 Ó°ÊÓÂÛÌ³</td>
+         4 å½±è§†è®ºå›</td>
        </tr>
        <tr>
          <td>
            <input type=checkbox name=optn[5754]  value=5754 id="checkoptn5754" onclick="checkIt(1,myform.checkitem0,'5754')">
-         5 ¸÷µØ¿í´ø»¥ÁªĞÇ¿Õ</td>
+         5 å„åœ°å®½å¸¦äº’è”æ˜Ÿç©º</td>
        </tr>
        <tr>
          <td>
            <input type=checkbox name=optn[5755]  value=5755 id="checkoptn5755" onclick="checkIt(1,myform.checkitem0,'5755')">
-         6 ¸÷¹úµçÓ°½Ú</td>
+         6 å„å›½ç”µå½±èŠ‚</td>
        </tr>
        <tr>
          <td>
            <input type=checkbox name=optn[5756]  value=5756 id="checkoptn5756" onclick="checkIt(1,myform.checkitem0,'5756')">
-         7 Ó°µúĞÅÏ¢</td>
+         7 å½±ç¢Ÿä¿¡æ¯</td>
        </tr>
        <tr>
-         <td>Äú»¹ÏëµÃµ½ÄÄĞ©Ó°ÊÓÏà¹ØÄÚÈİ£¨²»ÊÇ±ØÌî£©
+         <td>æ‚¨è¿˜æƒ³å¾—åˆ°å“ªäº›å½±è§†ç›¸å…³å†…å®¹ï¼ˆä¸æ˜¯å¿…å¡«ï¼‰
            <input type='hidden' value=1 id='checkitem1' name='checkitem1'><input type='hidden' value=3 id='checkitemtype1'></td>
        </tr>
        <tr>
@@ -192,7 +192,7 @@ function checkItem(){
          <td height="7"><input type="hidden" name="pbid" value=0>
            <input type="hidden" name="id" value=192><table width="98%" border="0" cellpadding="0" cellspacing="1">
   <tr align="center"><td  class="Submit">
- <input type="button" name="submit2" value="Ìá  ½»" onclick="submitit()"><!-- <input type="button" name="view" value="·µ »Ø" onclick="window.location='../admin/index.jsp'">-->
+ <input type="button" name="submit2" value="æ  äº¤" onclick="submitit()"><!-- <input type="button" name="view" value="è¿” å›" onclick="window.location='../admin/index.jsp'">-->
 <input type="hidden" name="itemlength" id="itemlength" value=2></td></tr>
 </table></td>
        </tr>

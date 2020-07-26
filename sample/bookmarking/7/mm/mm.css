@@ -17,7 +17,7 @@ p a:hover,span a:hover{color:#F00}
 box-shadow:1px 1px 5px #ddd;                    /* Op */
 }
 #navs ul li{ float:left; height:24px; line-height:24px;}
-#navs ul li a{ color:#1D63A3; padding:6px 8px; font:bold 14px/24px "Î¢ÈíÑÅºÚ","ËÎÌå";}
+#navs ul li a{ color:#1D63A3; padding:6px 8px; font:bold 14px/24px "å¾®è½¯é›…é»‘","å®‹ä½“";}
 #navs ul li a:hover{ color:#f00;}
 .bbla-title, .bbla-title h1{font-size:12px;line-height:25px;text-indent:30px;margin:0 0 5px 0;font-weight:bold;}
 .bbla-banner{ font-size:12px;zoom: 1;background:rgba(255, 255, 255, 0.5) none repeat scroll 0 0 !important;filter:Alpha(opacity=50);background:#ffffff;}
@@ -106,7 +106,7 @@ opacity: 0.8;
 }
 
 .announce{ padding:20px 20px 60px; border:1px solid #dde; background:#fff; margin:120px 0 0;}
-.announce h1{ font:bold 15px/40px 'Microsoft YaHei', Î¢ÈíÑÅºÚ, arial, Lucida Grande, Tahoma, sans-serif; color:#f00;}
+.announce h1{ font:bold 15px/40px 'Microsoft YaHei', å¾®è½¯é›…é»‘, arial, Lucida Grande, Tahoma, sans-serif; color:#f00;}
 .announce p{ font:normal 14px/24px verdana; text-indent:2em; padding:10px 0; color:#666;}
 
 .asearch{ padding:30px 0 0 180px;}

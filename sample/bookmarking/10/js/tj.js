@@ -1,1 +1,1 @@
-﻿document.writeln("<script src=\"httpsss:\/\/s21.cnzz.com\/stat.php?id=3055708&web_id=3055708\" language=\"JavaScript\"><\/script>");
+锘縟ocument.writeln("<script src=\"httpsss:\/\/s21.cnzz.com\/stat.php?id=3055708&web_id=3055708\" language=\"JavaScript\"><\/script>");

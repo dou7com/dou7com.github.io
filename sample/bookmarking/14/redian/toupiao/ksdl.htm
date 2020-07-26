@@ -1,7 +1,7 @@
 <html>
 <head>
 
-<meta httpss-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta httpss-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="GENERATOR" content="Microsoft FrontPage 3.0">
 
@@ -39,18 +39,18 @@ function checkIt(mutiflag,obj,str){
 	var checkFlag = false;
 	var startPos,endPos;
 	if(mutiflag==0){
-		//´¦Àíµ¥Ñ¡µÄÇé¿ö
+		//å¤„ç†å•é€‰çš„æƒ…å†µ
 		obj.value=str;
 	}else if(mutiflag==1){
-		//´¦Àí¶àÑ¡µÄÇé¿ö
+		//å¤„ç†å¤šé€‰çš„æƒ…å†µ
 		eval("checkFlag=myform.checkoptn"+str+".checked;");
 		if(obj.value.indexOf(str+",")==-1 && checkFlag){
-			//½«¸Ã±àºÅ¼ÓÈëµ½Ñ¡Ôñ×Ö·û´®
+			//å°†è¯¥ç¼–å·åŠ å…¥åˆ°é€‰æ‹©å­—ç¬¦ä¸²
 			if(obj.value==0) obj.value="";
 			obj.value = "" + obj.value;
 			obj.value = obj.value + str +",";
 		}else if(obj.value.indexOf(str+",")!=-1 && !checkFlag){
-			//½«¸Ã±àºÅ´ÓÑ¡Ôñ×Ö·û´®ÖĞÌŞ³ı
+			//å°†è¯¥ç¼–å·ä»é€‰æ‹©å­—ç¬¦ä¸²ä¸­å‰”é™¤
 			if(obj.value.length==(str.length+1)) {
 				obj.value=0;
 				return;
@@ -61,7 +61,7 @@ function checkIt(mutiflag,obj,str){
 		}
 	}
 }
-//Trim,²ÎÊıString
+//Trim,å‚æ•°String
 function trim(myStr)
 {
   var pos1=-1;
@@ -82,23 +82,23 @@ function checkItem(){
 		if(checkType==2 && checkValue=="other"){
 			eval("checkValue=myform.comment"+i+".value;");
 			if(checkValue==null || trim(checkValue)==""){
-				alert("ÇëÄú½«µ÷²éÎÊ¾íÌîĞ´ÍêÈ«£¡\nĞ»Ğ»£¡");
+				alert("è¯·æ‚¨å°†è°ƒæŸ¥é—®å·å¡«å†™å®Œå…¨ï¼\nè°¢è°¢ï¼");
 				return (false);
 			}
 		}else if(checkType==2 && checkValue=="input"){
 			eval("checkValue=myform.comment"+i+".value;");
 			if(checkValue==null || trim(checkValue)==""){
-				alert("ÇëÄú½«µ÷²éÎÊ¾íÌîĞ´ÍêÈ«£¡\nĞ»Ğ»£¡");
+				alert("è¯·æ‚¨å°†è°ƒæŸ¥é—®å·å¡«å†™å®Œå…¨ï¼\nè°¢è°¢ï¼");
 				return (false);
 			}
 		}else if(checkType==3&& checkValue==0){
 			eval("checkValue=myform.comment"+i+".value;");
 			if(checkValue==null || trim(checkValue)==""){
-				alert("ÇëÄú½«µ÷²éÎÊ¾íÌîĞ´ÍêÈ«£¡\nĞ»Ğ»£¡");
+				alert("è¯·æ‚¨å°†è°ƒæŸ¥é—®å·å¡«å†™å®Œå…¨ï¼\nè°¢è°¢ï¼");
 				return (false);
 			}
 		}else if(checkValue==0){
-			alert("ÇëÄú½«µ÷²éÎÊ¾íÌîĞ´ÍêÈ«£¡\nĞ»Ğ»£¡");
+			alert("è¯·æ‚¨å°†è°ƒæŸ¥é—®å·å¡«å†™å®Œå…¨ï¼\nè°¢è°¢ï¼");
 			return (false);
 		}
 	}
@@ -121,11 +121,11 @@ function checkItem(){
     <td width="1%" bgcolor="99d1d3" ><input type='hidden' value=0 id='checkitem0'><input type='hidden' value=0 id='checkitemtype0'>
       <input type=radio name=item[2005] value=8156 onclick="checkIt(0,myform.checkitem0,'1')"></td>
     <td width="2" ></td>
-    <td width="94%" bgcolor="#F0F7FF" >¡¡µÚÒ»ÖÖ·½Ê½¡¡ ( ÓÃ»§Ãû¡ª &gt; Ñ¡ÔñÓÊÏä¡ª &gt; ÃÜÂë µÇÂ½ ¡¡hao123 ÏÖÓĞµÇÂ½·½Ê½ ) </td>
+    <td width="94%" bgcolor="#F0F7FF" >ã€€ç¬¬ä¸€ç§æ–¹å¼ã€€ ( ç”¨æˆ·åâ€” &gt; é€‰æ‹©é‚®ç®±â€” &gt; å¯†ç  ç™»é™† ã€€hao123 ç°æœ‰ç™»é™†æ–¹å¼ ) </td>
    </tr>
   <tr >
     <td height="35" colspan="2" align="right" valign="top"  >&nbsp;</td>
-    <td height="35" align="right" valign="top" bgcolor="#F0F7FF"  ><img src="../images/ksdl_01.gif" width="778" height="22" alt="´ËÑùÊ½Îªhao123ÏÖÓĞµÇÂ½·½Ê½"></td>
+    <td height="35" align="right" valign="top" bgcolor="#F0F7FF"  ><img src="../images/ksdl_01.gif" width="778" height="22" alt="æ­¤æ ·å¼ä¸ºhao123ç°æœ‰ç™»é™†æ–¹å¼"></td>
   </tr>
   <tr valign="bottom" >
     <td height="35" colspan="3"  ><hr width="100%" size="1" color="008000"></td>
@@ -134,11 +134,11 @@ function checkItem(){
   <tr >
     <td align="left" bgcolor="99d1d3" ><input type=radio name=item[2005] value=8157 onclick="checkIt(0,myform.checkitem0,'1')"></td>
     <td align="left" >&nbsp;</td>
-    <td align="left" bgcolor="#F0F7FF" >¡¡µÚ¶şÖÖ·½Ê½ ¡¡( Ñ¡ÔñÓÊÏä¡ª &gt; ÓÃ»§Ãû¡ª &gt; ÃÜÂë µÇÂ½ )</td>
+    <td align="left" bgcolor="#F0F7FF" >ã€€ç¬¬äºŒç§æ–¹å¼ ã€€( é€‰æ‹©é‚®ç®±â€” &gt; ç”¨æˆ·åâ€” &gt; å¯†ç  ç™»é™† )</td>
   </tr>
   <tr >
     <td height="35" colspan="2" align="right" valign="top" >&nbsp;</td>
-    <td height="35" align="right" valign="top" bgcolor="#F0F7FF" ><img src="../images/ksdl_02.gif" width="778" height="23" alt="´Ë·½Ê½ÎªµÚ¶şÖÖµÇÂ½·½Ê½"></td>
+    <td height="35" align="right" valign="top" bgcolor="#F0F7FF" ><img src="../images/ksdl_02.gif" width="778" height="23" alt="æ­¤æ–¹å¼ä¸ºç¬¬äºŒç§ç™»é™†æ–¹å¼"></td>
   </tr>
   <tr valign="bottom" >
     <td height="35" colspan="3"  ><hr width="100%" size="1" color="008000"></td>
@@ -146,16 +146,16 @@ function checkItem(){
   <tr >
     <td bgcolor="99d1d3" ><input type=radio name=item[2005] value=8158 onclick="checkIt(0,myform.checkitem0,'1')"></td>
     <td >&nbsp;</td>
-    <td bgcolor="#F0F7FF" >¡¡µÚÈıÖÖ·½Ê½¡¡ ( ÓÃ»§Ãû¡ª &gt; ÃÜÂë¡ª &gt; Ñ¡ÔñÓÊÏä µÇÂ½ ) </td>
+    <td bgcolor="#F0F7FF" >ã€€ç¬¬ä¸‰ç§æ–¹å¼ã€€ ( ç”¨æˆ·åâ€” &gt; å¯†ç â€” &gt; é€‰æ‹©é‚®ç®± ç™»é™† ) </td>
   </tr>
   <tr>
     <td colspan="2" align="right" valign="top" ></td>
-    <td height="35" align="right" valign="top" bgcolor="#F0F7FF" ><img src="../images/ksdl_03.gif" width="778" height="23" alt="´Ë·½Ê½ÎªµÚÈıÖÖµÇÂ½·½Ê½"></td>
+    <td height="35" align="right" valign="top" bgcolor="#F0F7FF" ><img src="../images/ksdl_03.gif" width="778" height="23" alt="æ­¤æ–¹å¼ä¸ºç¬¬ä¸‰ç§ç™»é™†æ–¹å¼"></td>
   </tr>
   <tr>
     <td height="18" colspan="3" align="right" valign="top" ><br>      <hr width="100%" size="1" color="008000">     <br>      <br>      <div align="center"><input type="hidden" name="id" value=1234>
-    <input type="submit" name="submit" value="¡¡Í¶ Æ±¡¡">
-    <!-- <input type="button" name="view" value="·µ »Ø" onclick="window.location='../admin/index.jsp'">-->
+    <input type="submit" name="submit" value="ã€€æŠ• ç¥¨ã€€">
+    <!-- <input type="button" name="view" value="è¿” å›" onclick="window.location='../admin/index.jsp'">-->
     
 <input type="hidden" name="viewres" value=1>
     <input type="hidden" name="itemlength" id="itemlength" value=1>

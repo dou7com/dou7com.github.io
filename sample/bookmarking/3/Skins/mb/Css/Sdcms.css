@@ -1,6 +1,6 @@
 body{background:#fff;}
 body,form{margin:0;padding:0;font-size:12px;}
-*{font-family:"ËÎÌå"}
+*{font-family:"å®‹ä½“"}
 .width{width:960px;margin:auto;overflow:hidden;}
 .l{float:left;}
 .r{float:right;}
@@ -23,7 +23,7 @@ a:hover{text-decoration:none;color:#f30;}
 #top_other form{margin:0;padding:0;}
 #top_other dl{margin:12px 0 0 0;padding:0;}
 #top_other dt{float:left;margin:0;padding:0;}
-#top_other input{font-family:"ËÎÌå";}
+#top_other input{font-family:"å®‹ä½“";}
 #top_other .input{background:url(../Images/sdcms.gif) -198px -334px;border:1px solid #B8B8B8;padding:4px 0 4px 34px;height:20px;line-height:20px;color:#999;width:160px}
 #top_other .bnt{background:url(../Images/sdcms.gif) -50px -338px;width:59px;border:0;line-height:18px;padding:4px 0 5px 0;text-align:center;color:#fff;*margin:1px 0 0 0;height:30px;}
 
@@ -53,10 +53,10 @@ a:hover{text-decoration:none;color:#f30;}
 .subject_title{font-size:14px;font-weight:bold;color:#4EB30F;padding-left:12px;}
 .subject_title a{color:#4EB30F;}
 .subject_title a:hover{color:#f30;}
-.subject_title span{float:right;font:12px/30px "ËÎÌå";padding-right:10px;}
+.subject_title span{float:right;font:12px/30px "å®‹ä½“";padding-right:10px;}
 .subject_title span span{float:none;font:12px/30px arial;padding:0 4px;color:#f30;border:0;}
-.subject_title span a{color:#4EB30F;font:12px/30px "ËÎÌå";color:#389200;}
-.subject_title span a:hover{color:#f30;font:12px/30px "ËÎÌå";color:#4EB30F;}
+.subject_title span a{color:#4EB30F;font:12px/30px "å®‹ä½“";color:#389200;}
+.subject_title span a:hover{color:#f30;font:12px/30px "å®‹ä½“";color:#4EB30F;}
 .ontop{background:url(../images/sdcms.gif) -102px 0 no-repeat;height:217px;border:1px solid #fff;}
 .ontop h1{color:#4EB30F;font:500 16px Microsoft Yahei;text-align:center;margin:4px;}
 .ontop h1 a{color:#4EB30F;font:500 16px Microsoft Yahei;}
@@ -130,7 +130,7 @@ a:hover{text-decoration:none;color:#f30;}
 .info_content img{max-width:600px;}
 .other_content{word-wrap:break-word;word-break:break-all;overflow:hidden;line-height:24px;}
 .other_content img{max-width:600px;}
-.info_mood{font:bold 14px/30px "ËÎÌå";color:#333;margin:20px 20px 0 20px;clear:both;}
+.info_mood{font:bold 14px/30px "å®‹ä½“";color:#333;margin:20px 20px 0 20px;clear:both;}
 #Digg{margin:10px auto 10px auto;padding:0;width:480px; overflow:hidden;}
 #Digg dl{margin:0 auto;}
 #Digg dl dt{float:left;width:11%;margin:0;padding:0;text-align:center;font-family:verdana; overflow:hidden;}
@@ -155,11 +155,11 @@ a:hover{text-decoration:none;color:#f30;}
 #Digg dl dt .mood8 a:hover{background-position:-437px 0;}
 .info_next{color:#999;margin:6px 20px;}
 .info_next a{font-family:verdana;}
-/*·ÖÒ³²¿·Ö*/
+/*åˆ†é¡µéƒ¨åˆ†*/
 .List_page{text-align:center;margin-bottom:10px;}
 .List_page a{background:#fff;margin:0px 1px;padding:4px 6px;border:1px solid #AECD9E;color:#A0A0A0;}
 .List_page span{background:#3D9403;color:#fff;margin:0px 1px;padding:4px 6px;border:1px solid #3D9403;}
-/*ÄÚÈÝ·ÖÒ³²¿·Ö*/
+/*å†…å®¹åˆ†é¡µéƒ¨åˆ†*/
 .content_page{}
 .content_page a{background:#fff;margin:1px;padding:4px 6px;border:1px solid #AECD9E;color:#A0A0A0;display:inline-block;}
 .content_page a.on{background:#AECD9E;color:#fff;margin:1px;padding:4px 6px;border:1px solid #AECD9E;display:inline-block;}
@@ -170,7 +170,7 @@ a:hover{text-decoration:none;color:#f30;}
 .content_url input{background:#50B20E;color:#fff;width:40px;border:0;height:24px;}
 .content_url #this_url{border:1px solid #ccc;width:464px;font-family:arial;color:#000;height:20px;line-height:20px;background:#fff;}
 
-/*ÆÀÂÛ*/
+/*è¯„è®º*/
 .comment_add{margin:0;padding:0;}
 .comment_add dt{list-style:none;margin:4px 0;padding:0;}
 .comment_add .input{height:20px;line-height:20px;border:1px solid #ccc;padding:0px;font-size:12px;}
@@ -231,7 +231,7 @@ a:hover{text-decoration:none;color:#f30;}
 .vote_show dt span{float:right;margin:2px 20px 2px 0;width:350px;height:20px;}
 .vote_show dt span img{max-width:328px;}
 .vote_show dt.r{width:370px;height:20px;}
-/*ÆÀÂÛÄÚÈÝ*/
+/*è¯„è®ºå†…å®¹*/
 .comment_title{height:29px;line-height:29px;color:#389200;font-weight:bold;padding-left:12px;}
 .comment_title span{color:#999;font-weight:normal;float:right;margin-right:10px;}
 .comment_txt{border-top:0;padding:6px;overflow:hidden;word-wrap:break-word;word-break:break-all;overflow:hidden;margin-bottom:10px;line-height:18px;}
@@ -246,8 +246,8 @@ a:hover{text-decoration:none;color:#f30;}
 .book_title b{float:right;padding-right:10px;font-weight:normal;font-size:12px;color:#666;}
 .book_content{border:1px solid #C3E8AA;border-top:0;padding:10px;margin-bottom:10px;}
 
-/*±à¼­Æ÷Ïà¹ØÊôÐÔ*/
-.Quotetitle{margin:10px 6px 0 0;padding:2px 10px;background:#FFEBD0;border:1px solid #FDDCB8;font:bold 14px/24px "ËÎÌå";color:#f30;}
+/*ç¼–è¾‘å™¨ç›¸å…³å±žæ€§*/
+.Quotetitle{margin:10px 6px 0 0;padding:2px 10px;background:#FFEBD0;border:1px solid #FDDCB8;font:bold 14px/24px "å®‹ä½“";color:#f30;}
 .QuoteCode{margin:0 6px 10px 0;padding:4px 10px;background:#FFF;border:1px solid #FDDCB8;border-top:0;word-wrap:break-word;overflow:hidden;color:#777;}
 .RunCodes{clear:both;height:180px;margin:10px 0 20px 0;}
 .RunCodes textarea{overflow-x:hidden;overflow-y:auto;border:1px solid #C3E8AA;padding:3px;width:98%; height:150px;}
@@ -262,5 +262,5 @@ a:hover{text-decoration:none;color:#f30;}
 .publish_notice{margin:0;padding:0;}
 .publish_notice dt{line-height:20px;color:#555;text-indent:24px;}
 .sitelink{border-bottom:1px solid #f00;color:#999;}
-/*Ê×Ò³¶þÎ¬Ñ­»·¹ã¸æCSS*/
+/*é¦–é¡µäºŒç»´å¾ªçŽ¯å¹¿å‘ŠCSS*/
 .i_ad{width:650px;float:left;margin:10px 0 0 0;line-height:90px;text-align:center;color:#999;background:url(../Images/GG_bg.jpg) no-repeat top;}

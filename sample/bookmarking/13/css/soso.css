@@ -105,10 +105,10 @@ A:hover { COLOR: #FF0000; TEXT-DECORATION: underline }
 	border-right-color: #CCDBEC;
 	border-bottom-color: #CCDBEC;
 }
-#floot{ margin: 0px auto; width: 716px; padding: 16px 0px; font: 13px "宋体"; }
+#floot{ margin: 0px auto; width: 716px; padding: 16px 0px; font: 13px "瀹嬩綋"; }
 #floot a{ float: left; display: block; color: #666666; }
 #floot .f1{ float: left; text-align: center; width: 20px; color: #CCCCCC; }
-#floot .f2{ color: #666666; float: left; display: inline; font-family: "宋体"; margin-left: 15px; }
+#floot .f2{ color: #666666; float: left; display: inline; font-family: "瀹嬩綋"; margin-left: 15px; }
 
 a.bj{
 	color: #999999;

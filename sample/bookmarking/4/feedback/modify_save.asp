@@ -17,6 +17,6 @@
   }
  
  else
- response.write ("<script language='javascript'>alert('非法进入可耻！');location='index.php';</script>")
+ response.write ("<script language='javascript'>alert('闈炴硶杩涘叆鍙�伙紒');location='index.php';</script>")
  End If 
 %>

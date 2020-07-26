@@ -1,35 +1,35 @@
-��װ����ѹ�󣬽���Ŀ¼���ļ��ϴ�����վ��Ŀ¼���ɣ�
+安装：解压后，将此目录的文件上传至网站根目录即可！
 
 
-===================����=====================
+===================简风格=====================
 
 
-Դ�뱣֤�������޲�����޹�桢�޵�������ȫ��ѡ�
+源码保证纯争、无插件、无广告、无弹窗、完全免费。
 
 
-�޸���ʾ��
-���� ��վLOGO��images/logo.png�޸ģ�
-���� ͳ�ƴ�����js/tj.js�޸ģ�
-���� ���԰������̨https://�����վ/feedback/admin_index.asp �û�����admin ���룺admin
+修改提示：
+　※ 网站LOGO在images/logo.png修改，
+　※ 统计代码在js/tj.js修改；
+　※ 留言板管理后台https://你的网站/feedback/admin_index.asp 用户名：admin 密码：admin
 
 
-�ϴ�����ʹ�á�
-
-
-
-�����Ƿ�https://www.ycff.com
+上传即可使用。
 
 
 
+阳春非凡https://www.ycff.com
 
 
 
 
 
 
-��С���ߣ�
-��վ���ز��Գ���https://ycff.7958.com/down_18580846.html
-һ�������滻�ı����ߣ�https://ycff.7958.com/down_18580816.html
+
+
+
+附小工具：
+网站本地测试程序：https://ycff.7958.com/down_18580846.html
+一键批量替换文本工具：https://ycff.7958.com/down_18580816.html
 
 
 

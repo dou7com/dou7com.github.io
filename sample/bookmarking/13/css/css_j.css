@@ -65,7 +65,7 @@ input.site_ipt{ color:#545454; border:1px solid #dcdcdc;}
 .bd2 dl dd{ float:left; width:88px; margin:5px 0; }
 .bd2 dl dd a{ display:block; text-align:left; margin:0 0 0 10px; padding:0 2px; font-size:13px; height:19px; line-height:19px; }
 .bd2 dl a:hover{ text-decoration:none;background:#85afec; color:#fff;}
-.foot{ margin:19px auto;}/* עposition:relative; okڵno*/
+.foot{ margin:19px auto;}/* 注position:relative; ok诘no*/
 .power{ display:block; width:30px; float:right; background:url(../images/power.gif) no-repeat; padding-left:10px;}
 .close{ background-position:0 -21px;}
 .noti{ height:20px; line-height:20px; text-align:right;}

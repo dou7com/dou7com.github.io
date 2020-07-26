@@ -1,13 +1,13 @@
 <!--
 var scrollPic_03 = new ScrollPic();
-scrollPic_03.scrollContId   = "ISL_Cont_11"; //ÄÚÈÝÈÝÆ÷ID
-scrollPic_03.arrLeftId      = "LeftArr1";//×ó¼ýÍ·ID
-scrollPic_03.arrRightId     = "RightArr1"; //ÓÒ¼ýÍ·ID
-scrollPic_03.frameWidth     = 560;//ÏÔÊ¾¿ò¿í¶È
-scrollPic_03.pageWidth      = 140; //·­Ò³¿í¶È
-scrollPic_03.speed          = 10; //ÒÆ¶¯ËÙ¶È(µ¥Î»ºÁÃë£¬Ô½Ð¡Ô½¿ì)
-scrollPic_03.space          = 10; //Ã¿´ÎÒÆ¶¯ÏñËØ(µ¥Î»px£¬Ô½´óÔ½¿ì)
-scrollPic_03.autoPlay       = true; //×Ô¶¯²¥·Å
-scrollPic_03.autoPlayTime   = 3; //×Ô¶¯²¥·Å¼ä¸ôÊ±¼ä(Ãë)
-scrollPic_03.initialize(); //³õÊ¼»¯
+scrollPic_03.scrollContId   = "ISL_Cont_11"; //å†…å®¹å®¹å™¨ID
+scrollPic_03.arrLeftId      = "LeftArr1";//å·¦ç®­å¤´ID
+scrollPic_03.arrRightId     = "RightArr1"; //å³ç®­å¤´ID
+scrollPic_03.frameWidth     = 560;//æ˜¾ç¤ºæ¡†å®½åº¦
+scrollPic_03.pageWidth      = 140; //ç¿»é¡µå®½åº¦
+scrollPic_03.speed          = 10; //ç§»åŠ¨é€Ÿåº¦(å•ä½æ¯«ç§’ï¼Œè¶Šå°è¶Šå¿«)
+scrollPic_03.space          = 10; //æ¯æ¬¡ç§»åŠ¨åƒç´ (å•ä½pxï¼Œè¶Šå¤§è¶Šå¿«)
+scrollPic_03.autoPlay       = true; //è‡ªåŠ¨æ’­æ”¾
+scrollPic_03.autoPlayTime   = 3; //è‡ªåŠ¨æ’­æ”¾é—´éš”æ—¶é—´(ç§’)
+scrollPic_03.initialize(); //åˆå§‹åŒ–
 //-->

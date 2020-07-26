@@ -3,7 +3,7 @@ If session("admin")="admin" Then
 amain=session("admin")
 %>
 <!-- #include file="include/conn.asp" -->
-<title>ĞŞ¸ÄÃÜÂë</title>
+<title>ä¿®æ”¹å¯†ç </title>
 <%
  aname=request.Form("mname")
  apwd=request.Form("xpwd")
@@ -12,9 +12,9 @@ amain=session("admin")
   conn.Execute(sql)
   conn.close
   Set conn = nothing
-  response.write ("<script language='javascript'>alert('ĞŞ¸Ä³É¹¦£¡');location='admin_index.asp';</script>")
+  response.write ("<script language='javascript'>alert('ä¿®æ”¹æˆåŠŸï¼');location='admin_index.asp';</script>")
  }
  else 
- response.write ("<script language='javascript'>alert('·Ç·¨½øÈë¿É³Ü£¡');location='index.asp';</script>")
+ response.write ("<script language='javascript'>alert('éæ³•è¿›å…¥å¯è€»ï¼');location='index.asp';</script>")
  End If 
 %>

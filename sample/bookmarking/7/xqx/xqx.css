@@ -11,7 +11,7 @@ p a:hover,span a:hover{color:#F00}
 .sp20{ height:20px;}
 #navs{ position:absolute; z-index:99; left:160px; _left:150px; top:33px!important; top:35px; width:740px; height:56px; padding:16px 28px 12px; white-space:nowrap; border:1px solid #abc; background:#F1F4F8; display:none; -moz-box-shadow:1px 1px 5px #ddd; -webkit-box-shadow:1px 1px 5px #ddd; box-shadow:1px 1px 5px #ddd;}
 #navs ul li{ float:left; height:24px; line-height:24px;}
-#navs ul li a{ color:#1D63A3; padding:6px 8px; font:bold 14px/24px "Œ¢»Ì—≈∫⁄","ÀŒÃÂ";}
+#navs ul li a{ color:#1D63A3; padding:6px 8px; font:bold 14px/24px "ÂæÆËΩØÈõÖÈªë","ÂÆã‰Ωì";}
 #navs ul li a:hover{ color:#f00;}
 .bbla-title, .bbla-title h1{font-size:12px;line-height:25px;text-indent:30px;margin:0 0 5px 0;font-weight:bold;}
 .bbla-banner{ font-size:12px;zoom: 1;background:rgba(255, 255, 255, 0.5) none repeat scroll 0 0 !important;filter:Alpha(opacity=50);background:#ffffff;}
@@ -59,7 +59,7 @@ body{ background:#fff url("images/xqx.jpg") no-repeat left top;}
 .mallleft{ float:left; width:729px;}
 .mallright{ float:right; width:245px;}
 
-/*  ≤‡±ﬂ¿∏  */
+/*  ‰æßËæπÊ†è  */
 .malladd{}
 .malladd ul{ border:1px solid #ADDD9B; background:#fff;}
 .malladd ul h6{ padding:0 0 0 20px; font-size:14px; font-weight:normal; line-height:36px; height:36px; overflow:hidden; color:#1D8C0D; background:#ECFDE1; border-bottom:1px solid #ADDD9B;}
@@ -73,7 +73,7 @@ body{ background:#fff url("images/xqx.jpg") no-repeat left top;}
 
 
 
-/*  Õº∆¨’π æ */
+/*  ÂõæÁâáÂ±ïÁ§∫ */
 .mallleft h1{ border:1px solid #ADDD9B; border-bottom:none; font:normal 14px/36px verdana; background:#ECFDE1; color:#1D8C0D; padding:0 20px}
 .mallleft h1 a{ font-size:12px; float:right; color:#666;}
 

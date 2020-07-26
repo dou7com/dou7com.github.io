@@ -1,9 +1,9 @@
 function bj(){ 
-document.getElementById('bj').innerHTML ="<a class='bj' href='http://www.wozaixianshang.com/'>¼òÔ¼°æÍøÖ·µ¼º½</a>";
+document.getElementById('bj').innerHTML ="<a class='bj' href='http://www.wozaixianshang.com/'>ç®€çº¦ç‰ˆç½‘å€å¯¼èˆª</a>";
 }
 function tops(){ 
 document.getElementById('so').innerHTML = "<iframe src='top.htm' frameborder='0' scrolling='no' frameborder='0' width='876' height='62'></iframe>";
 }
 function floot(){ 
-document.getElementById('gg').innerHTML = "<div id='floot'><a class='ft' href='../help/about.htm'>¹ØÓÚ±¾Õ¾</a><div class='f1'>|</div><a  class='ft' href='../help/guanggao.htm'>¹ã¸æÕĞÉÌ</a><div class='f1'>|</div><a class='ft' href='../help/shoulu.htm'>ÉêÇëÊÕÂ¼</a><div class='f1'>|</div><a class='ft' href='../help/fankui.htm'>Òâ¼û·´À¡</a><div class='f1'>|</div><a class='ft' href='../help/tel.htm'>ÁªÏµÎÒÃÇ</a><div class='f1'>|</div><a class='ft' href='http://www.wozaixianshang.com/'>Ô´ÂëÏÂÔØ</a><div class='f2'>Copyright 2007-2014, °æÈ¨ËùÓĞ</div></div>";
+document.getElementById('gg').innerHTML = "<div id='floot'><a class='ft' href='../help/about.htm'>å…³äºæœ¬ç«™</a><div class='f1'>|</div><a  class='ft' href='../help/guanggao.htm'>å¹¿å‘Šæ‹›å•†</a><div class='f1'>|</div><a class='ft' href='../help/shoulu.htm'>ç”³è¯·æ”¶å½•</a><div class='f1'>|</div><a class='ft' href='../help/fankui.htm'>æ„è§åé¦ˆ</a><div class='f1'>|</div><a class='ft' href='../help/tel.htm'>è”ç³»æˆ‘ä»¬</a><div class='f1'>|</div><a class='ft' href='http://www.wozaixianshang.com/'>æºç ä¸‹è½½</a><div class='f2'>Copyright 2007-2014, ç‰ˆæƒæ‰€æœ‰</div></div>";
 }
