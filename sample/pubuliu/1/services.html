@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SERVICES</title>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--webfont-->
+<link href='http://fonts.useso.com/css?family=Roboto:400,500,500italic,400italic,300italic,300,100italic,100,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+     <script src="js/jquery.js"></script>
+	 <!--[if !IE]>-->
+     <link href="css/blur.css" rel="stylesheet" type="text/css" media="all" />
+      <!--<![endif]-->
+     <!--[if (gt IE 9)|!(IE)]><!-->
+     <script src="js/jquery.ui.totop.js"></script>
+     <script src="js/camera.js"></script>
+
+     <!--<![endif]-->
+     <script>
+     $(document).ready(function(){
+      jQuery('#camera_wrap').camera({
+        loader: false,
+        pagination: false ,
+        thumbnails: false,
+        height: '48.82978723404255%',
+        caption: false,
+        navigation: true,
+        fx: 'mosaic'
+      });
+
+    });
+      
+      
+    $(document).ready(function(){
+      $().UItoTop({ easingType: 'easeOutQuart' });
+    });  
+      
+      
+      $(function() {
+        
+        var $container  = $('#ib-container'),
+          $articles = $container.children('article'),
+          timeout;
+        
+        $articles.on( 'mouseenter', function( event ) {
+            
+          var $article  = $(this);
+          clearTimeout( timeout );
+          timeout = setTimeout( function() {
+            
+            if( $article.hasClass('active') ) return false;
+            
+            $articles.not( $article.removeClass('blur').addClass('active') )
+                 .removeClass('active')
+                 .addClass('blur');
+            
+          }, 65 );
+          
+        });
+        
+        $container.on( 'mouseleave', function( event ) {
+          
+          clearTimeout( timeout );
+          $articles.removeClass('active blur');
+          
+        });
+      
+      });
+     </script>
+	  <script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+		</script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="top-grids">
+			<div class="grid-1_of-4">
+				<div class="header">
+					<div class="header-background">
+						<img src="images/header-bg.png" alt="" />
+					</div>
+					<div class="logo">
+						<ul><li><a href="index.html"><img src="images/logo.png" alt="" /></li>
+						<li><p>interno</p></a></li></ul>
+					</div>
+				</div>
+					<div class="menu">
+						<ul>
+							<li><a href="index.html">Main</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="folio.html">Folio</a></li>
+							<li><a class="active" href="services.html">Services</a></li>
+							<li><a href="contact.html">contact</a></li>
+						</ul>
+						<div class="clear"></div>
+					</div>
+			</div>
+			<div class="control-interno">
+				<img src="images/control-interno.jpg" alt="" />
+			</div>
+		<div class="clear"></div>
+		
+		 <div id="ib-container">
+		 <h3>services</h3>
+		 
+    <article class="grid_3">
+	<div class="services">
+      <div class="box maxheight">
+        <h4>Web Design</h4>
+        <div class="text1">
+		Vivamus ac sodales massa quis adipiscing risus
+		</div>
+		<p>Suspendisse laoreet augue iderti wer ollicitudin interdum, loremolo lectusto odio, sed fringilla estero libero sederil orci. Phaselluslo ty rhoncus suscipit myli eleifendy. Duis malesuada madefill. </p>
+        <div class="alright">
+        <a href="#" class="btn">read more</a></div>
+      </div>
+	  </div>
+    </article>
+	
+	
+    <article class="grid_3">
+	<div class="services">
+      <div class="box maxheight">
+        <h4>Web Development</h4>
+        <div class="text1">Phasellus rhoncus suscipitil eleifends masscusa</div><p>Kuspendisse laoreet augue iderti wer ollicitudin interdum, loremolo lectusto odio, sed fringilla estero libero sederil orci. Ghaselluslo ty rhoncus suscipit ere eleifeny. Adi madefill tincidunt tortor in. </p>
+        <div class="alright">
+        <a href="#" class="btn">read more</a></div>
+      </div>
+	  </div>
+    </article>
+
+    <article class="grid_3">	
+	<div class="services">
+      <div class="box maxheight">
+        <h4>branding </h4>
+        
+        <div class="text1">Aliquam condimentum bibe
+ndum erats ac sodales</div><p>Pendisse laoreet augue iderti wer ollicitudin interdum, loremolo lectusto odio, sed fringilla estero libero sederil ory. Klhaselluslo to rhoncus suscipit ereifendy. Duis malesuada madefiller. </p>
+        <div class="alright">
+        
+        <a href="#" class="btn">read more</a></div>
+      </div>
+	 	</div>
+    </article>
+    <article class="grid_3">
+		<div class="services">
+      <div class="box maxheight">
+        <h4>illustration</h4>
+        <div class="text1">Sodales massa quis adipisci risus ultricies risus</div><p>Muspendisse laoreet aug idertire wer allicitudin interdum, loremolo lectusto odio, sed fringilla estero libero seleril orci. Fhaselluslo ti rhoncus suscipit er  eleifendew. Duis malesuada madunt.</p>
+        <div class="alright">
+        <a href="#" class="btn">read more</a></div>
+      </div>
+	 	</div>
+    </article>
+
+	<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+		<div class="bottom-grids">
+			<div class="left-bottom-grid">
+				<div class="left-bottom-top-grid">
+					<div class="left-bottom-top-grid-row1">
+						<div class="animal">
+							<img src="images/6.jpg" alt="" />
+						</div>
+						<div class="news">
+							<img src="images/bg.jpg" alt="" />
+							<div class="news-info">
+								<div class="icon">
+									<a href="#"><i class="arrow2"></i></a>
+								</div>
+								<div class="icon-data">
+									<h3>/ NEWS</h3>
+								</div>
+								<div class="clear"></div>
+								<div class="data">
+									<span>04.11.2013</span>
+									<h3>Lorem ipsum dolor sit </h3>
+									<p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Donec sit amet mi nec leo egestas sagittis. </p>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="left-bottom-bottom-grid">
+					<div class="left-bottom-top-grid-row2">
+						<div class="date">
+							<img src="images/bg.jpg" alt="" />
+							<div class="date-info data">
+									<span>04.11.2013</span>
+									<h3>Lorem ipsum dolor sit </h3>
+									<p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Donec sit amet mi nec leo egestas sagittis. </p>
+								</div>
+						</div>
+						<div class="item">
+							<img src="images/10.jpg" alt="" />
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="contact-section">
+					<img src="images/11.jpg" alt="" />
+						<div class="contact-box">
+						  <div class="call">
+							<h3>Call</h3>
+							<h4>Back</h4>
+						  </div>
+							<input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+							<input type="text" class="text" value="Comment" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Comment';}">
+							<input type="text" class="text" value="Telephone number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Telephone number';}">
+							<a href="#"><i class="arrow3"></i></a>
+						  <div class="send">
+							<h4>Send</h4>
+							<h3>Letter</h3>
+						  </div>
+						</div>
+				</div>
+			</div>
+			<div class="right-bottom-grid">
+				<div class="right-bottom-grid-top">
+					<img src="images/7.jpg" alt="" />
+					<div class="our-contacts">
+						<div class="our-contacts-head">
+							<i class="location"></i>
+							<h3>OUR CONTACTS</h3>
+						</div>
+						<div class="list-1">
+							<ul>
+								<li>2 (555) 888 03 20</li>
+								<li><a href="#">info@domain.com</a></li>
+								<li>skype: username</li>
+							</ul>
+						</div>
+						<div class="list-2">
+							<ul>
+								<li>John Dowl</li>
+								<li>Salt Talke city. UT</li>
+								<li>87550</li>
+							</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="right-bottom-grid-bottom">
+					<div class="photostudy">
+						<img src="images/12.jpg" alt="" />
+						<div class="photostudy-info">
+							<h4>interno</h4>
+							<i class="z-icon"></i>
+							<h3>Photostudy</h3>
+							<h1><a href="#">MORE</a></h1>
+							<span>2500 photo</span>
+						</div>
+					</div>
+					<div class="vitaly">
+						<div class="name">
+							<img src="images/13.jpg" alt="" />
+							<div class="name-info">
+								<p>PSD BY </p>
+								<h3>VITALY KUDELEVSKY</h3>
+							</div>
+						</div>
+						<div class="clients">
+							<img src="images/14.jpg" alt="" />
+							<div class="our-clients">
+								<h3>OUR <span>CLIENTS</span></h3>
+								<p>more 50 answers</p>
+								<i class="man"></i>
+							</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="footer">
+			<div class="copyright">
+				<p>Copyright &copy; 2014.Company name All rights reserved.<a target="_blank" href="http://www.aspku.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+			</div>
+	    </div>
+    </div>
+
+</body>
+</html>
